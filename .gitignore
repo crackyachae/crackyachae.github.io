@@ -1,8 +1,36 @@
-_site
-.sass-cache
-.jekyll-metadata
 tags
-*.swp
-Gemfile.lock
+
+# JS dependencies
 /node_modules
 package-lock.json
+
+## Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.jekyll
+Gemfile.lock
+
+# Ruby
+.bundle/
+.byebug_history
+.ruby-gemset
+.ruby-version
+*.gem
+Gemfile.lock
+
+# misc
+.analysis
+*.DS_Store
+*.swp
+
+# Folders
+/vendor
+bbin/
+bin/
+coverage
+gh-pages/
+pkg/
+test/dest
+tmp/*
