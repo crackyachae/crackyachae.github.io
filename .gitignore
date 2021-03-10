@@ -20,6 +20,9 @@ Gemfile.lock
 *.gem
 Gemfile.lock
 
+# vs code
+.vscode
+
 # misc
 .analysis
 *.DS_Store

@@ -1,16 +1,16 @@
 # Site settings
-title: 기계인간 John Grib
-url: "https://johngrib.github.io"
+title: 야채크래커의 부스러기
+url: "https://crackyachae.github.io"
 baseurl: ""
 description: >
-    기계인간 블로그
+    사람 구실 하기 위해 배워가는 야채크래커의 부스러기
 
 # My information
-email: johngrib82@gmail.com
-author: 기계인간 John Grib
-profile: 유물론자
-twitter_username: John_Grib
-github_username: johngrib
+email: crackyachae@gmail.com
+author: 야채크래커
+profile: 부스러기
+## twitter_username: 
+github_username: crackyachae
 comment-support: utterances
 
 # Build settings
@@ -38,23 +38,23 @@ collections:
 
 # Comment Service
 disqus:
-  id: johngrib
-  shortname: johngrib
+  id: crackyachae # make account when use
+  shortname: crackyachae
 utterances:
-  repo: johngrib/johngrib.github.io
+  repo: crackyachae/crackyachae.github.io
   issue-term: pathname
   label: Comment
-  branch: master
+  branch: main
 
 google_analytics:
-  ua: UA-110224147-1
+  ua: UA-191829412-1
 
-google_adsense:
-  client: ca-pub-3675948545737694
+#google_adsense:
+  #client: ca-pub-3675948545737694
 
-blame: "https://github.com/johngrib/johngrib.github.io/blame/master/_wiki"
-edit: "https://github.com/johngrib/johngrib.github.io/edit/master/_wiki"
-issue: "https://github.com/johngrib/johngrib.github.io/issues/new"
+blame: "https://github.com/crackyachae/crackyachae.github.io/blame/main/_wiki"
+edit: "https://github.com/crackyachae/crackyachae.github.io/edit/main/_wiki"
+issue: "https://github.com/crackyachae/crackyachae.github.io/issues/new"
 
 timezone: "Asia/Seoul"
 
