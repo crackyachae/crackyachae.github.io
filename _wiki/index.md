@@ -24,6 +24,18 @@ regenerate: true
 * [[harvardx-cs50s-intro-tracks-web-2]]
 
 ### [[kmooc-data-structure]]
+
+## [[Git]]
+* [[git-memos]]
+
+### [[opent-git-cli]]
+* [[opent-git2-cli-version-control]]
+* [[opent-git3-cli-backup]]
+* [[opent-git4-cli-collaborate]]
+* [[opent-git4-cli-cherry-pick-rebase]]
+
+### [[opent-github]]
+* [[opent-github-lec]]
   
 ---
 

@@ -15,13 +15,16 @@
     size: 1
 -
     name: draft
-    size: 1
+    size: 5
+-
+    name: git
+    size: 7
 -
     name: harverdx
     size: 1
 -
     name: intro
-    size: 2
+    size: 4
 -
     name: kmooc
     size: 1
@@ -29,11 +32,17 @@
     name: markdown
     size: 1
 -
+    name: memo
+    size: 1
+-
+    name: opentutorials
+    size: 2
+-
     name: python
     size: 1
 -
     name: rough
-    size: 6
+    size: 10
 -
     name: scratch
     size: 1

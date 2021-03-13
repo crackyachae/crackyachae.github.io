@@ -14,6 +14,22 @@ CS-Basic:
     url: /wiki/CS-Basic
     updated: '2021-01-28 15:30:47 +0900'
     children: [harvardx-cs50s-intro, kmooc-data-structure]
+Git:
+    type: wiki
+    title: Git
+    summary: null
+    parent: index
+    url: /wiki/Git
+    updated: '2020-12-07 11:49:39 +0900'
+    children: [git-memos, opent-git-cli, opent-github]
+git-memos:
+    type: wiki
+    title: 'Git Memos'
+    summary: '따로 정리하기는 애매한, 직접 써보면서 알게 된 Git'
+    parent: Git
+    url: /wiki/git-memos
+    updated: '2020-12-07 11:53:03 +0900'
+    children: []
 harvardx-cs50s-intro:
     type: wiki
     title: 'HarvardX_CS50''s Introduction to Computer Science'
@@ -117,4 +133,60 @@ markdown:
     parent: Blog
     url: /wiki/markdown
     updated: '2019-03-02 22:03:05 +0900'
+    children: []
+opent-git-cli:
+    type: wiki
+    title: '생활코딩_Git CLI'
+    summary: ""
+    parent: Git
+    url: /wiki/opent-git-cli
+    updated: '2020-12-15 02:18:19 +0900'
+    children: [opent-git2-cli-version-control, opent-git3-cli-backup, opent-git4-cli-cherry-pick-rebase, opent-git4-cli-collaborate]
+opent-git2-cli-version-control:
+    type: wiki
+    title: 'Git2 CLI 버전관리'
+    summary: ""
+    parent: opent-git-cli
+    url: /wiki/opent-git2-cli-version-control
+    updated: '2020-12-03 21:02:31 +0900'
+    children: []
+opent-git3-cli-backup:
+    type: wiki
+    title: 'Git3 CLI Backup'
+    summary: ""
+    parent: opent-git-cli
+    url: /wiki/opent-git3-cli-backup
+    updated: '2020-12-15 02:18:10 +0900'
+    children: []
+opent-git4-cli-cherry-pick-rebase:
+    type: wiki
+    title: 'Git4 CLI Cherry Pick & Rebase'
+    summary: ""
+    parent: opent-git-cli
+    url: /wiki/opent-git4-cli-cherry-pick-rebase
+    updated: '2020-12-15 02:18:42 +0900'
+    children: []
+opent-git4-cli-collaborate:
+    type: wiki
+    title: 'Git4 CLI 협업'
+    summary: ""
+    parent: opent-git-cli
+    url: /wiki/opent-git4-cli-collaborate
+    updated: '2020-12-15 02:18:58 +0900'
+    children: []
+opent-github:
+    type: wiki
+    title: 생활코딩_github
+    summary: ""
+    parent: Git
+    url: /wiki/opent-github
+    updated: '2020-12-15 02:17:30 +0900'
+    children: [opent-github-lec]
+opent-github-lec:
+    type: wiki
+    title: Github
+    summary: ""
+    parent: opent-github
+    url: /wiki/opent-github-lec
+    updated: '2020-12-03 21:23:11 +0900'
     children: []

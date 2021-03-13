@@ -2,13 +2,40 @@ blog:
     - {fileName: Blog}
 cs-basic:
     - {fileName: CS-Basic}
+git:
+    - {fileName: Git}
+    - {fileName: git-memos}
+    - {fileName: opent-git2-cli-version-control}
+    - {fileName: opent-git3-cli-backup}
+    - {fileName: opent-git4-cli-cherry-pick-rebase}
+    - {fileName: opent-git4-cli-collaborate}
+    - {fileName: opent-github-lec}
+memo:
+    - {fileName: git-memos}
+rough:
+    - {fileName: git-memos}
+    - {fileName: harvardx-cs50s-intro-5-data-structures}
+    - {fileName: harvardx-cs50s-intro-7-sql}
+    - {fileName: harvardx-cs50s-intro-8-information}
+    - {fileName: harvardx-cs50s-intro-tracks-web-1}
+    - {fileName: harvardx-cs50s-intro-tracks-web-2}
+    - {fileName: markdown}
+    - {fileName: opent-git2-cli-version-control}
+    - {fileName: opent-github}
+    - {fileName: opent-github-lec}
 intro:
     - {fileName: harvardx-cs50s-intro}
     - {fileName: kmooc-data-structure}
+    - {fileName: opent-git-cli}
+    - {fileName: opent-github}
 harverdx:
     - {fileName: harvardx-cs50s-intro}
 draft:
     - {fileName: harvardx-cs50s-intro}
+    - {fileName: opent-git-cli}
+    - {fileName: opent-git3-cli-backup}
+    - {fileName: opent-git4-cli-cherry-pick-rebase}
+    - {fileName: opent-git4-cli-collaborate}
 scratch:
     - {fileName: harvardx-cs50s-intro-0-scratch}
 c:
@@ -17,13 +44,6 @@ array:
     - {fileName: harvardx-cs50s-intro-2-c}
 data-structure:
     - {fileName: harvardx-cs50s-intro-5-data-structures}
-rough:
-    - {fileName: harvardx-cs50s-intro-5-data-structures}
-    - {fileName: harvardx-cs50s-intro-7-sql}
-    - {fileName: harvardx-cs50s-intro-8-information}
-    - {fileName: harvardx-cs50s-intro-tracks-web-1}
-    - {fileName: harvardx-cs50s-intro-tracks-web-2}
-    - {fileName: markdown}
 python:
     - {fileName: harvardx-cs50s-intro-6-python}
 sql:
@@ -36,3 +56,6 @@ kmooc:
     - {fileName: kmooc-data-structure}
 markdown:
     - {fileName: markdown}
+opentutorials:
+    - {fileName: opent-git-cli}
+    - {fileName: opent-github}
