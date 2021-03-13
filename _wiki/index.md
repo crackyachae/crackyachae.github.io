@@ -30,9 +30,6 @@ regenerate: true
 
 ### [[opent-git-cli]]
 * [[opent-git2-cli-version-control]]
-* [[opent-git3-cli-backup]]
-* [[opent-git4-cli-collaborate]]
-* [[opent-git4-cli-cherry-pick-rebase]]
 
 ### [[opent-github]]
 * [[opent-github-lec]]
