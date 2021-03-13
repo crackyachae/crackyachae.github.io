@@ -1,4 +1,4 @@
-how-to:
-    - {fileName: how-to}
-latex:
-    - {fileName: mathjax-latex}
+blog:
+    - {fileName: Blog}
+markdown:
+    - {fileName: markdown}

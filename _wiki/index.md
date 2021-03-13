@@ -7,9 +7,8 @@ comment : false
 regenerate: true
 ---
 
-## wiki items
-
-* [[mathjax-latex]]
+## [[Blog]]
+* [[markdown]]
 
 ---
 

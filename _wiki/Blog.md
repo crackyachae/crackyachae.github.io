@@ -1,10 +1,10 @@
 ---
 layout  : category
-title   : HOW TO
+title   : Blog
 summary :
-date    : 2017-12-23 18:17:02 +0900
-updated : 2018-02-04 15:57:05 +0900
-tag     : how-to
+date    : 2020-07-28 18:30:02 +0900
+updated : 2021-03-12 12:05:17 +0900
+tag     : blog
 toc     : true
 public  : true
 parent  : [[index]]
