@@ -1,4 +1,18 @@
 blog:
     - {fileName: Blog}
+cs-basic:
+    - {fileName: CS-Basic}
+intro:
+    - {fileName: harvardx-cs50s-intro}
+harverdx:
+    - {fileName: harvardx-cs50s-intro}
+scratch:
+    - {fileName: harvardx-cs50s-intro-0-scratch}
+c:
+    - {fileName: harvardx-cs50s-intro-1-c}
+array:
+    - {fileName: harvardx-cs50s-intro-2-c}
+python:
+    - {fileName: harvardx-cs50s-intro-6-python}
 markdown:
     - {fileName: markdown}

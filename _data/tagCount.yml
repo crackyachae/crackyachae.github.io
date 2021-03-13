@@ -1,6 +1,27 @@
 -
+    name: array
+    size: 1
+-
     name: blog
     size: 1
 -
+    name: c
+    size: 1
+-
+    name: cs-basic
+    size: 1
+-
+    name: harverdx
+    size: 1
+-
+    name: intro
+    size: 1
+-
     name: markdown
+    size: 1
+-
+    name: python
+    size: 1
+-
+    name: scratch
     size: 1

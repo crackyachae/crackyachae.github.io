@@ -6,6 +6,54 @@ Blog:
     url: /wiki/Blog
     updated: '2021-03-12 12:05:17 +0900'
     children: [markdown]
+CS-Basic:
+    type: wiki
+    title: 'CS Basic'
+    summary: null
+    parent: index
+    url: /wiki/CS-Basic
+    updated: '2021-01-28 15:30:47 +0900'
+    children: [harvardx-cs50s-intro]
+harvardx-cs50s-intro:
+    type: wiki
+    title: 'HarvardX_CS50''s Introduction to Computer Science'
+    summary: ""
+    parent: CS-Basic
+    url: /wiki/harvardx-cs50s-intro
+    updated: '2021-02-25 14:28:42 +0900'
+    children: [harvardx-cs50s-intro-0-scratch, harvardx-cs50s-intro-1-c, harvardx-cs50s-intro-2-c, harvardx-cs50s-intro-6-python]
+harvardx-cs50s-intro-0-scratch:
+    type: wiki
+    title: '0. Scratch'
+    summary: ""
+    parent: harvardx-cs50s-intro
+    url: /wiki/harvardx-cs50s-intro-0-scratch
+    updated: '2021-02-06 10:35:23 +0900'
+    children: []
+harvardx-cs50s-intro-1-c:
+    type: wiki
+    title: '1. C'
+    summary: ""
+    parent: harvardx-cs50s-intro
+    url: /wiki/harvardx-cs50s-intro-1-c
+    updated: '2021-02-01 13:44:12 +0900'
+    children: []
+harvardx-cs50s-intro-2-c:
+    type: wiki
+    title: '2. Arrays'
+    summary: ""
+    parent: harvardx-cs50s-intro
+    url: /wiki/harvardx-cs50s-intro-2-c
+    updated: '2021-02-25 14:41:23 +0900'
+    children: []
+harvardx-cs50s-intro-6-python:
+    type: wiki
+    title: '6. Python'
+    summary: ""
+    parent: harvardx-cs50s-intro
+    url: /wiki/harvardx-cs50s-intro-6-python
+    updated: '2021-02-25 20:28:52 +0900'
+    children: []
 index:
     type: wiki
     title: wiki

@@ -10,6 +10,14 @@ regenerate: true
 ## [[Blog]]
 * [[markdown]]
 
+## [[CS-Basic]]
+
+### [[harvardx-cs50s-intro]]
+* [[harvardx-cs50s-intro-0-scratch]]
+* [[harvardx-cs50s-intro-1-c]]
+* [[harvardx-cs50s-intro-2-c]]
+* [[harvardx-cs50s-intro-6-python]]
+  
 ---
 
 ## blog posts
