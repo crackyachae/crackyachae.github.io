@@ -1,10 +1,10 @@
 ---
 layout  : wiki
 title   : 마크다운(markdown) 사용법
-summary : 글 작성의 기본이되는 마크다운을 익혀보자
+summary : 블로그 글 작성의 기본이되는 마크다운을 익혀보자
 date    : 2019-02-29 14:17:12 +0900
 updated : 2019-03-02 22:03:05 +0900
-tag     : markdown
+tag     : markdown rough
 toc     : true
 public  : true
 parent  : [[Blog]]
@@ -40,7 +40,7 @@ latex   : false
 ### 2.1.1 Setext-style Headers
 \=(equal signs) 혹은 \-(dashes)를 사용하여 밑줄을 그어 표현한다. 기호의 개수는 상관없다.
 
-| 항목                        | 마크다운 코드                  |
+| 항목                      | 마크다운 코드            |
 | ------------------------- | ------------------------ |
 | First level header \<h1>  | `Header 1`<br> `======`  |
 | Second level header \<h2> | `Header 2` <br> `------` |
@@ -53,14 +53,11 @@ This is an H2
 ------
 ```
 
-># This is an H1
->## This is an H2
-
 ### 2.1.2 Atx-style headers
 
 문장의 처음에 1-6개의 해시 문자(hash characters)를 적어서 header lever 1-6을 표현한다. 해시 문자를 적은 뒤 반드시 한 칸 띄어주어야 적용된다.
   
-| 항목                        | 마크다운 코드           |
+| 항목                      | 마크다운 코드     |
 | ------------------------- | ----------------- |
 | First level header \<h1>  | `# Header 1`      |
 | Second level header \<h2> | `## Header 2`     |
@@ -78,13 +75,6 @@ This is an H2
 ###### This is an H6
 ```
 
-># This is an H1
->## This is an H2
->### This is an H3
->#### This is an H4
->##### This is an H5
->###### This is an H6
-
 ### 2.1.3 목차 생성
 
 문서 내에 사용된 헤딩 태그를 이용하여 {:toc} 입력시 목차를 자동으로 생성할 수 있다.
@@ -96,10 +86,10 @@ This is an H2
 
 줄 바꿈(Line break): 공백을 두 번 입력해서 줄 바꿈을 하는 방식으로 단락을 표현할 수도 있다.
 
-| 항목               | 마크다운 코드 |
-| ---------------- | ------- |
-| Paragraph \<p>   | 예시 참고   |
-| Line break \<br> | 예시 참고   |
+| 항목             | 마크다운 코드 |
+| ---------------- | -------       |
+| Paragraph \<p>   | 예시 참고     |
+| Line break \<br> | 예시 참고     |
 
 ```markdown
 Paragraph 1
@@ -122,12 +112,12 @@ Paragraph 2
 
 `*(asterisks)` 혹은 `_(underscores)`로 강조하고 싶은 글자를 감싸서 표현한다.
 
-| 항목           | 마크다운 코드                |
-| ------------ | ---------------------- |
+| 항목            | 마크다운 코드          |
+| ------------    | ---------------------- |
 | 기울임 (Italic) | `*text* or _text_`     |
 | 두껍게 (Bold)   | `**text** or __text__` |
 | 취소선          | `~text~`               |
-| 밑줄           | `<u>text</u>`          |
+| 밑줄            | `<u>text</u>`          |
 
 ```markdown
 이탤릭체는 *single asterisks* 혹은 _single underscore_ 를 사용한다.  
@@ -151,14 +141,14 @@ Paragraph 2
 
 다음과 같은 문자에 적용할 수 있다.
 
-| 항목              | 기호  | 항목               | 기호  |
-| --------------- | --- | ---------------- | --- |
-| backtick        | \`  | backslash        | \\  |
-| asterisk        | \*  | hash mark        | \#  |
-| underscore      | \_  | plus sign        | \+  |
-| curly braces    | \{} | dash (hyphen)    | \-  |
-| square brackets | \[] | dot              | \.  |
-| parentheses     | \() | exclamation mark | \!  |
+| 항목            | 기호 | 항목             | 기호 |
+| --------------- | ---  | ---------------- | ---  |
+| backtick        | \`   | backslash        | \\   |
+| asterisk        | \*   | hash mark        | \#   |
+| underscore      | \_   | plus sign        | \+   |
+| curly braces    | \{}  | dash (hyphen)    | \-   |
+| square brackets | \[]  | dot              | \.   |
+| parentheses     | \()  | exclamation mark | \!   |
 
 ```markdown
 \*Literal asterisks\*
@@ -174,62 +164,62 @@ Paragraph 2
 
 동일한 서버의 local resource를 지정하고 싶으면 URL 대신 relative path를 이용하면 된다.
 
-| 항목     | 마크다운 코드                                                                     |
-| ------ | --------------------------------------------------------------------------- |
+| 항목        | 마크다운 코드                                                               |
+| ------      | --------------------------------------------------------------------------- |
 | 인라인 링크 | `[Text](URL "optional link title")`                                         |
-| 참조 링크  | `[Text][reference_id]` <br><br> `[reference_id]: URL "optional link title"` |
-| 일반 링크  | `<URL>`                                                                     |
+| 참조 링크   | `[Text][reference_id]` <br> `[reference_id]: URL "optional link title"`     |
+| 일반 링크   | `<URL>`                                                                     |
 
 ```markdown
-[야채크래커 홈페이지](https://crackyachae.tistory.com/ "야채크래커의 부스러기") <!--인라인 링크-->
-이 글은 [Study][study]의 [git & blog][5] 카테고리 안에 쓰여 있습니다. <!--참조 링크-->
+[야채크래커 홈페이지](https://crackyachae.github.io "야채크래커의 부스러기") <!--인라인 링크-->
+이 글은 [Study][study]의 [Blog][5] 카테고리 안에 쓰여 있습니다. <!--참조 링크-->
 
 티스토리: <https://www.tistory.com/>
 
 <!--참조된 id는 참조한 링크와 한 줄 이상 떨어져 있어야 하는 것 같다-->
-[study]: https://crackyachae.tistory.com/category/공부를%20합니다 "category-Study"
-[5]: https://crackyachae.tistory.com/category/공부를%20합니다/깃%20&%20블로그%20(Git%20&%20Blog)
+[study]: https://crackyachae.github.io/study/index "category-Study"
+[5]: https://crackyachae.github.io/study/Blog
 ```
 
->[야채크래커 홈페이지](https://crackyachae.tistory.com/ "야채크래커의 부스러기") <!--인라인 링크-->
+>[야채크래커 홈페이지](https://crackyachae.github.io "야채크래커의 부스러기") <!--인라인 링크-->
 >
->이 글은 [Study][study]의 [git & blog][5] 카테고리 안에 쓰여 있습니다. <!--참조 링크-->
+>이 글은 [Study][study]의 [Blog][5] 카테고리 안에 쓰여 있습니다. <!--참조 링크-->
 >
 >티스토리: <https://www.tistory.com/>
 >
->[study]: https://crackyachae.tistory.com/category/공부를%20합니다 "category-Study"
->[5]: https://crackyachae.tistory.com/category/공부를%20합니다/깃%20&%20블로그%20(Git%20&%20Blog)
+>[study]: https://crackyachae.github.io/study/index "category-Study"
+>[5]: https://crackyachae.github.io/study/Blog
 
 ## 2.3 이미지(Image)
 앞에 느낌표가 붙는 것 외에는 링크와 동일한 방법으로 작성하며 인라인, 참조 방식 모두 가능하다. 
 
-| 항목  | 마크다운 코드                                                                                       |
-| --- | --------------------------------------------------------------------------------------------- |
+| 항목   | 마크다운 코드                                                                                 |
+| ---    | --------------------------------------------------------------------------------------------- |
 | 인라인 | `![Alt text](path/to/img.jpg "optional image title")`                                         |
-| 참조  | `![Alt text][reference_id]` <br><br> `[reference_id]: path/to/img.jpg "optional image title"` |
+| 참조   | `![Alt text][reference_id]` <br><br> `[reference_id]: path/to/img.jpg "optional image title"` |
 
 대체 텍스트(Alternative text): 이미지가 오류에 의해 표시되지 않을 때 대신 나타나는 텍스트
 
 ```markdown
-![야채크래커_kor](https://k.kakaocdn.net/dn/MXRBz/btqCrOBBGRB/rJvO1B4tB0vSfEtGjNhrX0/img.png "야채크래커")
+![야채크래커_kor]( /post-img/markdown/111030569-5e52e480-8446-11eb-9d7f-1ec241afed17.png )
 ![야채크래커_eng][eng]
 
-[name]:  https://k.kakaocdn.net/dn/SmRVn/btqCrjIBUxt/oK8juBIE6bCzGxhh18Xrr0/img.png
+[eng]: /post-img/markdown/111030573-60b53e80-8446-11eb-8af8-6e91c581fe1c.png 
 ```
->![야채크래커_kor](https://k.kakaocdn.net/dn/MXRBz/btqCrOBBGRB/rJvO1B4tB0vSfEtGjNhrX0/img.png "야채크래커")
+>![야채크래커_kor]( /post-img/markdown/111030569-5e52e480-8446-11eb-9d7f-1ec241afed17.png )
 >![야채크래커_eng][eng]
 
-[eng]:  https://k.kakaocdn.net/dn/SmRVn/btqCrjIBUxt/oK8juBIE6bCzGxhh18Xrr0/img.png
+[eng]: /post-img/markdown/111030573-60b53e80-8446-11eb-8af8-6e91c581fe1c.png 
 
 이미지에 링크를 걸기 위해서는 마크다운 이미지 코드를 링크 코드로 묶어준다.
 ```markdown
 [![Alt text](path/to/img.jpg "optional image title")](url)
 ```
 ```markdown
-[![야채크래커](https://k.kakaocdn.net/dn/bO6Zzg/btqCpQfN9DM/f7sO260V9XgM6ScMhVU3e0/img.png)](https://crackyachae.tistory.com/)
+[![야채크래커]( /post-img/markdown/111030577-6448c580-8446-11eb-927c-e7cb900d882f.png )
 ```
 
->[![야채크래커](https://k.kakaocdn.net/dn/bO6Zzg/btqCpQfN9DM/f7sO260V9XgM6ScMhVU3e0/img.png)](https://crackyachae.tistory.com/)
+>[![야채크래커]( /post-img/markdown/111030577-6448c580-8446-11eb-927c-e7cb900d882f.png )
 
 
 ## 2.4 목록(Lists)

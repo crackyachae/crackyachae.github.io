@@ -16,3 +16,5 @@ python:
     - {fileName: harvardx-cs50s-intro-6-python}
 markdown:
     - {fileName: markdown}
+rough:
+    - {fileName: markdown}

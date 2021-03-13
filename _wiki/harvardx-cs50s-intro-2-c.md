@@ -14,7 +14,7 @@ latex   : false
 {:toc}
 
 ## Compiling
-앞의 강의에서 C언어로 작성한 소스 코드(source code)를 컴퓨터가 실행시키기 위해서는 이진법의 기계어(machine code)로 **컴파일(compile)*을* 해야 한다고 배웠다.
+앞의 강의에서 C언어로 작성한 소스 코드(source code)를 컴퓨터가 실행시키기 위해서는 이진법의 기계어(machine code)로 **컴파일(compile)** 을해야 한다고 배웠다.
 
 소스 코드를 기계어로 컴파일하는 과정은 몇 단계로 나뉜다.
 + 전처리(preprocessing)
@@ -548,7 +548,7 @@ int main(int argc, string argv[])
 + 사용자에게 보이거나 유용하지는 않아도 에러 코드는 복잡한 프로그램에서 어떤 점이 잘못됐는지 파악하는데 도움이 된다.
 
 ## Readability
-과제에 연관된 내용
+> 과제에 연관된 내용이므로 생략합니다.
 
 ## Encryption
-과제에 연관된 내용
+> 과제에 연관된 내용이므로 생략합니다.

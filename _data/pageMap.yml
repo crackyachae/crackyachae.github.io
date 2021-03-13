@@ -65,7 +65,7 @@ index:
 markdown:
     type: wiki
     title: '마크다운(markdown) 사용법'
-    summary: '글 작성의 기본이되는 마크다운을 익혀보자'
+    summary: '블로그 글 작성의 기본이되는 마크다운을 익혀보자'
     parent: Blog
     url: /wiki/markdown
     updated: '2019-03-02 22:03:05 +0900'
