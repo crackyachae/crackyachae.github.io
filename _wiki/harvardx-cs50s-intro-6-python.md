@@ -2,7 +2,7 @@
 layout  : wiki
 title   : 6. Python
 summary : 
-date    : 2020-03-21 00:20:38 +0900
+date    : 2020-03-20 11:34:38 +0900
 updated : 2021-02-25 20:28:52 +0900
 tag     : python
 toc     : true

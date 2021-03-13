@@ -11,10 +11,19 @@
     name: cs-basic
     size: 1
 -
+    name: data-structure
+    size: 1
+-
+    name: draft
+    size: 1
+-
     name: harverdx
     size: 1
 -
     name: intro
+    size: 2
+-
+    name: kmooc
     size: 1
 -
     name: markdown
@@ -24,7 +33,13 @@
     size: 1
 -
     name: rough
-    size: 1
+    size: 6
 -
     name: scratch
     size: 1
+-
+    name: sql
+    size: 2
+-
+    name: web
+    size: 2

@@ -4,7 +4,7 @@ title   : HarvardX_CS50's Introduction to Computer Science
 summary : 
 date    : 2020-04-19 15:58:27 +0900
 updated : 2021-02-25 14:28:42 +0900
-tag     : intro harverdx
+tag     : intro harverdx draft
 toc     : true
 public  : true
 parent  : [[CS-Basic]]
@@ -16,7 +16,7 @@ latex   : false
 
 매년 강의를 촬영하기 때문에 당 해에 열리는 강의를 등록해서 수강하면 되며 원할 경우 일정 비용을 지불하고 수료증을 받을 수 있다.
 
-+ 주소: https://www.edx.org/course/cs50s-introduction-to-computer-science
++ 주소: [https://www.edx.org/course/cs50s-introduction-to-computer-science](https://www.edx.org/course/cs50s-introduction-to-computer-science)
 
 ## Review
 

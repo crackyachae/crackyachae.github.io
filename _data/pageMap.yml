@@ -13,7 +13,7 @@ CS-Basic:
     parent: index
     url: /wiki/CS-Basic
     updated: '2021-01-28 15:30:47 +0900'
-    children: [harvardx-cs50s-intro]
+    children: [harvardx-cs50s-intro, kmooc-data-structure]
 harvardx-cs50s-intro:
     type: wiki
     title: 'HarvardX_CS50''s Introduction to Computer Science'
@@ -21,7 +21,7 @@ harvardx-cs50s-intro:
     parent: CS-Basic
     url: /wiki/harvardx-cs50s-intro
     updated: '2021-02-25 14:28:42 +0900'
-    children: [harvardx-cs50s-intro-0-scratch, harvardx-cs50s-intro-1-c, harvardx-cs50s-intro-2-c, harvardx-cs50s-intro-6-python]
+    children: [harvardx-cs50s-intro-0-scratch, harvardx-cs50s-intro-1-c, harvardx-cs50s-intro-2-c, harvardx-cs50s-intro-5-data-structures, harvardx-cs50s-intro-6-python, harvardx-cs50s-intro-7-sql, harvardx-cs50s-intro-8-information, harvardx-cs50s-intro-tracks-web-1, harvardx-cs50s-intro-tracks-web-2]
 harvardx-cs50s-intro-0-scratch:
     type: wiki
     title: '0. Scratch'
@@ -46,6 +46,14 @@ harvardx-cs50s-intro-2-c:
     url: /wiki/harvardx-cs50s-intro-2-c
     updated: '2021-02-25 14:41:23 +0900'
     children: []
+harvardx-cs50s-intro-5-data-structures:
+    type: wiki
+    title: '5. Data Structures'
+    summary: ""
+    parent: harvardx-cs50s-intro
+    url: /wiki/harvardx-cs50s-intro-5-data-structures
+    updated: '2020-06-18 11:42:52 +0900'
+    children: []
 harvardx-cs50s-intro-6-python:
     type: wiki
     title: '6. Python'
@@ -54,6 +62,38 @@ harvardx-cs50s-intro-6-python:
     url: /wiki/harvardx-cs50s-intro-6-python
     updated: '2021-02-25 20:28:52 +0900'
     children: []
+harvardx-cs50s-intro-7-sql:
+    type: wiki
+    title: '7. SQL'
+    summary: ""
+    parent: harvardx-cs50s-intro
+    url: /wiki/harvardx-cs50s-intro-7-sql
+    updated: '2020-04-16 14:43:41 +0900'
+    children: []
+harvardx-cs50s-intro-8-information:
+    type: wiki
+    title: '8. Information'
+    summary: ""
+    parent: harvardx-cs50s-intro
+    url: /wiki/harvardx-cs50s-intro-8-information
+    updated: '2020-05-07 15:53:25 +0900'
+    children: []
+harvardx-cs50s-intro-tracks-web-1:
+    type: wiki
+    title: 'Tracks_Web 1'
+    summary: ""
+    parent: harvardx-cs50s-intro
+    url: /wiki/harvardx-cs50s-intro-tracks-web-1
+    updated: '2020-05-14 10:30:12 +0900'
+    children: []
+harvardx-cs50s-intro-tracks-web-2:
+    type: wiki
+    title: 'Tracks_Web 2'
+    summary: ""
+    parent: harvardx-cs50s-intro
+    url: /wiki/harvardx-cs50s-intro-tracks-web-2
+    updated: '2020-05-26 00:47:38 +0900'
+    children: []
 index:
     type: wiki
     title: wiki
@@ -61,6 +101,14 @@ index:
     parent: null
     url: /wiki/index
     updated: null
+    children: []
+kmooc-data-structure:
+    type: wiki
+    title: 'K-MOOC_SMU 자료구조'
+    summary: ""
+    parent: CS-Basic
+    url: /wiki/kmooc-data-structure
+    updated: '2020-12-15 02:06:43 +0900'
     children: []
 markdown:
     type: wiki

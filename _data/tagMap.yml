@@ -4,7 +4,10 @@ cs-basic:
     - {fileName: CS-Basic}
 intro:
     - {fileName: harvardx-cs50s-intro}
+    - {fileName: kmooc-data-structure}
 harverdx:
+    - {fileName: harvardx-cs50s-intro}
+draft:
     - {fileName: harvardx-cs50s-intro}
 scratch:
     - {fileName: harvardx-cs50s-intro-0-scratch}
@@ -12,9 +15,24 @@ c:
     - {fileName: harvardx-cs50s-intro-1-c}
 array:
     - {fileName: harvardx-cs50s-intro-2-c}
+data-structure:
+    - {fileName: harvardx-cs50s-intro-5-data-structures}
+rough:
+    - {fileName: harvardx-cs50s-intro-5-data-structures}
+    - {fileName: harvardx-cs50s-intro-7-sql}
+    - {fileName: harvardx-cs50s-intro-8-information}
+    - {fileName: harvardx-cs50s-intro-tracks-web-1}
+    - {fileName: harvardx-cs50s-intro-tracks-web-2}
+    - {fileName: markdown}
 python:
     - {fileName: harvardx-cs50s-intro-6-python}
+sql:
+    - {fileName: harvardx-cs50s-intro-7-sql}
+    - {fileName: harvardx-cs50s-intro-8-information}
+web:
+    - {fileName: harvardx-cs50s-intro-tracks-web-1}
+    - {fileName: harvardx-cs50s-intro-tracks-web-2}
+kmooc:
+    - {fileName: kmooc-data-structure}
 markdown:
-    - {fileName: markdown}
-rough:
     - {fileName: markdown}
