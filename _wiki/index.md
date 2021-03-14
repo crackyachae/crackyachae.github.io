@@ -50,6 +50,15 @@ regenerate: true
 * [[hyu-linear-algebra-5-4-differential-eqn]]
 * [[hyu-linear-algebra-5-5-complex-matrix]]
 
+## [[Problem-Solving]]
+* [[problem-solving-links]]
+
+### [[boj]]
+* [[boj-set-py-basic]]
+* [[boj-set-js-basic]]
+
+### [[codeup]]
+* [[codeup-set-py-basic]]
 
 ---
 

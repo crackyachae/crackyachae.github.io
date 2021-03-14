@@ -5,7 +5,13 @@
     name: blog
     size: 1
 -
+    name: boj
+    size: 1
+-
     name: c
+    size: 1
+-
+    name: code-up
     size: 1
 -
     name: cs-basic
@@ -15,7 +21,7 @@
     size: 1
 -
     name: draft
-    size: 2
+    size: 3
 -
     name: git
     size: 4
@@ -32,6 +38,9 @@
     name: kocw
     size: 1
 -
+    name: links
+    size: 1
+-
     name: markdown
     size: 1
 -
@@ -43,6 +52,9 @@
 -
     name: opentutorials
     size: 2
+-
+    name: problem-solving
+    size: 1
 -
     name: python
     size: 1

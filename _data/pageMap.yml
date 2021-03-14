@@ -6,6 +6,46 @@ Blog:
     url: /wiki/Blog
     updated: '2021-03-12 12:05:17 +0900'
     children: [markdown]
+boj:
+    type: wiki
+    title: 'Bae/<JOON> ONLINE JUDGE'
+    summary: ""
+    parent: Problem-Solving
+    url: /wiki/boj
+    updated: '2021-03-04 15:33:26 +0900'
+    children: [boj-set-js-basic, boj-set-py-basic]
+boj-set-js-basic:
+    type: wiki
+    title: 'BOJ_JavaScript 배우기 (1~50)'
+    summary: ""
+    parent: boj
+    url: /wiki/boj-set-js-basic
+    updated: '2021-03-04 16:05:20 +0900'
+    children: []
+boj-set-py-basic:
+    type: wiki
+    title: 'BOJ_Python 배우기 (1~50)'
+    summary: ""
+    parent: boj
+    url: /wiki/boj-set-py-basic
+    updated: '2021-03-05 18:16:33 +0900'
+    children: []
+codeup:
+    type: wiki
+    title: Code-Up
+    summary: ""
+    parent: Problem-Solving
+    url: /wiki/codeup
+    updated: '2021-03-04 15:17:59 +0900'
+    children: [codeup-set-py-basic]
+codeup-set-py-basic:
+    type: wiki
+    title: 'CodeUp_Python 기초 100제 (6001~6098)'
+    summary: ""
+    parent: codeup
+    url: /wiki/codeup-set-py-basic
+    updated: '2021-03-05 17:56:02 +0900'
+    children: []
 CS-Basic:
     type: wiki
     title: 'CS Basic'
@@ -277,6 +317,22 @@ opent-github-lec:
     parent: opent-github
     url: /wiki/opent-github-lec
     updated: '2020-12-03 21:23:11 +0900'
+    children: []
+Problem-Solving:
+    type: wiki
+    title: 'Problem Solving'
+    summary: ""
+    parent: index
+    url: /wiki/Problem-Solving
+    updated: '2021-03-02 20:52:23 +0900'
+    children: [boj, codeup]
+problem-solving-links:
+    type: wiki
+    title: 'Problem Solving Links'
+    summary: ""
+    parent: Problem-Solvin
+    url: /wiki/problem-solving-links
+    updated: '2021-03-05 18:12:26 +0900'
     children: []
 smu-data-structure:
     type: wiki
