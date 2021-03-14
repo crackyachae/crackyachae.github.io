@@ -16,15 +16,29 @@ rough:
     - {fileName: harvardx-cs50s-intro-8-information}
     - {fileName: harvardx-cs50s-intro-tracks-web-1}
     - {fileName: harvardx-cs50s-intro-tracks-web-2}
+    - {fileName: hyu-linear-algebra-2-3-linear-independence}
+    - {fileName: hyu-linear-algebra-2-4-four-subspaces}
+    - {fileName: hyu-linear-algebra-2-6-linear-transformations}
+    - {fileName: hyu-linear-algebra-3-1-orthogonal}
+    - {fileName: hyu-linear-algebra-3-3-proj-least-squares}
+    - {fileName: hyu-linear-algebra-3-4-gram-schmidt}
+    - {fileName: hyu-linear-algebra-4-2-prop-of-determinant}
+    - {fileName: hyu-linear-algebra-4-3-form-for-determinant}
+    - {fileName: hyu-linear-algebra-4-4-app-of-determinants}
+    - {fileName: hyu-linear-algebra-5-2-diagonalization}
+    - {fileName: hyu-linear-algebra-5-3-difference-eqn}
+    - {fileName: hyu-linear-algebra-5-4-differential-eqn}
+    - {fileName: hyu-linear-algebra-5-5-complex-matrix}
     - {fileName: markdown}
     - {fileName: opent-git2-cli-version-control}
     - {fileName: opent-github}
     - {fileName: opent-github-lec}
 intro:
     - {fileName: harvardx-cs50s-intro}
-    - {fileName: kmooc-data-structure}
+    - {fileName: hyu-linear-algebra}
     - {fileName: opent-git-cli}
     - {fileName: opent-github}
+    - {fileName: smu-data-structure}
 harverdx:
     - {fileName: harvardx-cs50s-intro}
 draft:
@@ -46,10 +60,14 @@ sql:
 web:
     - {fileName: harvardx-cs50s-intro-tracks-web-1}
     - {fileName: harvardx-cs50s-intro-tracks-web-2}
-kmooc:
-    - {fileName: kmooc-data-structure}
+kocw:
+    - {fileName: hyu-linear-algebra}
 markdown:
     - {fileName: markdown}
+mathematics:
+    - {fileName: Mathematics}
 opentutorials:
     - {fileName: opent-git-cli}
     - {fileName: opent-github}
+kmooc:
+    - {fileName: smu-data-structure}

@@ -13,7 +13,7 @@ CS-Basic:
     parent: index
     url: /wiki/CS-Basic
     updated: '2021-01-28 15:30:47 +0900'
-    children: [harvardx-cs50s-intro, kmooc-data-structure]
+    children: [harvardx-cs50s-intro, smu-data-structure]
 Git:
     type: wiki
     title: Git
@@ -110,6 +110,118 @@ harvardx-cs50s-intro-tracks-web-2:
     url: /wiki/harvardx-cs50s-intro-tracks-web-2
     updated: '2020-05-26 00:47:38 +0900'
     children: []
+hyu-linear-algebra:
+    type: wiki
+    title: 'KOCW_HYU 선형대수'
+    summary: ""
+    parent: Mathematics
+    url: /wiki/hyu-linear-algebra
+    updated: '2020-12-15 02:21:12 +0900'
+    children: [hyu-linear-algebra-2-3-linear-independence, hyu-linear-algebra-2-4-four-subspaces, hyu-linear-algebra-2-6-linear-transformations, hyu-linear-algebra-3-1-orthogonal, hyu-linear-algebra-3-3-proj-least-squares, hyu-linear-algebra-3-4-gram-schmidt, hyu-linear-algebra-4-2-prop-of-determinant, hyu-linear-algebra-4-3-form-for-determinant, hyu-linear-algebra-4-4-app-of-determinants, hyu-linear-algebra-5-2-diagonalization, hyu-linear-algebra-5-3-difference-eqn, hyu-linear-algebra-5-4-differential-eqn, hyu-linear-algebra-5-5-complex-matrix]
+hyu-linear-algebra-2-3-linear-independence:
+    type: wiki
+    title: '2.3 Linear Independence, Basis, and Dimension'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-2-3-linear-independence
+    updated: '2021-03-24 23:38:18 +0900'
+    children: []
+hyu-linear-algebra-2-4-four-subspaces:
+    type: wiki
+    title: '2.4 The Four Fundamental Subspaces'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-2-4-four-subspaces
+    updated: '2021-03-24 23:37:35 +0900'
+    children: []
+hyu-linear-algebra-2-6-linear-transformations:
+    type: wiki
+    title: '2.6 Linear Transformations'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-2-6-linear-transformations
+    updated: '2021-04-11 01:34:48 +0900'
+    children: []
+hyu-linear-algebra-3-1-orthogonal:
+    type: wiki
+    title: '3.1 Orthogonal Vectors and Subspaces'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-3-1-orthogonal
+    updated: '2021-05-04 16:34:35 +0900'
+    children: []
+hyu-linear-algebra-3-3-proj-least-squares:
+    type: wiki
+    title: '3.3 Projections and Least Squares'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-3-3-proj-least-squares
+    updated: '2021-07-12 17:18:59 +0900'
+    children: []
+hyu-linear-algebra-3-4-gram-schmidt:
+    type: wiki
+    title: '3.4 Orthogonal Basis and Gram-Schmidt'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-3-4-gram-schmidt
+    updated: '2021-07-12 17:15:30 +0900'
+    children: []
+hyu-linear-algebra-4-2-prop-of-determinant:
+    type: wiki
+    title: '4.1 Intro & 4.2 Properties of the Determinant'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-4-2-prop-of-determinant
+    updated: '2021-09-26 15:28:44 +0900'
+    children: []
+hyu-linear-algebra-4-3-form-for-determinant:
+    type: wiki
+    title: '4.3 Formulas For the Determinant'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-4-3-form-for-determinant
+    updated: '2020-07-14 18:25:12 +0900'
+    children: []
+hyu-linear-algebra-4-4-app-of-determinants:
+    type: wiki
+    title: '4.4 Applications of Determinants'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-4-4-app-of-determinants
+    updated: '2020-08-15 15:06:49 +0900'
+    children: []
+hyu-linear-algebra-5-2-diagonalization:
+    type: wiki
+    title: '5.1 Intro & 5.2 Diagonalization of a Matrix'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-5-2-diagonalization
+    updated: '2020-10-14 14:02:10 +0900'
+    children: []
+hyu-linear-algebra-5-3-difference-eqn:
+    type: wiki
+    title: '5.3 Difference Equations and Powers $A^k$'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-5-3-difference-eqn
+    updated: '2020-10-14 11:35:42 +0900'
+    children: []
+hyu-linear-algebra-5-4-differential-eqn:
+    type: wiki
+    title: '5.4 Differential Equations and $e^{At}$'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-5-4-differential-eqn
+    updated: '2020-11-14 18:16:20 +0900'
+    children: []
+hyu-linear-algebra-5-5-complex-matrix:
+    type: wiki
+    title: '5.5 Complex Matrix'
+    summary: ""
+    parent: hyu-linear-algebra
+    url: /wiki/hyu-linear-algebra-5-5-complex-matrix
+    updated: '2020-11-27 14:41:11 +0900'
+    children: []
 index:
     type: wiki
     title: wiki
@@ -117,14 +229,6 @@ index:
     parent: null
     url: /wiki/index
     updated: null
-    children: []
-kmooc-data-structure:
-    type: wiki
-    title: 'K-MOOC_SMU 자료구조'
-    summary: ""
-    parent: CS-Basic
-    url: /wiki/kmooc-data-structure
-    updated: '2020-12-15 02:06:43 +0900'
     children: []
 markdown:
     type: wiki
@@ -134,6 +238,14 @@ markdown:
     url: /wiki/markdown
     updated: '2019-03-02 22:03:05 +0900'
     children: []
+Mathematics:
+    type: wiki
+    title: Mathematics
+    summary: ""
+    parent: index
+    url: /wiki/Mathematics
+    updated: '2020-05-02 15:13:19 +0900'
+    children: [hyu-linear-algebra]
 opent-git-cli:
     type: wiki
     title: '생활코딩_Git CLI'
@@ -165,4 +277,12 @@ opent-github-lec:
     parent: opent-github
     url: /wiki/opent-github-lec
     updated: '2020-12-03 21:23:11 +0900'
+    children: []
+smu-data-structure:
+    type: wiki
+    title: 'K-MOOC_SMU 자료구조'
+    summary: ""
+    parent: CS-Basic
+    url: /wiki/smu-data-structure
+    updated: '2020-12-15 02:06:43 +0900'
     children: []

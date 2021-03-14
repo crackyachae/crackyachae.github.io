@@ -23,7 +23,7 @@ regenerate: true
 * [[harvardx-cs50s-intro-tracks-web-1]]
 * [[harvardx-cs50s-intro-tracks-web-2]]
 
-### [[kmooc-data-structure]]
+### [[smu-data-structure]]
 
 ## [[Git]]
 * [[git-memos]]
@@ -33,7 +33,24 @@ regenerate: true
 
 ### [[opent-github]]
 * [[opent-github-lec]]
-  
+
+## [[Mathematics]]
+
+### [[hyu-linear-algebra]]
+* [[hyu-linear-algebra-2-3-linear-independence]]
+* [[hyu-linear-algebra-2-4-four-subspaces]]
+* [[hyu-linear-algebra-2-6-linear-transformations]]
+* [[hyu-linear-algebra-3-3-proj-least-squares]]
+* [[hyu-linear-algebra-3-4-gram-schmidt]]
+* [[hyu-linear-algebra-4-2-properties-of-det]]
+* [[hyu-linear-algebra-4-3-form-for-determinant]]
+* [[hyu-linear-algebra-4-4-app-of-determinants]]
+* [[hyu-linear-algebra-5-2-diagonalization]]
+* [[hyu-linear-algebra-5-3-difference-eqn]]
+* [[hyu-linear-algebra-5-4-differential-eqn]]
+* [[hyu-linear-algebra-5-5-complex-matrix]]
+
+
 ---
 
 ## blog posts

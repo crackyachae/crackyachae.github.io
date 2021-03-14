@@ -24,12 +24,18 @@
     size: 1
 -
     name: intro
-    size: 4
+    size: 5
 -
     name: kmooc
     size: 1
 -
+    name: kocw
+    size: 1
+-
     name: markdown
+    size: 1
+-
+    name: mathematics
     size: 1
 -
     name: memo
@@ -42,7 +48,7 @@
     size: 1
 -
     name: rough
-    size: 10
+    size: 23
 -
     name: scratch
     size: 1
