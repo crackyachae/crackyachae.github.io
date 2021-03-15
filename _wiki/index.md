@@ -58,6 +58,7 @@ regenerate: true
 * [[opent-github-lec]]
 
 ## [[JavaScript]]
+* [[javascript-links]]
 
 ### [[opent-web2-js]]
 * [[opent-web2-js-1-intro]]
