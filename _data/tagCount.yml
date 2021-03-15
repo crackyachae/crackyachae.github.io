@@ -100,3 +100,6 @@
 -
     name: web
     size: 2
+-
+    name: web-basic
+    size: 1

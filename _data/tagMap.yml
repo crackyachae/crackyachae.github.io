@@ -151,3 +151,5 @@ docs:
 extension:
     - {fileName: vscode-ext-auto-close-tag}
     - {fileName: vscode-ext-auto-rename-tag}
+web-basic:
+    - {fileName: Web-Basic}
