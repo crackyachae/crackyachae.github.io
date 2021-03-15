@@ -27,13 +27,16 @@
     size: 6
 -
     name: draft
-    size: 7
+    size: 12
 -
     name: environment
     size: 1
 -
     name: extension
     size: 2
+-
+    name: flanagan
+    size: 1
 -
     name: git
     size: 4
@@ -42,7 +45,10 @@
     size: 1
 -
     name: intro
-    size: 8
+    size: 12
+-
+    name: javascript
+    size: 2
 -
     name: kmooc
     size: 1
@@ -51,7 +57,7 @@
     size: 1
 -
     name: link
-    size: 2
+    size: 3
 -
     name: links
     size: 1
@@ -62,11 +68,14 @@
     name: mathematics
     size: 1
 -
+    name: mdn
+    size: 2
+-
     name: memo
     size: 1
 -
     name: opentutorials
-    size: 5
+    size: 7
 -
     name: posix
     size: 2
@@ -78,7 +87,7 @@
     size: 1
 -
     name: rough
-    size: 44
+    size: 74
 -
     name: scratch
     size: 1

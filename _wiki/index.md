@@ -57,6 +57,50 @@ regenerate: true
 ### [[opent-github]]
 * [[opent-github-lec]]
 
+## [[JavaScript]]
+
+### [[opent-web2-js]]
+* [[opent-web2-js-1-intro]]
+* [[opent-web2-js-2-html-meet-js]]
+* [[opent-web2-js-5-datatype-6-var]]
+* [[opent-web2-js-7-using-css]]
+* [[opent-web2-js-10-program]]
+* [[opent-web2-js-11-condition]]
+* [[opent-web2-js-15-refactor]]
+* [[opent-web2-js-16-array-loop]]
+* [[opent-web2-js-21-function]]
+* [[opent-web2-js-24-object]]
+* [[opent-web2-js-27-file-split]]
+* [[opent-web2-js-28-library-framework]]
+* [[opent-web2-js-29-ui-api-30-end]]
+
+### [[opent-client-web-js]]
+* [[opent-client-web-js-1-webjs-3-js-in-html]]
+* [[opent-client-web-js-4-object-model]]
+* [[opent-client-web-js-5-bom]]
+* [[opent-client-web-js-6-dom-1]]
+* [[opent-client-web-js-6-dom-2]]
+* [[opent-client-web-js-6-dom-3]]
+* [[opent-client-web-js-6-dom-4]]
+
+### [[flanagan-js-def-guide]]
+* [[flanagan-js-def-guide-1-intro]]
+* [[flanagan-js-def-guide-2-lexical-struct]]
+* [[flanagan-js-def-guide-3-type-val-var]]
+* [[flanagan-js-def-guide-4-exp-op]]
+* [[flanagan-js-def-guide-8-fnc]]
+
+### [[mdn-async-js]]
+* [[mdn-async-js-1-general-async]]
+* [[mdn-async-js-2-intro-async-js]]
+* [[mdn-async-js-3-timeout-interval]]
+* [[mdn-async-js-4-promise]]
+* [[mdn-async-js-5-async-await]]
+
+### [[mdn-js-ref]]
+* [[mdn-js-ref-template-literal]]
+
+
 ## [[Mathematics]]
 
 ### [[hyu-linear-algebra]]

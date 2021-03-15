@@ -12,10 +12,16 @@ css:
     - {fileName: opent-web2-css}
 link:
     - {fileName: css-links}
+    - {fileName: javascript-links}
     - {fileName: vim-links}
 draft:
     - {fileName: css-links}
+    - {fileName: flanagan-js-def-guide}
+    - {fileName: flanagan-js-def-guide-4-exp-op}
+    - {fileName: flanagan-js-def-guide-8-fnc}
     - {fileName: harvardx-cs50s-intro}
+    - {fileName: javascript-links}
+    - {fileName: mdn-async-js}
     - {fileName: opent-git-cli}
     - {fileName: problem-solving-links}
     - {fileName: vim-learning}
@@ -23,14 +29,25 @@ draft:
     - {fileName: vscode-docs-getstarted-settings-default}
 environment:
     - {fileName: Environment}
-git:
-    - {fileName: Git}
-    - {fileName: git-memos}
-    - {fileName: opent-git2-cli-version-control}
-    - {fileName: opent-github-lec}
-memo:
-    - {fileName: git-memos}
+intro:
+    - {fileName: flanagan-js-def-guide}
+    - {fileName: harvardx-cs50s-intro}
+    - {fileName: hyu-linear-algebra}
+    - {fileName: mdn-async-js}
+    - {fileName: opent-client-css}
+    - {fileName: opent-client-web-js}
+    - {fileName: opent-git-cli}
+    - {fileName: opent-github}
+    - {fileName: opent-posix1-cli}
+    - {fileName: opent-web2-css}
+    - {fileName: opent-web2-js}
+    - {fileName: smu-data-structure}
+flanagan:
+    - {fileName: flanagan-js-def-guide}
 rough:
+    - {fileName: flanagan-js-def-guide-1-intro}
+    - {fileName: flanagan-js-def-guide-2-lexical-struct}
+    - {fileName: flanagan-js-def-guide-3-type-val-var}
     - {fileName: git-memos}
     - {fileName: harvardx-cs50s-intro-5-data-structures}
     - {fileName: harvardx-cs50s-intro-7-sql}
@@ -51,6 +68,12 @@ rough:
     - {fileName: hyu-linear-algebra-5-4-differential-eqn}
     - {fileName: hyu-linear-algebra-5-5-complex-matrix}
     - {fileName: markdown}
+    - {fileName: mdn-async-js-1-general-async}
+    - {fileName: mdn-async-js-2-intro-async-js}
+    - {fileName: mdn-async-js-3-timeout-interval}
+    - {fileName: mdn-async-js-4-promise}
+    - {fileName: mdn-async-js-5-async-await}
+    - {fileName: mdn-js-ref-template-literal}
     - {fileName: opent-client-css}
     - {fileName: opent-client-css-1-intro}
     - {fileName: opent-client-css-10-graphic-1}
@@ -67,23 +90,42 @@ rough:
     - {fileName: opent-client-css-9-layout-3}
     - {fileName: opent-client-css-9-layout-4}
     - {fileName: opent-client-css-9-layout-5}
+    - {fileName: opent-client-web-js-1-webjs-3-js-in-html}
+    - {fileName: opent-client-web-js-4-object-model}
+    - {fileName: opent-client-web-js-5-bom}
+    - {fileName: opent-client-web-js-6-dom-1}
+    - {fileName: opent-client-web-js-6-dom-2}
+    - {fileName: opent-client-web-js-6-dom-3}
+    - {fileName: opent-client-web-js-6-dom-4}
     - {fileName: opent-git2-cli-version-control}
     - {fileName: opent-github}
     - {fileName: opent-github-lec}
     - {fileName: opent-posix1-cli-lec}
+    - {fileName: opent-web2-js}
+    - {fileName: opent-web2-js-1-intro}
+    - {fileName: opent-web2-js-10-program}
+    - {fileName: opent-web2-js-11-condition}
+    - {fileName: opent-web2-js-15-refactor}
+    - {fileName: opent-web2-js-16-array-loop}
+    - {fileName: opent-web2-js-2-html-meet-js}
+    - {fileName: opent-web2-js-21-function}
+    - {fileName: opent-web2-js-24-object}
+    - {fileName: opent-web2-js-27-file-split}
+    - {fileName: opent-web2-js-28-library-framework}
+    - {fileName: opent-web2-js-29-ui-api-30-end}
+    - {fileName: opent-web2-js-5-datatype-6-var}
+    - {fileName: opent-web2-js-7-using-css}
     - {fileName: vim-links}
     - {fileName: vscode-docs-getstarted-settings}
     - {fileName: vscode-ext-auto-close-tag}
     - {fileName: vscode-ext-auto-rename-tag}
-intro:
-    - {fileName: harvardx-cs50s-intro}
-    - {fileName: hyu-linear-algebra}
-    - {fileName: opent-client-css}
-    - {fileName: opent-git-cli}
-    - {fileName: opent-github}
-    - {fileName: opent-posix1-cli}
-    - {fileName: opent-web2-css}
-    - {fileName: smu-data-structure}
+git:
+    - {fileName: Git}
+    - {fileName: git-memos}
+    - {fileName: opent-git2-cli-version-control}
+    - {fileName: opent-github-lec}
+memo:
+    - {fileName: git-memos}
 harverdx:
     - {fileName: harvardx-cs50s-intro}
 scratch:
@@ -104,16 +146,24 @@ web:
     - {fileName: harvardx-cs50s-intro-tracks-web-2}
 kocw:
     - {fileName: hyu-linear-algebra}
+javascript:
+    - {fileName: JavaScript}
+    - {fileName: javascript-links}
 markdown:
     - {fileName: markdown}
 mathematics:
     - {fileName: Mathematics}
+mdn:
+    - {fileName: mdn-async-js}
+    - {fileName: mdn-js-ref}
 opentutorials:
     - {fileName: opent-client-css}
+    - {fileName: opent-client-web-js}
     - {fileName: opent-git-cli}
     - {fileName: opent-github}
     - {fileName: opent-posix1-cli}
     - {fileName: opent-web2-css}
+    - {fileName: opent-web2-js}
 posix:
     - {fileName: opent-posix1-cli}
     - {fileName: opent-posix1-cli-lec}
