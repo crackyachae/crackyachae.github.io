@@ -17,6 +17,9 @@
     name: cs-basic
     size: 1
 -
+    name: css
+    size: 3
+-
     name: data-structure
     size: 1
 -
@@ -24,7 +27,7 @@
     size: 6
 -
     name: draft
-    size: 6
+    size: 7
 -
     name: environment
     size: 1
@@ -39,7 +42,7 @@
     size: 1
 -
     name: intro
-    size: 6
+    size: 8
 -
     name: kmooc
     size: 1
@@ -48,7 +51,7 @@
     size: 1
 -
     name: link
-    size: 1
+    size: 2
 -
     name: links
     size: 1
@@ -63,7 +66,7 @@
     size: 1
 -
     name: opentutorials
-    size: 3
+    size: 5
 -
     name: posix
     size: 2
@@ -75,13 +78,16 @@
     size: 1
 -
     name: rough
-    size: 28
+    size: 44
 -
     name: scratch
     size: 1
 -
     name: sql
     size: 2
+-
+    name: style-sheet
+    size: 1
 -
     name: terminal
     size: 1

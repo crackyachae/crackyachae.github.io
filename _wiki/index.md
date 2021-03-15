@@ -83,6 +83,28 @@ regenerate: true
 ### [[codeup]]
 * [[codeup-set-py-basic]]
 
+## [[Style-Sheet]]
+
+### [[css]]
+* [[css-links]]
+
+### [[opent-client-css]]
+* [[opent-client-css-1-intro]]
+* [[opent-client-css-3-meet-html]]
+* [[opent-client-css-4-selector]]
+* [[opent-client-css-6-typo]]
+* [[opent-client-css-7-harmony]]
+* [[opent-client-css-9-layout-1]]
+* [[opent-client-css-9-layout-2]]
+* [[opent-client-css-9-layout-3]]
+* [[opent-client-css-9-layout-4]]
+* [[opent-client-css-9-layout-5]]
+* [[opent-client-css-10-graphic-1]]
+* [[opent-client-css-10-graphic-2]]
+* [[opent-client-css-11-motion]]
+* [[opent-client-css-12-refactor]]
+* [[opent-client-css-13-library]]
+
 ---
 
 ## blog posts
