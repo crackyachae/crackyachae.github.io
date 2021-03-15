@@ -54,6 +54,14 @@ CS-Basic:
     url: /wiki/CS-Basic
     updated: '2021-01-28 15:30:47 +0900'
     children: [harvardx-cs50s-intro, smu-data-structure]
+Environment:
+    type: wiki
+    title: Environment
+    summary: ""
+    parent: index
+    url: /wiki/Environment
+    updated: '2020-11-24 16:25:54 +0900'
+    children: [terminal, vim, vscode]
 Git:
     type: wiki
     title: Git
@@ -318,6 +326,22 @@ opent-github-lec:
     url: /wiki/opent-github-lec
     updated: '2020-12-03 21:23:11 +0900'
     children: []
+opent-posix1-cli:
+    type: wiki
+    title: '생활코딩_Posix1 CLI'
+    summary: ""
+    parent: Terminal
+    url: /wiki/opent-posix1-cli
+    updated: '2020-06-07 16:52:50 +0900'
+    children: [opent-posix1-cli-lec]
+opent-posix1-cli-lec:
+    type: wiki
+    title: 'Posix1 CLI'
+    summary: ""
+    parent: opent-posix1-cli
+    url: /wiki/opent-posix1-cli-lec
+    updated: '2020-06-07 16:58:39 +0900'
+    children: []
 Problem-Solving:
     type: wiki
     title: 'Problem Solving'
@@ -341,4 +365,108 @@ smu-data-structure:
     parent: CS-Basic
     url: /wiki/smu-data-structure
     updated: '2020-12-15 02:06:43 +0900'
+    children: []
+terminal:
+    type: wiki
+    title: Terminal
+    summary: ""
+    parent: Environment
+    url: /wiki/terminal
+    updated: '2020-06-13 23:28:19 +0900'
+    children: []
+vim:
+    type: wiki
+    title: Vim
+    summary: ""
+    parent: Environment
+    url: /wiki/vim
+    updated: '2020-07-28 15:31:18 +0900'
+    children: [vim-learning, vim-links]
+vim-learning:
+    type: wiki
+    title: 'Vim 학습일지'
+    summary: '내가 vim을 배워가는 과정'
+    parent: vim
+    url: /wiki/vim-learning
+    updated: '2020-05-17 17:56:36 +0900'
+    children: []
+vim-links:
+    type: wiki
+    title: 'Vim Links'
+    summary: ""
+    parent: vim
+    url: /wiki/vim-links
+    updated: '2020-04-12 14:38:18 +0900'
+    children: []
+vscode:
+    type: wiki
+    title: 'Visual Studio Code'
+    summary: ""
+    parent: Environment
+    url: /wiki/vscode
+    updated: '2020-12-15 02:25:23 +0900'
+    children: [vscode-docs, vscode-ext, vscode-links]
+vscode-docs:
+    type: wiki
+    title: 'Documentation for Visual Studio Code'
+    summary: '읽을 때 마다 조금씩 번역해보는 VS Code 공식 안내서'
+    parent: vscode
+    url: /wiki/vscode-docs
+    updated: '2020-12-15 02:25:54 +0900'
+    children: [vscode-docs-editor-codebasics, vscode-docs-getstarted-settings, vscode-docs-getstarted-settings-default]
+vscode-docs-editor-codebasics:
+    type: wiki
+    title: 'USER GUIDE_Basic Editing'
+    summary: ""
+    parent: vscode-docs
+    url: /wiki/vscode-docs-editor-codebasics
+    updated: '2021-05-20 11:22:15 +0900'
+    children: []
+vscode-docs-getstarted-settings:
+    type: wiki
+    title: 'GET STARTED_User and Workspace Settings'
+    summary: ""
+    parent: vscode-docs
+    url: /wiki/vscode-docs-getstarted-settings
+    updated: '2021-02-07 20:25:19 +0900'
+    children: []
+vscode-docs-getstarted-settings-default:
+    type: wiki
+    title: 'GET STARTED_Default Settings'
+    summary: '쉽게 찾아보려고 정리해둔 VS Code 기본 세팅'
+    parent: vscode-docs
+    url: /wiki/vscode-docs-getstarted-settings-default
+    updated: '2021-02-07 22:32:59 +0900'
+    children: []
+vscode-ext:
+    type: wiki
+    title: 'Extensions for Visual Studio Code'
+    summary: '사용할 때 마다 조금씩 번역해보는 각 Extension의 소개 페이지'
+    parent: vscode
+    url: /wiki/vscode-ext
+    updated: '2020-12-15 02:25:54 +0900'
+    children: [vscode-ext-auto-close-tag, vscode-ext-auto-rename-tag]
+vscode-ext-auto-close-tag:
+    type: wiki
+    title: 'Auto Close Tag'
+    summary: ""
+    parent: vscode-ext
+    url: /wiki/vscode-ext-auto-close-tag
+    updated: '2020-04-05 17:09:43 +0900'
+    children: []
+vscode-ext-auto-rename-tag:
+    type: wiki
+    title: 'Auto Rename Tag'
+    summary: ""
+    parent: vscode-ext
+    url: /wiki/vscode-ext-auto-rename-tag
+    updated: '2020-04-05 16:57:28 +0900'
+    children: []
+vscode-links:
+    type: wiki
+    title: 'Visual Studio Code Links'
+    summary: ""
+    parent: vscode
+    url: /wiki/vscode-links
+    updated: '2020-12-15 02:25:54 +0900'
     children: []

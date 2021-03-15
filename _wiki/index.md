@@ -25,6 +25,29 @@ regenerate: true
 
 ### [[smu-data-structure]]
 
+## [[Environment]]
+
+### [[terminal]]
+
+#### [[opent-posix1-cli]]
+* [[opent-posix1-cli-lec]]
+
+### [[vim]]
+* [[vim-links]]
+* [[vim-learning]]
+
+### [[vscode]]
+* [[vscode-links]]
+
+#### [[vscode-docs]]
+* [[vscode-docs-getstarted-settings]]
+    * [[vscode-docs-getstarted-settings-default]]
+* [[vscode-docs-editor-codebasics]]
+
+#### [[vscode-ext]]
+* [[vscode-ext-auto-close-tag]]
+* [[vscode-ext-auto-rename-tag]]
+
 ## [[Git]]
 * [[git-memos]]
 

@@ -6,6 +6,8 @@ code-up:
     - {fileName: codeup}
 cs-basic:
     - {fileName: CS-Basic}
+environment:
+    - {fileName: Environment}
 git:
     - {fileName: Git}
     - {fileName: git-memos}
@@ -37,11 +39,17 @@ rough:
     - {fileName: opent-git2-cli-version-control}
     - {fileName: opent-github}
     - {fileName: opent-github-lec}
+    - {fileName: opent-posix1-cli-lec}
+    - {fileName: vim-links}
+    - {fileName: vscode-docs-getstarted-settings}
+    - {fileName: vscode-ext-auto-close-tag}
+    - {fileName: vscode-ext-auto-rename-tag}
 intro:
     - {fileName: harvardx-cs50s-intro}
     - {fileName: hyu-linear-algebra}
     - {fileName: opent-git-cli}
     - {fileName: opent-github}
+    - {fileName: opent-posix1-cli}
     - {fileName: smu-data-structure}
 harverdx:
     - {fileName: harvardx-cs50s-intro}
@@ -49,6 +57,9 @@ draft:
     - {fileName: harvardx-cs50s-intro}
     - {fileName: opent-git-cli}
     - {fileName: problem-solving-links}
+    - {fileName: vim-learning}
+    - {fileName: vscode-docs-editor-codebasics}
+    - {fileName: vscode-docs-getstarted-settings-default}
 scratch:
     - {fileName: harvardx-cs50s-intro-0-scratch}
 c:
@@ -74,9 +85,41 @@ mathematics:
 opentutorials:
     - {fileName: opent-git-cli}
     - {fileName: opent-github}
+    - {fileName: opent-posix1-cli}
+posix:
+    - {fileName: opent-posix1-cli}
+    - {fileName: opent-posix1-cli-lec}
 problem-solving:
     - {fileName: Problem-Solving}
 links:
     - {fileName: problem-solving-links}
 kmooc:
     - {fileName: smu-data-structure}
+terminal:
+    - {fileName: terminal}
+vim:
+    - {fileName: vim}
+    - {fileName: vim-learning}
+    - {fileName: vim-links}
+link:
+    - {fileName: vim-links}
+vscode:
+    - {fileName: vscode}
+    - {fileName: vscode-docs}
+    - {fileName: vscode-docs-editor-codebasics}
+    - {fileName: vscode-docs-getstarted-settings}
+    - {fileName: vscode-docs-getstarted-settings-default}
+    - {fileName: vscode-ext}
+    - {fileName: vscode-ext-auto-close-tag}
+    - {fileName: vscode-ext-auto-rename-tag}
+    - {fileName: vscode-links}
+docs:
+    - {fileName: vscode-docs}
+    - {fileName: vscode-docs-editor-codebasics}
+    - {fileName: vscode-docs-getstarted-settings}
+    - {fileName: vscode-docs-getstarted-settings-default}
+    - {fileName: vscode-ext}
+    - {fileName: vscode-links}
+extension:
+    - {fileName: vscode-ext-auto-close-tag}
+    - {fileName: vscode-ext-auto-rename-tag}

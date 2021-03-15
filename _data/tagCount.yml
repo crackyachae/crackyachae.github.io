@@ -20,8 +20,17 @@
     name: data-structure
     size: 1
 -
+    name: docs
+    size: 6
+-
     name: draft
-    size: 3
+    size: 6
+-
+    name: environment
+    size: 1
+-
+    name: extension
+    size: 2
 -
     name: git
     size: 4
@@ -30,12 +39,15 @@
     size: 1
 -
     name: intro
-    size: 5
+    size: 6
 -
     name: kmooc
     size: 1
 -
     name: kocw
+    size: 1
+-
+    name: link
     size: 1
 -
     name: links
@@ -51,6 +63,9 @@
     size: 1
 -
     name: opentutorials
+    size: 3
+-
+    name: posix
     size: 2
 -
     name: problem-solving
@@ -60,13 +75,22 @@
     size: 1
 -
     name: rough
-    size: 23
+    size: 28
 -
     name: scratch
     size: 1
 -
     name: sql
     size: 2
+-
+    name: terminal
+    size: 1
+-
+    name: vim
+    size: 3
+-
+    name: vscode
+    size: 9
 -
     name: web
     size: 2
