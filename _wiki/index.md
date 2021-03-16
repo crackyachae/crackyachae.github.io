@@ -25,38 +25,6 @@ regenerate: true
 
 ### [[smu-data-structure]]
 
-## [[Environment]]
-
-### [[terminal]]
-
-#### [[opent-posix1-cli]]
-* [[opent-posix1-cli-lec]]
-
-### [[vim]]
-* [[vim-links]]
-* [[vim-learning]]
-
-### [[vscode]]
-* [[vscode-links]]
-
-#### [[vscode-docs]]
-* [[vscode-docs-getstarted-settings]]
-    * [[vscode-docs-getstarted-settings-default]]
-* [[vscode-docs-editor-codebasics]]
-
-#### [[vscode-ext]]
-* [[vscode-ext-auto-close-tag]]
-* [[vscode-ext-auto-rename-tag]]
-
-## [[Git]]
-* [[git-memos]]
-
-### [[opent-git-cli]]
-* [[opent-git2-cli-version-control]]
-
-### [[opent-github]]
-* [[opent-github-lec]]
-
 ## [[JavaScript]]
 * [[javascript-links]]
 
@@ -76,6 +44,7 @@ regenerate: true
 * [[opent-web2-js-29-ui-api-30-end]]
 
 ### [[opent-client-web-js]]
+* [[opent-client-web-js-6-dom-4]]
 * [[opent-client-web-js-1-webjs-3-js-in-html]]
 * [[opent-client-web-js-4-object-model]]
 * [[opent-client-web-js-5-bom]]
@@ -100,7 +69,6 @@ regenerate: true
 
 ### [[mdn-js-ref]]
 * [[mdn-js-ref-template-literal]]
-
 
 ## [[Mathematics]]
 
@@ -149,6 +117,38 @@ regenerate: true
 * [[opent-client-css-11-motion]]
 * [[opent-client-css-12-refactor]]
 * [[opent-client-css-13-library]]
+
+## [[Tools]]
+
+### [[terminal]]
+
+#### [[opent-posix1-cli]]
+* [[opent-posix1-cli-lec]]
+
+### [[vim]]
+* [[vim-links]]
+* [[vim-learning]]
+
+### [[vscode]]
+* [[vscode-links]]
+
+#### [[vscode-docs]]
+* [[vscode-docs-getstarted-settings]]
+    * [[vscode-docs-getstarted-settings-default]]
+* [[vscode-docs-editor-codebasics]]
+
+#### [[vscode-ext]]
+* [[vscode-ext-auto-close-tag]]
+* [[vscode-ext-auto-rename-tag]]
+
+## [[Git]]
+* [[git-memos]]
+
+### [[opent-git-cli]]
+* [[opent-git2-cli-version-control]]
+
+### [[opent-github]]
+* [[opent-github-lec]]
 
 ## [[Web-Basic]]
 

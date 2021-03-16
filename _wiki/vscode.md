@@ -7,7 +7,7 @@ updated : 2020-12-15 02:25:23 +0900
 tag     : vscode
 toc     : true
 public  : true
-parent  : [[Environment]]
+parent  : [[Tools]]
 latex   : false
 ---
 * TOC

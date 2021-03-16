@@ -1,3 +1,19 @@
+'00_[Velopert]-벨로퍼트와-함께하는-모던-React':
+    type: wiki
+    title: null
+    summary: null
+    parent: null
+    url: '/wiki/00_[Velopert]-벨로퍼트와-함께하는-모던-React'
+    updated: null
+    children: []
+'00_[생활코딩]-React':
+    type: wiki
+    title: null
+    summary: null
+    parent: null
+    url: '/wiki/00_[생활코딩]-React'
+    updated: null
+    children: []
 Blog:
     type: wiki
     title: Blog
@@ -70,14 +86,6 @@ css-links:
     url: /wiki/css-links
     updated: '2021-02-03 10:36:50 +0900'
     children: []
-Environment:
-    type: wiki
-    title: Environment
-    summary: ""
-    parent: index
-    url: /wiki/Environment
-    updated: '2020-11-24 16:25:54 +0900'
-    children: [terminal, vim, vscode]
 flanagan-js-def-guide:
     type: wiki
     title: 'David Flanagan_JavaScript The Definitive Guide'
@@ -834,15 +842,23 @@ terminal:
     type: wiki
     title: Terminal
     summary: ""
-    parent: Environment
+    parent: Tools
     url: /wiki/terminal
     updated: '2020-06-13 23:28:19 +0900'
     children: []
+Tools:
+    type: wiki
+    title: Environment
+    summary: ""
+    parent: index
+    url: /wiki/Tools
+    updated: '2020-11-24 16:25:54 +0900'
+    children: [terminal, vim, vscode]
 vim:
     type: wiki
     title: Vim
     summary: ""
-    parent: Environment
+    parent: Tools
     url: /wiki/vim
     updated: '2020-07-28 15:31:18 +0900'
     children: [vim-learning, vim-links]
@@ -866,7 +882,7 @@ vscode:
     type: wiki
     title: 'Visual Studio Code'
     summary: ""
-    parent: Environment
+    parent: Tools
     url: /wiki/vscode
     updated: '2020-12-15 02:25:23 +0900'
     children: [vscode-docs, vscode-ext, vscode-links]

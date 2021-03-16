@@ -7,7 +7,7 @@ updated : 2020-06-13 23:28:19 +0900
 tag     : terminal
 toc     : true
 public  : true
-parent  : [[Environment]]
+parent  : [[Tools]]
 latex   : false
 ---
 * TOC

@@ -27,8 +27,6 @@ draft:
     - {fileName: vim-learning}
     - {fileName: vscode-docs-editor-codebasics}
     - {fileName: vscode-docs-getstarted-settings-default}
-environment:
-    - {fileName: Environment}
 intro:
     - {fileName: flanagan-js-def-guide}
     - {fileName: harvardx-cs50s-intro}
@@ -177,6 +175,8 @@ style-sheet:
     - {fileName: Style-Sheet}
 terminal:
     - {fileName: terminal}
+environment:
+    - {fileName: Tools}
 vim:
     - {fileName: vim}
     - {fileName: vim-learning}
