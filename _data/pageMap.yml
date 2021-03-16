@@ -8,7 +8,7 @@ Blog:
     children: [markdown]
 boj:
     type: wiki
-    title: 'Bae/<JOON> ONLINE JUDGE'
+    title: 'BAEKJOON ONLINE JUDGE'
     summary: ""
     parent: Problem-Solving
     url: /wiki/boj

@@ -1,6 +1,6 @@
 ---
 layout  : category
-title   : Bae/<JOON> ONLINE JUDGE
+title   : BAEKJOON ONLINE JUDGE
 summary : 
 date    : 2021-03-02 11:05:40 +0900
 updated : 2021-03-04 15:33:26 +0900
