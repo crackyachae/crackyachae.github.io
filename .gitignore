@@ -1,10 +1,13 @@
 tags
 
+# draft
+draft/
+
 # JS dependencies
 /node_modules
 package-lock.json
 
-## Jekyll
+# Jekyll
 _site/
 .sass-cache/
 .jekyll-cache/
