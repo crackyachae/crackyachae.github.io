@@ -15,7 +15,7 @@ latex   : true
 
 > 이 글은 KOCW의 한양대학교 선형대수 '16강 판별식의 공식' 강의내용을 복습하기 위해 Gilbert Strang의 [Linear Algebra and Its Applications](https://books.google.co.kr/books?id=8QVdcRJyL2oC) 4.3장과 강의노트를 기반으로 작성한 글입니다.
 >
-> 내용을 이해하기 위한 개인적인 풀이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
+> 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
 > 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
 
 첫 번째 formular는 이미 전에 언급이 되었다. Row operation으로 $D$의 pivot을 구했을 때:

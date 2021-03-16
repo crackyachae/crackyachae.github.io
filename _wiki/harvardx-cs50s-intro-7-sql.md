@@ -13,6 +13,11 @@ latex   : false
 * TOC
 {:toc}
 
+> 이 글은 CS50 x 2020의 [weeks 7](https://cs50.harvard.edu/x/2020/weeks/7/) 강의내용을 복습하기 위해 [강의 노트](https://cs50.harvard.edu/x/2020/notes/7/)를 기반으로 작성한 글입니다.
+>
+> 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 원문을 참고해주시길 바랍니다.
+> 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
+
 ## Spreadsheets
 Database는 데이터(data)를 저장할 수 있는 application으로 Google Sheets 등이 이에 해당한다.
 

@@ -13,6 +13,10 @@ latex   : false
 * TOC
 {:toc}
 
+> 이 글은 생활코딩의 [github](https://opentutorials.org/module/4636) 강의내용을 복습하기 위해 작성한 글입니다.
+>
+> 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 원강의를 참고해주시길 바랍니다.
+> 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
 ### Git의 이해 (vs. dropbox)
 
 |Dropbox||Git||

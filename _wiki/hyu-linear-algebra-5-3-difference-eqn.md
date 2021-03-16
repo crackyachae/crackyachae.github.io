@@ -15,7 +15,7 @@ latex   : true
 
 > 이 글은 KOCW의 한양대학교 선형대수 '19강 차분방정식과 고유값'과 '20강 동질최소제곱법의 해와 마르코프 행렬' 강의내용을 복습하기 위해 Gilbert Strang의 [Linear Algebra and Its Applications](https://books.google.co.kr/books?id=8QVdcRJyL2oC) 5.3장과 강의노트를 기반으로 작성한 글입니다.
 >
-> 내용을 이해하기 위한 개인적인 풀이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
+> 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
 > 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
 
 ### Differnece equation

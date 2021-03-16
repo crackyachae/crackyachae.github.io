@@ -15,7 +15,7 @@ latex   : true
 
 > 이 글은 KOCW의 한양대학교 선형대수 '13강 일반최소제곱법과 QR 분할' 및 '14강 함수 공간' 강의내용을 복습하기 위해 Gilbert Strang의 [Linear Algebra and Its Applications](https://books.google.co.kr/books?id=8QVdcRJyL2oC) 3.4장과 강의노트를 기반으로 작성한 글입니다.
 >
-> 내용을 이해하기 위한 개인적인 풀이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
+> 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
 > 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
 
 Orthogonal vectors
@@ -268,7 +268,7 @@ Gram-Schmidt process로 vector $a, b, c$에서 orthonormal vector $q_1, q_2, q_3
    $$
    \text{Second vector} \qquad B = b-(q_1^Tb)q_1 = (q_2^Tb)q_2 \quad and \quad q_2=B/\lVert B \lVert
    $$
-   + ![get q2 from b](images/13-1_get-q_2-from-b.png)
+   + ![get q2 from b]( /post-img/hyu-linear-algebra-3-4-gram-schmidt/111249856-b7da2f80-864f-11eb-8da6-621baf27b863.png )
    + $b = (q_1^Tb)q_1 + (q_2^Tb)q_2$
 
 3. 동일한 방법으로 $q_3$를 구할 수 있다.
@@ -423,16 +423,16 @@ Brief and optional section.
 
 ### 1. Hilbert Space (Function space)
 
-+ n dimensional space $R^n$을 $R^{\infin}$로 확장
++ n dimensional space $R^n$을 $R^{\infty}$로 확장
 + $v = (v_1, v_2, v_3, \dots)$
-+ Finite length를 갖는 vector만 포함, $\lVert v \lVert^2 = v_1^2 + v_2^2 + \cdots1 < \infin$
++ Finite length를 갖는 vector만 포함, $\lVert v \lVert^2 = v_1^2 + v_2^2 + \cdots1 < \infty$
 + Function is defined in a finite interval
 
-Hilbert space는 $R^\infin$ 안에 있으면서 vector가 finite length를 갖는 vector space이다.
+Hilbert space는 $R^\infty$ 안에 있으면서 vector가 finite length를 갖는 vector space이다.
 
 **Vector space of Hilbert space**
-+ $\lVert v_1 + v_2 \lVert \le \lVert v_1\lVert + \lVert v_2 \lVert \lt \infin \rightarrow \text{addition} \in R^\infin$ 
-+ $\lVert cv_1 \lVert = \lVert c \lVert \lVert v_1 \lVert \lt \infin \rightarrow \text{scalar multiplication} \in R^\infin$ 
++ $\lVert v_1 + v_2 \lVert \le \lVert v_1\lVert + \lVert v_2 \lVert \lt \infty \rightarrow \text{addition} \in R^\infty$ 
++ $\lVert cv_1 \lVert = \lVert c \lVert \lVert v_1 \lVert \lt \infty \rightarrow \text{scalar multiplication} \in R^\infty$ 
 
 ### 2. Lengths and Inner Products
 
@@ -466,7 +466,7 @@ $$
 + Basis function이 있으면 각 function $x(t)$를 basis function의 combination으로 나타낼 수 있다.
 + Function의 경우 combination 대신 **series**라는 명칭을 쓴다.
 $$
-x(t) = \sum_{i=1}^{\infin} a_ib_i(t)
+x(t) = \sum_{i=1}^{\infty} a_ib_i(t)
 $$
 
 가장 대표적인 예로 $1, t, t^2, \dots$가 function basis이다. 이들은 independent 하지만 orthogonal 하지않다. Function을 구성하는 orthogonal basis는 대표적으로 sine과 cosine이 있다.
@@ -474,7 +474,7 @@ $$
 Sine과 cosine을 orthogonal basis function으로 expansion한 function이 **Fourier series**이다.
 
 $$
-f(x) = a_0 + \sum_{n=1}^\infin a_ncosnx + \sum_{m=1}^\infin b_msinmx
+f(x) = a_0 + \sum_{n=1}^\infty a_ncosnx + \sum_{m=1}^\infty b_msinmx
 $$
 
 
@@ -565,7 +565,7 @@ $$
 Set Hilbert space
 
 $$
-x(t) = \lim_{\Delta t \to 0} (x(a), x(a+\Delta t), x(a+2\Delta t), \cdots, x(b)) \rightarrow x(t) \in R^\infin
+x(t) = \lim_{\Delta t \to 0} (x(a), x(a+\Delta t), x(a+2\Delta t), \cdots, x(b)) \rightarrow x(t) \in R^\infty
 $$
 
 $$
@@ -576,7 +576,7 @@ $$
 
 Inner products
 $$
-(x(t), y(t)) = \lim_{\Delta t \to 0} \sum_{k=0}^\infin x(a+k\Delta t)y(a+ k\Delta t) = \int_a^b x(t)y(t)\, dt
+(x(t), y(t)) = \lim_{\Delta t \to 0} \sum_{k=0}^\infty x(a+k\Delta t)y(a+ k\Delta t) = \int_a^b x(t)y(t)\, dt
 $$
 
 Length
@@ -591,6 +591,6 @@ $$
 
 Series, Basis functions
 $$
-x(t) = \sum_{i=1}^\infin a_ib_i(t) \\
-x(t) = \sum_{i=1}^\infin (q_i(t),x(t))q_i(t), \quad \text{for orthonormal basis}
+x(t) = \sum_{i=1}^\infty a_ib_i(t) \\
+x(t) = \sum_{i=1}^\infty (q_i(t),x(t))q_i(t), \quad \text{for orthonormal basis}
 $$

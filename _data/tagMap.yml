@@ -2,7 +2,7 @@ blog:
     - {fileName: Blog}
 boj:
     - {fileName: boj}
-code-up:
+codeup:
     - {fileName: codeup}
 cs-basic:
     - {fileName: CS-Basic}

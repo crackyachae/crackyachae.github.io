@@ -4,7 +4,7 @@ title   : 생활코딩_Client CSS
 summary : 
 date    : 2020-04-03 23:13:39 +0900
 updated : 2020-04-03 23:13:39 +0900
-tag     : opentutorials intro rough
+tag     : intro opentutorials rough
 toc     : true
 public  : true
 parent  : [[css]]

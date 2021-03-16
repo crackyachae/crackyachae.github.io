@@ -15,7 +15,7 @@ latex   : true
 
 > 이 글은 KOCW의 한양대학교 선형대수 '11강 벡터투영과 최소제곱법' 및 '12강 1차연립방정식 풀이와 직교벡터 구하기' 강의내용을 복습하기 위해 Gilbert Strang의 [Linear Algebra and Its Applications](https://books.google.co.kr/books?id=8QVdcRJyL2oC) 3.3장과 강의노트를 기반으로 작성한 글입니다.
 >
-> 내용을 이해하기 위한 개인적인 풀이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
+> 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
 > 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
 
 미지수(unknown)보다 식(equation)의 수가 더 많은 경우 대부분 solution이 존재하지 않는다: Overconstrained cases

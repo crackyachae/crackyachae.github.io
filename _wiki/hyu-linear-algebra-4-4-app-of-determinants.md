@@ -15,7 +15,7 @@ latex   : true
 
 > 이 글은 KOCW의 한양대학교 선형대수 '17강 판별식의 응용' 강의내용을 복습하기 위해 Gilbert Strang의 [Linear Algebra and Its Applications](https://books.google.co.kr/books?id=8QVdcRJyL2oC) 4.4장과 강의노트를 기반으로 작성한 글입니다.
 >
-> 내용을 이해하기 위한 개인적인 풀이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
+> 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
 > 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
 
 네 개의 major determinant application
@@ -171,7 +171,7 @@ $$
 
 ### Parallelogram
 
-![volume of parallelogram](images/17-1_parallelogram.png)
+![volume of parallelogram]( /post-img/hyu-linear-algebra-4-4-app-of-determinants/111249858-b7da2f80-864f-11eb-9e9a-a794e19b05bf.png )
 
 right angled가 아닌 box, 대표적으로 parallelogram의 volumne은 base $l$과 height $h$를 곱한 값이다. 
 + 길이가 $h$인 vector $b-p$는 matrix의 두 번째 row $b$에서 이를 첫 번째 row에 projection한 $p$를 뺀 것이다.

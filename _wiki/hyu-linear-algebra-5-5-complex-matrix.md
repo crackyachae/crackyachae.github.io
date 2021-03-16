@@ -15,7 +15,7 @@ latex   : true
 
 > 이 글은 KOCW의 한양대학교 선형대수 '22강 복소행렬과 에르미트행렬' 강의내용을 복습하기 위해 Gilbert Strang의 [Linear Algebra and Its Applications](https://books.google.co.kr/books?id=8QVdcRJyL2oC) 5.5장과 강의노트를 기반으로 작성한 글입니다.
 >
-> 내용을 이해하기 위한 개인적인 풀이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
+> 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 강의와 원서적을 참고해주시길 바랍니다.
 > 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
 
 space $C^n$: $n$개의 complex components로 이루어진 vector space
@@ -34,7 +34,7 @@ $$
 
 ## Complex Numbers and Their Conjugates
 
-![complex plane](images/22-1_complex-plane.png)
+![complex plane]( /post-img/hyu-linear-algebra-5-5-complex-matrix/111249861-b872c600-864f-11eb-8c3b-f07a5c4f4b0a.png )
 
 + Complex number: $a + ib$
   + $a$: real number

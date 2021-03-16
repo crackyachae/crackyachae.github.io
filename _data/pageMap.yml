@@ -32,7 +32,7 @@ boj-set-py-basic:
     children: []
 codeup:
     type: wiki
-    title: Code-Up
+    title: CodeUp
     summary: ""
     parent: Problem-Solving
     url: /wiki/codeup
