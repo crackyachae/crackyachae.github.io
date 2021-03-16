@@ -2,7 +2,7 @@
 
 # github에 올린 user-images를 자동으로 다운로드합니다.
 
-NUM=1855714
+NUM=61383377
 
 CHANGE_LIST=`git diff --exit-code --cached --name-only --diff-filter=ACM -- '*.md'`
 
