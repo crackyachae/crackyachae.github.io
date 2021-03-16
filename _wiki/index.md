@@ -25,6 +25,38 @@ regenerate: true
 
 ### [[smu-data-structure]]
 
+## [[Tools]]
+
+### [[terminal]]
+
+#### [[opent-posix1-cli]]
+* [[opent-posix1-cli-lec]]
+
+### [[vim]]
+* [[vim-links]]
+* [[vim-learning]]
+
+### [[vscode]]
+* [[vscode-links]]
+
+#### [[vscode-docs]]
+* [[vscode-docs-getstarted-settings]]
+    * [[vscode-docs-getstarted-settings-default]]
+* [[vscode-docs-editor-codebasics]]
+
+#### [[vscode-ext]]
+* [[vscode-ext-auto-close-tag]]
+* [[vscode-ext-auto-rename-tag]]
+
+## [[Git]]
+* [[git-memos]]
+
+### [[opent-git-cli]]
+* [[opent-git2-cli-version-control]]
+
+### [[opent-github]]
+* [[opent-github-lec]]
+
 ## [[JavaScript]]
 * [[javascript-links]]
 
@@ -69,6 +101,27 @@ regenerate: true
 
 ### [[mdn-js-ref]]
 * [[mdn-js-ref-template-literal]]
+
+## [[JS-Library]]
+* [[js-library-links]]
+
+### [[react]]
+* [[react-links]]
+
+#### [[opent-react]]
+* [[opent-react-1-env]]
+* [[opent-react-2-component]]
+* [[opent-react-3-state]]
+
+#### [[vlpt-react]]
+* [[vlpt-react-basic]]
+    * [[vlpt-react-basic-4-jsx-5-props-6-cond-render]]
+    * [[vlpt-react-basic-7-state-8-input]]
+    * [[vlpt-react-basic-10-ref-11-array]]
+    * [[vlpt-react-basic-13-array-edit]]
+    * [[vlpt-react-basic-16-effect]]
+    * [[vlpt-react-basic-17-memo-18-callback-19-reactmemo]]
+    * [[vlpt-react-basic-20-reducer]]
 
 ## [[Mathematics]]
 
@@ -117,38 +170,6 @@ regenerate: true
 * [[opent-client-css-11-motion]]
 * [[opent-client-css-12-refactor]]
 * [[opent-client-css-13-library]]
-
-## [[Tools]]
-
-### [[terminal]]
-
-#### [[opent-posix1-cli]]
-* [[opent-posix1-cli-lec]]
-
-### [[vim]]
-* [[vim-links]]
-* [[vim-learning]]
-
-### [[vscode]]
-* [[vscode-links]]
-
-#### [[vscode-docs]]
-* [[vscode-docs-getstarted-settings]]
-    * [[vscode-docs-getstarted-settings-default]]
-* [[vscode-docs-editor-codebasics]]
-
-#### [[vscode-ext]]
-* [[vscode-ext-auto-close-tag]]
-* [[vscode-ext-auto-rename-tag]]
-
-## [[Git]]
-* [[git-memos]]
-
-### [[opent-git-cli]]
-* [[opent-git2-cli-version-control]]
-
-### [[opent-github]]
-* [[opent-github-lec]]
 
 ## [[Web-Basic]]
 

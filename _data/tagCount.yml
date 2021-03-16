@@ -27,7 +27,7 @@
     size: 6
 -
     name: draft
-    size: 12
+    size: 13
 -
     name: environment
     size: 1
@@ -45,7 +45,7 @@
     size: 1
 -
     name: intro
-    size: 12
+    size: 16
 -
     name: javascript
     size: 2
@@ -56,8 +56,11 @@
     name: kocw
     size: 1
 -
+    name: library
+    size: 2
+-
     name: link
-    size: 3
+    size: 5
 -
     name: links
     size: 1
@@ -75,7 +78,7 @@
     size: 1
 -
     name: opentutorials
-    size: 7
+    size: 8
 -
     name: posix
     size: 2
@@ -86,8 +89,11 @@
     name: python
     size: 1
 -
+    name: react
+    size: 2
+-
     name: rough
-    size: 74
+    size: 85
 -
     name: scratch
     size: 1
@@ -100,6 +106,9 @@
 -
     name: terminal
     size: 1
+-
+    name: velopert
+    size: 2
 -
     name: vim
     size: 3

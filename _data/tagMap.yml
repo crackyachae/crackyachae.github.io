@@ -13,6 +13,8 @@ css:
 link:
     - {fileName: css-links}
     - {fileName: javascript-links}
+    - {fileName: js-library-links}
+    - {fileName: react-links}
     - {fileName: vim-links}
 draft:
     - {fileName: css-links}
@@ -25,6 +27,7 @@ draft:
     - {fileName: opent-git-cli}
     - {fileName: problem-solving-links}
     - {fileName: vim-learning}
+    - {fileName: vlpt-react-basic}
     - {fileName: vscode-docs-editor-codebasics}
     - {fileName: vscode-docs-getstarted-settings-default}
 intro:
@@ -37,9 +40,13 @@ intro:
     - {fileName: opent-git-cli}
     - {fileName: opent-github}
     - {fileName: opent-posix1-cli}
+    - {fileName: opent-react}
     - {fileName: opent-web2-css}
     - {fileName: opent-web2-js}
+    - {fileName: react}
     - {fileName: smu-data-structure}
+    - {fileName: vlpt-react}
+    - {fileName: vlpt-react-basic}
 flanagan:
     - {fileName: flanagan-js-def-guide}
 rough:
@@ -99,6 +106,10 @@ rough:
     - {fileName: opent-github}
     - {fileName: opent-github-lec}
     - {fileName: opent-posix1-cli-lec}
+    - {fileName: opent-react}
+    - {fileName: opent-react-1-env}
+    - {fileName: opent-react-2-component}
+    - {fileName: opent-react-3-state}
     - {fileName: opent-web2-js}
     - {fileName: opent-web2-js-1-intro}
     - {fileName: opent-web2-js-10-program}
@@ -114,6 +125,13 @@ rough:
     - {fileName: opent-web2-js-5-datatype-6-var}
     - {fileName: opent-web2-js-7-using-css}
     - {fileName: vim-links}
+    - {fileName: vlpt-react-basic-10-ref-11-array}
+    - {fileName: vlpt-react-basic-13-array-edit}
+    - {fileName: vlpt-react-basic-16-effect}
+    - {fileName: vlpt-react-basic-17-memo-18-callback-19-reactmemo}
+    - {fileName: vlpt-react-basic-20-reducer}
+    - {fileName: vlpt-react-basic-4-jsx-5-props-6-cond-render}
+    - {fileName: vlpt-react-basic-7-state-8-input}
     - {fileName: vscode-docs-getstarted-settings}
     - {fileName: vscode-ext-auto-close-tag}
     - {fileName: vscode-ext-auto-rename-tag}
@@ -147,6 +165,9 @@ kocw:
 javascript:
     - {fileName: JavaScript}
     - {fileName: javascript-links}
+library:
+    - {fileName: JS-Library}
+    - {fileName: js-library-links}
 markdown:
     - {fileName: markdown}
 mathematics:
@@ -160,6 +181,7 @@ opentutorials:
     - {fileName: opent-git-cli}
     - {fileName: opent-github}
     - {fileName: opent-posix1-cli}
+    - {fileName: opent-react}
     - {fileName: opent-web2-css}
     - {fileName: opent-web2-js}
 posix:
@@ -169,6 +191,9 @@ problem-solving:
     - {fileName: Problem-Solving}
 links:
     - {fileName: problem-solving-links}
+react:
+    - {fileName: react}
+    - {fileName: react-links}
 kmooc:
     - {fileName: smu-data-structure}
 style-sheet:
@@ -181,6 +206,9 @@ vim:
     - {fileName: vim}
     - {fileName: vim-learning}
     - {fileName: vim-links}
+velopert:
+    - {fileName: vlpt-react}
+    - {fileName: vlpt-react-basic}
 vscode:
     - {fileName: vscode}
     - {fileName: vscode-docs}

@@ -1,19 +1,3 @@
-'00_[Velopert]-벨로퍼트와-함께하는-모던-React':
-    type: wiki
-    title: null
-    summary: null
-    parent: null
-    url: '/wiki/00_[Velopert]-벨로퍼트와-함께하는-모던-React'
-    updated: null
-    children: []
-'00_[생활코딩]-React':
-    type: wiki
-    title: null
-    summary: null
-    parent: null
-    url: '/wiki/00_[생활코딩]-React'
-    updated: null
-    children: []
 Blog:
     type: wiki
     title: Blog
@@ -366,6 +350,22 @@ javascript-links:
     url: /wiki/javascript-links
     updated: '2021-02-09 23:15:10 +0900'
     children: []
+JS-Library:
+    type: wiki
+    title: 'JavaScript Library'
+    summary: ""
+    parent: index
+    url: /wiki/JS-Library
+    updated: '2020-12-15 14:20:48 +0900'
+    children: [js-library-links, react]
+js-library-links:
+    type: wiki
+    title: 'JavaScript Library Links'
+    summary: ""
+    parent: JS-Library
+    url: /wiki/js-library-links
+    updated: '2020-12-15 02:20:34 +0900'
+    children: []
 markdown:
     type: wiki
     title: '마크다운(markdown) 사용법'
@@ -686,6 +686,38 @@ opent-posix1-cli-lec:
     url: /wiki/opent-posix1-cli-lec
     updated: '2020-06-07 16:58:39 +0900'
     children: []
+opent-react:
+    type: wiki
+    title: 생활코딩_React
+    summary: ""
+    parent: react
+    url: /wiki/opent-react
+    updated: '2020-11-29 16:32:55 +0900'
+    children: [opent-react-1-env, opent-react-2-component, opent-react-3-state]
+opent-react-1-env:
+    type: wiki
+    title: '1. 개발환경'
+    summary: ""
+    parent: opent-react
+    url: /wiki/opent-react-1-env
+    updated: '2020-12-15 02:20:43 +0900'
+    children: []
+opent-react-2-component:
+    type: wiki
+    title: '2. 컴포넌트 제작'
+    summary: ""
+    parent: opent-react
+    url: /wiki/opent-react-2-component
+    updated: '2020-12-27 21:35:50 +0900'
+    children: []
+opent-react-3-state:
+    type: wiki
+    title: '3. State'
+    summary: ""
+    parent: opent-react
+    url: /wiki/opent-react-3-state
+    updated: '2020-12-27 23:08:39 +0900'
+    children: []
 opent-web2-css:
     type: wiki
     title: '생활코딩_WEB2 CSS'
@@ -822,6 +854,22 @@ problem-solving-links:
     url: /wiki/problem-solving-links
     updated: '2021-03-05 18:12:26 +0900'
     children: []
+react:
+    type: wiki
+    title: React
+    summary: ""
+    parent: JS-Library
+    url: /wiki/react
+    updated: '2020-12-30 23:42:50 +0900'
+    children: [opent-react, react-links, vlpt-react]
+react-links:
+    type: wiki
+    title: 'React Links'
+    summary: ""
+    parent: react
+    url: /wiki/react-links
+    updated: '2020-12-15 21:31:28 +0900'
+    children: []
 smu-data-structure:
     type: wiki
     title: 'K-MOOC_SMU 자료구조'
@@ -877,6 +925,78 @@ vim-links:
     parent: vim
     url: /wiki/vim-links
     updated: '2020-04-12 14:38:18 +0900'
+    children: []
+vlpt-react:
+    type: wiki
+    title: 'Velopert_벨로퍼트와 함께하는 모던 React'
+    summary: ""
+    parent: react
+    url: /wiki/vlpt-react
+    updated: '2021-12-30 23:52:10 +0900'
+    children: [vlpt-react-basic]
+vlpt-react-basic:
+    type: wiki
+    title: '1장. 리액트 입문'
+    summary: ""
+    parent: vlpt-react
+    url: /wiki/vlpt-react-basic
+    updated: '2021-03-04 00:10:05 +0900'
+    children: [vlpt-react-basic-10-ref-11-array, vlpt-react-basic-13-array-edit, vlpt-react-basic-16-effect, vlpt-react-basic-17-memo-18-callback-19-reactmemo, vlpt-react-basic-20-reducer, vlpt-react-basic-4-jsx-5-props-6-cond-render, vlpt-react-basic-7-state-8-input]
+vlpt-react-basic-10-ref-11-array:
+    type: wiki
+    title: '10. useRef 로 특정 DOM 선택하기 / 11. 배열 렌더링하기 / 12. useRef 로 컴포넌트 안의 변수 만들기'
+    summary: ""
+    parent: vlpt-react-basic
+    url: /wiki/vlpt-react-basic-10-ref-11-array
+    updated: '2021-01-01 23:06:20 +0900'
+    children: []
+vlpt-react-basic-13-array-edit:
+    type: wiki
+    title: '13. 배열에 항목 추가하기 / 14. 배열에 항목 제거하기 / 15. 배열에 항목 수정하기'
+    summary: ""
+    parent: vlpt-react-basic
+    url: /wiki/vlpt-react-basic-13-array-edit
+    updated: '2021-03-04 21:14:32 +0900'
+    children: []
+vlpt-react-basic-16-effect:
+    type: wiki
+    title: '16. useEffect를 사용하여 마운트/언마운트/업데이트시 할 작업 설정하기'
+    summary: ""
+    parent: vlpt-react-basic
+    url: /wiki/vlpt-react-basic-16-effect
+    updated: '2021-01-02 00:42:10 +0900'
+    children: []
+vlpt-react-basic-17-memo-18-callback-19-reactmemo:
+    type: wiki
+    title: '17. useMemo 를 사용하여 연산한 값 재사용하기 / 18. useCallback 를 사용하여 함수 재사용하기 / 19. React.memo 를 사용한 컴포넌트 리렌더링 방지'
+    summary: ""
+    parent: vlpt-react-basic
+    url: /wiki/vlpt-react-basic-17-memo-18-callback-19-reactmemo
+    updated: '2021-03-03 23:24:06 +0900'
+    children: []
+vlpt-react-basic-20-reducer:
+    type: wiki
+    title: '20. useReducer 를 사용하여 상태 업데이트 로직 분리하기'
+    summary: ""
+    parent: vlpt-react-basic
+    url: /wiki/vlpt-react-basic-20-reducer
+    updated: '2021-03-04 14:35:39 +0900'
+    children: []
+vlpt-react-basic-4-jsx-5-props-6-cond-render:
+    type: wiki
+    title: '4. JSX / 5. props 를 통해 컴포넌트에게 값 전달하기 / 6. 조건부 렌더링'
+    summary: ""
+    parent: vlpt-react-basic
+    url: /wiki/vlpt-react-basic-4-jsx-5-props-6-cond-render
+    updated: '2020-12-31 15:31:20 +0900'
+    children: []
+vlpt-react-basic-7-state-8-input:
+    type: wiki
+    title: '7. useState 를 통해 컴포넌트에서 바뀌는 값 관리하기 / 8-9. (여러개의) input 상태 관리하기'
+    summary: ""
+    parent: vlpt-react-basic
+    url: /wiki/vlpt-react-basic-7-state-8-input
+    updated: '2021-01-01 21:36:49 +0900'
     children: []
 vscode:
     type: wiki
