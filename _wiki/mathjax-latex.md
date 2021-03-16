@@ -1,5 +1,5 @@
 ---
-layout  : wiki
+layout  : article
 title   : MathJax로 LaTeX 사용하기
 summary :
 date    : 2017-11-28 22:56:29 +0900
