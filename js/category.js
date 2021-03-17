@@ -1,16 +1,16 @@
 (function() {
     function getTarget() {
-        var thisName = document.getElementById('thisName').value;
+        const thisName = document.getElementById('thisName').value;
         return thisName;
     }
 
     function getChildren(data) {
-        var thisName = getTarget();
-        var list = [];
+        const thisName = getTarget();
+        let list = [];
 
         Object.keys(data)
             .forEach(function(key) {
-                var item = data[key];
+                const item = data[key];
                 if (item.parent == thisName) {
                     item.url = `/${item.collection}/${key}`;
                     item.updated = item.updated.replace(/(^\d{4}.\d{2}.\d{2}).*/, '$1');
@@ -26,12 +26,12 @@
     }
 
     function getChildrenHTML(list) {
-        var children = '';
-        for (var i = 0; i < list.length; i++) {
-            var url = list[i].url;
-            var title = `<span>${list[i].title}</span>`
-            var date = `<div class="post-meta" style="float: right;">${list[i].updated}</div>`;
-            var summary = (list[i].summary) ? `<div class="post-excerpt"> - ${list[i].summary}</div>` : '';
+        let children = '';
+        for (let i = 0; i < list.length; i++) {
+            const url = list[i].url;
+            const title = `<span>${list[i].title}</span>`
+            const date = `<div class="post-meta" style="float: right;">${list[i].updated}</div>`;
+            const summary = (list[i].summary) ? `<div class="post-excerpt"> - ${list[i].summary}</div>` : '';
             children += `<li><a href="${url}" class="post-link">${title}${date}${summary}</a></li>`;
         }
         return children;
@@ -43,8 +43,8 @@
             if (resp.data == null) {
                 return;
             }
-            var list = getChildren(resp.data);
-            var html = getChildrenHTML(list);
+            const list = getChildren(resp.data);
+            const html = getChildrenHTML(list);
             document.getElementById('document-list').innerHTML = `<ul class="post-list">${html}</ul>`
 
             return;

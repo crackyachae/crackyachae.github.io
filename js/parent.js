@@ -1,18 +1,18 @@
 (function() {
     function getTarget() {
-        var thisName = document.getElementById('thisName').value;
+        const thisName = document.getElementById('thisName').value;
         return encodeURI(thisName);
     }
 
     function walkParents(data) {
-        var plist = [];
-        var target = getTarget();
+        let plist = [];
+        let target = getTarget();
 
-        for (var i = 0; i < 100; i++) {
+        for (let i = 0; i < 100; i++) {
             if (target == 'index') {
                 break;
             }
-            var next = data[target];
+            const next = data[target];
             if (!next || !next.parent || next.parent.length < 1) {
                 break;
             }
@@ -29,8 +29,8 @@
         if (plist == null || plist.length < 1) {
             return "";
         }
-        var pr = "상위 문서: "
-        for (var i = 0; i < plist.length; i++) {
+        let pr = "상위 문서: "
+        for (let i = 0; i < plist.length; i++) {
             pr += `<a href="${plist[i].url}">${plist[i].title}</a>`;
             if (i < plist.length - 1) {
                 pr += `<span> - </span>`;
@@ -44,7 +44,7 @@
             if (resp.data == null) {
                 return;
             }
-            var plist = walkParents(resp.data);
+            const plist = walkParents(resp.data);
             document.getElementById('parent-list').innerHTML = makeHTML(plist);
 
             return;
