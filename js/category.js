@@ -12,7 +12,7 @@
             .forEach(function(key) {
                 var item = data[key];
                 if (item.parent == thisName) {
-                    item.url = '/wiki/'.concat(key);
+                    item.url = `/${item.collection}/${key}`;
                     item.updated = item.updated.replace(/(^\d{4}.\d{2}.\d{2}).*/, '$1');
                     list.push(item);
                 }

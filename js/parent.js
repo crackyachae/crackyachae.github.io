@@ -13,12 +13,12 @@
                 break;
             }
             var next = data[target];
-            if (!next || !next['parent'] || next['parent'].length < 1) {
+            if (!next || !next.parent || next.parent.length < 1) {
                 break;
             }
-            next['url'] = '/wiki/'.concat(target)
+            next.url = `/${next.collection}/${target}`
             plist.unshift(next);
-            target = encodeURI(next['parent']);
+            target = encodeURI(next.parent);
         }
 
         plist.pop();

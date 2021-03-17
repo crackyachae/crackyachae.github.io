@@ -2,7 +2,9 @@
 layout: document
 ---
 
-{% assign thisName = page.id | remove: '/wiki/' %}
+{% assign thisPath = page.id | slice: 1, page.id.size | prepend: '_' %}
+{% assign pathChunk = page.id | split: "/" %}
+{% assign thisName = pathChunk[2] %}
 <input type="hidden" id="thisName" value="{{ thisName }}"/>
 <div class="post">
     <header class="post-header">
@@ -13,10 +15,10 @@ layout: document
         <p class="title-summary">{{ page.summary }}</p>
     {% endif %}
         <div class="history-button">
-            <p><a href="{{ site.blame }}/{{ thisName }}.md" target="_blank">created: {{ page.date | date: '%Y.%m.%d' }}</a></p>
-            <p><a href="{{ site.blame }}/{{ thisName }}.md" target="_blank">updated: {{ page.updated | date: '%Y.%m.%d' }}</a></p>
+            <p><a href="{{ site.blame }}/{{ thisPath }}.md" target="_blank">created: {{ page.date | date: '%Y.%m.%d' }}</a></p>
+            <p><a href="{{ site.blame }}/{{ thisPath }}.md" target="_blank">updated: {{ page.updated | date: '%Y.%m.%d' }}</a></p>
             <p>
-                <a href="{{ site.edit }}/{{ thisName }}.md">편집하기</a>
+                <a href="{{ site.edit }}/{{ thisPath }}.md">편집하기</a>
                 /
                 <a href="{{ site.issue }}?title={{ page.title | url_encode }}&body=의견을%20남겨주세요">의견 남기기</a>
             </p>
