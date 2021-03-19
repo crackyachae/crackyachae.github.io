@@ -10,7 +10,7 @@
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-{% assign documents = site.wiki | sort: 'updated' | reverse %}
+{% assign documents = site.documents | sort: 'updated' | reverse %}
 {% for doc in documents limit: 100 %}
     {% if doc.public == true and doc.title != 'wiki'%}
       <item>
