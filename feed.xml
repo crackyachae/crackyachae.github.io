@@ -12,7 +12,7 @@
     <generator>Jekyll v{{ jekyll.version }}</generator>
 {% assign documents = site.documents | sort: 'updated' | reverse %}
 {% for doc in documents limit: 100 %}
-    {% if doc.public == true and doc.title != 'wiki'%}
+    {% if doc.public == true and doc.layout != 'wikiindex'%}
       <item>
         <title>{{ doc.title | xml_escape }}</title>
         <description>{{ doc.summary | xml_escape }}</description>

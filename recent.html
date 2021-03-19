@@ -6,7 +6,7 @@ adsense: false
 <div id="app">
     <H3 class="indent">최근 변경된 문서</H3>
     <ul class="post-list">
-{% for doc in documents %}{% if doc.public != false and doc.title != 'wiki' %}
+{% for doc in documents %}{% if doc.public != false and doc.layout != 'wikiindex' %}
         <li>
             <div>
                 <a class="post-link" href="{{ doc.url }}">

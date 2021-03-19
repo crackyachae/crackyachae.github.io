@@ -2,7 +2,7 @@
 ---
 {% assign documents = site.documents | sort: 'url' %}
 {
-{% for doc in documents %}{% if doc.public == true and doc.title != 'wiki'%}{% assign urlChunk = doc.url | split: "/" %}{% assign name = urlChunk[2] %}
+{% for doc in documents %}{% if doc.public == true and doc.layout != 'wikiindex'%}{% assign urlChunk = doc.url | split: "/" %}{% assign name = urlChunk[2] %}
 "{{ name }}":{
     "collection":"{{ doc.collection }}",
     "title":"{{ doc.title }}", {% if doc.summary %} "\n""summary":"{{ doc.summary }}",{% endif %}

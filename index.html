@@ -40,7 +40,7 @@ regenerate: true
     <ul class="post-list">
 {% assign documents = site.documents | sort: 'updated' | reverse %}
 {% for doc in documents limit: 30 %}
-    {% if doc.public == true and doc.title != 'wiki'%}
+    {% if doc.public == true and doc.layout != 'wikiindex'%}
         <li>
             <div>
                 <a class="post-link" href="{{ doc.url | prepend: site.baseurl }}">
