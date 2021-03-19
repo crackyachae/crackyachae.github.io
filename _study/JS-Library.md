@@ -10,5 +10,3 @@ public  : true
 parent  : [[index-s]]
 latex   : false
 ---
-* TOC
-{:toc}

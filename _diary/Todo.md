@@ -10,6 +10,3 @@ public  : true
 parent  : [[index-d]]
 latex   : false
 ---
-* TOC
-{:toc}
-
