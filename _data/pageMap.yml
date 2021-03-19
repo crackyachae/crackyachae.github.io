@@ -1,5 +1,5 @@
 how-to:
-    type: wiki
+    type: article
     title: 'HOW TO'
     summary: null
     parent: index
@@ -7,7 +7,7 @@ how-to:
     updated: '2018-02-04 15:57:05 +0900'
     children: [mathjax-latex]
 index:
-    type: wiki
+    type: article
     title: wiki
     summary: null
     parent: null
@@ -15,7 +15,7 @@ index:
     updated: null
     children: []
 mathjax-latex:
-    type: wiki
+    type: article
     title: 'MathJax로 LaTeX 사용하기'
     summary: null
     parent: how-to

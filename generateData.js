@@ -2,10 +2,12 @@
 
 const YAML = require('yamljs');
 const fs = require('fs');
-const path = './_wiki'
+const collections = ['wiki'];
 const list = [];
 
-getFiles('./_wiki', 'wiki', list);
+for (const col of collections) {
+  getFiles(`./_${col}`, 'article', list);
+}
 getFiles('./_posts', 'blog', list);
 
 const dataList = list.map(function collectData(file) {
@@ -209,8 +211,12 @@ function parseInfo(file, info) {
     if (file.type === 'blog') {
         obj.url = '/blog/' + obj.date.replace(/^(\d{4})-(\d{2})-(\d{2}).*$/, '$1/$2/$3/');
         obj.url += obj.fileName.replace(/^(\d{4}-\d{2}-\d{2}-)?(.*)$/, '$2');
-    } else if (file.type === 'wiki') {
-        obj.url = '/wiki/' + obj.fileName;
+    } else {
+        for (const col of collections) {
+            if (file.type === "article") {
+                obj.url = `/${col}/${obj.fileName}`;
+            }
+        }
     }
 
     if (obj.tag) {
