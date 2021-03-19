@@ -1,18 +1,26 @@
 navigation:
     - {fileName: Blog}
+    - {fileName: boj}
+    - {fileName: codeup}
     - {fileName: CS-Basic}
+    - {fileName: css}
     - {fileName: Git}
     - {fileName: JavaScript}
     - {fileName: JS-Library}
     - {fileName: Mathematics}
     - {fileName: Problem-Solving}
+    - {fileName: react}
     - {fileName: Style-Sheet}
     - {fileName: System}
+    - {fileName: terminal}
     - {fileName: Thesia}
     - {fileName: Thought}
     - {fileName: TIL}
+    - {fileName: til-2020}
     - {fileName: Tistory-Skin}
     - {fileName: Todo}
     - {fileName: Tools}
     - {fileName: Toy}
+    - {fileName: vim}
+    - {fileName: vscode}
     - {fileName: Web-Basic}

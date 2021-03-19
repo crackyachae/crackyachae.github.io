@@ -85,7 +85,7 @@ regenerate: true
 ## [[JS-Library]]
 * js-library-links
 
-### react
+### [[react]]
 * react-links
 
 #### opent-react
@@ -126,16 +126,16 @@ regenerate: true
 ## [[Problem-Solving]]
 * problem-solving-links
 
-### boj
+### [[boj]]
 * boj-set-py-basic
 * boj-set-js-basic
 
-### codeup
+### [[codeup]]
 * codeup-set-py-basic
 
 ## [[Style-Sheet]]
 
-### css
+### [[css]]
 * css-links
 
 ### opent-client-css
@@ -157,16 +157,16 @@ regenerate: true
 
 ## [[Tools]]
 
-### terminal
+### [[terminal]]
 
 #### opent-posix1-cli
 * opent-posix1-cli-lec
 
-### vim
+### [[vim]]
 * vim-links
 * vim-learning
 
-### vscode
+### [[vscode]]
 * vscode-links
 
 #### vscode-docs
