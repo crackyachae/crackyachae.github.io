@@ -2,7 +2,7 @@
 
 const YAML = require('yamljs');
 const fs = require('fs');
-const collections = ['wiki'];
+const collections = ['study'];
 const list = [];
 
 for (const col of collections) {

@@ -32,7 +32,7 @@ paginate_path: "/blog/page:num/"
 
 # Collections
 collections:
-    wiki:
+    study:
         output: true
         permalink: /:collection/:path/
 

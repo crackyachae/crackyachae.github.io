@@ -1,6 +1,6 @@
 ---
 layout  : wikiindex
-title   : wiki
+title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
