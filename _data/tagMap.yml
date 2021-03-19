@@ -1,4 +1,18 @@
-how-to:
-    - {fileName: how-to}
-latex:
-    - {fileName: mathjax-latex}
+navigation:
+    - {fileName: Blog}
+    - {fileName: CS-Basic}
+    - {fileName: Git}
+    - {fileName: JavaScript}
+    - {fileName: JS-Library}
+    - {fileName: Mathematics}
+    - {fileName: Problem-Solving}
+    - {fileName: Style-Sheet}
+    - {fileName: System}
+    - {fileName: Thesia}
+    - {fileName: Thought}
+    - {fileName: TIL}
+    - {fileName: Tistory-Skin}
+    - {fileName: Todo}
+    - {fileName: Tools}
+    - {fileName: Toy}
+    - {fileName: Web-Basic}

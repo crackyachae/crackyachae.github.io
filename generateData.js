@@ -2,7 +2,7 @@
 
 const YAML = require('yamljs');
 const fs = require('fs');
-const collections = ['study'];
+const collections = ['study', 'diary', 'project'];
 const list = [];
 
 for (const col of collections) {

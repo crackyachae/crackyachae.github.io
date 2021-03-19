@@ -71,14 +71,13 @@
     <div>
         <a id="random-button" class="site-title-right" href="/study/index/#random" onClick="if(typeof random === 'function')random()">random</a>
     </div>
-{% for col in site.collections reversed %}
-  {% if col.label == "posts" %}
-    {% continue %}
-  {% else %}
+{% for col in site.collections reverse %}
+{% assign trail = col.label | slice: 0 %}
+    {% if col.label != "posts" %}
     <div>
-        <a class="site-title-right" href="{{ col.label | prepend: "/" | append: "/index/" }}">{{ col.label }}</a>
+        <a class="site-title-right" href="{{ col.label | prepend: "/" | append: "/index-" | append: trail | append: "/" }}">{{ col.label }}</a>
     </div>
-  {% endif %}
+    {% endif %}
 {% endfor %}
 </header>
 <script>

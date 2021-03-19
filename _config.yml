@@ -35,6 +35,12 @@ collections:
     study:
         output: true
         permalink: /:collection/:path/
+    diary:
+        output: true
+        permalink: /:collection/:path/
+    project:
+        output: true
+        permalink: /:collection/:path/
 
 # Comment Service
 disqus:
