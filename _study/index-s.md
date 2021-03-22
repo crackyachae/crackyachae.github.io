@@ -127,11 +127,11 @@ regenerate: true
 * problem-solving-links
 
 ### [[boj]]
-* boj-set-py-basic
+* [[boj-set-py-basic]]
 * boj-set-js-basic
 
 ### [[codeup]]
-* codeup-set-py-basic
+* [[codeup-set-py-basic]]
 
 ## [[Style-Sheet]]
 
@@ -177,6 +177,7 @@ regenerate: true
 #### vscode-ext
 * vscode-ext-auto-close-tag
 * vscode-ext-auto-rename-tag
+* [[vscode-ext-markdownlint]]
 
 ## [[Web-Basic]]
 

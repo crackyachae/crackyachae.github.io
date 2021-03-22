@@ -23,4 +23,17 @@ navigation:
     - {fileName: Toy}
     - {fileName: vim}
     - {fileName: vscode}
+    - {fileName: vscode-ext}
     - {fileName: Web-Basic}
+ps-python:
+    - {fileName: boj-set-py-basic}
+    - {fileName: codeup-set-py-basic}
+ps-javascript:
+    - {fileName: codeup-set-py-basic}
+docs:
+    - {fileName: vscode-docs}
+    - {fileName: vscode-ext}
+markdown:
+    - {fileName: vscode-ext-markdownlint}
+lint:
+    - {fileName: vscode-ext-markdownlint}

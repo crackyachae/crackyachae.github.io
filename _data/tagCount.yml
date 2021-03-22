@@ -1,3 +1,18 @@
 -
+    name: docs
+    size: 2
+-
+    name: lint
+    size: 1
+-
+    name: markdown
+    size: 1
+-
     name: navigation
-    size: 25
+    size: 26
+-
+    name: ps-javascript
+    size: 1
+-
+    name: ps-python
+    size: 2

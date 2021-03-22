@@ -13,6 +13,14 @@ boj:
     parent: Problem-Solving
     url: /project/boj
     updated: '2021-03-02 11:06:13 +0900'
+    children: [boj-set-py-basic]
+boj-set-py-basic:
+    type: article
+    title: 'BOJ_Python 배우기 (1~50)'
+    summary: 'BOJ 기본문제를 파이썬으로 풀어보자'
+    parent: boj
+    url: /project/boj-set-py-basic
+    updated: '2021-03-05 18:16:33 +0900'
     children: []
 codeup:
     type: article
@@ -21,6 +29,14 @@ codeup:
     parent: Problem-Solving
     url: /project/codeup
     updated: '2021-02-09 22:44:50 +0900'
+    children: [codeup-set-py-basic]
+codeup-set-py-basic:
+    type: article
+    title: 'CodeUp_Python 기초 100제 (6001~6098)'
+    summary: 'CodeUp 기초 100제를 파이썬과 자바스크립트로 풀어보자'
+    parent: codeup
+    url: /project/codeup-set-py-basic
+    updated: '2021-03-05 17:56:02 +0900'
     children: []
 CS-Basic:
     type: article
@@ -213,6 +229,30 @@ vscode:
     parent: Tools
     url: /project/vscode
     updated: '2020-04-02 21:38:45 +0900'
+    children: [vscode-docs, vscode-ext]
+vscode-docs:
+    type: article
+    title: 'Documentation for Visual Studio Code'
+    summary: '읽을 때 마다 조금씩 번역해보는 VS Code 공식 안내서'
+    parent: vscode
+    url: /project/vscode-docs
+    updated: '2020-04-03 23:48:59 +0900'
+    children: []
+vscode-ext:
+    type: article
+    title: 'Extensions for Visual Studio Code'
+    summary: '사용할 때 마다 조금씩 번역해보는 VS Code 확장프로그램 소개 페이지'
+    parent: vscode
+    url: /project/vscode-ext
+    updated: '2020-04-05 17:08:01 +0900'
+    children: [vscode-ext-markdownlint]
+vscode-ext-markdownlint:
+    type: article
+    title: markdownlint
+    summary: ""
+    parent: vscode-ext
+    url: /project/vscode-ext-markdownlint
+    updated: '2021-03-22 23:07:47 +0900'
     children: []
 Web-Basic:
     type: article
