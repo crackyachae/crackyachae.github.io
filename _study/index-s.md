@@ -8,11 +8,13 @@ regenerate: true
 ---
 
 ## [[Blog]]
+
 * markdown
 
 ## [[CS-Basic]]
 
 ### harvardx-cs50s-intro
+
 * harvardx-cs50s-intro-0-scratch
 * harvardx-cs50s-intro-1-c
 * harvardx-cs50s-intro-2-array
@@ -26,9 +28,11 @@ regenerate: true
 ### smu-data-structure
 
 ## [[Git]]
+
 * git-memos
 
 ### opent-git-cli
+
 * opent-git1-cli
 * opent-git2-cli-version-control
 * opent-git3-cli-backup
@@ -36,12 +40,15 @@ regenerate: true
 * opent-git4-cli-cherry-pick-rebase
 
 ### opent-github
+
 * opent-github-lec]]
 
 ## [[JavaScript]]
+
 * javascript-links
 
 ### opent-web2-js
+
 * opent-web2-js-1-intro
 * opent-web2-js-2-html-meet-js
 * opent-web2-js-5-datatype-6-var
@@ -57,6 +64,7 @@ regenerate: true
 * opent-web2-js-29-ui-api-30-end
 
 ### opent-client-web-js
+
 * opent-client-web-js-1-webjs-3-js-in-html
 * opent-client-web-js-4-object-model
 * opent-client-web-js-5-bom
@@ -66,6 +74,7 @@ regenerate: true
 * opent-client-web-js-6-dom-4
 
 ### flanagan-js-def-guide
+
 * flanagan-js-def-guide-1-intro
 * flanagan-js-def-guide-2-lexical-struct
 * flanagan-js-def-guide-3-type-val-var
@@ -73,6 +82,7 @@ regenerate: true
 * flanagan-js-def-guide-8-fnc
 
 ### mdn-async-js
+
 * mdn-async-js-1-general-async
 * mdn-async-js-2-intro-async-js
 * mdn-async-js-3-timeout-interval
@@ -80,15 +90,19 @@ regenerate: true
 * mdn-async-js-5-async-await
 
 ### mdn-js-ref
+
 * mdn-js-ref-template-literal
 
 ## [[JS-Library]]
+
 * js-library-links
 
 ### [[react]]
+
 * react-links
 
 #### opent-react
+
 * opent-react-1-env
 * opent-react-2-component
 * opent-react-3-state
@@ -98,6 +112,7 @@ regenerate: true
 * opent-react-7-end.md
 
 #### vlpt-react
+
 * vlpt-react-basic
     * vlpt-react-basic-4-jsx-5-props-6-cond-render
     * vlpt-react-basic-7-state-8-input
@@ -110,6 +125,7 @@ regenerate: true
 ## [[Mathematics]]
 
 ### hyu-linear-algebra
+
 * hyu-linear-algebra-2-3-linear-independence
 * hyu-linear-algebra-2-4-four-subspaces
 * hyu-linear-algebra-2-6-linear-transformations
@@ -124,21 +140,26 @@ regenerate: true
 * hyu-linear-algebra-5-5-complex-matrix
 
 ## [[Problem-Solving]]
+
 * problem-solving-links
 
 ### [[boj]]
+
 * [[boj-set-py-basic]]
 * boj-set-js-basic
 
 ### [[codeup]]
+
 * [[codeup-set-py-basic]]
 
 ## [[Style-Sheet]]
 
 ### [[css]]
+
 * css-links
 
 ### opent-client-css
+
 * opent-client-css-1-intro
 * opent-client-css-3-meet-html
 * opent-client-css-4-selector
@@ -160,21 +181,26 @@ regenerate: true
 ### [[terminal]]
 
 #### opent-posix1-cli
+
 * opent-posix1-cli-lec
 
 ### [[vim]]
+
 * vim-links
 * vim-learning
 
 ### [[vscode]]
+
 * vscode-links
 
 #### vscode-docs
+
 * vscode-docs-getstarted-settings
     * vscode-docs-getstarted-settings-default
 * vscode-docs-editor-codebasics
 
 #### vscode-ext
+
 * vscode-ext-auto-close-tag
 * vscode-ext-auto-rename-tag
 * [[vscode-ext-markdownlint]]
@@ -184,7 +210,9 @@ regenerate: true
 ### mdn-getting-started-web
 
 {% comment %}
+
 ## blog posts
+
 <div>
     <ul>
 {% for post in site.posts %}

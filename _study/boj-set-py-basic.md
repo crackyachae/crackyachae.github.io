@@ -115,7 +115,7 @@ print(n*m-1)
 ```
 
 * m x n 초콜릿일 때 자르는 횟수
-  * $(m-1) + (n-1) \times m = (n-1) + (m-1) \times n = nm - 1$
+    * $(m-1) + (n-1) \times m = (n-1) + (m-1) \times n = nm - 1$
 
 ## 11021 A+B - 7
 

@@ -14,6 +14,7 @@ regenerate: true
 ## [[TIL]]
 
 ### [[til-2020]]
+
 * til-2020-03-1h
 * til-2020-03-2h
 * til-2020-04-1h
@@ -36,6 +37,7 @@ regenerate: true
 * til-2020-12-2h
 
 ### til-2021
+
 * til-2021-01-1h
 * til-2021-01-2h
 * til-2021-02-1h
@@ -46,4 +48,5 @@ regenerate: true
 ## [[Todo]]
 
 ### todo-2020
+
 * todo-done-2020

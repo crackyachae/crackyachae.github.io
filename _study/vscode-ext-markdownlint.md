@@ -208,7 +208,7 @@ markdownlint가 설치된 Code에서 마크다운 파일을 수정하면 markdow
 #### `MD033` - Inline HTML
 
 * 문서에서 raw HTML을 사용하면 안 된다.
-  * 특정 HTML 요소를 사용하고 싶다면 '`allowed_elements`' 파라미터를 사용해 추가한다.
+    * 특정 HTML 요소를 사용하고 싶다면 '`allowed_elements`' 파라미터를 사용해 추가한다.
 * Aliases: `no-inline-htm`l
 * Parameters: `allowed_element`s (`array of string`; default `empty`)
 

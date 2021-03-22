@@ -75,7 +75,7 @@ print("'Hello'")
 ```
 
 * 문자열을 나타내는데 작은따옴표와 큰따옴표 모두 쓸 수 있으며 쌍으로 인식하기 때문에 문자열 안에 작은따옴표가 들어가면 큰따옴표로 감싸주면 된다.
-  * [Single and Double Quotes | Python](https://www.geeksforgeeks.org/single-and-double-quotes-python/) by GeeksforGeeks
+    * [Single and Double Quotes | Python](https://www.geeksforgeeks.org/single-and-double-quotes-python/) by GeeksforGeeks
 
 ```js
 console.log("'Hello'")
@@ -300,7 +300,7 @@ print(f"{a}\n{a}\n{a}")
 ```
 
 * 두 번째 것 실행시켜보면 잘 되는데 계속 통과가 안 됐다.
-  * 코드업에서 채점을 python 3.5로 해서 그런 것 같다. 포맷 문자열은 python 3.6부터 사용할 수 있는 기능.
+    * 코드업에서 채점을 python 3.5로 해서 그런 것 같다. 포맷 문자열은 python 3.6부터 사용할 수 있는 기능.
 
 ```js
 // I/O Template
@@ -327,10 +327,10 @@ console.log(+b);
 ```
 
 * 파이썬 `split()` 함수에서 구분자로 아무것도 입력하지 않을 때 기본 구분자(separator)는 공백이지만 자바스크립트는 구분자로 아무것도 입력하지 않으면 입력한 문자열 전체를 한 개의 원소로 갖는 배열을 반환하기 때문에 주의해야 한다.
-  * [String.prototype.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) by MDN references
+    * [String.prototype.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) by MDN references
 * 파이썬과 비슷하게 구조분해 문법을 사용해서 각 상수에 값을 나눠받을 수 있다.
-  * [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) by MDN references
-  * [06. 비구조화 할당 (구조분해) 문법](https://learnjs.vlpt.us/useful/06-destructuring.html) by 벨로퍼트와 함께하는 모던 자바스크립트
+    * [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) by MDN references
+    * [06. 비구조화 할당 (구조분해) 문법](https://learnjs.vlpt.us/useful/06-destructuring.html) by 벨로퍼트와 함께하는 모던 자바스크립트
 
 ## 6016
 
@@ -354,7 +354,7 @@ print(a, a, a)
 ```
 
 * `print()` 함수는 기본적으로 인자(argument) 사이에 공백을 추가한다.
-  * [7.1.3. Manual String Formatting](https://docs.python.org/ko/3/tutorial/inputoutput.html#manual-string-formatting) by Python Tutorial
+    * [7.1.3. Manual String Formatting](https://docs.python.org/ko/3/tutorial/inputoutput.html#manual-string-formatting) by Python Tutorial
 
 ```js
 // I/O Template
@@ -369,7 +369,7 @@ print(a, b, sep=':')
 ```
 
 * 출력하는 인자 사이의 문자를 공백에서 바꾸려면 원하는 문자를 `sep` 값으로 넘겨준다.
-  * [input()](https://docs.python.org/3/library/functions.html)
+    * [input()](https://docs.python.org/3/library/functions.html)
 
 ```js
 // I/O Template
@@ -378,7 +378,7 @@ console.log(time.join(":"));
 ```
 
 * `join()`을 이용해서 배열의 원소들을 하나의 문자열로 합칠 수 있다.
-  * [Array.prototype.join()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join) by MDN references
+    * [Array.prototype.join()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join) by MDN references
 
 ## 6019
 
@@ -445,9 +445,9 @@ print(d[0:2], d[2:4], d[4:6])
 ```
 
 * `slice` 문법을 사용해서 원하는 범위의 원소만 받아올 수 있다.
-  * [slice()](https://docs.python.org/3/library/functions.html?highlight=slice#slice)
-  * [Understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation) by stackoverflow
-  * [[Python] 파이썬 슬라이싱(slicing) 기본과 예제](https://twpower.github.io/119-python-list-slicing-examples) by TWpower's Tech Blog
+    * [slice()](https://docs.python.org/3/library/functions.html?highlight=slice#slice)
+    * [Understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation) by stackoverflow
+    * [[Python] 파이썬 슬라이싱(slicing) 기본과 예제](https://twpower.github.io/119-python-list-slicing-examples) by TWpower's Tech Blog
 
 ```js
 // I/O Template
@@ -535,10 +535,10 @@ print(hex)
 ```
 
 * 모범 답안에서 제시된 방법은 오래된 문법 이어서 아래의 `str.format`을 사용할 것을 권장하고있다.
-  * [printf-style String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
-  * [str.format](https://docs.python.org/3/library/stdtypes.html#str.format)
-    * [Format String Syntax](https://docs.python.org/3/library/string.html#formatstrings)
-  * [format()](https://docs.python.org/3/library/functions.html#format)
+    * [printf-style String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+    * [str.format](https://docs.python.org/3/library/stdtypes.html#str.format)
+        * [Format String Syntax](https://docs.python.org/3/library/string.html#formatstrings)
+    * [format()](https://docs.python.org/3/library/functions.html#format)
 * [[파이썬] 2진수, 8진수, 16진수 다루기](https://www.daleseo.com/python-int-bases/) by Dale Seo
 
 ```js
@@ -973,7 +973,7 @@ console.log(Boolean(n));
 ```
 
 * `!!`를 사용해서 boolean으로 바꿀 수도 있다.
-  * [2 Ways to Convert Values to Boolean in JavaScript](https://www.samanthaming.com/tidbits/19-2-ways-to-convert-to-boolean/)
+    * [2 Ways to Convert Values to Boolean in JavaScript](https://www.samanthaming.com/tidbits/19-2-ways-to-convert-to-boolean/)
 
 ## 6053
 
@@ -1481,8 +1481,8 @@ console.log(word.join(" "));
 ```
 
 * 개행없이 터미널에 출력하고 싶으면 `process.stdout.write()`를 사용한다.
-  * [How to print console without trailing newline in Node.js ?](https://www.geeksforgeeks.org/how-to-print-console-without-trailing-newline-in-node-js/) by GeeksforGeeks
-  * [Difference between process.stdout.write and console.log in NodeJS](https://www.geeksforgeeks.org/difference-between-process-stdout-write-and-console-log-in-nodejs/) by GeeksforGeeks
+    * [How to print console without trailing newline in Node.js ?](https://www.geeksforgeeks.org/how-to-print-console-without-trailing-newline-in-node-js/) by GeeksforGeeks
+    * [Difference between process.stdout.write and console.log in NodeJS](https://www.geeksforgeeks.org/difference-between-process-stdout-write-and-console-log-in-nodejs/) by GeeksforGeeks
 * 파이썬처럼 `end`를 지정할 수 있는 것 같지는 않다.
 
 ## 6075
@@ -2147,7 +2147,7 @@ rl.on("line", (line) => {
 
 * [JavaScript Pitfalls & Tips: 2D Array, Matrix](https://sanori.github.io/2019/05/JavaScript-Pitfalls-Tips-2D-Array-Matrix/) by Sanori's Blog
 * 대소비교나 연산 과정에서 자동으로 문자에서 숫자로 변환되는 것 같은데 변환을 명시하는게 좋을지 아니면 자동으로 변환되는 것을 이용하는게 좋을지 모르겠다.
-  * e.g. `i < input[0]`이나 `g[x - 1][y - 1]` 으로만 적어도 숫자로 변환해 인식하는 것 같다.
+    * e.g. `i < input[0]`이나 `g[x - 1][y - 1]` 으로만 적어도 숫자로 변환해 인식하는 것 같다.
 
 ## 6096
 
