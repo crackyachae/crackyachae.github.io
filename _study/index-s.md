@@ -152,6 +152,10 @@ regenerate: true
 
 * [[codeup-set-py-basic]]
 
+## [[Python]]
+
+* python-links
+
 ## [[Style-Sheet]]
 
 ### [[css]]

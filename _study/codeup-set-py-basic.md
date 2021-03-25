@@ -317,7 +317,7 @@ print(a)
 print(b)
 ```
 
-* [str.split](https://docs.python.org/ko/3/library/stdtypes.html#str.split)
+* [str.split](https://docs.python.org/ko/3/library/stdtypes.html#str.split) by Python Documentation
 
 ```js
 // I/O Template
@@ -369,7 +369,7 @@ print(a, b, sep=':')
 ```
 
 * 출력하는 인자 사이의 문자를 공백에서 바꾸려면 원하는 문자를 `sep` 값으로 넘겨준다.
-    * [input()](https://docs.python.org/3/library/functions.html)
+    * [input()](https://docs.python.org/3/library/functions.html) by Python Documentation
 
 ```js
 // I/O Template
@@ -378,7 +378,7 @@ console.log(time.join(":"));
 ```
 
 * `join()`을 이용해서 배열의 원소들을 하나의 문자열로 합칠 수 있다.
-    * [Array.prototype.join()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join) by MDN references
+    * [Array.prototype.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) by MDN references
 
 ## 6019
 
@@ -444,8 +444,8 @@ d = input()
 print(d[0:2], d[2:4], d[4:6])
 ```
 
-* `slice` 문법을 사용해서 원하는 범위의 원소만 받아올 수 있다.
-    * [slice()](https://docs.python.org/3/library/functions.html?highlight=slice#slice)
+* `slice` 문법을 사용해서 원하는 범위의 원소만 받아올 수 있다: `s[start : end : step]`
+    * [slice()](https://docs.python.org/3/library/functions.html?highlight=slice#slice) by Python Documentation
     * [Understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation) by stackoverflow
     * [[Python] 파이썬 슬라이싱(slicing) 기본과 예제](https://twpower.github.io/119-python-list-slicing-examples) by TWpower's Tech Blog
 
@@ -457,7 +457,7 @@ const d = line.slice(4, 6);
 console.log(y, m, d);
 ```
 
-* [Array.prototype.slice()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+* [Array.prototype.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) by MDN references
 
 ## 6023
 
@@ -535,6 +535,7 @@ print(hex)
 ```
 
 * 모범 답안에서 제시된 방법은 오래된 문법 이어서 아래의 `str.format`을 사용할 것을 권장하고있다.
+* Python Documentation
     * [printf-style String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
     * [str.format](https://docs.python.org/3/library/stdtypes.html#str.format)
         * [Format String Syntax](https://docs.python.org/3/library/string.html#formatstrings)
@@ -547,7 +548,8 @@ const hex = (+line).toString(16);
 console.log(hex);
 ```
 
-* [Number.prototype.toString()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/toString) by MDN references
+* `toString`에서 `radix`(진수를 나타내는 기수의 값)를 인자로 전달해 변환할 수 있다.
+    * [Number.prototype.toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString) by MDN references
 
 ## 6028
 
@@ -597,7 +599,7 @@ n = ord(input())
 print(n)
 ```
 
-* [ord()](https://docs.python.org/3/library/functions.html#ord)
+* [ord()](https://docs.python.org/3/library/functions.html#ord) by Python Documentation
 
 ```js
 // I/O Template
@@ -735,7 +737,7 @@ a, b = input().split()
 print(int(a)**int(b))
 ```
 
-* [Numeric Types](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)
+* [Numeric Types](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) by Python Documentation
 
 ```js
 // I/O Template
@@ -777,8 +779,8 @@ const div = Math.floor(+a / +b);
 console.log(div);
 ```
 
-* [Division](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Division)
-* [Math.floor()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+* [Division](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Division) by MDN references
+* [Math.floor()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor) by MDN references
 
 ## 6041
 
@@ -1844,7 +1846,7 @@ for i in range(2, n + 1):
 print(s)
 ```
 
-* 실제로 `a`에 `d`를 처음 합한 수는 두 번째 항이기 때문에 `range` 범위를 2 ~ n으로 잡은 것 같다.
+* 실제로 `a`에 `d`를 처음 합한 수는 두 번째 항이기 때문에 모범답안에서 `range` 범위를 2 ~ n으로 잡은 것 같다.
 
 ```js
 // I/O Template
@@ -1869,7 +1871,7 @@ for i in range(2, n + 1):
 print(a)
 ```
 
-* 이번엔 모범답안 `range` 1 ~ n - 1로 잡았네...
+* 이번문제는 모범답안을  `range` 1 ~ n - 1로 잡았다. 기준이 뭔지 모르겠다.
 
 ```js
 // I/O Template
@@ -1969,8 +1971,8 @@ for i in range(1, 24) :
   print(d[i], end=' ')
 ```
 
-* `split()`의 결과를 변수 한 개로 받으면 구분된 값들의 list로 저장된다.
-* [Python – Initialize empty array of given length](https://www.geeksforgeeks.org/python-initialize-empty-array-of-given-length/)
+* `split()`의 결과를 변수 한 개로 받으면 구분된 값들의 리스트로 저장된다.
+* [Python – Initialize empty array of given length](https://www.geeksforgeeks.org/python-initialize-empty-array-of-given-length/) by GeeksforGeeks
 
 ```js
 const readline = require("readline");

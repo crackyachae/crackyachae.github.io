@@ -85,7 +85,7 @@ index-s:
     parent: null
     url: /project/index-s
     updated: null
-    children: [Blog, CS-Basic, Git, JavaScript, JS-Library, Mathematics, Problem-Solving, Style-Sheet, Tools, Web-Basic]
+    children: [Blog, CS-Basic, Git, JavaScript, JS-Library, Mathematics, Problem-Solving, Python, Style-Sheet, Tools, Web-Basic]
 JavaScript:
     type: article
     title: JavaScript
@@ -118,6 +118,14 @@ Problem-Solving:
     url: /project/Problem-Solving
     updated: '2021-02-09 22:22:33 +0900'
     children: [boj, codeup]
+Python:
+    type: article
+    title: Python
+    summary: null
+    parent: index-s
+    url: /project/Python
+    updated: '2021-03-24 17:44:34 +0900'
+    children: []
 react:
     type: article
     title: React

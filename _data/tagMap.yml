@@ -9,6 +9,7 @@ navigation:
     - {fileName: JS-Library}
     - {fileName: Mathematics}
     - {fileName: Problem-Solving}
+    - {fileName: Python}
     - {fileName: react}
     - {fileName: Style-Sheet}
     - {fileName: System}
