@@ -20,7 +20,7 @@ boj-set-py-basic:
     summary: 'BOJ 기본문제를 파이썬으로 풀어보자'
     parent: boj
     url: /project/boj-set-py-basic
-    updated: '2021-03-05 18:16:33 +0900'
+    updated: '2021-03-27 17:49:45 +0900'
     children: []
 codeup:
     type: article
