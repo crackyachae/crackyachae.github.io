@@ -1,5 +1,5 @@
 ---
-layout  : category
+layout  : overview
 title   : Velopert_벨로퍼트와 함께하는 모던 React
 summary : 
 date    : 2020-12-30 23:43:40 +0900

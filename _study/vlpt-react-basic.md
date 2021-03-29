@@ -1,5 +1,5 @@
 ---
-layout  : category
+layout  : overview
 title   : 1장. 리액트 입문
 summary : 
 date    : 2020-12-30 23:44:39 +0900
