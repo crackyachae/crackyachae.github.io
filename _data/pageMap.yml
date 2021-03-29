@@ -2,7 +2,7 @@ Blog:
     type: article
     title: Blog
     summary: ""
-    parent: index-s
+    parent: index-st
     url: /project/Blog
     updated: '2020-07-28 18:30:37 +0900'
     children: []
@@ -42,7 +42,7 @@ CS-Basic:
     type: article
     title: 'CS Basic'
     summary: ""
-    parent: index-s
+    parent: index-st
     url: /project/CS-Basic
     updated: '2020-04-19 15:57:47 +0900'
     children: []
@@ -58,39 +58,39 @@ Git:
     type: article
     title: Git
     summary: null
-    parent: index-s
+    parent: index-st
     url: /project/Git
     updated: '2020-04-30 00:19:04 +0900'
     children: []
-index-d:
+index-di:
     type: article
     title: '기록을 합니다'
     summary: null
     parent: null
-    url: /project/index-d
+    url: /project/index-di
     updated: null
     children: [System, Thought, TIL, Todo]
-index-p:
+index-pr:
     type: article
     title: '프로젝트를 합니다'
     summary: null
     parent: null
-    url: /project/index-p
+    url: /project/index-pr
     updated: null
     children: [Thesia, Tistory-Skin, Toy]
-index-s:
+index-st:
     type: article
     title: '공부를 합니다'
     summary: null
     parent: null
-    url: /project/index-s
+    url: /project/index-st
     updated: null
     children: [Blog, CS-Basic, Git, JavaScript, JS-Library, Mathematics, Problem-Solving, Python, Style-Sheet, Tools, Web-Basic]
 JavaScript:
     type: article
     title: JavaScript
     summary: ""
-    parent: index-s
+    parent: index-st
     url: /project/JavaScript
     updated: '2020-05-08 14:58:59 +0900'
     children: []
@@ -98,7 +98,7 @@ JS-Library:
     type: article
     title: 'JavaScript Library'
     summary: ""
-    parent: index-s
+    parent: index-st
     url: /project/JS-Library
     updated: '2020-11-27 16:16:37 +0900'
     children: [react]
@@ -106,7 +106,7 @@ Mathematics:
     type: article
     title: Mathematics
     summary: ""
-    parent: index-s
+    parent: index-st
     url: /project/Mathematics
     updated: '2020-03-22 20:54:48 +0900'
     children: []
@@ -114,7 +114,7 @@ Problem-Solving:
     type: article
     title: 'Problem Solving'
     summary: ""
-    parent: index-s
+    parent: index-st
     url: /project/Problem-Solving
     updated: '2021-02-09 22:22:33 +0900'
     children: [boj, codeup]
@@ -122,7 +122,7 @@ Python:
     type: article
     title: Python
     summary: null
-    parent: index-s
+    parent: index-st
     url: /project/Python
     updated: '2021-03-24 17:44:34 +0900'
     children: []
@@ -138,7 +138,7 @@ Style-Sheet:
     type: article
     title: 'Style Sheet'
     summary: ""
-    parent: index-s
+    parent: index-st
     url: /project/Style-Sheet
     updated: '2021-03-15 15:11:51 +0900'
     children: [css]
@@ -146,7 +146,7 @@ System:
     type: article
     title: System
     summary: '체계를 만들자! 더 확실하게, 더 빠르게, 더 편하게 할 수 있도록.'
-    parent: index-d
+    parent: index-di
     url: /project/System
     updated: '2021-03-27 20:07:20 +0900'
     children: [system-blog]
@@ -170,7 +170,7 @@ Thesia:
     type: article
     title: Thesia
     summary: ""
-    parent: index-p
+    parent: index-pr
     url: /project/Thesia
     updated: '2020-11-28 16:10:48 +0900'
     children: []
@@ -178,7 +178,7 @@ Thought:
     type: article
     title: Thought
     summary: ""
-    parent: index-d
+    parent: index-di
     url: /project/Thought
     updated: '2020-03-21 13:43:58 +0900'
     children: []
@@ -186,7 +186,7 @@ TIL:
     type: article
     title: 'TIL (Today I Learned)'
     summary: ""
-    parent: index-d
+    parent: index-di
     url: /project/TIL
     updated: '2020-02-27 22:49:13 +0900'
     children: [til-2020]
@@ -202,7 +202,7 @@ Tistory-Skin:
     type: article
     title: 'Tistory Skin'
     summary: ""
-    parent: index-p
+    parent: index-pr
     url: /project/Tistory-Skin
     updated: '2020-05-28 20:25:21 +0900'
     children: []
@@ -210,7 +210,7 @@ Todo:
     type: article
     title: Todo
     summary: ""
-    parent: index-d
+    parent: index-di
     url: /project/Todo
     updated: '2020-12-08 01:03:55 +0900'
     children: []
@@ -218,7 +218,7 @@ Tools:
     type: article
     title: Environment
     summary: ""
-    parent: index-s
+    parent: index-st
     url: /project/Tools
     updated: '2020-04-01 17:01:28 +0900'
     children: [terminal, vim, vscode]
@@ -226,7 +226,7 @@ Toy:
     type: article
     title: 'Toy Projects'
     summary: ""
-    parent: index-p
+    parent: index-pr
     url: /project/Toy
     updated: '2021-03-19 23:10:59 +0900'
     children: []
@@ -290,7 +290,7 @@ Web-Basic:
     type: article
     title: 'Web Basic'
     summary: ""
-    parent: index-s
+    parent: index-st
     url: /project/Web-Basic
     updated: '2021-03-15 22:16:51 +0900'
     children: []

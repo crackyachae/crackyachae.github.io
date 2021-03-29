@@ -145,6 +145,7 @@ regenerate: true
 
 ## [[Problem-Solving]]
 
+* [problem-solving-index](https://crackyachae.github.io/pscode/index-ps)
 * problem-solving-links
 
 ### [[boj]]

@@ -7,6 +7,6 @@ updated : 2020-03-22 20:54:48 +0900
 tag     : navigation
 toc     : true
 public  : true
-parent  : [[index-s]]
+parent  : [[index-st]]
 latex   : false
 ---

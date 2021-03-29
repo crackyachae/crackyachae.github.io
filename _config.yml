@@ -41,6 +41,9 @@ collections:
     project:
         output: true
         permalink: /:collection/:path/
+    pscode:
+        output: true
+        permalink: /:collection/:path/
 
 # Comment Service
 disqus:

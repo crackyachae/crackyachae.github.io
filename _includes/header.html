@@ -72,8 +72,8 @@
         <a id="random-button" class="site-title-right" href="/study/index-s/#random" onClick="if(typeof random === 'function')random()">random</a>
     </div>
 {% for col in site.collections reverse %}
-{% assign trail = col.label | slice: 0 %}
-    {% if col.label != "posts" %}
+{% assign trail = col.label | slice: 0, 2 %}
+    {% if col.label != "posts" and col.label != "pscode"%}
     <div>
         <a class="site-title-right" href="{{ col.label | prepend: "/" | append: "/index-" | append: trail | append: "/" }}">{{ col.label }}</a>
     </div>
