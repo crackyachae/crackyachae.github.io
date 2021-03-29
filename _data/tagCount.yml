@@ -2,6 +2,9 @@
     name: docs
     size: 2
 -
+    name: intro
+    size: 2
+-
     name: lint
     size: 1
 -
@@ -9,10 +12,13 @@
     size: 1
 -
     name: navigation
-    size: 27
+    size: 28
 -
     name: ps-javascript
     size: 1
 -
     name: ps-python
+    size: 2
+-
+    name: velopert
     size: 2

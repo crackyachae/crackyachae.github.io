@@ -111,9 +111,9 @@ regenerate: true
 * opent-react-6-update-delete.md
 * opent-react-7-end.md
 
-#### vlpt-react
+#### [[vlpt-react]]
 
-* vlpt-react-basic
+* [[vlpt-react-basic]]
     * vlpt-react-basic-4-jsx-5-props-6-cond-render
     * vlpt-react-basic-7-state-8-input
     * vlpt-react-basic-10-ref-11-array
@@ -121,6 +121,10 @@ regenerate: true
     * vlpt-react-basic-16-effect
     * vlpt-react-basic-17-memo-18-callback-19-reactmemo
     * vlpt-react-basic-20-reducer
+    * vlpt-react-basic-21-custom-hooks
+    * vlpt-react-basic-22-context-api
+    * vlpt-react-basic-23-immer
+    * vlpt-react-basic-26-componentdidcatch
 
 ## [[Mathematics]]
 

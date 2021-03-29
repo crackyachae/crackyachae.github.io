@@ -13,6 +13,7 @@ navigation:
     - {fileName: react}
     - {fileName: Style-Sheet}
     - {fileName: System}
+    - {fileName: system-blog}
     - {fileName: terminal}
     - {fileName: Thesia}
     - {fileName: Thought}
@@ -31,6 +32,12 @@ ps-python:
     - {fileName: codeup-set-py-basic}
 ps-javascript:
     - {fileName: codeup-set-py-basic}
+intro:
+    - {fileName: vlpt-react}
+    - {fileName: vlpt-react-basic}
+velopert:
+    - {fileName: vlpt-react}
+    - {fileName: vlpt-react-basic}
 docs:
     - {fileName: vscode-docs}
     - {fileName: vscode-ext}

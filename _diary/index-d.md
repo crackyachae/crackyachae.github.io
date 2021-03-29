@@ -9,6 +9,9 @@ regenerate: true
 
 ## [[System]]
 
+* [[system-blog]]
+    * system-blog-diary
+
 ## [[Thought]]
 
 ## [[TIL]]

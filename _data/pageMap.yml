@@ -133,7 +133,7 @@ react:
     parent: JS-Library
     url: /project/react
     updated: '2020-11-29 15:48:01 +0900'
-    children: []
+    children: [vlpt-react]
 Style-Sheet:
     type: article
     title: 'Style Sheet'
@@ -145,10 +145,18 @@ Style-Sheet:
 System:
     type: article
     title: System
-    summary: ""
+    summary: '체계를 만들자! 더 확실하게, 더 빠르게, 더 편하게 할 수 있도록.'
     parent: index-d
     url: /project/System
-    updated: '2021-03-09 00:04:52 +0900'
+    updated: '2021-03-27 20:07:20 +0900'
+    children: [system-blog]
+system-blog:
+    type: article
+    title: 'Blog System'
+    summary: ""
+    parent: System
+    url: /project/system-blog
+    updated: '2021-03-27 20:09:04 +0900'
     children: []
 terminal:
     type: article
@@ -229,6 +237,22 @@ vim:
     parent: Tools
     url: /project/vim
     updated: '2020-04-01 17:05:18 +0900'
+    children: []
+vlpt-react:
+    type: article
+    title: 'Velopert_벨로퍼트와 함께하는 모던 React'
+    summary: ""
+    parent: react
+    url: /project/vlpt-react
+    updated: '2021-03-29 12:39:59 +0900'
+    children: [vlpt-react-basic]
+vlpt-react-basic:
+    type: article
+    title: '1장. 리액트 입문'
+    summary: ""
+    parent: vlpt-react
+    url: /project/vlpt-react-basic
+    updated: '2021-03-29 12:38:44 +0900'
     children: []
 vscode:
     type: article
