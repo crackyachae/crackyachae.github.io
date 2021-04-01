@@ -7,7 +7,7 @@ updated : 2021-03-29 16:10:09 +0900
 tag     : navigation
 toc     : true
 public  : true
-parent  : [[BOJ]]
+parent  : [[index-ps]]
 latex   : false
 ---
 

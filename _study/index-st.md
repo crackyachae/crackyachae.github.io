@@ -145,7 +145,7 @@ regenerate: true
 
 ## [[Problem-Solving]]
 
-* [problem-solving-index](https://crackyachae.github.io/pscode/index-ps)
+* [[wiki3:index-ps]]{problem-solving-index}
 * problem-solving-links
 
 ### [[boj]]
