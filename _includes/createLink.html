@@ -43,6 +43,10 @@
         })(post);
 
         function link(content) {
+            const wiki = [ "study", "diary", "project", "pscode"]
+            content = content.replace(/wiki(\d)\:/g, (match, p1) => {
+                return "../" + wiki[p1] + "/"
+            });
             content = content.replace(/\\\[\[(.+?)\]\]/g, '\\[\\[$1\\]\\]');
             content = content.replace(/\[\[([^\[\]]+?)\]\]\{([^\{\}]+?)\}/g, '<a href="../$1">$2</a>');
             content = content.replace(/\[\[(.+?)\]\]/g, '<a href="../$1">$1</a>');
