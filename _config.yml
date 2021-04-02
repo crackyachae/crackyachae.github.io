@@ -31,19 +31,24 @@ paginator_path: "/blog"
 paginate_path: "/blog/page:num/"
 
 # Collections
+# use same order as vimwiki_list
 collections:
     study:
         output: true
         permalink: /:collection/:path/
+        number: 0
     diary:
         output: true
         permalink: /:collection/:path/
+        number: 1
     project:
         output: true
         permalink: /:collection/:path/
+        number: 2
     pscode:
         output: true
         permalink: /:collection/:path/
+        number: 3
 
 # Comment Service
 disqus:

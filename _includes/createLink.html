@@ -43,7 +43,8 @@
         })(post);
 
         function link(content) {
-            const wiki = [ "study", "diary", "project", "pscode"]
+            // {% assign collections = site.collections | sort: 'number' | map: 'label' | shift | join: '", "' %}
+            const wiki = ["{{ collections }}"]
             content = content.replace(/wiki(\d)\:/g, (match, p1) => {
                 return "../" + wiki[p1] + "/"
             });
