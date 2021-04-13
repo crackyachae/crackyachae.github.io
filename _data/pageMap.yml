@@ -13,7 +13,15 @@ boj:
     parent: Problem-Solving
     url: /project/boj
     updated: '2021-03-02 11:06:13 +0900'
-    children: [boj-set-py-basic]
+    children: [boj-set-covenant-1-basic, boj-set-py-basic]
+boj-set-covenant-1-basic:
+    type: article
+    title: '"BOJ_Covenant 백준 문제 추천: 튼튼한 기본기"'
+    summary: 'BOJ 기본문제를 파이썬으로 풀어보자'
+    parent: boj
+    url: /project/boj-set-covenant-1-basic
+    updated: '2021-04-13 00:22:19 +0900'
+    children: []
 boj-set-py-basic:
     type: article
     title: 'BOJ_Python 배우기 (1~50)'

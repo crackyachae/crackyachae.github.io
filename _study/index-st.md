@@ -13,6 +13,8 @@ regenerate: true
 
 ## [[CS-Basic]]
 
+* cs-naming-convention
+
 ### harvardx-cs50s-intro
 
 * harvardx-cs50s-intro-0-scratch
@@ -152,6 +154,7 @@ regenerate: true
 
 * [[boj-set-py-basic]]
 * boj-set-js-basic
+* [[boj-set-covenant-1-basic]]
 
 ### [[codeup]]
 
