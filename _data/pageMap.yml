@@ -20,7 +20,7 @@ boj-set-covenant-1-basic:
     summary: 'BOJ 기본문제를 파이썬으로 풀어보자'
     parent: boj
     url: /project/boj-set-covenant-1-basic
-    updated: '2021-04-13 00:22:19 +0900'
+    updated: '2021-04-13 23:49:36 +0900'
     children: []
 boj-set-py-basic:
     type: article

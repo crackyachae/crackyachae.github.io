@@ -153,8 +153,8 @@ regenerate: true
 ### [[boj]]
 
 * [[boj-set-py-basic]]
-* boj-set-js-basic
 * [[boj-set-covenant-1-basic]]
+* [[boj-set-plzrun-1-io]]
 
 ### [[codeup]]
 
