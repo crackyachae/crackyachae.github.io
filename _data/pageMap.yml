@@ -13,7 +13,7 @@ boj:
     parent: Problem-Solving
     url: /project/boj
     updated: '2021-03-02 11:06:13 +0900'
-    children: [boj-set-covenant-1-basic, boj-set-py-basic]
+    children: [boj-set-covenant-1-basic, boj-set-plzrun-1-io, boj-set-py-basic]
 boj-set-covenant-1-basic:
     type: article
     title: '"BOJ_Covenant 백준 문제 추천: 튼튼한 기본기"'
@@ -21,6 +21,14 @@ boj-set-covenant-1-basic:
     parent: boj
     url: /project/boj-set-covenant-1-basic
     updated: '2021-04-13 23:49:36 +0900'
+    children: []
+boj-set-plzrun-1-io:
+    type: article
+    title: '"BOJ_Plzrun 알고리즘 문제풀이(PS) 시작하기: 입출력"'
+    summary: 'BOJ 입출력 문제를 파이썬으로 풀어보자'
+    parent: boj
+    url: /project/boj-set-plzrun-1-io
+    updated: '2021-04-15 00:33:10 +0900'
     children: []
 boj-set-py-basic:
     type: article

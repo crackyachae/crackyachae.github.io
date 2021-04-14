@@ -29,6 +29,7 @@ navigation:
     - {fileName: Web-Basic}
 ps-python:
     - {fileName: boj-set-covenant-1-basic}
+    - {fileName: boj-set-plzrun-1-io}
     - {fileName: boj-set-py-basic}
     - {fileName: codeup-set-py-basic}
 ps-javascript:
