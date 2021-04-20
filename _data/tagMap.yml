@@ -35,8 +35,13 @@ ps-python:
 ps-javascript:
     - {fileName: codeup-set-py-basic}
 intro:
+    - {fileName: fc-algo}
+    - {fileName: fc-algo-data-structure}
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}
+fast-campus:
+    - {fileName: fc-algo}
+    - {fileName: fc-algo-data-structure}
 velopert:
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}

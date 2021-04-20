@@ -40,3 +40,9 @@ gh-pages/
 pkg/
 test/dest
 tmp/*
+
+# lint
+.markdownlintignore
+
+# articles
+fc-algo-data-structure-*

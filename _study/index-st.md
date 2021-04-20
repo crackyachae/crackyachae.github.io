@@ -29,6 +29,26 @@ regenerate: true
 
 ### smu-data-structure
 
+### [[fc-algo]]
+
+> 유료 강의라 정리글 자체가 자료 유출이 될 수 있는 관계로 강의 정리글은 게시하지 않습니다.
+
+* [[fc-algo-data-structure]]
+    * fc-algo-data-structure-1-intro
+    * fc-algo-data-structure-2-concept
+    * fc-algo-data-structure-4-array
+    * fc-algo-data-structure-5-queue
+    * fc-algo-data-structure-6-stack
+    * fc-algo-data-structure-7-linked-list
+{% comment %}
+    * [[fc-algo-data-structure-1-intro]]
+    * [[fc-algo-data-structure-2-concept]]
+    * [[fc-algo-data-structure-4-array]]
+    * [[fc-algo-data-structure-5-queue]]
+    * [[fc-algo-data-structure-6-stack]]
+    * [[fc-algo-data-structure-7-linked-list]]
+{% endcomment %}
+
 ## [[Git]]
 
 * git-memos

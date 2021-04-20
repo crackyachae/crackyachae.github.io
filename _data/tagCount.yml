@@ -2,8 +2,11 @@
     name: docs
     size: 2
 -
-    name: intro
+    name: fast-campus
     size: 2
+-
+    name: intro
+    size: 4
 -
     name: lint
     size: 1

@@ -61,7 +61,7 @@ CS-Basic:
     parent: index-st
     url: /project/CS-Basic
     updated: '2020-04-19 15:57:47 +0900'
-    children: []
+    children: [fc-algo]
 css:
     type: article
     title: CSS
@@ -69,6 +69,70 @@ css:
     parent: Style-Sheet
     url: /project/css
     updated: '2020-03-04 13:02:48 +0900'
+    children: []
+fc-algo:
+    type: article
+    title: 'Fast Campus_기술면접 완전 정복 올인원 패키지 Online'
+    summary: ""
+    parent: CS-Basic
+    url: /project/fc-algo
+    updated: '2021-04-18 23:19:51 +0900'
+    children: [fc-algo-data-structure]
+fc-algo-data-structure:
+    type: article
+    title: '1. 자료구조 이론'
+    summary: ""
+    parent: fc-algo
+    url: /project/fc-algo-data-structure
+    updated: '2021-04-20 19:56:00 +0900'
+    children: [fc-algo-data-structure-1-intro, fc-algo-data-structure-2-concept, fc-algo-data-structure-4-array, fc-algo-data-structure-5-queue, fc-algo-data-structure-6-stack]
+fc-algo-data-structure-1-intro:
+    type: article
+    title: '01. 강의 소개 및 학습 방법'
+    summary: ""
+    parent: fc-algo-data-structure
+    url: /project/fc-algo-data-structure-1-intro
+    updated: '2021-04-18 23:48:04 +0900'
+    children: []
+fc-algo-data-structure-2-concept:
+    type: article
+    title: '02. 자료구조와 알고리즘이란'
+    summary: ""
+    parent: fc-algo-data-structure
+    url: /project/fc-algo-data-structure-2-concept
+    updated: '2021-04-18 23:57:39 +0900'
+    children: []
+fc-algo-data-structure-4-array:
+    type: article
+    title: 'Chapter 04. 배열'
+    summary: ""
+    parent: fc-algo-data-structure
+    url: /project/fc-algo-data-structure-4-array
+    updated: '2021-04-20 14:23:44 +0900'
+    children: []
+fc-algo-data-structure-5-queue:
+    type: article
+    title: 'Chapter 05. 큐(Queue)'
+    summary: ""
+    parent: fc-algo-data-structure
+    url: /project/fc-algo-data-structure-5-queue
+    updated: '2021-04-20 15:01:56 +0900'
+    children: []
+fc-algo-data-structure-6-stack:
+    type: article
+    title: 'Chapter 06. 스택(stack)'
+    summary: ""
+    parent: fc-algo-data-structure
+    url: /project/fc-algo-data-structure-6-stack
+    updated: '2021-04-20 18:22:30 +0900'
+    children: []
+fc-algo-data-structure-7-linked-list:
+    type: article
+    title: ""
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-data-structure-7-linked-list
+    updated: '2021-04-20 18:23:50 +0900'
     children: []
 Git:
     type: article
