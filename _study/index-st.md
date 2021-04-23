@@ -40,6 +40,10 @@ regenerate: true
     * fc-algo-data-structure-5-queue
     * fc-algo-data-structure-6-stack
     * fc-algo-data-structure-7-linked-list
+    * fc-algo-data-structure-8-complexity
+    * fc-algo-data-structure-9-hash-table
+    * fc-algo-data-structure-10-tree
+    * fc-algo-data-structure-11-heap
 {% comment %}
     * [[fc-algo-data-structure-1-intro]]
     * [[fc-algo-data-structure-2-concept]]
@@ -47,6 +51,10 @@ regenerate: true
     * [[fc-algo-data-structure-5-queue]]
     * [[fc-algo-data-structure-6-stack]]
     * [[fc-algo-data-structure-7-linked-list]]
+    * [[fc-algo-data-structure-8-complexity]]
+    * [[fc-algo-data-structure-9-hash-table]]
+    * [[fc-algo-data-structure-10-tree]]
+    * [[fc-algo-data-structure-11-heap]]
 {% endcomment %}
 
 ## [[Git]]

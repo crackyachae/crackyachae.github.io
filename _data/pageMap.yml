@@ -76,7 +76,7 @@ fc-algo:
     summary: ""
     parent: CS-Basic
     url: /project/fc-algo
-    updated: '2021-04-18 23:19:51 +0900'
+    updated: '2021-04-22 23:47:16 +0900'
     children: [fc-algo-data-structure]
 fc-algo-data-structure:
     type: article
@@ -84,8 +84,8 @@ fc-algo-data-structure:
     summary: ""
     parent: fc-algo
     url: /project/fc-algo-data-structure
-    updated: '2021-04-20 19:56:00 +0900'
-    children: [fc-algo-data-structure-1-intro, fc-algo-data-structure-2-concept, fc-algo-data-structure-4-array, fc-algo-data-structure-5-queue, fc-algo-data-structure-6-stack]
+    updated: '2021-04-22 23:46:51 +0900'
+    children: [fc-algo-data-structure-1-intro, fc-algo-data-structure-10-tree, fc-algo-data-structure-11-heap, fc-algo-data-structure-2-concept, fc-algo-data-structure-4-array, fc-algo-data-structure-5-queue, fc-algo-data-structure-6-stack, fc-algo-data-structure-7-linked-list, fc-algo-data-structure-8-complexity]
 fc-algo-data-structure-1-intro:
     type: article
     title: '01. 강의 소개 및 학습 방법'
@@ -93,6 +93,22 @@ fc-algo-data-structure-1-intro:
     parent: fc-algo-data-structure
     url: /project/fc-algo-data-structure-1-intro
     updated: '2021-04-18 23:48:04 +0900'
+    children: []
+fc-algo-data-structure-10-tree:
+    type: article
+    title: 'Chapter 10. 트리 (Tree)'
+    summary: ""
+    parent: fc-algo-data-structure
+    url: /project/fc-algo-data-structure-10-tree
+    updated: '2021-04-22 16:01:49 +0900'
+    children: []
+fc-algo-data-structure-11-heap:
+    type: article
+    title: '11. 힘 (heap)'
+    summary: ""
+    parent: fc-algo-data-structure
+    url: /project/fc-algo-data-structure-11-heap
+    updated: '2021-04-22 23:17:01 +0900'
     children: []
 fc-algo-data-structure-2-concept:
     type: article
@@ -128,11 +144,27 @@ fc-algo-data-structure-6-stack:
     children: []
 fc-algo-data-structure-7-linked-list:
     type: article
-    title: ""
+    title: 'Chapter 07. linked list(링크드 리스트)'
     summary: ""
-    parent: ""
+    parent: fc-algo-data-structure
     url: /project/fc-algo-data-structure-7-linked-list
-    updated: '2021-04-20 18:23:50 +0900'
+    updated: '2021-04-21 12:05:50 +0900'
+    children: []
+fc-algo-data-structure-8-complexity:
+    type: article
+    title: 'Chapter 08. 시간 복잡도'
+    summary: ""
+    parent: fc-algo-data-structure
+    url: /project/fc-algo-data-structure-8-complexity
+    updated: '2021-04-21 14:46:13 +0900'
+    children: []
+fc-algo-data-structure-9-hash-table:
+    type: article
+    title: 'Chapter 09. 해시 테이블 (Hash Table)'
+    summary: ""
+    parent: fc-algo-data-sructure
+    url: /project/fc-algo-data-structure-9-hash-table
+    updated: '2021-04-21 23:04:03 +0900'
     children: []
 Git:
     type: article
