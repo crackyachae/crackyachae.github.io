@@ -1,6 +1,5 @@
 navigation:
     - {fileName: Blog}
-    - {fileName: boj}
     - {fileName: codeup}
     - {fileName: CS-Basic}
     - {fileName: css}
@@ -9,6 +8,7 @@ navigation:
     - {fileName: JS-Library}
     - {fileName: Mathematics}
     - {fileName: Problem-Solving}
+    - {fileName: ps-basic}
     - {fileName: Python}
     - {fileName: react}
     - {fileName: Style-Sheet}
@@ -27,14 +27,6 @@ navigation:
     - {fileName: vscode}
     - {fileName: vscode-ext}
     - {fileName: Web-Basic}
-ps-python:
-    - {fileName: boj-set-covenant-prep-1-basic}
-    - {fileName: boj-set-covenant-start-1-basic}
-    - {fileName: boj-set-plzrun-1-io}
-    - {fileName: boj-set-py-basic}
-    - {fileName: codeup-set-py-basic}
-ps-javascript:
-    - {fileName: codeup-set-py-basic}
 intro:
     - {fileName: fc-algo}
     - {fileName: fc-algo-data-structure}
@@ -43,6 +35,14 @@ intro:
 fast-campus:
     - {fileName: fc-algo}
     - {fileName: fc-algo-data-structure}
+ps-python:
+    - {fileName: ps-set-automata-py-basic}
+    - {fileName: ps-set-codeup-py-basic}
+    - {fileName: ps-set-covenant-prep-1-basic}
+    - {fileName: ps-set-covenant-start-1-basic}
+    - {fileName: ps-set-plzrun-1-io}
+ps-javascript:
+    - {fileName: ps-set-codeup-py-basic}
 velopert:
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}

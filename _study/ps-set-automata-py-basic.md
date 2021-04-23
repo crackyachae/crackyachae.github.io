@@ -1,13 +1,13 @@
 ---
 layout  : article
-title   : BOJ_Python 배우기 (1~50)
-summary : BOJ 기본문제를 파이썬으로 풀어보자
+title   : automata_Python 배우기 (1~50)
+summary : 
 date    : 2021-03-04 14:44:29 +0900
 updated : 2021-03-27 17:49:45 +0900
 tag     : ps-python
 toc     : true
 public  : true
-parent  : [[boj]]
+parent  : [[ps-basic]]
 latex   : false
 ---
 * TOC

@@ -1,13 +1,13 @@
 ---
 layout  : article
-title   : "BOJ_Covenant 백준 문제 추천: 시작 & 구현"
-summary : BOJ 기본, 구현 문제를 파이썬으로 풀어보자
+title   : "Covenant_코딩테스트 시작을 위한 백준 문제 추천: 시작 & 구현"
+summary : 
 date    : 2021-04-23 15:59:40 +0900
 updated : 2021-04-23 16:10:40 +0900
 tag     : ps-python
 toc     : true
 public  : true
-parent  : [[boj]]
+parent  : [[ps-basic]]
 latex   : false
 ---
 * TOC

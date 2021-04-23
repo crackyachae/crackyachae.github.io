@@ -1,13 +1,13 @@
 ---
 layout  : article
-title   : "BOJ_Plzrun 알고리즘 문제풀이(PS) 시작하기: 입출력"
+title   : "Plzrun_알고리즘 문제풀이(PS) 시작하기: 입출력"
 summary : BOJ 입출력 문제를 파이썬으로 풀어보자
 date    : 2021-04-14 00:06:38 +0900
 updated : 2021-04-15 00:33:10 +0900
 tag     : ps-python
 toc     : true
 public  : true
-parent  : [[boj]]
+parent  : [[ps-basic]]
 latex   : false
 ---
 * TOC

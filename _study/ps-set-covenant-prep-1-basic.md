@@ -1,13 +1,13 @@
 ---
 layout  : article
-title   : "BOJ_Covenant 백준 문제 추천: 튼튼한 기본기"
-summary : BOJ 기본문제를 파이썬으로 풀어보자
+title   : "Covenant_코딩테스트 대비를 위한 백준 문제 추천: 튼튼한 기본기"
+summary : 
 date    : 2021-03-29 15:10:13 +0900
 updated : 2021-04-13 23:49:36 +0900
 tag     : ps-python
 toc     : true
 public  : true
-parent  : [[boj]]
+parent  : [[ps-basic]]
 latex   : false
 ---
 * TOC

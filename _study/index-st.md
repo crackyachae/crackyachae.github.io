@@ -178,16 +178,17 @@ regenerate: true
 * [[wiki3:index-ps]]{problem-solving-index}
 * problem-solving-links
 
-### [[boj]]
+### [[ps-basic]]
 
-* [[boj-set-py-basic]]
-* [[boj-set-covenant-prep-1-basic]]
-* [[boj-set-covenant-start-1-basic]]
-* [[boj-set-plzrun-1-io]]
+* [[ps-set-codeup-py-basic]]
+* [[ps-set-automata-py-basic]]
+* [[ps-set-plzrun-1-io]]
+* [[ps-set-covenant-start-1-basic]]
+* [[ps-set-covenant-prep-1-basic]]
 
-### [[codeup]]
-
-* [[codeup-set-py-basic]]
+### [[ps-data-structure]]
+* 
+* [[ps-set-covenant-start-2-stack-queue]]
 
 ## [[Python]]
 

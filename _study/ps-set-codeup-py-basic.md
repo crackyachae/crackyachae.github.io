@@ -1,13 +1,13 @@
 ---
 layout  : article
 title   : CodeUp_Python 기초 100제 (6001~6098)
-summary : CodeUp 기초 100제를 파이썬과 자바스크립트로 풀어보자
+summary : 
 date    : 2021-02-09 22:49:47 +0900
 updated : 2021-03-05 17:56:02 +0900
 tag     : ps-python ps-javascript
 toc     : true
 public  : true
-parent  : [[codeup]]
+parent  : [[ps-basic]]
 latex   : false
 ---
 * TOC
