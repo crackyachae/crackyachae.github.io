@@ -205,7 +205,7 @@ ps-data-structure:
     parent: Problem-Solving
     url: /project/ps-data-structure
     updated: '2021-04-23 21:59:51 +0900'
-    children: []
+    children: [ps-set-covenant-start-2-stack-queue]
 ps-set-automata-py-basic:
     type: article
     title: 'automata_Python 배우기 (1~50)'
@@ -237,6 +237,14 @@ ps-set-covenant-start-1-basic:
     parent: ps-basic
     url: /project/ps-set-covenant-start-1-basic
     updated: '2021-04-23 16:10:40 +0900'
+    children: []
+ps-set-covenant-start-2-stack-queue:
+    type: article
+    title: '"Covenant_코딩테스트 시작을 위한 백준 문제 추천: 시작 & 구현"'
+    summary: ""
+    parent: ps-data-structure
+    url: /project/ps-set-covenant-start-2-stack-queue
+    updated: '2021-04-23 22:35:31 +0900'
     children: []
 ps-set-plzrun-1-io:
     type: article

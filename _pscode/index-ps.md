@@ -7,7 +7,7 @@ comment : false
 regenerate: true
 ---
 
-## [[BOJ]]
+## [[BOJ-Index]]
 
 ### boj-0000
 
@@ -137,3 +137,7 @@ regenerate: true
 * [[boj-11721]]
 
 ### boj-12000
+
+## [[Programmers-Index]]
+
+* [[programmers-12977]]
