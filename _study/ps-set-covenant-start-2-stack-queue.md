@@ -1,6 +1,6 @@
 ---
 layout  : article
-title   : "Covenant_코딩테스트 시작을 위한 백준 문제 추천: 시작 & 구현"
+title   : "Covenant_코딩테스트 시작을 위한 백준 문제 추천: 스택 & 큐"
 summary : 
 date    : 2021-04-23 22:06:11 +0900
 updated : 2021-04-23 22:35:31 +0900
