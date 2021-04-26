@@ -22,6 +22,7 @@ latex   : false
 ```python
 from itertools import combinations
 
+# 소수이면 1, 아니면 0을 반환하는 함수
 def is_prime(num):
     if num == 1:
         return 1
@@ -33,8 +34,11 @@ def is_prime(num):
     return 1
     
 def solution(nums):
+    # combinations를 이용해 입력받은 리스트에서 세 개의 수를 조합한 결과를 받은 뒤
     combs = list(combinations(nums, 3))
+    # 각 조합의 원소 합을 is_prime의 인자로 넘겨 반환 값으로 count 리스트를 구성한다.
     count = [is_prime(sum(comb)) for comb in combs]
+    # count의 원소합을 구한다.
     answer = sum(count)
 
     return answer
@@ -42,10 +46,7 @@ def solution(nums):
 
 ### 풀이 과정
 
-* 소수이면 1, 아니면 0을 반환하는 `is_prime` 함수를 작성한다.
-* `combinations`로 입력받은 리스트에서 세 개의 수를 조합한 결과를 받은 뒤
-* 각 조합의 원소 합을 `is_prime`의 인자로 넘겨 반환 값으로 `count` 리스트를 구성한다.
-    * `count` 리스트는 소수 여부에 따라 `0`과 `1`로 이루어져 있기 때문에 원소를 모두 더하면 원소 합이 소수인 조합의 개수를 구할 수 있다.
+* `count` 리스트는 소수 여부에 따라 `0`과 `1`로 이루어져 있기 때문에 원소를 모두 더하면 원소 합이 소수인 조합의 개수를 구할 수 있다.
 
 ### 피드백
 
