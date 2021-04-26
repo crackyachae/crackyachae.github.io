@@ -76,7 +76,7 @@ def solution(priorities, location):
             wait_list.append(wait_list.popleft())
 ```
 
-### 풀이 과정
+### 풀이 설명
 
 * 동일한 priority를 갖는 문서가 존재할 수 있기 때문에 문서 구분을 위해 `(priority, index)`의 튜플로 `wait_list`를 구성한다.
     * `location`이 `priorities`의 인덱스이기 때문에 문서 구분을 위해 인덱스값을 사용한다.

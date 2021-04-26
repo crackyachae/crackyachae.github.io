@@ -71,7 +71,7 @@ def solution(prices):
     return answer
 ```
 
-### 풀이 과정
+### 풀이 설명
 
 * `prices`의 인덱스를 해당 가격의 '시점'으로 보면 된다.
 * `answer`는 다음과 같이 구성하면 된다.
