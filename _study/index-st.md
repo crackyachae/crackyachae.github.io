@@ -187,7 +187,7 @@ regenerate: true
 * [[ps-set-covenant-prep-1-basic]]
 
 ### [[ps-data-structure]]
-* 
+
 * [[ps-set-covenant-start-2-stack-queue]]
 
 ## [[Python]]

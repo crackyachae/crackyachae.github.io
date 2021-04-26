@@ -17,11 +17,13 @@ regenerate: true
 * [[boj-1001]]
 * [[boj-1008]]
 * [[boj-1037]]
+* [[boj-1158]]
 * [[boj-1292]]
 * [[boj-1546]]
 * [[boj-1789]]
 * [[boj-1924]]
 * [[boj-1934]]
+* [[boj-1966]]
 * [[boj-1978]]
 
 ### boj-2000
@@ -94,6 +96,8 @@ regenerate: true
 
 ### boj-9000
 
+* [[boj-9012]]
+* [[boj-9093]]
 * [[boj-9498]]
 * [[boj-9506]]
 * [[boj-9610]]
@@ -112,6 +116,9 @@ regenerate: true
 * [[boj-10809]]
 * [[boj-10817]]
 * [[boj-10818]]
+* [[boj-10828]]
+* [[boj-10845]]
+* [[boj-10866]]
 * [[boj-10869]]
 * [[boj-10870]]
 * [[boj-10872]]
@@ -141,3 +148,6 @@ regenerate: true
 ## [[Programmers-Index]]
 
 * [[programmers-12977]]
+* [[programmers-42583]]
+* [[programmers-42584]]
+* [[programmers-42587]]
