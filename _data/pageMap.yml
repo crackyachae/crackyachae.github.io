@@ -205,7 +205,7 @@ ps-data-structure:
     parent: Problem-Solving
     url: /project/ps-data-structure
     updated: '2021-04-23 21:59:51 +0900'
-    children: [ps-set-covenant-start-2-stack-queue]
+    children: [ps-set-covenant-start-2-stack-queue, ps-set-ryute-1-data-struct]
 ps-set-automata-py-basic:
     type: article
     title: 'automata_Python 배우기 (1~50)'
@@ -253,6 +253,14 @@ ps-set-plzrun-1-io:
     parent: ps-basic
     url: /project/ps-set-plzrun-1-io
     updated: '2021-04-15 00:33:10 +0900'
+    children: []
+ps-set-ryute-1-data-struct:
+    type: article
+    title: '"Ryute_BOJ 길라잡이 (Beta): 기초 자료구조 (1), (2)"'
+    summary: ""
+    parent: ps-data-structure
+    url: /project/ps-set-ryute-1-data-struct
+    updated: '2021-04-27 11:21:31 +0900'
     children: []
 Python:
     type: article

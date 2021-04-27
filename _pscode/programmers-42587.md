@@ -83,7 +83,7 @@ def solution(priorities, location):
 * priority 최댓값을 갖는 문서부터 인쇄하기 때문에 우선 현재 priority의 최댓값을 구하고,
     * `wait_list`가 튜플이기 때문에 `max` 함수의 비교 기준이 priority가 될 수 있도록 `key`로 `lambda p: p[0]`를 전달한다.
     * [max()](https://docs.python.org/3/library/functions.html?highlight=divmod#max) by Python Documentation
-    * [Python | Get first element with maximum value in list of tuples](https://www.geeksforgeeks.org/python-get-first-element-with-maximum-value-in-list-of-tuples/) by GeeksforGeeks
+    * [Python_Get first element with maximum value in list of tuples](https://www.geeksforgeeks.org/python-get-first-element-with-maximum-value-in-list-of-tuples/) by GeeksforGeeks
 * `pop()`하는 원소의 우선순위와 우선순위 최댓값을 비교해
     * 다르면 문서를 뒤로 보내고
     * 같으면 문서를 제거한 뒤 문서 순서인 `order`를 1 증가시킨다.
