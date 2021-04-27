@@ -260,7 +260,7 @@ ps-set-ryute-1-data-struct:
     summary: ""
     parent: ps-data-structure
     url: /project/ps-set-ryute-1-data-struct
-    updated: '2021-04-27 11:21:31 +0900'
+    updated: '2021-04-28 00:00:22 +0900'
     children: []
 Python:
     type: article

@@ -189,6 +189,7 @@ regenerate: true
 ### [[ps-data-structure]]
 
 * [[ps-set-covenant-start-2-stack-queue]]
+* [[ps-set-ryute-1-data-struct]]
 
 ## [[Python]]
 
