@@ -41,6 +41,7 @@ ps-python:
     - {fileName: ps-set-covenant-prep-1-basic}
     - {fileName: ps-set-covenant-start-1-basic}
     - {fileName: ps-set-covenant-start-2-stack-queue}
+    - {fileName: ps-set-fc-algo-1-data-structure}
     - {fileName: ps-set-plzrun-1-io}
 ps-javascript:
     - {fileName: ps-set-codeup-py-basic}
