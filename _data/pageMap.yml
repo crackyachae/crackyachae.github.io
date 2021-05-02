@@ -205,7 +205,7 @@ ps-data-structure:
     parent: Problem-Solving
     url: /project/ps-data-structure
     updated: '2021-04-23 21:59:51 +0900'
-    children: [ps-set-covenant-start-2-stack-queue, ps-set-fc-algo-1-data-structure, ps-set-ryute-1-data-struct, ps-set-ryute-2-heap]
+    children: [ps-set-covenant-start-2-stack-queue, ps-set-covenant-start-3-heap, ps-set-fc-algo-1-data-structure, ps-set-ryute-1-data-struct, ps-set-ryute-2-heap]
 ps-set-automata-py-basic:
     type: article
     title: 'automata_Python 배우기 (1~50)'
@@ -245,6 +245,14 @@ ps-set-covenant-start-2-stack-queue:
     parent: ps-data-structure
     url: /project/ps-set-covenant-start-2-stack-queue
     updated: '2021-04-23 22:35:31 +0900'
+    children: []
+ps-set-covenant-start-3-heap:
+    type: article
+    title: '"Covenant_코딩테스트 시작을 위한 백준 문제 추천: 힙"'
+    summary: ""
+    parent: ps-data-structure
+    url: /project/ps-set-covenant-start-3-heap
+    updated: '2021-05-02 12:30:25 +0900'
     children: []
 ps-set-fc-algo-1-data-structure:
     type: article
