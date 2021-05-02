@@ -205,7 +205,7 @@ ps-data-structure:
     parent: Problem-Solving
     url: /project/ps-data-structure
     updated: '2021-04-23 21:59:51 +0900'
-    children: [ps-set-covenant-start-2-stack-queue, ps-set-covenant-start-3-heap, ps-set-fc-algo-1-data-structure, ps-set-ryute-1-data-struct, ps-set-ryute-2-heap]
+    children: [ps-set-covenant-start-2-stack-queue, ps-set-covenant-start-3-heap, ps-set-fc-algo-1-data-structure, ps-set-fc-algo-2-data-structure, ps-set-ryute-1-data-struct, ps-set-ryute-2-heap]
 ps-set-automata-py-basic:
     type: article
     title: 'automata_Python 배우기 (1~50)'
@@ -256,11 +256,19 @@ ps-set-covenant-start-3-heap:
     children: []
 ps-set-fc-algo-1-data-structure:
     type: article
-    title: '"Fast Camput_기술면접 완전 정복 올인원 패키지 Online: 기본 자료구조"'
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 기본 자료구조"'
     summary: ""
     parent: ps-data-structure
     url: /project/ps-set-fc-algo-1-data-structure
     updated: '2021-04-28 11:08:37 +0900'
+    children: []
+ps-set-fc-algo-2-data-structure:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 고급 자료구조"'
+    summary: ""
+    parent: ps-data-structure
+    url: /project/ps-set-fc-algo-2-data-structure
+    updated: '2021-05-02 16:47:24 +0900'
     children: []
 ps-set-plzrun-1-io:
     type: article

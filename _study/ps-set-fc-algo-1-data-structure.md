@@ -1,6 +1,6 @@
 ---
 layout  : article
-title   : "Fast Camput_기술면접 완전 정복 올인원 패키지 Online: 기본 자료구조"
+title   : "Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 기본 자료구조"
 summary : 
 date    : 2021-04-28 10:56:25 +0900
 updated : 2021-04-28 11:08:37 +0900
