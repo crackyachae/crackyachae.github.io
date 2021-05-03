@@ -193,6 +193,7 @@ regenerate: true
 * [[ps-set-fc-algo-1-data-structure]]
 * [[ps-set-covenant-start-3-heap]]
 * [[ps-set-ryute-2-heap]]
+* [[ps-set-fc-algo-2-data-structure]]
 
 ## [[Python]]
 
