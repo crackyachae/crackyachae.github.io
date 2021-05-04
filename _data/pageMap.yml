@@ -37,7 +37,23 @@ fc-algo:
     parent: CS-Basic
     url: /project/fc-algo
     updated: '2021-04-22 23:47:16 +0900'
-    children: [fc-algo-data-structure]
+    children: [fc-algo-algorithm, fc-algo-data-structure]
+fc-algo-algorithm:
+    type: article
+    title: '2. 알고리즘 이론'
+    summary: ""
+    parent: fc-algo
+    url: /project/fc-algo-algorithm
+    updated: '2021-05-04 23:31:33 +0900'
+    children: []
+fc-algo-algorithm-12-sort-bubble:
+    type: article
+    title: 'Chapter 12. 정렬 - 정렬 알고리즘 개요'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-12-sort-bubble
+    updated: '2021-05-05 01:24:26 +0900'
+    children: []
 fc-algo-data-structure:
     type: article
     title: '1. 자료구조 이론'

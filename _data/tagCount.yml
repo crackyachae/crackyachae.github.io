@@ -3,10 +3,10 @@
     size: 2
 -
     name: fast-campus
-    size: 2
+    size: 3
 -
     name: intro
-    size: 4
+    size: 5
 -
     name: lint
     size: 1

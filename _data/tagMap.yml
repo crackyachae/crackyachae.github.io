@@ -29,11 +29,13 @@ navigation:
     - {fileName: Web-Basic}
 intro:
     - {fileName: fc-algo}
+    - {fileName: fc-algo-algorithm}
     - {fileName: fc-algo-data-structure}
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}
 fast-campus:
     - {fileName: fc-algo}
+    - {fileName: fc-algo-algorithm}
     - {fileName: fc-algo-data-structure}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
