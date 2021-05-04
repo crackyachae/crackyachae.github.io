@@ -56,7 +56,7 @@ fc-algo-data-structure-1-intro:
     children: []
 fc-algo-data-structure-10-tree:
     type: article
-    title: 'Chapter 10. 트리 (Tree)'
+    title: 'Chapter 10. 트리(Tree)'
     summary: ""
     parent: fc-algo-data-structure
     url: /project/fc-algo-data-structure-10-tree
@@ -64,7 +64,7 @@ fc-algo-data-structure-10-tree:
     children: []
 fc-algo-data-structure-11-heap:
     type: article
-    title: '11. 힘 (heap)'
+    title: 'Chapter 11. 힘(Heap)'
     summary: ""
     parent: fc-algo-data-structure
     url: /project/fc-algo-data-structure-11-heap
@@ -80,7 +80,7 @@ fc-algo-data-structure-2-concept:
     children: []
 fc-algo-data-structure-4-array:
     type: article
-    title: 'Chapter 04. 배열'
+    title: 'Chapter 04. 배열(Array)'
     summary: ""
     parent: fc-algo-data-structure
     url: /project/fc-algo-data-structure-4-array
@@ -96,7 +96,7 @@ fc-algo-data-structure-5-queue:
     children: []
 fc-algo-data-structure-6-stack:
     type: article
-    title: 'Chapter 06. 스택(stack)'
+    title: 'Chapter 06. 스택(Stack)'
     summary: ""
     parent: fc-algo-data-structure
     url: /project/fc-algo-data-structure-6-stack
@@ -104,7 +104,7 @@ fc-algo-data-structure-6-stack:
     children: []
 fc-algo-data-structure-7-linked-list:
     type: article
-    title: 'Chapter 07. linked list(링크드 리스트)'
+    title: 'Chapter 07. 링크드 리스트(Linked List)'
     summary: ""
     parent: fc-algo-data-structure
     url: /project/fc-algo-data-structure-7-linked-list
@@ -120,7 +120,7 @@ fc-algo-data-structure-8-complexity:
     children: []
 fc-algo-data-structure-9-hash-table:
     type: article
-    title: 'Chapter 09. 해시 테이블 (Hash Table)'
+    title: 'Chapter 09. 해시 테이블(Hash Table)'
     summary: ""
     parent: fc-algo-data-sructure
     url: /project/fc-algo-data-structure-9-hash-table

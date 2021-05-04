@@ -45,4 +45,5 @@ tmp/*
 .markdownlintignore
 
 # articles
-fc-algo-data-structure-*
+fc-algo-data-structure-1-intro.md
+fc-algo-data-structure-2-concept.md

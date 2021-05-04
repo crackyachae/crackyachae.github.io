@@ -31,22 +31,11 @@ regenerate: true
 
 ### [[fc-algo]]
 
-> 유료 강의라 정리글 자체가 자료 유출이 될 수 있는 관계로 강의 정리글은 게시하지 않습니다.
+> 유료 강의라 정리글 자체가 자료 유출이 될 수 있는 관계로 일부 강의 정리글은 게시하지 않습니다.
 
 * [[fc-algo-data-structure]]
     * fc-algo-data-structure-1-intro
     * fc-algo-data-structure-2-concept
-    * fc-algo-data-structure-4-array
-    * fc-algo-data-structure-5-queue
-    * fc-algo-data-structure-6-stack
-    * fc-algo-data-structure-7-linked-list
-    * fc-algo-data-structure-8-complexity
-    * fc-algo-data-structure-9-hash-table
-    * fc-algo-data-structure-10-tree
-    * fc-algo-data-structure-11-heap
-{% comment %}
-    * [[fc-algo-data-structure-1-intro]]
-    * [[fc-algo-data-structure-2-concept]]
     * [[fc-algo-data-structure-4-array]]
     * [[fc-algo-data-structure-5-queue]]
     * [[fc-algo-data-structure-6-stack]]
@@ -55,7 +44,6 @@ regenerate: true
     * [[fc-algo-data-structure-9-hash-table]]
     * [[fc-algo-data-structure-10-tree]]
     * [[fc-algo-data-structure-11-heap]]
-{% endcomment %}
 
 ## [[Git]]
 
