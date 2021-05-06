@@ -44,6 +44,16 @@ regenerate: true
     * [[fc-algo-data-structure-9-hash-table]]
     * [[fc-algo-data-structure-10-tree]]
     * [[fc-algo-data-structure-11-heap]]
+ 
+* [[fc-algo-algorithm]]
+    * [[fc-algo-algorithm-12-sort-bubble]]
+    * [[fc-algo-algorithm-12-sort-insert]]
+    * [[fc-algo-algorithm-13-recursive]]
+    * [[fc-algo-algorithm-14-dp-dac]]
+    * [[fc-algo-algorithm-16-search-binary]]
+    * [[fc-algo-algorithm-17-graph]]
+    * [[fc-algo-algorithm-18-bfs]]
+    * [[fc-algo-algorithm-18-dfs]]
 
 ## [[Git]]
 

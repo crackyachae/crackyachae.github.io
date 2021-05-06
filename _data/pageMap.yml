@@ -44,15 +44,63 @@ fc-algo-algorithm:
     summary: ""
     parent: fc-algo
     url: /project/fc-algo-algorithm
-    updated: '2021-05-04 23:31:33 +0900'
+    updated: '2021-05-05 17:31:09 +0900'
     children: []
 fc-algo-algorithm-12-sort-bubble:
     type: article
-    title: 'Chapter 12. 정렬 - 정렬 알고리즘 개요'
+    title: '"Chapter 12. 정렬: 버블 정렬(Bubble Sort)"'
     summary: ""
     parent: ""
     url: /project/fc-algo-algorithm-12-sort-bubble
-    updated: '2021-05-05 01:24:26 +0900'
+    updated: '2021-05-05 02:24:12 +0900'
+    children: []
+fc-algo-algorithm-13-recursive:
+    type: article
+    title: 'Chapter 13. 재귀 용법(Recursive Call)'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-13-recursive
+    updated: '2021-05-05 11:46:36 +0900'
+    children: []
+fc-algo-algorithm-14-dp-dac:
+    type: article
+    title: 'Chapter 14. 동적 계획법(Dynamic Programming)과 분할 정복(Divide and Conquer)'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-14-dp-dac
+    updated: '2021-05-05 12:16:57 +0900'
+    children: []
+fc-algo-algorithm-16-search-binary:
+    type: article
+    title: '"Chapter 16. 탐색 알고리즘: 이진 탐색(Binary Search)"'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-16-search-binary
+    updated: '2021-05-05 14:44:27 +0900'
+    children: []
+fc-algo-algorithm-17-graph:
+    type: article
+    title: 'Chapter 17. 그래프 이해와 자료구조'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-17-graph
+    updated: '2021-05-05 15:16:26 +0900'
+    children: []
+fc-algo-algorithm-18-bfs:
+    type: article
+    title: '"Chapter 18. 그래프 기본 탐색 알고리즘: 너비 우선 탐색(BFS)"'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-18-bfs
+    updated: '2021-05-05 17:03:15 +0900'
+    children: []
+fc-algo-algorithm-18-dfs:
+    type: article
+    title: '"Chapter 18. 그래프 기본 탐색 알고리즘: 깊이 우선 탐색(DFS)"'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-18-dfs
+    updated: '2021-05-05 17:30:31 +0900'
     children: []
 fc-algo-data-structure:
     type: article
