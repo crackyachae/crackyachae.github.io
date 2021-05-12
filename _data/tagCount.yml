@@ -2,6 +2,9 @@
     name: docs
     size: 2
 -
+    name: draft
+    size: 2
+-
     name: fast-campus
     size: 3
 -
@@ -22,6 +25,9 @@
 -
     name: ps-python
     size: 9
+-
+    name: 'ps-python,'
+    size: 2
 -
     name: velopert
     size: 2

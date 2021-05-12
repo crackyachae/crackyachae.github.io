@@ -44,7 +44,7 @@ regenerate: true
     * [[fc-algo-data-structure-9-hash-table]]
     * [[fc-algo-data-structure-10-tree]]
     * [[fc-algo-data-structure-11-heap]]
- 
+
 * [[fc-algo-algorithm]]
     * [[fc-algo-algorithm-12-sort-bubble]]
     * [[fc-algo-algorithm-12-sort-insert]]
@@ -192,6 +192,19 @@ regenerate: true
 * [[ps-set-covenant-start-3-heap]]
 * [[ps-set-ryute-2-heap]]
 * [[ps-set-fc-algo-2-data-structure]]
+
+### [[ps-recursive]]
+
+* [[ps-set-fc-algo-4-recursive]]
+
+### [[ps-dp]]
+
+* ps-set-ryute-3-basic-dp
+* [[ps-set-fc-algo-8-dp]]
+
+### ps-bfs-dfs
+
+* ps-set-fc-algo-9-bfs-dfs
 
 ## [[Python]]
 

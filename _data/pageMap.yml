@@ -253,7 +253,7 @@ Problem-Solving:
     parent: index-st
     url: /project/Problem-Solving
     updated: '2021-02-09 22:22:33 +0900'
-    children: [codeup, ps-basic, ps-data-structure]
+    children: [codeup, ps-basic, ps-data-structure, ps-dp]
 ps-basic:
     type: article
     title: '기본 & 구현 문제 모음'
@@ -270,6 +270,22 @@ ps-data-structure:
     url: /project/ps-data-structure
     updated: '2021-04-23 21:59:51 +0900'
     children: [ps-set-covenant-start-2-stack-queue, ps-set-covenant-start-3-heap, ps-set-fc-algo-1-data-structure, ps-set-fc-algo-2-data-structure, ps-set-ryute-1-data-struct, ps-set-ryute-2-heap]
+ps-dp:
+    type: article
+    title: '동적 계획법(Dynamic Programming) 문제 모음'
+    summary: ""
+    parent: Problem-Solving
+    url: /project/ps-dp
+    updated: '2021-05-06 19:53:58 +0900'
+    children: [ps-set-fc-algo-8-dp]
+ps-recursive:
+    type: article
+    title: '재귀 호출 문제 모음'
+    summary: ""
+    parent: ""
+    url: /project/ps-recursive
+    updated: '2021-05-06 16:06:53 +0900'
+    children: [ps-set-fc-algo-4-recursive]
 ps-set-automata-py-basic:
     type: article
     title: 'automata_Python 배우기 (1~50)'
@@ -333,6 +349,22 @@ ps-set-fc-algo-2-data-structure:
     parent: ps-data-structure
     url: /project/ps-set-fc-algo-2-data-structure
     updated: '2021-05-02 16:55:58 +0900'
+    children: []
+ps-set-fc-algo-4-recursive:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 재귀 호출"'
+    summary: ""
+    parent: ps-recursive
+    url: /project/ps-set-fc-algo-4-recursive
+    updated: '2021-05-06 16:08:20 +0900'
+    children: []
+ps-set-fc-algo-8-dp:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 동적 프로그래밍"'
+    summary: ""
+    parent: ps-dp
+    url: /project/ps-set-fc-algo-8-dp
+    updated: '2021-05-07 21:49:49 +0900'
     children: []
 ps-set-plzrun-1-io:
     type: article

@@ -49,6 +49,12 @@ ps-python:
     - {fileName: ps-set-plzrun-1-io}
 ps-javascript:
     - {fileName: ps-set-codeup-py-basic}
+'ps-python,':
+    - {fileName: ps-set-fc-algo-4-recursive}
+    - {fileName: ps-set-fc-algo-8-dp}
+draft:
+    - {fileName: ps-set-fc-algo-4-recursive}
+    - {fileName: ps-set-fc-algo-8-dp}
 velopert:
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}
