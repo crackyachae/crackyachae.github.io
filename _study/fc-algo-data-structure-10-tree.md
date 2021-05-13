@@ -39,7 +39,7 @@ latex   : true
 | 트리 특성 | Level | 최상위 노드를 Level 0으로 하였을 때, 하위 Branch로 연결된 노드의 깊이를 나타냄
 | | Depth | 트리에서 Node가 가질 수 있는 최대 Level
 
-![tree](../post-img/fc-algo-data-structure-10-tree/10-1_tree.png)
+![tree](/post-img/fc-algo-data-structure-10-tree/10-1_tree.png)
 
 ## 3. 이진 트리와 이진 탐색 트리 (Binary Search Tree)
 
@@ -47,7 +47,7 @@ latex   : true
 * 이진 탐색 트리 (Binary Search Tree, BST): 이진 트리에 다음과 같은 추가적인 조건이 있는 트리
     * 왼쪽 노드는 해당 노드보다 작은 값, 오른쪽 노드는 해당 노드보다 큰 값을 가지고 있음!
 
-![binary search tree insertion animation](../post-img/fc-algo-data-structure-10-tree/binary-search-tree-insertion-animation.gif)
+![binary search tree insertion animation](/post-img/fc-algo-data-structure-10-tree/binary-search-tree-insertion-animation.gif)
 
 (출처: https://www.mathwarehouse.com/programming/gifs/binary-search-tree.php#binary-search-tree-insertion-node)
 
@@ -59,7 +59,7 @@ latex   : true
 
 ### 이진 트리와 정렬된 배열 간의 탐색 비교
 
-![binary search tree sorted array animation](../post-img/fc-algo-data-structure-10-tree/binary-search-tree-sorted-array-animation.gif)
+![binary search tree sorted array animation](/post-img/fc-algo-data-structure-10-tree/binary-search-tree-sorted-array-animation.gif)
 
 (출처: https://www.mathwarehouse.com/programming/gifs/binary-search-tree.php#binary-search-tree-insertion-node)
 
@@ -170,14 +170,14 @@ BST.search(-1) # False
 * Leaf Node: Child Node가 없는 Node
 * 삭제할 Node의 Parent Node가 삭제할 Node를 가리키지 않도록 한다.
 
-![tree remove leaf](../post-img/fc-algo-data-structure-10-tree/10-2_tree_remove_leaf.png)
+![tree remove leaf](/post-img/fc-algo-data-structure-10-tree/10-2_tree_remove_leaf.png)
 
 #### 5.4.2. Child Node 가 하나인 Node 삭제
 
 * 삭제할 Node의 'Parent Node'가 삭제할 Node의 'Child Node'를 가리키도록 한다.
     * 삭제할 Node의 전후 Node를 연결해주는 것으로 이해하면 된다.
 
-![tree remove one child](../post-img/fc-algo-data-structure-10-tree/10-3_tree_remove_1child.png)
+![tree remove one child](/post-img/fc-algo-data-structure-10-tree/10-3_tree_remove_1child.png)
 
 #### 5.4.3. Child Node가 두 개인 Node 삭제
 
@@ -194,7 +194,7 @@ BST.search(-1) # False
 * 삭제할 Node의 왼쪽 자식(삭제할 Node보다 작은 값) 중, 가장 큰 값을 삭제할 Node의 Parent Node가 가리키도록 한다.
     * 위의 경우와 방향과 대소만 반대로 해 주면 된다.
 
-![tree remove two child](../post-img/fc-algo-data-structure-10-tree/10-4_tree_remove_2child.png)
+![tree remove two child](/post-img/fc-algo-data-structure-10-tree/10-4_tree_remove_2child.png)
 
 > 위처럼 큰 덩어리의 문제를 세부적으로 나눠서 이해하는 것을 divide and conquer 라고 한다.
 
@@ -247,7 +247,7 @@ BST.search(-1) # False
 
 #### 5.5.2. Case 1: 삭제할 Node가 Leaf Node인 경우
 
-![remove leaf node code](../post-img/fc-algo-data-structure-10-tree/10-5_tree_remove_leaf_code.png)
+![remove leaf node code](/post-img/fc-algo-data-structure-10-tree/10-5_tree_remove_leaf_code.png)
 
 ```python
 # def delete(self,value)를 이어서 작성한다.
@@ -269,7 +269,7 @@ BST.search(-1) # False
 
 #### 5.5.2. Case 2: 삭제할 Node가 Child Node를 한 개 가지고 있을 경우
 
-![tree remove one child node code](../post-img/fc-algo-data-structure-10-tree/10-6_tree_remove_1child_code.png)
+![tree remove one child node code](/post-img/fc-algo-data-structure-10-tree/10-6_tree_remove_1child_code.png)
 
 ```python
 # def delete(self,value)를 이어서 작성한다.
@@ -297,7 +297,7 @@ BST.search(-1) # False
 
 #### 5.5.3. Case3-1: 삭제할 Node가 Child Node를 두 개 가지고 있을 경우 (삭제할 Node가 Parent Node 왼쪽에 있을 때)
 
-![tree remove two child - left node code](../post-img/fc-algo-data-structure-10-tree/10-7_tree_remove_2child_code_left.png)
+![tree remove two child - left node code](/post-img/fc-algo-data-structure-10-tree/10-7_tree_remove_2child_code_left.png)
 
 * 기본 사용 가능 전략
     * 삭제할 Node의 오른쪽 자식 중, 가장 작은 값을 삭제할 Node의 Parent Node가 가리키도록 한다.
@@ -351,7 +351,7 @@ BST.search(-1) # False
 
 #### 5.5.4. Case 3-2: 삭제할 Node가 Child Node를 두 개 가지고 있을 경우 (삭제할 Node가 Parent Node 오른쪽에 있을 때)
 
-![tree remove two child - right node code](../post-img/fc-algo-data-structure-10-tree/10-8_tree_remove_2child_code_right.png)
+![tree remove two child - right node code](/post-img/fc-algo-data-structure-10-tree/10-8_tree_remove_2child_code_right.png)
 
 * 기본 사용 가능 전략
     * 삭제할 Node의 오른쪽 자식 중, 가장 작은 값을 삭제할 Node의 Parent Node가 가리키도록 한다.
@@ -562,7 +562,7 @@ for del_num in delete_nums
     * 참고: 빅오 표기법에서 $logn$ 에서의 log의 밑은 10이 아니라, 2입니다.
         * 한번 실행 시마다, 50%의 실행할 수도 있는 명령을 제거한다는 의미. 즉 50%의 실행 시간을 단축할 수 있다는 것을 의미함
 
-![binary search tree sorted array animation](../post-img/fc-algo-data-structure-10-tree/binary-search-tree-sorted-array-animation.gif)
+![binary search tree sorted array animation](/post-img/fc-algo-data-structure-10-tree/binary-search-tree-sorted-array-animation.gif)
 
 (출처: https://www.mathwarehouse.com/programming/gifs/binary-search-tree.php#binary-search-tree-insertion-node)
 
@@ -572,4 +572,4 @@ for del_num in delete_nums
     * 이는 트리가 균형 잡혀 있을 때의 평균 시간복잡도이며,
     * 다음 예와 같이 구성되어 있을면, 최악의 경우는 링크드 리스트 등과 동일한 성능을 보여줌 ($O(n)$)
 
-![binary search tree worst case](../post-img/fc-algo-data-structure-10-tree/10-9_worstcase_bst.png)
+![binary search tree worst case](/post-img/fc-algo-data-structure-10-tree/10-9_worstcase_bst.png)

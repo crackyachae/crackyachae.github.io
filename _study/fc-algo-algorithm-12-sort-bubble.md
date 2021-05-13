@@ -15,7 +15,7 @@ latex   : true
 
 > 이 글은 패스트 캠퍼스 [기술면접 완전 정복 올인원 패키지 Online](https://fastcampus.co.kr/dev_online_algo) 'Chapter 12. 정렬: 버블 정렬(Bubble Sort)'의 강의내용을 정리하기 위해 강의 자료를 기반으로 작성한 글입니다.
 >
-> 강의 노트는 강의 구매자에게만 제공되는 자료이긴 하지만 잔재미 코딩의 [3. 대표적인 정렬1: 버블 정렬 (bubble sort)](https://www.fun-coding.org/Chapter04-array-live.html)에서 동일한 자료를 제공하고 있기 때문에 해당 자료를 기반으로 정리한 글을 작성해서 올립니다. 혹시 문제가 되는 경우 바로 내릴 예정이니 알려주시면 감사하겠습니다.
+> 강의 노트는 강의 구매자에게만 제공되는 자료이긴 하지만 잔재미 코딩의 [3. 대표적인 정렬1: 버블 정렬 (bubble sort)](https://www.fun-coding.org/Chapter12-bubblesorting.html)에서 동일한 자료를 제공하고 있기 때문에 해당 자료를 기반으로 정리한 글을 작성해서 올립니다. 혹시 문제가 되는 경우 바로 내릴 예정이니 알려주시면 감사하겠습니다.
 >
 > 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 원문을 참고해주시길 바랍니다.
 > 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
@@ -52,7 +52,7 @@ latex   : true
 
 > 직접 눈으로 보면 더 이해가 쉽다: https://visualgo.net/en/sorting
 
-![bubble sort](../post-img/fc-algo-algorithm-12-sort-bubble/1_Bubble-sort-example.gif)
+![bubble sort](/post-img/fc-algo-algorithm-12-sort-bubble/1_Bubble-sort-example.gif)
 
 출처: https://en.wikipedia.org/wiki/Bubble_sort
 

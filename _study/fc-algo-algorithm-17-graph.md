@@ -26,7 +26,7 @@ latex   : false
 
 #### 예제: 집에서 회사로 가는 경로를 그래프로 표현한 예
 
-![graph example](../post-img/fc-algo-algorithm-17-graph/1_graph.png)
+![graph example](/post-img/fc-algo-algorithm-17-graph/1_graph.png)
 
 ## 2. 그래프(Graph) 관련 용어
 
@@ -49,7 +49,7 @@ latex   : false
 
 * 단순 경로 (A - B - C)
 
-![simple path](../post-img/fc-algo-algorithm-17-graph/2_simplepath.png)
+![simple path](/post-img/fc-algo-algorithm-17-graph/2_simplepath.png)
 
 ## 3. 그래프(Graph) 종류
 
@@ -59,7 +59,7 @@ latex   : false
 * 간선을 통해, 노드는 양방향으로 갈 수 있음
 * 보통 노드 A, B가 연결되어 있으면, (A, B) 또는 (B, A)로 표기
 
-![undirected graph](../post-img/fc-algo-algorithm-17-graph/3_undirectedgraph.png)
+![undirected graph](/post-img/fc-algo-algorithm-17-graph/3_undirectedgraph.png)
 
 ### 방향 그래프(Directed Graph)
 
@@ -68,20 +68,20 @@ latex   : false
 * 가중치 그래프 (Weighted Graph) 또는 네트워크 (Network)
 * 간선에 비용 또는 가중치가 할당된 그래프
 
-![directed graph](../post-img/fc-algo-algorithm-17-graph/4_directedgraph.png)
+![directed graph](/post-img/fc-algo-algorithm-17-graph/4_directedgraph.png)
 
 ### 가중치 그래프(Weighted Graph) 또는 네트워크(Network)
 
 * 간선에 비용 또는 가중치가 할당된 그래프
 
-![weighted graph](../post-img/fc-algo-algorithm-17-graph/5_weightedgraph.png)
+![weighted graph](/post-img/fc-algo-algorithm-17-graph/5_weightedgraph.png)
 
 ### 연결 그래프(Connected Graph)와 비연결 그래프(Disconnected Graph)
 
 * 연결 그래프(Connected Graph): 무방향 그래프에 있는 모든 노드에 대해 항상 경로가 존재하는 경우
 * 비연결 그래프(Disconnected Graph): 무방향 그래프에서 특정 노드에 대해 경로가 존재하지 않는 경우
     * 비연결 그래프 예
-    * ![disconnected graph](../post-img/fc-algo-algorithm-17-graph/6_disconnectedgraph.png)
+    * ![disconnected graph](/post-img/fc-algo-algorithm-17-graph/6_disconnectedgraph.png)
 
 ### 사이클(Cycle) 과 비순환 그래프(Acyclic Graph)
 
@@ -90,11 +90,11 @@ latex   : false
 * 비순환 그래프(Acyclic Graph)
     * 사이클이 없는 그래프
     * 비순환 그래프 예
-    * ![acyclic graph](../post-img/fc-algo-algorithm-17-graph/7_acyclicgraph.png)
+    * ![acyclic graph](/post-img/fc-algo-algorithm-17-graph/7_acyclicgraph.png)
 * 완전 그래프(Complete Graph)
     * 그래프의 모든 노드가 서로 연결된 그래프
     * 완전 그래프 예
-    * ![complete graph](../post-img/fc-algo-algorithm-17-graph/8_completegraph.png)
+    * ![complete graph](/post-img/fc-algo-algorithm-17-graph/8_completegraph.png)
 
 ## 4. 그래프와 트리의 차이
 

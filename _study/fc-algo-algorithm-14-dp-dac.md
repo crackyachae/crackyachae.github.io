@@ -84,7 +84,7 @@ fibonacci(8) # 21
 fibonacci(9) # 34
 ```
 
-![fibonacci](../post-img/fc-algo-algorithm-14-dp-dac/1_dp.png)
+![fibonacci](/post-img/fc-algo-algorithm-14-dp-dac/1_dp.png)
 
 * f(n)을 f(0), f(1)과 같은 작은 단위로 쪼개야 하고
 * 그 과정에서 f(0), f(1) 등은 중복해서 여러 번 구한다는 점에서

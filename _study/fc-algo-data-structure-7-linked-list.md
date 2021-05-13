@@ -36,7 +36,8 @@ latex   : false
 
 \* 일반적인 링크드 리스트 형태
 
-![singly linked list](../post-img/fc-algo-data-structure-7-linked-list/7-1_Singly-linked-list.svg.png)
+![singly linked list](/post-img/fc-algo-data-structure-7-linked-list/7-1_Singly-linked-list.svg.png)
+
 (출처: wikipedia, https://en.wikipedia.org/wiki/Linked_list)
 
 ## 2. 간단한 링크드 리스트 예
@@ -148,7 +149,8 @@ print (node.data)
 
 링크드 리스트는 유지 관리에 부가적인 구현이 필요함
 
-![CPT linked list adding node](../post-img/fc-algo-data-structure-7-linked-list/7-2_CPT-LinkedLists-addingnode.svg.png)
+![CPT linked list adding node](/post-img/fc-algo-data-structure-7-linked-list/7-2_CPT-LinkedLists-addingnode.svg.png)
+
 (출처: wikipedia, https://en.wikipedia.org/wiki/Linked_list)
 
 ```python
@@ -439,7 +441,8 @@ print(node.data)
     * 이중 연결 리스트라고도 함
     * 장점: 양방향으로 연결되어 있어서 노드 탐색이 양쪽으로 모두 가능
 
-![doubly linked list](../post-img/fc-algo-data-structure-7-linked-list/7-3_Doubly-linked-list.svg.png)
+![doubly linked list](/post-img/fc-algo-data-structure-7-linked-list/7-3_Doubly-linked-list.svg.png)
+
 (출처: wikipedia, https://en.wikipedia.org/wiki/Linked_list)
 
 ```python

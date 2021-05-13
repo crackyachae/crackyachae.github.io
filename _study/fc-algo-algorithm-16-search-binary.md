@@ -26,7 +26,7 @@ latex   : true
 
 다음 문제를 먼저 생각해보자
 
-![sort example](../post-img/fc-algo-algorithm-16-search-binary/1_binarysearch.png)
+![sort example](/post-img/fc-algo-algorithm-16-search-binary/1_binarysearch.png)
 
 * 정렬이 되어있다는 것이 중요하다.
 * 중간을 확인했을 때 60이 들어 있다면 그 보다 오른쪽의 병을 확인한다.
@@ -35,7 +35,7 @@ latex   : true
 
 ### 이진 탐색의 이해 (순차 탐색과 비교하며 이해하기)
 
-![binary vs linear search](../post-img/fc-algo-algorithm-16-search-binary/2_binary-and-linear-search-animations.gif)
+![binary vs linear search](/post-img/fc-algo-algorithm-16-search-binary/2_binary-and-linear-search-animations.gif)
 
 [저작자] by penjee.com [이미지 출처](https://blog.penjee.com/binary-vs-linear-search-animated-gifs/)
 

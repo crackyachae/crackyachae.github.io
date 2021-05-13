@@ -25,7 +25,7 @@ latex   : true
 * 힙: 데이터에서 최댓값과 최솟값을 빠르게 찾기 위해 고안된 완전 이진 트리(complete binary tree)
     * 완전 이진 트리: 노드를 삽입할 때 최하단 왼쪽 노드부터 차례대로 삽입하는 트리
 
-![complete binary tree](../post-img/fc-algo-data-structure-11-heap/11-1_completebinarytree.png)
+![complete binary tree](/post-img/fc-algo-data-structure-11-heap/11-1_completebinarytree.png)
 
 * 힙을 사용하는 이유
     * 배열에 데이터를 넣고, 최댓값과 최솟값을 찾으려면 o(n) 이 걸림
@@ -52,7 +52,7 @@ latex   : true
         * 힙의 왼쪽 및 오른쪽 자식 노드의 값은 오른쪽이 클 수도 있고, 왼쪽이 클 수도 있음
 * 이진 탐색 트리는 탐색을 위한 구조, 힙은 최대/최솟값 검색을 위한 구조 중 하나로 이해하면 됨
 
-![heap vs binary search tree](../post-img/fc-algo-data-structure-11-heap/11-2_completebinarytree_bst.png)
+![heap vs binary search tree](/post-img/fc-algo-data-structure-11-heap/11-2_completebinarytree_bst.png)
 
 ## 3. 힙 (heap) 동작
 
@@ -62,14 +62,14 @@ latex   : true
 
 * 힙은 완전 이진 트리이므로, 삽입할 노드는 기본적으로 왼쪽 최하단부 노드부터 채워지는 형태로 삽입
 
-![heap ordinary](../post-img/fc-algo-data-structure-11-heap/11-3_heap_ordinary.png)
+![heap ordinary](/post-img/fc-algo-data-structure-11-heap/11-3_heap_ordinary.png)
 
 ### 힙에 데이터 삽입하기 - 삽입할 데이터가 힙의 데이터보다 클 경우 (max heap의 예)
 
 * 먼저 삽입된 데이터는 완전 이진 트리 구조에 맞추어, 최하단부 왼쪽 노드부터 채워짐
 * 채워진 노드 위치에서, 부모 노드보다 값이 클 경우, 부모 노드와 위치를 바꿔주는 작업을 반복함 (swap)
 
-![heap insert](../post-img/fc-algo-data-structure-11-heap/11-4_heap_insert.png)
+![heap insert](/post-img/fc-algo-data-structure-11-heap/11-4_heap_insert.png)
 
 ### 힙의 데이터 삭제하기 (max heap 의 예)
 
@@ -78,7 +78,7 @@ latex   : true
 * 상단의 데이터 삭제 시, 가장 최하단부 왼쪽에 위치한 노드 (일반적으로 가장 마지막에 추가한 노드)를 root 노드로 이동
 * root 노드의 값이 child node보다 작을 경우, root 노드의 child node 중 가장 큰 값을 가진 노드와 root 노드 위치를 바꿔주는 작업을 반복함 (swap)
 
-![heap remove](../post-img/fc-algo-data-structure-11-heap/11-5_heap_remove.png)
+![heap remove](/post-img/fc-algo-data-structure-11-heap/11-5_heap_remove.png)
 
 ## 4. 힙 구현
 
@@ -90,7 +90,7 @@ latex   : true
     * 왼쪽 자식 노드 인덱스 번호 (left child node's index) = 부모 노드 인덱스 번호 (parent node's index) * 2
     * 오른쪽 자식 노드 인덱스 번호 (right child node's index) = 부모 노드 인덱스 번호 (parent node's index) * 2 + 1
 
-![heap array](../post-img/fc-algo-data-structure-11-heap/11-6_heap_array.png)
+![heap array](/post-img/fc-algo-data-structure-11-heap/11-6_heap_array.png)
 
 ```python
 # 예1 - 10 노드의 부모 노드 인덱스
@@ -124,7 +124,7 @@ heap.heap_array # [none, 1]
     * 우선 노드를 가장 마지막에 추가한다.
     * 인덱스 번호는 1번부터 시작하도록 변경
 
-![heap ordinary](../post-img/fc-algo-data-structure-11-heap/11-7_heap_ordinary-1.png)
+![heap ordinary](/post-img/fc-algo-data-structure-11-heap/11-7_heap_ordinary-1.png)
 
 ```python
 class heap:
@@ -152,7 +152,7 @@ class heap:
     * 왼쪽 자식 노드 인덱스 번호 (left child node's index) = 부모 노드 인덱스 번호 (parent node's index) * 2
     * 오른쪽 자식 노드 인덱스 번호 (right child node's index) = 부모 노드 인덱스 번호 (parent node's index) * 2 + 1
 
-![heap insert](../post-img/fc-algo-data-structure-11-heap/11-8_heap_insert-1.png)
+![heap insert](/post-img/fc-algo-data-structure-11-heap/11-8_heap_insert-1.png)
 
 ```python
 class heap:
@@ -239,7 +239,7 @@ class heap:
     * 상단의 데이터 삭제 시, 가장 최하단부 왼쪽에 위치한 노드 (일반적으로 가장 마지막에 추가한 노드)를 root 노드로 이동
     * root 노드의 값이 child node보다 작을 경우, root 노드의 child node 중 가장 큰 값을 가진 노드와 root 노드 위치를 바꿔주는 작업을 반복함 (swap)
 
-![heap remove](../post-img/fc-algo-data-structure-11-heap/11-9_heap_remove-1.png)
+![heap remove](/post-img/fc-algo-data-structure-11-heap/11-9_heap_remove-1.png)
 
 ```python
 

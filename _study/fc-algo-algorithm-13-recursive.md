@@ -150,7 +150,7 @@ for num in range(10):
 
 * 함수는 내부적으로 스택처럼 관리된다.
 
-![recursive call](../post-img/fc-algo-algorithm-13-recursive/1_recursivecall.png)
+![recursive call](/post-img/fc-algo-algorithm-13-recursive/1_recursivecall.png)
 
 * 재귀 호출이 이해가 가지 않는다면? - [코드 분석](http://pythontutor.com/live.html#mode=edit)
 
@@ -354,7 +354,7 @@ func(3)
 
 #### 문제 분석을 연습장에 작성해 본 예
 
-![algorithm practice](../post-img/fc-algo-algorithm-13-recursive/2_algopractice.jpg)
+![algorithm practice](/post-img/fc-algo-algorithm-13-recursive/2_algopractice.jpg)
 
 #### 작성 코드
 

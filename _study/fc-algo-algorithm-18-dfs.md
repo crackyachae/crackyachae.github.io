@@ -34,7 +34,7 @@ latex   : false
 * DFS 방식: A - B - D - E - F - C - G - H - I - J
     * 한 노드의 자식을 타고 끝까지 순회한 후, 다시 돌아와서 다른 형제들의 자식을 타고 내려가며 순화함
 
-![BFS vs DFS](../post-img/fc-algo-algorithm-18-dfs/1_BFSDFS.png)
+![BFS vs DFS](/post-img/fc-algo-algorithm-18-dfs/1_BFSDFS.png)
 
 ## 2. 파이썬으로 그래프를 표현하는 방법
 
@@ -45,7 +45,7 @@ latex   : false
 * 노드는 딕셔너리의 key로 만든다.
 * 해당 노드의 인접 노드들의 리스트를 value로 만든다.
 
-![dfs graph](../post-img/fc-algo-algorithm-18-dfs/2_dfsgraph.png)
+![dfs graph](/post-img/fc-algo-algorithm-18-dfs/2_dfsgraph.png)
 
 ```python
 graph = dict()
