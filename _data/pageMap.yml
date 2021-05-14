@@ -44,11 +44,11 @@ fc-algo-algorithm:
     summary: ""
     parent: fc-algo
     url: /project/fc-algo-algorithm
-    updated: '2021-05-05 17:31:09 +0900'
+    updated: '2021-05-14 13:56:48 +0900'
     children: []
 fc-algo-algorithm-12-sort-bubble:
     type: article
-    title: '"Chapter 12. 정렬: 버블 정렬(Bubble Sort)"'
+    title: '"Chapter 12. 기본 정렬 알고리즘: 버블 정렬(Bubble Sort)"'
     summary: ""
     parent: ""
     url: /project/fc-algo-algorithm-12-sort-bubble
@@ -56,11 +56,27 @@ fc-algo-algorithm-12-sort-bubble:
     children: []
 fc-algo-algorithm-12-sort-insert:
     type: article
-    title: '"Chapter 12. 정렬: 삽입 정렬(Insertion Sort)"'
+    title: '"Chapter 12. 기본 정렬 알고리즘: 삽입 정렬(Insertion Sort)"'
     summary: ""
     parent: ""
     url: /project/fc-algo-algorithm-12-sort-insert
-    updated: '2021-05-13 11:47:56 +0900'
+    updated: '2021-05-13 19:25:43 +0900'
+    children: []
+fc-algo-algorithm-12-sort-selection:
+    type: article
+    title: '"Chapter 12. 기본 정렬 알고리즘: 선택 정렬(Selection Sort)"'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-12-sort-selection
+    updated: '2021-05-13 19:59:10 +0900'
+    children: []
+fc-algo-algorithm-12-space-complexity:
+    type: article
+    title: '"Chapter 12. 기본 정렬 알고리즘: 참고, 공간 복잡도(Space Complexity)"'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-12-space-complexity
+    updated: '2021-05-13 20:15:29 +0900'
     children: []
 fc-algo-algorithm-13-recursive:
     type: article
@@ -77,6 +93,22 @@ fc-algo-algorithm-14-dp-dac:
     parent: ""
     url: /project/fc-algo-algorithm-14-dp-dac
     updated: '2021-05-05 12:16:57 +0900'
+    children: []
+fc-algo-algorithm-15-sort-merge:
+    type: article
+    title: '"Chapter 15. 고급 정렬 알고리즘: 병합 정렬(Merge Sort)"'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-15-sort-merge
+    updated: '2021-05-14 13:00:01 +0900'
+    children: []
+fc-algo-algorithm-15-sort-quick:
+    type: article
+    title: '"Chapter 15. 고급 정렬 알고리즘: 퀵 정렬(Quick Sort)"'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-15-sort-quick
+    updated: '2021-05-13 22:08:35 +0900'
     children: []
 fc-algo-algorithm-16-search-binary:
     type: article
