@@ -197,6 +197,8 @@ regenerate: true
 * [[ps-set-ryute-2-heap]]
 * [[ps-set-fc-algo-2-data-structure]]
 
+### [[ps-sort]]
+
 ### [[ps-recursive]]
 
 * [[ps-set-fc-algo-4-recursive]]

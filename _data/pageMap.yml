@@ -293,7 +293,7 @@ Problem-Solving:
     parent: index-st
     url: /project/Problem-Solving
     updated: '2021-02-09 22:22:33 +0900'
-    children: [codeup, ps-basic, ps-data-structure, ps-dp]
+    children: [codeup, ps-basic, ps-data-structure, ps-dp, ps-recursive]
 ps-basic:
     type: article
     title: '기본 & 구현 문제 모음'
@@ -322,7 +322,7 @@ ps-recursive:
     type: article
     title: '재귀 호출 문제 모음'
     summary: ""
-    parent: ""
+    parent: Problem-Solving
     url: /project/ps-recursive
     updated: '2021-05-06 16:06:53 +0900'
     children: [ps-set-fc-algo-4-recursive]
@@ -429,6 +429,14 @@ ps-set-ryute-2-heap:
     parent: ps-data-structure
     url: /project/ps-set-ryute-2-heap
     updated: '2021-04-28 22:03:06 +0900'
+    children: []
+ps-sort:
+    type: article
+    title: '정렬 문제 모음'
+    summary: ""
+    parent: ""
+    url: /project/ps-sort
+    updated: '2021-05-14 14:05:45 +0900'
     children: []
 Python:
     type: article

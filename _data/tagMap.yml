@@ -9,6 +9,9 @@ navigation:
     - {fileName: Mathematics}
     - {fileName: Problem-Solving}
     - {fileName: ps-basic}
+    - {fileName: ps-data-structure}
+    - {fileName: ps-dp}
+    - {fileName: ps-recursive}
     - {fileName: Python}
     - {fileName: react}
     - {fileName: Style-Sheet}
