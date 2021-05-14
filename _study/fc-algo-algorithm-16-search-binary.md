@@ -7,7 +7,7 @@ updated : 2021-05-05 14:44:27 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[fc-algo-algorithm]]
 latex   : true
 ---
 * TOC

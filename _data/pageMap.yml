@@ -45,12 +45,12 @@ fc-algo-algorithm:
     parent: fc-algo
     url: /project/fc-algo-algorithm
     updated: '2021-05-14 13:56:48 +0900'
-    children: []
+    children: [fc-algo-algorithm-12-sort-bubble, fc-algo-algorithm-12-sort-insert, fc-algo-algorithm-12-sort-selection, fc-algo-algorithm-12-space-complexity, fc-algo-algorithm-13-recursive, fc-algo-algorithm-14-dp-dac, fc-algo-algorithm-15-sort-merge, fc-algo-algorithm-15-sort-quick, fc-algo-algorithm-16-search-binary, fc-algo-algorithm-17-graph, fc-algo-algorithm-18-bfs, fc-algo-algorithm-18-dfs]
 fc-algo-algorithm-12-sort-bubble:
     type: article
     title: '"Chapter 12. 기본 정렬 알고리즘: 버블 정렬(Bubble Sort)"'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-12-sort-bubble
     updated: '2021-05-05 02:24:12 +0900'
     children: []
@@ -58,7 +58,7 @@ fc-algo-algorithm-12-sort-insert:
     type: article
     title: '"Chapter 12. 기본 정렬 알고리즘: 삽입 정렬(Insertion Sort)"'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-12-sort-insert
     updated: '2021-05-13 19:25:43 +0900'
     children: []
@@ -66,7 +66,7 @@ fc-algo-algorithm-12-sort-selection:
     type: article
     title: '"Chapter 12. 기본 정렬 알고리즘: 선택 정렬(Selection Sort)"'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-12-sort-selection
     updated: '2021-05-13 19:59:10 +0900'
     children: []
@@ -74,7 +74,7 @@ fc-algo-algorithm-12-space-complexity:
     type: article
     title: '"Chapter 12. 기본 정렬 알고리즘: 참고, 공간 복잡도(Space Complexity)"'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-12-space-complexity
     updated: '2021-05-13 20:15:29 +0900'
     children: []
@@ -82,7 +82,7 @@ fc-algo-algorithm-13-recursive:
     type: article
     title: 'Chapter 13. 재귀 용법(Recursive Call)'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-13-recursive
     updated: '2021-05-05 11:46:36 +0900'
     children: []
@@ -90,7 +90,7 @@ fc-algo-algorithm-14-dp-dac:
     type: article
     title: 'Chapter 14. 동적 계획법(Dynamic Programming)과 분할 정복(Divide and Conquer)'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-14-dp-dac
     updated: '2021-05-05 12:16:57 +0900'
     children: []
@@ -98,7 +98,7 @@ fc-algo-algorithm-15-sort-merge:
     type: article
     title: '"Chapter 15. 고급 정렬 알고리즘: 병합 정렬(Merge Sort)"'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-15-sort-merge
     updated: '2021-05-14 13:00:01 +0900'
     children: []
@@ -106,7 +106,7 @@ fc-algo-algorithm-15-sort-quick:
     type: article
     title: '"Chapter 15. 고급 정렬 알고리즘: 퀵 정렬(Quick Sort)"'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-15-sort-quick
     updated: '2021-05-13 22:08:35 +0900'
     children: []
@@ -114,7 +114,7 @@ fc-algo-algorithm-16-search-binary:
     type: article
     title: '"Chapter 16. 탐색 알고리즘: 이진 탐색(Binary Search)"'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-16-search-binary
     updated: '2021-05-05 14:44:27 +0900'
     children: []
@@ -122,7 +122,7 @@ fc-algo-algorithm-17-graph:
     type: article
     title: 'Chapter 17. 그래프 이해와 자료구조'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-17-graph
     updated: '2021-05-05 15:16:26 +0900'
     children: []
@@ -130,7 +130,7 @@ fc-algo-algorithm-18-bfs:
     type: article
     title: '"Chapter 18. 그래프 기본 탐색 알고리즘: 너비 우선 탐색(BFS)"'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-18-bfs
     updated: '2021-05-05 17:03:15 +0900'
     children: []
@@ -138,7 +138,7 @@ fc-algo-algorithm-18-dfs:
     type: article
     title: '"Chapter 18. 그래프 기본 탐색 알고리즘: 깊이 우선 탐색(DFS)"'
     summary: ""
-    parent: ""
+    parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-18-dfs
     updated: '2021-05-05 17:30:31 +0900'
     children: []
