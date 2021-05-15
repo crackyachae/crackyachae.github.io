@@ -199,6 +199,8 @@ regenerate: true
 
 ### [[ps-sort]]
 
+* [[ps-set-fc-algo-3-sort-basic]]
+
 ### [[ps-recursive]]
 
 * [[ps-set-fc-algo-4-recursive]]

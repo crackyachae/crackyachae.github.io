@@ -293,7 +293,7 @@ Problem-Solving:
     parent: index-st
     url: /project/Problem-Solving
     updated: '2021-02-09 22:22:33 +0900'
-    children: [codeup, ps-basic, ps-data-structure, ps-dp, ps-recursive]
+    children: [codeup, ps-basic, ps-data-structure, ps-dp, ps-recursive, ps-sort]
 ps-basic:
     type: article
     title: '기본 & 구현 문제 모음'
@@ -390,6 +390,14 @@ ps-set-fc-algo-2-data-structure:
     url: /project/ps-set-fc-algo-2-data-structure
     updated: '2021-05-02 16:55:58 +0900'
     children: []
+ps-set-fc-algo-3-sort-basic:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 기본 정렬 알고리즘"'
+    summary: ""
+    parent: ps-sort
+    url: /project/ps-set-fc-algo-3-sort-basic
+    updated: '2021-05-15 17:54:18 +0900'
+    children: []
 ps-set-fc-algo-4-recursive:
     type: article
     title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 재귀 호출"'
@@ -434,10 +442,10 @@ ps-sort:
     type: article
     title: '정렬 문제 모음'
     summary: ""
-    parent: ""
+    parent: Problem-Solving
     url: /project/ps-sort
     updated: '2021-05-14 14:05:45 +0900'
-    children: []
+    children: [ps-set-fc-algo-3-sort-basic]
 Python:
     type: article
     title: Python

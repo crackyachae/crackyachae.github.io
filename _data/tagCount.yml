@@ -24,7 +24,7 @@
     size: 1
 -
     name: ps-python
-    size: 9
+    size: 10
 -
     name: 'ps-python,'
     size: 2
