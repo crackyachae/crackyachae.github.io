@@ -55,6 +55,7 @@ regenerate: true
     * [[fc-algo-algorithm-15-sort-quick]]
     * [[fc-algo-algorithm-15-sort-merge]]
     * [[fc-algo-algorithm-16-search-binary]]
+    * [[fc-algo-algorithm-16-search-sequential]]
     * [[fc-algo-algorithm-17-graph]]
     * [[fc-algo-algorithm-18-bfs]]
     * [[fc-algo-algorithm-18-dfs]]

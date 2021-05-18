@@ -45,7 +45,7 @@ fc-algo-algorithm:
     parent: fc-algo
     url: /project/fc-algo-algorithm
     updated: '2021-05-14 13:56:48 +0900'
-    children: [fc-algo-algorithm-12-sort-bubble, fc-algo-algorithm-12-sort-insert, fc-algo-algorithm-12-sort-selection, fc-algo-algorithm-12-space-complexity, fc-algo-algorithm-13-recursive, fc-algo-algorithm-14-dp-dac, fc-algo-algorithm-15-sort-merge, fc-algo-algorithm-15-sort-quick, fc-algo-algorithm-16-search-binary, fc-algo-algorithm-17-graph, fc-algo-algorithm-18-bfs, fc-algo-algorithm-18-dfs]
+    children: [fc-algo-algorithm-12-sort-bubble, fc-algo-algorithm-12-sort-insert, fc-algo-algorithm-12-sort-selection, fc-algo-algorithm-12-space-complexity, fc-algo-algorithm-13-recursive, fc-algo-algorithm-14-dp-dac, fc-algo-algorithm-15-sort-merge, fc-algo-algorithm-15-sort-quick, fc-algo-algorithm-16-search-binary, fc-algo-algorithm-16-search-sequential, fc-algo-algorithm-17-graph, fc-algo-algorithm-18-bfs, fc-algo-algorithm-18-dfs]
 fc-algo-algorithm-12-sort-bubble:
     type: article
     title: '"Chapter 12. 기본 정렬 알고리즘: 버블 정렬(Bubble Sort)"'
@@ -117,6 +117,14 @@ fc-algo-algorithm-16-search-binary:
     parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-16-search-binary
     updated: '2021-05-05 14:44:27 +0900'
+    children: []
+fc-algo-algorithm-16-search-sequential:
+    type: article
+    title: '"Chapter 16. 탐색 알고리즘: 순차 탐색(Sequential Search)"'
+    summary: ""
+    parent: fc-algo-algorithm
+    url: /project/fc-algo-algorithm-16-search-sequential
+    updated: '2021-05-18 12:06:30 +0900'
     children: []
 fc-algo-algorithm-17-graph:
     type: article
