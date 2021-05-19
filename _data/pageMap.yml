@@ -301,7 +301,7 @@ Problem-Solving:
     parent: index-st
     url: /project/Problem-Solving
     updated: '2021-02-09 22:22:33 +0900'
-    children: [codeup, ps-basic, ps-data-structure, ps-dp, ps-recursive, ps-sort]
+    children: [codeup, ps-basic, ps-data-structure, ps-dp, ps-recursive, ps-search, ps-sort]
 ps-basic:
     type: article
     title: '기본 & 구현 문제 모음'
@@ -334,6 +334,14 @@ ps-recursive:
     url: /project/ps-recursive
     updated: '2021-05-06 16:06:53 +0900'
     children: [ps-set-fc-algo-4-recursive]
+ps-search:
+    type: article
+    title: '탐색 문제 모음'
+    summary: ""
+    parent: Problem-Solving
+    url: /project/ps-search
+    updated: '2021-05-18 15:17:09 +0900'
+    children: []
 ps-set-automata-py-basic:
     type: article
     title: 'automata_Python 배우기 (1~50)'
@@ -414,6 +422,22 @@ ps-set-fc-algo-4-recursive:
     url: /project/ps-set-fc-algo-4-recursive
     updated: '2021-05-06 16:08:20 +0900'
     children: []
+ps-set-fc-algo-5-sort-advanced:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 고급 정렬 알고리즘"'
+    summary: ""
+    parent: ps-sort
+    url: /project/ps-set-fc-algo-5-sort-advanced
+    updated: '2021-05-18 17:32:31 +0900'
+    children: []
+ps-set-fc-algo-6-search-basic:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 기본 탐색 알고리즘"'
+    summary: ""
+    parent: ""
+    url: /project/ps-set-fc-algo-6-search-basic
+    updated: '2021-05-19 22:58:59 +0900'
+    children: []
 ps-set-fc-algo-8-dp:
     type: article
     title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 동적 프로그래밍"'
@@ -453,7 +477,7 @@ ps-sort:
     parent: Problem-Solving
     url: /project/ps-sort
     updated: '2021-05-14 14:05:45 +0900'
-    children: [ps-set-fc-algo-3-sort-basic]
+    children: [ps-set-fc-algo-3-sort-basic, ps-set-fc-algo-5-sort-advanced]
 Python:
     type: article
     title: Python

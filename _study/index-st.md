@@ -201,10 +201,15 @@ regenerate: true
 ### [[ps-sort]]
 
 * [[ps-set-fc-algo-3-sort-basic]]
+* [[ps-set-fc-algo-5-sort-advanced]]
 
 ### [[ps-recursive]]
 
 * [[ps-set-fc-algo-4-recursive]]
+
+### [[ps-search]]
+ 
+* [[ps-set-fc-algo-6-search-basic]]
 
 ### [[ps-dp]]
 
