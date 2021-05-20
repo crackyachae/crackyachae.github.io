@@ -341,7 +341,7 @@ ps-search:
     parent: Problem-Solving
     url: /project/ps-search
     updated: '2021-05-18 15:17:09 +0900'
-    children: []
+    children: [ps-set-fc-algo-6-search-basic, ps-set-fc-algo-7-search-advanced]
 ps-set-automata-py-basic:
     type: article
     title: 'automata_Python 배우기 (1~50)'
@@ -434,9 +434,17 @@ ps-set-fc-algo-6-search-basic:
     type: article
     title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 기본 탐색 알고리즘"'
     summary: ""
-    parent: ""
+    parent: ps-search
     url: /project/ps-set-fc-algo-6-search-basic
     updated: '2021-05-19 22:58:59 +0900'
+    children: []
+ps-set-fc-algo-7-search-advanced:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 고급 탐색 알고리즘"'
+    summary: ""
+    parent: ps-search
+    url: /project/ps-set-fc-algo-7-search-advanced
+    updated: '2021-05-19 23:02:56 +0900'
     children: []
 ps-set-fc-algo-8-dp:
     type: article

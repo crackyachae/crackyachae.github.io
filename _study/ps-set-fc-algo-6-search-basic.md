@@ -7,7 +7,7 @@ updated : 2021-05-19 22:58:59 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[ps-search]]
 latex   : false
 ---
 * TOC
