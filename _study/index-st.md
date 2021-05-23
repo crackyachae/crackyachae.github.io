@@ -210,6 +210,7 @@ regenerate: true
 ### [[ps-search]]
  
 * [[ps-set-fc-algo-6-search-basic]]
+* [[ps-set-fc-algo-7-search-advanced]]
 
 ### [[ps-dp]]
 
