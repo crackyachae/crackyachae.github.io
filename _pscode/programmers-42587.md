@@ -13,7 +13,7 @@ latex   : false
 * TOC
 {:toc}
 
->이 글은 프로그래머스의 [42587번](https://programmers.co.kr/learn/courses/30/lessons/42587) 문제를 파이썬(Python)으로 풀이한 것을 모아놓은 글입니다.
+> 이 글은 프로그래머스의 [42587번](https://programmers.co.kr/learn/courses/30/lessons/42587) 문제를 파이썬(Python)으로 풀이한 것을 모아놓은 글입니다.
 >
 > 일종의 연습 기록이며 제가 정답을 받은 코드와 참고할만한 다른 코드를 같이 기록합니다. 필요한 경우 코드에 대한 해설을 기록합니다만 코드는 통과했어도 해설은 틀릴 수 있기 때문에 가볍게 참고해주시길 부탁드립니다. 피드백은 편하신 방법으로 자유롭게 주시면 감사하겠습니다.
 
@@ -76,17 +76,31 @@ def solution(priorities, location):
             wait_list.append(wait_list.popleft())
 ```
 
-### 풀이 설명
+### 아이디어 & 풀이
 
-* 동일한 priority를 갖는 문서가 존재할 수 있기 때문에 문서 구분을 위해 `(priority, index)`의 튜플로 `wait_list`를 구성한다.
-    * `location`이 `priorities`의 인덱스이기 때문에 문서 구분을 위해 인덱스값을 사용한다.
-* priority 최댓값을 갖는 문서부터 인쇄하기 때문에 우선 현재 priority의 최댓값을 구하고,
-    * `wait_list`가 튜플이기 때문에 `max` 함수의 비교 기준이 priority가 될 수 있도록 `key`로 `lambda p: p[0]`를 전달한다.
+자료구조 '큐'를 이용하는 문제이다. 프린트 대기 목록을 큐로 만들어 가장 앞의 문서(i.e., 원소)를 pop 하거나 그 문서를 대기 목록 마지막에 추가할 수 있다.
+
+우선 프린트 대기목록은 `(priority, index)`의 튜플로 구성한다.
+
+* 동일한 중요도를 갖는 문서가 존재할 수 있어서 문서 구분을 위해 인덱스값을 함께 저장한다.
+* 인덱스값을 사용하는 이유는 `location`이 `priorities`의 인덱스이기 때문이다.
+
+다음으로 대기목록의 가장 앞에 있는 원소가 중요도가 중요도의 최댓값과 같은지 확인한다.
+
+* 조건을 만족하면 해당 문서를 출력하면 된다.
+    * 해당 문서를 출력하면 요청한 문서의 출력 순서가 1만큼 뒤로 밀리기 때문에 `order`를 1 증가시킨다.
+* 최댓값이 아니면 해당 문서를 대기목록의 끝으로 `append` 한다.
+
+중요도의 최댓값은 `max`를 이용해서 구한다.
+
+* 대기목록의 원소가 튜플이기 때문에 `max` 함수의 비교 기준이 priority가 될 수 있도록 `key`로 `lambda p: p[0]`를 전달한다.
     * [max()](https://docs.python.org/3/library/functions.html?highlight=divmod#max) by Python Documentation
     * [Python_Get first element with maximum value in list of tuples](https://www.geeksforgeeks.org/python-get-first-element-with-maximum-value-in-list-of-tuples/) by GeeksforGeeks
-* `pop()`하는 원소의 우선순위와 우선순위 최댓값을 비교해
-    * 다르면 문서를 뒤로 보내고
-    * 같으면 문서를 제거한 뒤 문서 순서인 `order`를 1 증가시킨다.
+
+다음으로 출력하는 문서의 번호가 `location`과 같은지 확인한다.
+
+* 출력하려는 문서가 맞으면 그대로 `order`를 반환한다.
+* 출력하려는 문서가 아니면 현재 원소를 `pop` 해 대기목록에서 제거한 뒤 중요도의 최댓값을 다시 계산한다.
 
 ### 피드백
 
@@ -132,7 +146,7 @@ def solution(priorities, location):
         ```
 
         * `max()`를 구할 때 기본적으로 튜플의 첫 번째 원소를 기준으로 삼기 때문에 굳이 `key`를 따로 넣어줄 필요가 없었다.
-        * `popleft()`를 먼저 하게 되면 `wait_list`에 원소가 없는 경우가 생길 수 있기 때문에 `max(wait_list)` 이전에 `wait_list`에 원소가 있는지 먼저 체크해주어야 한다.
+        * `popleft()`를 먼저 하게 되면 `wait_list`에 원소가 없는 경우가 생길 수 있기 때문에 `max(wait_list)` 이전에 `wait_list`에 원소가 있는지 먼저 확인해주어야 한다.
 
 ## 참고 답안
 
@@ -161,12 +175,18 @@ def solution(priorities, location):
                 return answer
 ```
 
-### 참고 사항
+### 아이디어 & 풀이
 
-* `enumerate()`를 사용하면 리스트의 원소를 받아 (순서, 원소값)을 원소로 갖는 리스트를 생성할 수 있다.
-    * [enumerate()](https://docs.python.org/3/library/functions.html#enumerate) by Python Documentation
-    * [파이썬 파트7. for in 반복문, range, enumerate](https://wayhome25.github.io/python/2017/02/24/py-07-for-loop/) by 초보몽키의 개발블로그!
-* `any()`를 이용하면 따로 max를 구하지 않고 `wait_list` 안에 더 큰 우선순위를 가진 원소가 있는지 확인할 수 있다.
-    * [any()](https://docs.python.org/3/library/functions.html#any) by Python Documentation
-    * [05-5 내장함수](https://wikidocs.net/32#any) by 점프 투 파이썬
-* 이 외에 다른 방식으로 풀이한 것은 [[boj-1966]]{백준 1966번} 문제의 참고 답안을 참고하면 된다.
+기본적인 과정은 위의 답과 비슷하다.
+
+대기 목록을 만들 때 `enumerate()`를 사용하면 리스트의 원소를 받아 (순서, 원소값)을 원소로 갖는 리스트를 생성할 수 있다.
+
+* [enumerate()](https://docs.python.org/3/library/functions.html#enumerate) by Python Documentation
+* [파이썬 파트7. for in 반복문, range, enumerate](https://wayhome25.github.io/python/2017/02/24/py-07-for-loop/) by 초보몽키의 개발블로그!
+
+`max`를 구하지 않고 `any()`를 이용해 대기 목록 안에 현재 문서보다 큰 우선순위를 가진 원소가 있는지 확인할 수 있다.
+
+* [any()](https://docs.python.org/3/library/functions.html#any) by Python Documentation
+* [05-5 내장함수](https://wikidocs.net/32#any) by 점프 투 파이썬
+
+이 외에 다른 방식으로 풀이한 것은 [[boj-1966]]{백준 1966번} 문제의 참고 답안을 참고하면 된다.
