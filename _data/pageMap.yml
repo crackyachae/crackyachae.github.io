@@ -294,6 +294,46 @@ Mathematics:
     url: /project/Mathematics
     updated: '2020-03-22 20:54:48 +0900'
     children: []
+mdn-canvas-tutorial:
+    type: article
+    title: 'MDN_Canvas tutorial'
+    summary: ""
+    parent: Web-API
+    url: /project/mdn-canvas-tutorial
+    updated: '2021-06-17 22:26:45 +0900'
+    children: [mdn-canvas-tutorial-1-basic-usage, mdn-canvas-tutorial-2-drawing-shapes, mdn-canvas-tutorial-3-style-and-colors, mdn-canvas-tutorial-4-drawing-text]
+mdn-canvas-tutorial-1-basic-usage:
+    type: article
+    title: 'Basic usage of canvas'
+    summary: ""
+    parent: mdn-canvas-tutorial
+    url: /project/mdn-canvas-tutorial-1-basic-usage
+    updated: '2021-06-08 14:28:12 +0900'
+    children: []
+mdn-canvas-tutorial-2-drawing-shapes:
+    type: article
+    title: 'Drawing shapes with canvas'
+    summary: ""
+    parent: mdn-canvas-tutorial
+    url: /project/mdn-canvas-tutorial-2-drawing-shapes
+    updated: '2021-06-09 00:09:34 +0900'
+    children: []
+mdn-canvas-tutorial-3-style-and-colors:
+    type: article
+    title: 'Applying styles and colors'
+    summary: ""
+    parent: mdn-canvas-tutorial
+    url: /project/mdn-canvas-tutorial-3-style-and-colors
+    updated: '2021-06-17 22:21:17 +0900'
+    children: []
+mdn-canvas-tutorial-4-drawing-text:
+    type: article
+    title: 'Drawing text'
+    summary: ""
+    parent: mdn-canvas-tutorial
+    url: /project/mdn-canvas-tutorial-4-drawing-text
+    updated: '2021-06-12 00:11:33 +0900'
+    children: []
 Problem-Solving:
     type: article
     title: 'Problem Solving'

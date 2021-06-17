@@ -74,7 +74,8 @@ regenerate: true
 
 ### opent-github
 
-* opent-github-lec]]
+* opent-github-lec
+* opent-github-pull-request
 
 ## [[JavaScript]]
 
@@ -208,7 +209,7 @@ regenerate: true
 * [[ps-set-fc-algo-4-recursive]]
 
 ### [[ps-search]]
- 
+
 * [[ps-set-fc-algo-6-search-basic]]
 * [[ps-set-fc-algo-7-search-advanced]]
 
@@ -281,6 +282,15 @@ regenerate: true
 ## [[Web-Basic]]
 
 ### mdn-getting-started-web
+
+## [[Web-API]]
+
+### [[mdn-canvas-tutorial]]
+
+* [[mdn-canvas-tutorial-1-basic-usage]]
+* [[mdn-canvas-tutorial-2-drawing-shapes]]
+* [[mdn-canvas-tutorial-3-style-and-colors]]
+* [[mdn-canvas-tutorial-4-drawing-text]]
 
 {% comment %}
 

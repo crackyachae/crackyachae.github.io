@@ -40,6 +40,11 @@ fast-campus:
     - {fileName: fc-algo}
     - {fileName: fc-algo-algorithm}
     - {fileName: fc-algo-data-structure}
+draft:
+    - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
+    - {fileName: mdn-canvas-tutorial-3-style-and-colors}
+    - {fileName: ps-set-fc-algo-4-recursive}
+    - {fileName: ps-set-fc-algo-8-dp}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}
@@ -55,9 +60,6 @@ ps-python:
 ps-javascript:
     - {fileName: ps-set-codeup-py-basic}
 'ps-python,':
-    - {fileName: ps-set-fc-algo-4-recursive}
-    - {fileName: ps-set-fc-algo-8-dp}
-draft:
     - {fileName: ps-set-fc-algo-4-recursive}
     - {fileName: ps-set-fc-algo-8-dp}
 velopert:
