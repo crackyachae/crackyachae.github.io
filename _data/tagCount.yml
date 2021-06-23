@@ -3,7 +3,7 @@
     size: 2
 -
     name: draft
-    size: 4
+    size: 3
 -
     name: fast-campus
     size: 3
@@ -24,10 +24,10 @@
     size: 1
 -
     name: ps-python
-    size: 11
+    size: 12
 -
     name: 'ps-python,'
-    size: 2
+    size: 1
 -
     name: velopert
     size: 2

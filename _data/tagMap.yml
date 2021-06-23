@@ -44,7 +44,6 @@ draft:
     - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
     - {fileName: mdn-canvas-tutorial-3-style-and-colors}
     - {fileName: ps-set-fc-algo-4-recursive}
-    - {fileName: ps-set-fc-algo-8-dp}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}
@@ -56,12 +55,12 @@ ps-python:
     - {fileName: ps-set-fc-algo-2-data-structure}
     - {fileName: ps-set-fc-algo-3-sort-basic}
     - {fileName: ps-set-fc-algo-5-sort-advanced}
+    - {fileName: ps-set-fc-algo-8-dp}
     - {fileName: ps-set-plzrun-1-io}
 ps-javascript:
     - {fileName: ps-set-codeup-py-basic}
 'ps-python,':
     - {fileName: ps-set-fc-algo-4-recursive}
-    - {fileName: ps-set-fc-algo-8-dp}
 velopert:
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}
