@@ -201,7 +201,10 @@ function parseInfo(file, info) {
     } else {
         for (const col of collections) {
             if (file.type === "article") {
-                obj.url = `/${col}/${obj.fileName}`;
+                obj.url = file.path
+                    .replace(/^\.\/_/, "/")
+                    .replace(`${col}/`, `${col}`)
+                    .replace(/\.md$/, '');
             }
         }
     }
