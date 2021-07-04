@@ -341,7 +341,7 @@ Problem-Solving:
     parent: index-st
     url: /project/Problem-Solving
     updated: '2021-02-09 22:22:33 +0900'
-    children: [codeup, ps-basic, ps-data-structure, ps-dp, ps-recursive, ps-search, ps-sort]
+    children: [codeup, ps-basic, ps-bfs-dfs, ps-data-structure, ps-dp, ps-recursive, ps-search, ps-sort]
 ps-basic:
     type: article
     title: '기본 & 구현 문제 모음'
@@ -350,6 +350,14 @@ ps-basic:
     url: /project/ps-basic
     updated: '2021-04-23 21:47:48 +0900'
     children: [ps-set-automata-py-basic, ps-set-codeup-py-basic, ps-set-covenant-prep-1-basic, ps-set-covenant-start-1-basic, ps-set-plzrun-1-io]
+ps-bfs-dfs:
+    type: article
+    title: '그래프 기본 탐색(BFS, DFS) 문제 모음'
+    summary: ""
+    parent: Problem-Solving
+    url: /project/ps-bfs-dfs
+    updated: '2021-05-07 21:51:45 +0900'
+    children: [ps-set-fc-algo-9-bfs-dfs-basic]
 ps-data-structure:
     type: article
     title: '자료구조 문제 모음'
@@ -493,6 +501,14 @@ ps-set-fc-algo-8-dp:
     parent: ps-dp
     url: /project/ps-set-fc-algo-8-dp
     updated: '2021-06-23 23:54:35 +0900'
+    children: []
+ps-set-fc-algo-9-bfs-dfs-basic:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 그래프 기본 탐색 알고리즘"'
+    summary: ""
+    parent: ps-bfs-dfs
+    url: /project/ps-set-fc-algo-9-bfs-dfs-basic
+    updated: '2021-07-04 21:18:59 +0900'
     children: []
 ps-set-plzrun-1-io:
     type: article

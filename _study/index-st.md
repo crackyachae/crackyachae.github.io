@@ -1,4 +1,4 @@
----
+[[---]]
 layout  : wikiindex
 title   : 공부를 합니다
 toc     : true
@@ -218,9 +218,9 @@ regenerate: true
 * ps-set-ryute-3-basic-dp
 * [[ps-set-fc-algo-8-dp]]
 
-### ps-bfs-dfs
+### [[ps-bfs-dfs]]
 
-* ps-set-fc-algo-9-bfs-dfs
+* [[ps-set-fc-algo-9-bfs-dfs-basic]]
 
 ## [[Python]]
 

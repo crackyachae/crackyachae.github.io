@@ -56,6 +56,7 @@ ps-python:
     - {fileName: ps-set-fc-algo-3-sort-basic}
     - {fileName: ps-set-fc-algo-5-sort-advanced}
     - {fileName: ps-set-fc-algo-8-dp}
+    - {fileName: ps-set-fc-algo-9-bfs-dfs-basic}
     - {fileName: ps-set-plzrun-1-io}
 ps-javascript:
     - {fileName: ps-set-codeup-py-basic}
