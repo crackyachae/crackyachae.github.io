@@ -1,6 +1,6 @@
 ---
 layout  : article
-title   : Chapter 11. 힘(Heap)
+title   : Chapter 11. 힙(Heap)
 summary : 
 date    : 2021-04-22 17:38:08 +0900
 updated : 2021-04-22 23:17:01 +0900
