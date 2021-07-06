@@ -310,7 +310,7 @@ mergesplit(data_list)
     * 각 단계에 있는 하나의 노드 안의 리스트 길이는 ${n/2}^2$가 된다.
     * 각 단계에는 $2^i$개의 노드가 있다.
 * 따라서, 각 단계는 항상 $2i \times n/2^i=O(n)$
-* 단계는 항상 $log_2n$ 개 만큼 만들어짐,시간 복잡도는 결국 $O(logn)$, 2는 역시 상수이므로 삭제
-* 따라서, 단계별 시간 복잡도 $O(n) \times O(logn) = O(nlogn)$
+* 단계는 항상 $\log _2n$ 개 만큼 만들어짐,시간 복잡도는 결국 $O(\log n)$, 2는 역시 상수이므로 삭제
+* 따라서, 단계별 시간 복잡도 $O(n) \times O(\log n) = O(n\log n)$
 
 ![merge sort complexity](/post-img/fc-algo-algorithm-15-sort-merge/mergesortcomplexity.png)

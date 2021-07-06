@@ -126,9 +126,9 @@ binary_search(data_list, 66)
 n개의 리스트를 매번 2로 나누어 1이 될 때까지 비교 연산을 k 회 진행
 
 * $n \times {1\over2} \times {1\over2} \times {1\over2} \cdots = n \times {1\over2}^k = 1$
-* $n = 2^k \rightarrow log_2n = log_22k = k$
+* $n = 2^k \rightarrow \log_2n = \log_22k = k$
 * 빅 오 표기법으로는 k + 1 이 결국 최종 시간 복잡도임 (1이 되었을 때도, 비교 연산을 한번 수행)
-    * 결국 $O(log_2n + 1)$ 이고, 2와 1, 상수는 삭제되므로, $O(logn)$
+    * 결국 $O(\log _2n + 1)$ 이고, 2와 1, 상수는 삭제되므로, $O(\log n)$
 
 ### 프로그래밍 연습
 
