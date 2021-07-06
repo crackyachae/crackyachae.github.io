@@ -44,8 +44,8 @@ fc-algo-algorithm:
     summary: ""
     parent: fc-algo
     url: /project/fc-algo-algorithm
-    updated: '2021-05-14 13:56:48 +0900'
-    children: [fc-algo-algorithm-12-sort-bubble, fc-algo-algorithm-12-sort-insert, fc-algo-algorithm-12-sort-selection, fc-algo-algorithm-12-space-complexity, fc-algo-algorithm-13-recursive, fc-algo-algorithm-14-dp-dac, fc-algo-algorithm-15-sort-merge, fc-algo-algorithm-15-sort-quick, fc-algo-algorithm-16-search-binary, fc-algo-algorithm-16-search-sequential, fc-algo-algorithm-17-graph, fc-algo-algorithm-18-bfs, fc-algo-algorithm-18-dfs]
+    updated: '2021-07-05 21:39:41 +0900'
+    children: [fc-algo-algorithm-12-sort-bubble, fc-algo-algorithm-12-sort-insert, fc-algo-algorithm-12-sort-selection, fc-algo-algorithm-12-space-complexity, fc-algo-algorithm-13-recursive, fc-algo-algorithm-14-dp-dac, fc-algo-algorithm-15-sort-merge, fc-algo-algorithm-15-sort-quick, fc-algo-algorithm-16-search-binary, fc-algo-algorithm-16-search-sequential, fc-algo-algorithm-17-graph, fc-algo-algorithm-18-bfs, fc-algo-algorithm-18-dfs, fc-algo-algorithm-20-kruskal, fc-algo-algorithm-20-prim, fc-algo-algorithm-20-shortest]
 fc-algo-algorithm-12-sort-bubble:
     type: article
     title: '"Chapter 12. 기본 정렬 알고리즘: 버블 정렬(Bubble Sort)"'
@@ -150,6 +150,30 @@ fc-algo-algorithm-18-dfs:
     url: /project/fc-algo-algorithm-18-dfs
     updated: '2021-05-05 17:30:31 +0900'
     children: []
+fc-algo-algorithm-20-kruskal:
+    type: article
+    title: '"Chapter 20: 최소 신장 트리의 이해: 크루스칼 알고리즘(Kruskal''s Algorithm)"'
+    summary: ""
+    parent: fc-algo-algorithm
+    url: /project/fc-algo-algorithm-20-kruskal
+    updated: '2021-07-05 19:31:52 +0900'
+    children: []
+fc-algo-algorithm-20-prim:
+    type: article
+    title: '"Chapter 20: 최소 신장 트리의 이해: 프림 알고리즘(Prim''s Algorithm)"'
+    summary: ""
+    parent: fc-algo-algorithm
+    url: /project/fc-algo-algorithm-20-prim
+    updated: '2021-07-05 21:36:37 +0900'
+    children: []
+fc-algo-algorithm-20-shortest:
+    type: article
+    title: '"Chapter 20. 그래프 고급 탐색 알고리즘"'
+    summary: ""
+    parent: fc-algo-algorithm
+    url: /project/fc-algo-algorithm-20-shortest
+    updated: '2021-07-05 12:24:05 +0900'
+    children: []
 fc-algo-data-structure:
     type: article
     title: '1. 자료구조 이론'
@@ -176,7 +200,7 @@ fc-algo-data-structure-10-tree:
     children: []
 fc-algo-data-structure-11-heap:
     type: article
-    title: 'Chapter 11. 힘(Heap)'
+    title: 'Chapter 11. 힙(Heap)'
     summary: ""
     parent: fc-algo-data-structure
     url: /project/fc-algo-data-structure-11-heap
