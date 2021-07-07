@@ -164,7 +164,7 @@ fc-algo-algorithm-20-prim:
     summary: ""
     parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-20-prim
-    updated: '2021-07-05 21:36:37 +0900'
+    updated: '2021-07-07 23:03:25 +0900'
     children: []
 fc-algo-algorithm-20-shortest:
     type: article
@@ -365,7 +365,7 @@ Problem-Solving:
     parent: index-st
     url: /project/Problem-Solving
     updated: '2021-02-09 22:22:33 +0900'
-    children: [codeup, ps-basic, ps-bfs-dfs, ps-data-structure, ps-dp, ps-graph-advanced, ps-recursive, ps-search, ps-sort]
+    children: [codeup, ps-basic, ps-bfs-dfs, ps-data-structure, ps-dp, ps-recursive, ps-search, ps-sort]
 ps-basic:
     type: article
     title: '기본 & 구현 문제 모음'
@@ -398,14 +398,6 @@ ps-dp:
     url: /project/ps-dp
     updated: '2021-05-06 19:53:58 +0900'
     children: [ps-set-fc-algo-8-dp]
-ps-graph-advanced:
-    type: article
-    title: ""
-    summary: ""
-    parent: Problem-Solving
-    url: /project/ps-graph-advanced
-    updated: '2021-07-07 15:29:23 +0900'
-    children: []
 ps-recursive:
     type: article
     title: '재귀 호출 문제 모음'
