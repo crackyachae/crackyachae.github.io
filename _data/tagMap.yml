@@ -52,6 +52,7 @@ ps-python:
     - {fileName: ps-set-covenant-start-2-stack-queue}
     - {fileName: ps-set-covenant-start-3-heap}
     - {fileName: ps-set-fc-algo-1-data-structure}
+    - {fileName: ps-set-fc-algo-10-graph-advanced}
     - {fileName: ps-set-fc-algo-2-data-structure}
     - {fileName: ps-set-fc-algo-3-sort-basic}
     - {fileName: ps-set-fc-algo-5-sort-advanced}

@@ -225,6 +225,10 @@ regenerate: true
 
 * [[ps-set-fc-algo-9-bfs-dfs-basic]]
 
+### [[ps-graph-advanced]]
+
+* [[ps-set-fc-algo-10-graph-advanced]]
+
 ## [[Python]]
 
 * python-links
