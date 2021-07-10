@@ -113,7 +113,7 @@ latex   : true
 ### Union-Find 알고리즘의 고려할 점
 
 * Union 순서에 따라서, 최악의 경우 링크드 리스트와 같은 형태가 될 수 있음.
-* 이때는 Find/Union 시 계산량이 O(N) 이 될 수 있으므로, 해당 문제를 해결하기 위해, union-by-rank, path compression 기법을 사용함
+* 이때는 Find/Union 시 계산량이 $O(N)$ 이 될 수 있으므로, 해당 문제를 해결하기 위해, union-by-rank, path compression 기법을 사용함
 
 ![worst case of find union](/post-img/fc-algo-algorithm-20-kruskal/8_worst_findunion.png)
 
@@ -147,14 +147,14 @@ union-by-rank 와 path compression 기법 사용 시 시간 복잡도는 다음 
 * $\log ^\ast N$은 다음 값을 가짐이 증명되었음
     * $N$이 $2^{65536}$ 값을 가지더라도, $\log ^\ast N$의 값이 5의 값을 가지므로, 거의 $O(1)$, 즉 상숫값에 가깝다고 볼 수 있음
 
-| $N$        | $O(\log ^\ast N)$ |
-| ---------- | ----------------- |
-| 1          | 0                 |
-| 2          | 1                 |
-| 4          | 2                 |
-| 16         | 3                 |
-| 65536      | 4                 |
-| $2^{65536} | 5                 |
+| $N$         | $O(\log ^\ast N)$ |
+| ----------- | ----------------- |
+| 1           | 0                 |
+| 2           | 1                 |
+| 4           | 2                 |
+| 16          | 3                 |
+| 65536       | 4                 |
+| $2^{65536}$ | 5                 |
 
 ## 6. 크루스칼 알고리즘 (Kruskal's algorithm) 코드 작성
 
