@@ -16,7 +16,9 @@
             if (!next || !next.parent || next.parent.length < 1) {
                 break;
             }
-            next.url = `/${next.collection}/${target}`
+            next['url'] = `/${next.collection}/${target}`
+            // 1레벨 상위 부모 문서의 주소
+            next['parent'] = next['parent'].replace(/^[/]/, '');
             plist.unshift(next);
             target = encodeURI(next.parent);
         }
