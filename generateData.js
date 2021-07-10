@@ -65,7 +65,6 @@ dataList.forEach(page => {
     }
 });
 
-savePageList(pageMap);
 saveTagFiles(tagMap, pageMap);
 saveTagCount(tagMap);
 saveMetaDataFiles(pageMap);
@@ -195,15 +194,6 @@ function saveTagCount(tagMap) {
             return console.log(err);
         }
         console.log("tagCount saved.");
-    });
-}
-
-function savePageList(pageMap) {
-    fs.writeFile("./_data/pageMap.yml", YAML.stringify(pageMap), err => {
-        if (err) {
-            return console.log(err);
-        }
-        console.log("pageMap saved.");
     });
 }
 
