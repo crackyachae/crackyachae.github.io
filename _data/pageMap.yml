@@ -44,7 +44,7 @@ fc-algo-algorithm:
     summary: ""
     parent: fc-algo
     url: /project/fc-algo-algorithm
-    updated: '2021-07-05 21:39:41 +0900'
+    updated: '2021-07-12 00:07:17 +0900'
     children: [fc-algo-algorithm-12-sort-bubble, fc-algo-algorithm-12-sort-insert, fc-algo-algorithm-12-sort-selection, fc-algo-algorithm-12-space-complexity, fc-algo-algorithm-13-recursive, fc-algo-algorithm-14-dp-dac, fc-algo-algorithm-15-sort-merge, fc-algo-algorithm-15-sort-quick, fc-algo-algorithm-16-search-binary, fc-algo-algorithm-16-search-sequential, fc-algo-algorithm-17-graph, fc-algo-algorithm-18-bfs, fc-algo-algorithm-18-dfs, fc-algo-algorithm-20-kruskal, fc-algo-algorithm-20-prim, fc-algo-algorithm-20-shortest]
 fc-algo-algorithm-12-sort-bubble:
     type: article
@@ -149,6 +149,14 @@ fc-algo-algorithm-18-dfs:
     parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-18-dfs
     updated: '2021-05-05 17:30:31 +0900'
+    children: []
+fc-algo-algorithm-19-greedy:
+    type: article
+    title: '"Chapter 19. 탐욕 알고리즘의 이해"'
+    summary: ""
+    parent: ""
+    url: /project/fc-algo-algorithm-19-greedy
+    updated: '2021-07-12 00:06:39 +0900'
     children: []
 fc-algo-algorithm-20-kruskal:
     type: article

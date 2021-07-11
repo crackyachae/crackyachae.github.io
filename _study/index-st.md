@@ -59,6 +59,7 @@ regenerate: true
     * [[fc-algo-algorithm-17-graph]]
     * [[fc-algo-algorithm-18-bfs]]
     * [[fc-algo-algorithm-18-dfs]]
+    * [[fc-algo-algorithm-19-greedy]]
     * [[fc-algo-algorithm-20-shortest]]
     * [[fc-algo-algorithm-20-kruskal]]
     * [[fc-algo-algorithm-20-prim]]
