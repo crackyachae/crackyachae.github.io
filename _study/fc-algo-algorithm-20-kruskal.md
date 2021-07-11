@@ -1,6 +1,6 @@
 ---
 layout  : article
-title   : "Chapter 20: 최소 신장 트리의 이해: 크루스칼 알고리즘(Kruskal's Algorithm)"
+title   : "Chapter 20. 최소 신장 트리의 이해: 크루스칼 알고리즘(Kruskal's Algorithm)"
 summary : 
 date    : 2021-07-05 11:46:17 +0900
 updated : 2021-07-05 19:31:52 +0900
@@ -13,7 +13,7 @@ latex   : true
 * TOC
 {:toc}
 
-> 이 글은 패스트 캠퍼스 [기술면접 완전 정복 올인원 패키지 Online](https://fastcampus.co.kr/dev_online_algo) 'Chapter 20: 최소 신장 트리의 이해: 크루스칼 알고리즘(Kruskal's Algorithm)'의 강의내용을 정리하기 위해 강의 자료를 기반으로 작성한 글입니다.
+> 이 글은 패스트 캠퍼스 [기술면접 완전 정복 올인원 패키지 Online](https://fastcampus.co.kr/dev_online_algo) 'Chapter 20. 최소 신장 트리의 이해: 크루스칼 알고리즘(Kruskal's Algorithm)'의 강의내용을 정리하기 위해 강의 자료를 기반으로 작성한 글입니다.
 >
 > 강의 노트는 강의 구매자에게만 제공되는 자료이긴 하지만 잔재미 코딩의 [6. 최소 신장 트리 (Kruskal Algorithm)](https://www.fun-coding.org/Chapter20-kruskal-live.html)에서 동일한 자료를 제공하고 있기 때문에 해당 자료를 기반으로 정리한 글을 작성해서 올립니다. 혹시 문제가 되는 경우 바로 내릴 예정이니 알려주시면 감사하겠습니다.
 >
