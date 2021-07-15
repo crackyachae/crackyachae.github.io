@@ -1,18 +1,18 @@
-# Vimwiki + Jekyll + Github.io
+# 야채크래커의 부스러기
 
-## 시작하기
+블로그 주소: https://crackyachae.github.io
 
-블로그 스켈레톤을 fork 하세요.
+[기계인간님의 블로그 스켈레톤](https://github.com/johngrib/johngrib-jekyll-skeleton)을 이용해 만든 블로그 입니다.
 
-https://github.com/johngrib/johngrib-jekyll-skeleton
+* Vimwiki + Jekyll + Github.io를 이용하고 있습니다.
 
-제 블로그를 fork하는 것보다 블로그 스켈레톤을 fork하는 것을 권합니다.
-블로그를 그냥 fork 하면 제 자기소개와 일기, 에세이까지 당신의 블로그의 컨텐츠가 됩니다.
+잘 만들어진 자료를 기반으로 공부하면서 제가 이해한 내용을 덧붙인 글이 대부분입니다.
 
-* 만약 그냥 fork 하신다면 제 자기소개와 일기를 포함한 _wiki의 모든 md 파일을 삭제하고 사용하세요.
-* skeleton에 있는 문서들은 튜토리얼로 생각하고 읽어주시면 됩니다.
+* 복습 + 나중에 더 쉽게 기억할 수 있도록 최대한 자세히 설명을 적어두기 위해 작성한 글입니다.
+* 글 상단의 안내를 읽어주시고 되도록 원문을 봐 주시길 부탁드립니다.
+* 내용과 구조를 거의 그대로 가져온 글이 많습니다. 혹시 원 작성자분께서 보시기에 문제가 된다면 알려주시면 감사하겠습니다. 빠르게 내릴 수 있도록 하겠습니다.
 
-다음 글을 읽으며 블로그의 구조를 파악하시면 운영에 도움이 될 것입니다.
+아직 완성되지 않은 블로그입니다.
 
-https://johngrib.github.io/wiki/my-wiki/
-
+* 당분간 이전의 글은 [티스토리 블로그](https://crackyachae.tistory.com)를 참고해주시면 감사하겠습니다.
+* 여유가 되는대로 이전까지 정리한 글을 보완해서 올릴 예정입니다.
