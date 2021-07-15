@@ -230,6 +230,10 @@ regenerate: true
 
 * [[ps-set-fc-algo-10-graph-advanced]]
 
+### [[ps-greedy]]
+
+* [[ps-set-fc-algo-11-greedy]]
+
 ## [[Python]]
 
 * python-links

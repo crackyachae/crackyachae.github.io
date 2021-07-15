@@ -414,6 +414,14 @@ ps-graph-advanced:
     url: /project/ps-graph-advanced
     updated: '2021-07-07 15:29:23 +0900'
     children: [ps-set-fc-algo-10-graph-advanced]
+ps-greedy:
+    type: article
+    title: ""
+    summary: ""
+    parent: ""
+    url: /project/ps-greedy
+    updated: '2021-07-12 00:18:42 +0900'
+    children: [ps-set-fc-algo-11-greedy]
 ps-recursive:
     type: article
     title: '재귀 호출 문제 모음'
@@ -493,6 +501,14 @@ ps-set-fc-algo-10-graph-advanced:
     parent: ps-graph-advanced
     url: /project/ps-set-fc-algo-10-graph-advanced
     updated: '2021-07-10 22:36:32 +0900'
+    children: []
+ps-set-fc-algo-11-greedy:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 탐욕 알고리즘"'
+    summary: ""
+    parent: ps-greedy
+    url: /project/ps-set-fc-algo-11-greedy
+    updated: '2021-07-14 19:58:40 +0900'
     children: []
 ps-set-fc-algo-2-data-structure:
     type: article
