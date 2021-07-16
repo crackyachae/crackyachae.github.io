@@ -1,6 +1,6 @@
 ---
 layout  : article
-title   : "Chapter 20. 그래프 고급 탐색 알고리즘"
+title   : "Chapter 20. 그래프 고급 탐색 알고리즘: 다익스트라 알고리즘"
 summary : 
 date    : 2021-07-04 21:25:32 +0900
 updated : 2021-07-05 12:24:05 +0900
