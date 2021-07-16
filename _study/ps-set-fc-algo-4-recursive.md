@@ -4,7 +4,7 @@ title   : "Fast Campus_기술면접 완전 정복 올인원 패키지 Online: �
 summary : 
 date    : 2021-05-06 16:08:20 +0900
 updated : 2021-05-06 16:08:20 +0900
-tag     : ps-python, draft
+tag     : ps-python draft
 toc     : true
 public  : true
 parent  : [[ps-recursive]]
