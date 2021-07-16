@@ -44,8 +44,8 @@ fc-algo-algorithm:
     summary: ""
     parent: fc-algo
     url: /project/fc-algo-algorithm
-    updated: '2021-07-12 00:07:17 +0900'
-    children: [fc-algo-algorithm-12-sort-bubble, fc-algo-algorithm-12-sort-insert, fc-algo-algorithm-12-sort-selection, fc-algo-algorithm-12-space-complexity, fc-algo-algorithm-13-recursive, fc-algo-algorithm-14-dp-dac, fc-algo-algorithm-15-sort-merge, fc-algo-algorithm-15-sort-quick, fc-algo-algorithm-16-search-binary, fc-algo-algorithm-16-search-sequential, fc-algo-algorithm-17-graph, fc-algo-algorithm-18-bfs, fc-algo-algorithm-18-dfs, fc-algo-algorithm-20-kruskal, fc-algo-algorithm-20-prim, fc-algo-algorithm-20-shortest]
+    updated: '2021-07-16 21:42:58 +0900'
+    children: [fc-algo-algorithm-12-sort-bubble, fc-algo-algorithm-12-sort-insert, fc-algo-algorithm-12-sort-selection, fc-algo-algorithm-12-space-complexity, fc-algo-algorithm-13-recursive, fc-algo-algorithm-14-dp-dac, fc-algo-algorithm-15-sort-merge, fc-algo-algorithm-15-sort-quick, fc-algo-algorithm-16-search-binary, fc-algo-algorithm-16-search-sequential, fc-algo-algorithm-17-graph, fc-algo-algorithm-18-bfs, fc-algo-algorithm-18-dfs, fc-algo-algorithm-20-kruskal, fc-algo-algorithm-20-prim, fc-algo-algorithm-20-shortest, fc-algo-algorithm-21-back-tracking]
 fc-algo-algorithm-12-sort-bubble:
     type: article
     title: '"Chapter 12. 기본 정렬 알고리즘: 버블 정렬(Bubble Sort)"'
@@ -176,11 +176,19 @@ fc-algo-algorithm-20-prim:
     children: []
 fc-algo-algorithm-20-shortest:
     type: article
-    title: '"Chapter 20. 그래프 고급 탐색 알고리즘"'
+    title: '"Chapter 20. 그래프 고급 탐색 알고리즘: 다익스트라 알고리즘"'
     summary: ""
     parent: fc-algo-algorithm
     url: /project/fc-algo-algorithm-20-shortest
     updated: '2021-07-05 12:24:05 +0900'
+    children: []
+fc-algo-algorithm-21-back-tracking:
+    type: article
+    title: '"Chapter 21. 백 트래킹"'
+    summary: ""
+    parent: fc-algo-algorithm
+    url: /project/fc-algo-algorithm-21-back-tracking
+    updated: '2021-07-16 21:55:09 +0900'
     children: []
 fc-algo-data-structure:
     type: article

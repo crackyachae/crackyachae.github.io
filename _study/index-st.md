@@ -63,6 +63,7 @@ regenerate: true
     * [[fc-algo-algorithm-20-shortest]]
     * [[fc-algo-algorithm-20-kruskal]]
     * [[fc-algo-algorithm-20-prim]]
+    * [[fc-algo-algorithm-21-back-tracking]]
 
 ## [[Git]]
 
