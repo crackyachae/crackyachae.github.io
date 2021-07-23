@@ -235,6 +235,10 @@ regenerate: true
 
 * [[ps-set-fc-algo-11-greedy]]
 
+### [[ps-back-tracking]]
+
+* [[ps-set-fc-algo-12-back-tracking]]
+
 ## [[Python]]
 
 * python-links

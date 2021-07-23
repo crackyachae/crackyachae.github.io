@@ -381,7 +381,15 @@ Problem-Solving:
     parent: index-st
     url: /project/Problem-Solving
     updated: '2021-02-09 22:22:33 +0900'
-    children: [codeup, ps-basic, ps-bfs-dfs, ps-data-structure, ps-dp, ps-graph-advanced, ps-recursive, ps-search, ps-sort]
+    children: [codeup, ps-back-tracking, ps-basic, ps-bfs-dfs, ps-data-structure, ps-dp, ps-graph-advanced, ps-recursive, ps-search, ps-sort]
+ps-back-tracking:
+    type: article
+    title: '백 트래킹 문제 모음'
+    summary: ""
+    parent: Problem-Solving
+    url: /project/ps-back-tracking
+    updated: '2021-07-21 20:46:30 +0900'
+    children: []
 ps-basic:
     type: article
     title: '기본 & 구현 문제 모음'
@@ -517,6 +525,14 @@ ps-set-fc-algo-11-greedy:
     parent: ps-greedy
     url: /project/ps-set-fc-algo-11-greedy
     updated: '2021-07-14 19:58:40 +0900'
+    children: []
+ps-set-fc-algo-12-back-tracking:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 백 트래킹"'
+    summary: ""
+    parent: ""
+    url: /project/ps-set-fc-algo-12-back-tracking
+    updated: '2021-07-23 21:10:38 +0900'
     children: []
 ps-set-fc-algo-2-data-structure:
     type: article
