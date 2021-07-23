@@ -40,7 +40,7 @@ latex   : false
 
 문제 해결 과정의 중간 상태를 각각의 노드로 나타낸 트리
 
-![state space tree](../post-img/fc-algo-algorithm-21-back-tracking/1_statespacetree.png)
+![state space tree](/post-img/fc-algo-algorithm-21-back-tracking/1_statespacetree.png)
 
 ## 2. N Queen 문제 이해
 
@@ -49,7 +49,7 @@ N x N 크기의 체스판에 N개의 퀸을 서로 공격할 수 없도록 배�
 * 대표적인 백트래킹 문제
 * 퀸은 다음과 같이 이동할 수 있기 때문에, 배치된 퀸 간에 공격할 수 없는 위치로 배치해야 함
 
-![queen move](../post-img/fc-algo-algorithm-21-back-tracking/2_queen_move.png)
+![queen move](/post-img/fc-algo-algorithm-21-back-tracking/2_queen_move.png)
 
 ### Pruning (가지치기) for N Queen 문제
 
@@ -59,7 +59,7 @@ N x N 크기의 체스판에 N개의 퀸을 서로 공격할 수 없도록 배�
 * 만약 앞선 행에 배치한 퀸으로 인해, 다음 행에 해당 퀸들이 이동할 수 없는 위치가 없을 때는, 더 이상 퀸을 배치하지 않고, 이전 행의 퀸의 배치를 바꿈
     * 즉, 맨 위의 행부터 전체 행까지 퀸의 배치가 가능한 경우의 수를 상태 공간 트리 형태로 만든 후, 각 경우를 맨 위의 행부터 DFS 방식으로 접근, 해당 경우가 진행이 어려우면, 더 이상 진행하지 않고, 다른 경우를 체크하는 방식
 
-![back tracking](../post-img/fc-algo-algorithm-21-back-tracking/3_backtracking.png)
+![back tracking](/post-img/fc-algo-algorithm-21-back-tracking/3_backtracking.png)
 
 ### Promising for N Queen 문제
 
@@ -67,7 +67,7 @@ N x N 크기의 체스판에 N개의 퀸을 서로 공격할 수 없도록 배�
 * 현재까지 앞선 행에서 배치한 퀸이 이동할 수 없는 위치가 있는지를 다음과 같은 조건으로 확인
     * 한 행에 어차피 하나의 퀸만 배치 가능하므로 수평 체크는 별도로 필요하지 않음
 
-![n queen promising](../post-img/fc-algo-algorithm-21-back-tracking/4_nqueen.png)
+![n queen promising](/post-img/fc-algo-algorithm-21-back-tracking/4_nqueen.png)
 
 ## 3. N Queen 문제 파이썬 코드 작성
 
