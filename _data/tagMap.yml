@@ -43,7 +43,6 @@ fast-campus:
 draft:
     - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
     - {fileName: mdn-canvas-tutorial-3-style-and-colors}
-    - {fileName: ps-set-fc-algo-4-recursive}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}

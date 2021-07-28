@@ -133,6 +133,7 @@ regenerate: true
 ### boj-7000
 
 * [[boj-7287]]
+* [[boj-7490]]
 * [[boj-7567]]
 
 ### boj-8000
