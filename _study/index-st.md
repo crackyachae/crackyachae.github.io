@@ -44,7 +44,6 @@ regenerate: true
     * [[fc-algo-data-structure-9-hash-table]]
     * [[fc-algo-data-structure-10-tree]]
     * [[fc-algo-data-structure-11-heap]]
-
 * [[fc-algo-algorithm]]
     * [[fc-algo-algorithm-12-sort-bubble]]
     * [[fc-algo-algorithm-12-sort-insert]]
@@ -64,6 +63,8 @@ regenerate: true
     * [[fc-algo-algorithm-20-kruskal]]
     * [[fc-algo-algorithm-20-prim]]
     * [[fc-algo-algorithm-21-back-tracking]]
+
+* [[fc-algo-prob-type]]
 
 ## [[Git]]
 

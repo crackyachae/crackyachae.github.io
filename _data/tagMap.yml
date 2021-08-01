@@ -34,12 +34,14 @@ intro:
     - {fileName: fc-algo}
     - {fileName: fc-algo-algorithm}
     - {fileName: fc-algo-data-structure}
+    - {fileName: fc-algo-prob-type}
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}
 fast-campus:
     - {fileName: fc-algo}
     - {fileName: fc-algo-algorithm}
     - {fileName: fc-algo-data-structure}
+    - {fileName: fc-algo-prob-type}
 draft:
     - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
     - {fileName: mdn-canvas-tutorial-3-style-and-colors}
