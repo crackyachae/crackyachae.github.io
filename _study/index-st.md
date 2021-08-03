@@ -66,6 +66,10 @@ regenerate: true
 
 * [[fc-algo-prob-type]]
 
+* [[fc-algo-prob-actual]]
+    * fc-algo-prob-actual-1-code-test
+    * fc-algo-prob-actual-2-implement
+
 ## [[Git]]
 
 * git-memos
