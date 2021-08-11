@@ -4,10 +4,10 @@ title   : "Fast Campus_기술면접 완전 정복 올인원 패키지 Online: �
 summary : 
 date    : 2021-07-21 20:47:28 +0900
 updated : 2021-07-23 21:10:38 +0900
-tag     : 
+tag     : ps-python
 toc     : true
 public  : true
-parent  : 
+parent  : [[ps-back-tracking]]
 latex   : false
 ---
 * TOC
