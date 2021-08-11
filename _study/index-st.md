@@ -199,6 +199,8 @@ regenerate: true
 * [[ps-set-plzrun-1-io]]
 * [[ps-set-covenant-start-1-basic]]
 * [[ps-set-covenant-prep-1-basic]]
+* [[ps-set-fc-algo-actual-1-data-structure]]
+* [[ps-set-fc-algo-actual-2-parameter]]
 
 ### [[ps-data-structure]]
 

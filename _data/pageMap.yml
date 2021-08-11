@@ -284,7 +284,7 @@ fc-algo-prob-actual:
     summary: ""
     parent: fc-algo
     url: /project/fc-algo-prob-actual
-    updated: '2021-07-31 14:57:45 +0900'
+    updated: '2021-08-11 21:58:05 +0900'
     children: [fc-algo-prob-actual-1-code-test, fc-algo-prob-actual-2-implement]
 fc-algo-prob-actual-1-code-test:
     type: article
@@ -421,7 +421,7 @@ ps-back-tracking:
     parent: Problem-Solving
     url: /project/ps-back-tracking
     updated: '2021-07-21 20:46:30 +0900'
-    children: []
+    children: [ps-set-fc-algo-12-back-tracking]
 ps-basic:
     type: article
     title: '기본 & 구현 문제 모음'
@@ -562,7 +562,7 @@ ps-set-fc-algo-12-back-tracking:
     type: article
     title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 백 트래킹"'
     summary: ""
-    parent: ""
+    parent: ps-back-tracking
     url: /project/ps-set-fc-algo-12-back-tracking
     updated: '2021-07-23 21:10:38 +0900'
     children: []
@@ -632,11 +632,19 @@ ps-set-fc-algo-9-bfs-dfs-basic:
     children: []
 ps-set-fc-algo-actual-1-data-structure:
     type: article
-    title: ""
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 구현 - 자료형의 기본 활용과 Tip"'
     summary: ""
     parent: ""
     url: /project/ps-set-fc-algo-actual-1-data-structure
-    updated: '2021-08-03 16:03:00 +0900'
+    updated: '2021-08-03 23:30:26 +0900'
+    children: []
+ps-set-fc-algo-actual-2-parameter:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 구현 - 매개변수의 이해와 구조화"'
+    summary: ""
+    parent: ""
+    url: /project/ps-set-fc-algo-actual-2-parameter
+    updated: '2021-08-11 21:51:43 +0900'
     children: []
 ps-set-plzrun-1-io:
     type: article

@@ -34,6 +34,7 @@ intro:
     - {fileName: fc-algo}
     - {fileName: fc-algo-algorithm}
     - {fileName: fc-algo-data-structure}
+    - {fileName: fc-algo-prob-actual}
     - {fileName: fc-algo-prob-type}
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}
@@ -41,6 +42,7 @@ fast-campus:
     - {fileName: fc-algo}
     - {fileName: fc-algo-algorithm}
     - {fileName: fc-algo-data-structure}
+    - {fileName: fc-algo-prob-actual}
     - {fileName: fc-algo-prob-type}
 draft:
     - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
@@ -55,12 +57,15 @@ ps-python:
     - {fileName: ps-set-fc-algo-1-data-structure}
     - {fileName: ps-set-fc-algo-10-graph-advanced}
     - {fileName: ps-set-fc-algo-11-greedy}
+    - {fileName: ps-set-fc-algo-12-back-tracking}
     - {fileName: ps-set-fc-algo-2-data-structure}
     - {fileName: ps-set-fc-algo-3-sort-basic}
     - {fileName: ps-set-fc-algo-4-recursive}
     - {fileName: ps-set-fc-algo-5-sort-advanced}
     - {fileName: ps-set-fc-algo-8-dp}
     - {fileName: ps-set-fc-algo-9-bfs-dfs-basic}
+    - {fileName: ps-set-fc-algo-actual-1-data-structure}
+    - {fileName: ps-set-fc-algo-actual-2-parameter}
     - {fileName: ps-set-plzrun-1-io}
 ps-javascript:
     - {fileName: ps-set-codeup-py-basic}

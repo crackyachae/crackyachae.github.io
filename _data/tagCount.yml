@@ -6,10 +6,10 @@
     size: 2
 -
     name: fast-campus
-    size: 4
+    size: 5
 -
     name: intro
-    size: 6
+    size: 7
 -
     name: lint
     size: 1
@@ -24,7 +24,7 @@
     size: 1
 -
     name: ps-python
-    size: 16
+    size: 19
 -
     name: velopert
     size: 2
