@@ -429,7 +429,7 @@ ps-basic:
     parent: Problem-Solving
     url: /project/ps-basic
     updated: '2021-04-23 21:47:48 +0900'
-    children: [ps-set-automata-py-basic, ps-set-codeup-py-basic, ps-set-covenant-prep-1-basic, ps-set-covenant-start-1-basic, ps-set-plzrun-1-io]
+    children: [ps-set-automata-py-basic, ps-set-codeup-py-basic, ps-set-covenant-prep-1-basic, ps-set-covenant-start-1-basic, ps-set-fc-algo-actual-1-data-structure, ps-set-fc-algo-actual-2-parameter, ps-set-fc-algo-actual-3-exception, ps-set-fc-algo-actual-4-direction, ps-set-plzrun-1-io]
 ps-bfs-dfs:
     type: article
     title: '그래프 기본 탐색(BFS, DFS) 문제 모음'
@@ -634,7 +634,7 @@ ps-set-fc-algo-actual-1-data-structure:
     type: article
     title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 구현 - 자료형의 기본 활용과 Tip"'
     summary: ""
-    parent: ""
+    parent: ps-basic
     url: /project/ps-set-fc-algo-actual-1-data-structure
     updated: '2021-08-03 23:30:26 +0900'
     children: []
@@ -642,7 +642,7 @@ ps-set-fc-algo-actual-2-parameter:
     type: article
     title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 구현 - 매개변수의 이해와 구조화"'
     summary: ""
-    parent: ""
+    parent: ps-basic
     url: /project/ps-set-fc-algo-actual-2-parameter
     updated: '2021-08-11 21:51:43 +0900'
     children: []
@@ -650,9 +650,17 @@ ps-set-fc-algo-actual-3-exception:
     type: article
     title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 구현 - 예외 처리"'
     summary: ""
-    parent: ""
+    parent: ps-basic
     url: /project/ps-set-fc-algo-actual-3-exception
     updated: '2021-08-12 16:51:13 +0900'
+    children: []
+ps-set-fc-algo-actual-4-direction:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 구현 - 방향 벡터"'
+    summary: ""
+    parent: ps-basic
+    url: /project/ps-set-fc-algo-actual-4-direction
+    updated: '2021-08-12 16:52:48 +0900'
     children: []
 ps-set-plzrun-1-io:
     type: article

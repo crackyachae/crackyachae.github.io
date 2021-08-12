@@ -7,7 +7,7 @@ updated : 2021-08-03 23:30:26 +0900
 tag     : ps-python
 toc     : true
 public  : true
-parent  : 
+parent  : [[ps-basic]]
 latex   : false
 ---
 * TOC
