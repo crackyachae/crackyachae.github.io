@@ -75,6 +75,7 @@ regenerate: true
 * [[boj-2460]]
 * [[boj-2476]]
 * [[boj-2480]]
+* [[boj-2484]]
 * [[boj-2501]]
 * [[boj-2522]]
 * [[boj-2525]]
@@ -222,6 +223,7 @@ regenerate: true
 * [[boj-17224]]
 * [[boj-17269]]
 * [[boj-17389]]
+* [[boj-17413]]
 
 ## [[Programmers-Index]]
 

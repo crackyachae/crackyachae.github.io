@@ -201,6 +201,7 @@ regenerate: true
 * [[ps-set-covenant-prep-1-basic]]
 * [[ps-set-fc-algo-actual-1-data-structure]]
 * [[ps-set-fc-algo-actual-2-parameter]]
+* [[ps-set-fc-algo-actual-3-exception]]
 
 ### [[ps-data-structure]]
 

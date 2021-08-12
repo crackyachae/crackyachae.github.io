@@ -646,6 +646,14 @@ ps-set-fc-algo-actual-2-parameter:
     url: /project/ps-set-fc-algo-actual-2-parameter
     updated: '2021-08-11 21:51:43 +0900'
     children: []
+ps-set-fc-algo-actual-3-exception:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 구현 - 예외 처리"'
+    summary: ""
+    parent: ""
+    url: /project/ps-set-fc-algo-actual-3-exception
+    updated: '2021-08-12 16:51:13 +0900'
+    children: []
 ps-set-plzrun-1-io:
     type: article
     title: '"Plzrun_알고리즘 문제풀이(PS) 시작하기: 입출력"'

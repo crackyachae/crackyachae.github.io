@@ -66,6 +66,7 @@ ps-python:
     - {fileName: ps-set-fc-algo-9-bfs-dfs-basic}
     - {fileName: ps-set-fc-algo-actual-1-data-structure}
     - {fileName: ps-set-fc-algo-actual-2-parameter}
+    - {fileName: ps-set-fc-algo-actual-3-exception}
     - {fileName: ps-set-plzrun-1-io}
 ps-javascript:
     - {fileName: ps-set-codeup-py-basic}
