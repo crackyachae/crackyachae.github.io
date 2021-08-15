@@ -202,6 +202,7 @@ regenerate: true
 * [[ps-set-fc-algo-actual-1-data-structure]]
 * [[ps-set-fc-algo-actual-2-parameter]]
 * [[ps-set-fc-algo-actual-3-exception]]
+* [[ps-set-fc-algo-actual-4-direction]]
 
 ### [[ps-data-structure]]
 
