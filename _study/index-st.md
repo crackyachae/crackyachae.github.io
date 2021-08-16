@@ -69,6 +69,7 @@ regenerate: true
 * [[fc-algo-prob-actual]]
     * fc-algo-prob-actual-1-code-test
     * fc-algo-prob-actual-2-implement
+    * fc-algo-prob-actual-3-type
 
 ## [[Git]]
 
@@ -232,21 +233,25 @@ regenerate: true
 * ps-set-ryute-3-basic-dp
 * [[ps-set-fc-algo-8-dp]]
 
-### [[ps-bfs-dfs]]
+### [[ps-graph-search]]
+
+* [[ps-set-fc-algo-actual-5-search]]
+
+#### [[ps-bfs-dfs]]
 
 * [[ps-set-fc-algo-9-bfs-dfs-basic]]
-
-### [[ps-graph-advanced]]
+ 
+#### [[ps-shortest-mst]]
 
 * [[ps-set-fc-algo-10-graph-advanced]]
+    
+#### [[ps-back-tracking]]
+
+* [[ps-set-fc-algo-12-back-tracking]]
 
 ### [[ps-greedy]]
 
 * [[ps-set-fc-algo-11-greedy]]
-
-### [[ps-back-tracking]]
-
-* [[ps-set-fc-algo-12-back-tracking]]
 
 ## [[Python]]
 

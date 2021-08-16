@@ -11,6 +11,8 @@ navigation:
     - {fileName: ps-basic}
     - {fileName: ps-data-structure}
     - {fileName: ps-dp}
+    - {fileName: ps-graph-search}
+    - {fileName: ps-greedy}
     - {fileName: ps-recursive}
     - {fileName: Python}
     - {fileName: react}
@@ -68,6 +70,7 @@ ps-python:
     - {fileName: ps-set-fc-algo-actual-2-parameter}
     - {fileName: ps-set-fc-algo-actual-3-exception}
     - {fileName: ps-set-fc-algo-actual-4-direction}
+    - {fileName: ps-set-fc-algo-actual-5-search}
     - {fileName: ps-set-plzrun-1-io}
 ps-javascript:
     - {fileName: ps-set-codeup-py-basic}

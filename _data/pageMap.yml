@@ -285,7 +285,7 @@ fc-algo-prob-actual:
     parent: fc-algo
     url: /project/fc-algo-prob-actual
     updated: '2021-08-15 21:43:38 +0900'
-    children: [fc-algo-prob-actual-1-code-test, fc-algo-prob-actual-2-implement]
+    children: [fc-algo-prob-actual-1-code-test, fc-algo-prob-actual-2-implement, fc-algo-prob-actual-3-type]
 fc-algo-prob-actual-1-code-test:
     type: article
     title: 'Chapter 01. 코딩테스트 분석'
@@ -301,6 +301,14 @@ fc-algo-prob-actual-2-implement:
     parent: fc-algo-prob-actual
     url: /project/fc-algo-prob-actual-2-implement
     updated: '2021-08-01 20:19:28 +0900'
+    children: []
+fc-algo-prob-actual-3-type:
+    type: article
+    title: 'Chapter 03. 코딩 테스트 유형별 분석'
+    summary: ""
+    parent: fc-algo-prob-actual
+    url: /project/fc-algo-prob-actual-3-type
+    updated: '2021-08-16 14:29:13 +0900'
     children: []
 fc-algo-prob-type:
     type: article
@@ -413,7 +421,7 @@ Problem-Solving:
     parent: index-st
     url: /project/Problem-Solving
     updated: '2021-02-09 22:22:33 +0900'
-    children: [codeup, ps-back-tracking, ps-basic, ps-bfs-dfs, ps-data-structure, ps-dp, ps-graph-advanced, ps-recursive, ps-search, ps-sort]
+    children: [codeup, ps-back-tracking, ps-basic, ps-bfs-dfs, ps-data-structure, ps-dp, ps-graph-search, ps-greedy, ps-recursive, ps-search, ps-shortest-mst, ps-sort]
 ps-back-tracking:
     type: article
     title: '백 트래킹 문제 모음'
@@ -454,19 +462,19 @@ ps-dp:
     url: /project/ps-dp
     updated: '2021-05-06 19:53:58 +0900'
     children: [ps-set-fc-algo-8-dp]
-ps-graph-advanced:
+ps-graph-search:
     type: article
-    title: '그래프 고급 (최단 경로 알고리즘, 최소 신장 트리) 문제 모음'
+    title: '그래프 탐색 문제 모음'
     summary: ""
     parent: Problem-Solving
-    url: /project/ps-graph-advanced
-    updated: '2021-07-07 15:29:23 +0900'
-    children: [ps-set-fc-algo-10-graph-advanced]
+    url: /project/ps-graph-search
+    updated: '2021-08-16 14:47:00 +0900'
+    children: [ps-set-fc-algo-actual-5-search]
 ps-greedy:
     type: article
-    title: ""
+    title: '탐욕 알고리즘 문제 모음'
     summary: ""
-    parent: ""
+    parent: Problem-Solving
     url: /project/ps-greedy
     updated: '2021-07-12 00:18:42 +0900'
     children: [ps-set-fc-algo-11-greedy]
@@ -546,7 +554,7 @@ ps-set-fc-algo-10-graph-advanced:
     type: article
     title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 그래프 고급 탐색 알고리즘"'
     summary: ""
-    parent: ps-graph-advanced
+    parent: ps-shortest-mst
     url: /project/ps-set-fc-algo-10-graph-advanced
     updated: '2021-07-10 22:36:32 +0900'
     children: []
@@ -662,6 +670,14 @@ ps-set-fc-algo-actual-4-direction:
     url: /project/ps-set-fc-algo-actual-4-direction
     updated: '2021-08-15 21:42:15 +0900'
     children: []
+ps-set-fc-algo-actual-5-search:
+    type: article
+    title: '"Fast Campus_기술면접 완전 정복 올인원 패키지 Online: 코딩테스트 유형별 분석 - 탐색"'
+    summary: ""
+    parent: ps-graph-search
+    url: /project/ps-set-fc-algo-actual-5-search
+    updated: '2021-08-16 14:44:52 +0900'
+    children: []
 ps-set-plzrun-1-io:
     type: article
     title: '"Plzrun_알고리즘 문제풀이(PS) 시작하기: 입출력"'
@@ -686,6 +702,14 @@ ps-set-ryute-2-heap:
     url: /project/ps-set-ryute-2-heap
     updated: '2021-04-28 22:03:06 +0900'
     children: []
+ps-shortest-mst:
+    type: article
+    title: '최단 경로 알고리즘, 최소 신장 트리 문제 모음'
+    summary: ""
+    parent: Problem-Solving
+    url: /project/ps-shortest-mst
+    updated: '2021-07-07 15:29:23 +0900'
+    children: [ps-set-fc-algo-10-graph-advanced]
 ps-sort:
     type: article
     title: '정렬 문제 모음'

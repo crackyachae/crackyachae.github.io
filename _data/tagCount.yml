@@ -18,13 +18,13 @@
     size: 1
 -
     name: navigation
-    size: 31
+    size: 33
 -
     name: ps-javascript
     size: 1
 -
     name: ps-python
-    size: 21
+    size: 22
 -
     name: velopert
     size: 2

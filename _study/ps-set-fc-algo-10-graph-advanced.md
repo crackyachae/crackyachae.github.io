@@ -7,7 +7,7 @@ updated : 2021-07-10 22:36:32 +0900
 tag     : ps-python
 toc     : true
 public  : true
-parent  : [[ps-graph-advanced]]
+parent  : [[ps-shortest-mst]]
 latex   : false
 ---
 * TOC
