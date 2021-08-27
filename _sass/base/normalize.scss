@@ -162,7 +162,7 @@ h1 {
 
 mark {
   background-color: #ff0;
-  color: var(--color-text-primary);
+  color: $color-text-main; // [TEMP]
 }
 
 /**

@@ -16,17 +16,19 @@ body {
   font-family: $body-font;
   font-size: $body-font-size;
   line-height: $body-line-height;
-  color: var(--color-text-primary);
-  background-color: var(--color-bg-canvas);
+  color: $color-text-main;
+  background-color: $color-bg-main;
 }
 
 a {
-  color: var(--color-text-link);
-  text-decoration: none;
+  // color: $color-text-accent;
+  text-decoration: underline $color-border-primary-light;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: underline $color-border-primary;
   }
+
+  // [ADD] &:visited {}
 }
 
 b,
@@ -45,7 +47,7 @@ hr,
   overflow: hidden;
   background: transparent;
   border: 0;
-  border-bottom: $border-width $border-style var(--color-border-secondary);
+  border-bottom: $border-width $border-style $color-border-secondary-light;
   @include clearfix();
 }
 

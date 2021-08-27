@@ -45,7 +45,8 @@
 
   // Link Colors
   .absent {
-    color: var(--color-text-danger);
+    color: $color-text-gray;
+    text-decoration: underline $color-border-gray;
   }
 
   .anchor {
@@ -77,16 +78,17 @@
     padding: 0;
     margin: $spacer-4 0;
     // stylelint-disable-next-line primer/colors
-    background-color: var(--color-border-primary);
+    background-color: $color-border-secondary; // [TEMP] 나중에 어색하면 light로 수정
     border: 0;
   }
 
   blockquote {
     // stylelint-disable-next-line primer/spacing
     padding: 0 1em;
-    color: var(--color-text-tertiary);
+    color: $color-text-main-light;
+    background-color: $color-bg-secondary-light;
     // stylelint-disable-next-line primer/borders
-    border-left: 0.25em $border-style var(--color-markdown-blockquote-border);
+    border-left: 0.25em $border-style $color-border-primary-lighter;
 
     > :first-child {
       margin-top: 0;

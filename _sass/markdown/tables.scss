@@ -11,21 +11,22 @@
 
     th {
       font-weight: $font-weight-bold;
+      background-color: $color-bg-primary;
     }
 
     th,
     td {
       // stylelint-disable-next-line primer/spacing
       padding: 6px 13px;
-      border: $border-width $border-style var(--color-markdown-table-border);
+      border: $border-width $border-style $color-border-secondary-lighter;
     }
 
     tr {
-      background-color: var(--color-bg-primary);
-      border-top: $border-width $border-style var(--color-markdown-table-tr-border);
+      background-color: $color-bg-white;
+      border-top: $border-width $border-style $color-border-secondary-lighter;
 
       &:nth-child(2n) {
-        background-color: var(--color-bg-tertiary);
+        background-color: $color-bg-secondary-lighter;
       }
     }
 
