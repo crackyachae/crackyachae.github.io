@@ -8,8 +8,9 @@
     margin: 0;
     // stylelint-disable-next-line primer/typography
     font-size: $font-size-small;
+    color: $color-text-main-light;
     background-color: $color-bg-secondary-light;
-    border-radius: $border-radius;
+    border-radius: $border-radius * 0.75;
 
     br { display: none; }
   }
