@@ -5,25 +5,30 @@
         bottom: 0;
         left: calc(50vw + 410px);
         width: 380px;
-        background-color: white;
         z-index: 9999;
         font-size: 0.8em;
+        line-height: $lh-default;
         overflow-y:auto;
         overflow-x:hidden;
         border: 0px solid;
-        line-height: 1.5;
     }
 }
 
 #markdown-toc {
-    border: 1px solid;
+    font-size: $font-size-small;
+    line-height: $lh-default;
+    color: $color-text-gray;
     padding: 10px;
     padding-left: 30px;
-    background-color: #FFFFFF;
-    line-height: 1.5;
+    background-color: $color-bg-secondary-lighter;
+    border-radius: $border-radius;
+
+    a {
+        text-decoration: none;
+    }
 }
 
-$active-color: red;
+$active-color: $color-text-accent;
 .active-toc {
   color: $active-color;
 }
