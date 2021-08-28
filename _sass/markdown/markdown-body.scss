@@ -88,7 +88,7 @@
     color: $color-text-main-light;
     background-color: $color-bg-secondary-light;
     // stylelint-disable-next-line primer/borders
-    border-left: 0.25em $border-style $color-border-primary-lighter;
+    border-left: 0.4em $border-style $color-border-primary-lighter;
     border-radius: $border-radius;
 
     > :first-child {
