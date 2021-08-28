@@ -40,7 +40,7 @@
     // stylelint-disable-next-line primer/spacing
     padding-bottom: 0.3em;
     // stylelint-disable-next-line primer/typography
-    font-size: 2em;
+    font-size: $h1-markdown-size;
     border-bottom: $border-width $border-style $color-border-secondary-light;
   }
 
@@ -48,27 +48,27 @@
     // stylelint-disable-next-line primer/spacing
     padding-bottom: 0.3em;
     // stylelint-disable-next-line primer/typography
-    font-size: 1.5em;
+    font-size: $h2-markdown-size;
     border-bottom: $border-width $border-style $color-border-secondary-light;
   }
 
   h3 {
     // stylelint-disable-next-line primer/typography
-    font-size: 1.25em;
+    font-size: $h3-markdown-size;
   }
 
   h4 {
-    font-size: 1em;
+    font-size: $h4-markdown-size;
   }
 
   h5 {
     // stylelint-disable-next-line primer/typography
-    font-size: 0.875em;
+    font-size: $h5-markdown-size;
   }
 
   h6 {
     // stylelint-disable-next-line primer/typography
-    font-size: 0.85em;
+    font-size: $h6-markdown-size;
     color: $color-text-main-light;
   }
 }

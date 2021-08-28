@@ -1,24 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
 // Typography variables
+$font-size-root: null !default;
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-xsmall: $font-size-base * .75  !default; // `12px`
+$font-size-small: $font-size-base * .875 !default; // `14px`
+$font-size-large: $font-size-base * 1.25 !default; // `20px`
 
 // Heading sizes - mobile
 // h4-h6 remain the same size on both mobile & desktop
-$h00-size-mobile: 40px !default;
-$h0-size-mobile: 32px !default;
-$h1-size-mobile: 26px !default;
-$h2-size-mobile: 22px !default;
-$h3-size-mobile: 18px !default;
+$h00-size-mobile: $font-size-base * 2.5 !default; // 40px
+$h0-size-mobile: $font-size-base * 2 !default; // 32px
+$h1-size-mobile: $font-size-base * 1.625 !default; // 26px
+$h2-size-mobile: $font-size-base * 1.375 !default; // 22px
+$h3-size-mobile: $font-size-base * 1.125 !default; // 18px
 
-// Heading sizes - desktop
-$h00-size: 48px !default;
-$h0-size: 40px !default;
-$h1-size: 32px !default;
-$h2-size: 24px !default;
-$h3-size: 20px !default;
-$h4-size: 16px !default;
-$h5-size: 14px !default;
-$h6-size: 12px !default;
+// Heading sizes - desktop ([TEMP]: markdown setting 이랑 안 맞아서 수정해야 함)
+$h00-size: $font-size-base * 3 !default; // 48px
+$h0-size: $font-size-base * 2.5 !default; // 40px
+$h1-size: $font-size-base * 2 !default; // 32px
+$h2-size: $font-size-base * 1.5 !default; // 24px
+$h3-size: $font-size-base * 1.25 !default; // 20px
+$h4-size: $font-size-base * 1 !default; // 16px
+$h5-size: $font-size-base * 0.875 !default; // 14px
+$h6-size: $font-size-base * 0.75 !default; // 12px
 
-$font-size-small: 12px !default;
+$body-font-size: $font-size-base !default;
+
+// markdown setting
+$markdown-font-size: $font-size-base !default;
+
+$h1-markdown-size: $markdown-font-size * 2.2 !default;
+$h2-markdown-size: $markdown-font-size * 1.75 !default;
+$h3-markdown-size: $markdown-font-size * 1.5 !default;
+$h4-markdown-size: $markdown-font-size * 1.25 !default;
+$h5-markdown-size: $markdown-font-size * 1 !default;
+$h6-markdown-size: $markdown-font-size * 1 !default;
 
 // Font weights
 $font-weight-bold: 600 !default;
@@ -26,14 +45,23 @@ $font-weight-semibold: 500 !default;
 $font-weight-normal: 400 !default;
 $font-weight-light: 300 !default;
 
+$font-weight-base: $font-weight-normal !default;
+
 // Line heights
 $lh-condensed-ultra: 1 !default;
 $lh-condensed: 1.25 !default;
 $lh-default: 1.5 !default;
+$lh-extended: 2 !default;
+
+$body-line-height: $lh-default !default;
+$markdown-line-height: $lh-extended !default;
 
 // Font stacks
 // stylelint-disable no-eol-whitespace
 $body-font:
+  // customize font
+  "Noto Sans KR",
+
   // Apple OSs
   -apple-system,
   BlinkMacSystemFont,
@@ -58,8 +86,5 @@ $body-font:
 
 // Monospace font stack
 // Note: SFMono-Regular needs to come before SF Mono to fix an older version of the font in Chrome
-$mono-font: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !default;
+$mono-font: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace !default;
 
-// The base body size
-$body-font-size: 14px !default;
-$body-line-height: $lh-default !default;

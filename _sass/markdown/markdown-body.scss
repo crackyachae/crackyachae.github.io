@@ -6,8 +6,8 @@
 // includes some GitHub Flavored Markdown specific styling (like @mentions)
 .markdown-body {
   font-family: $body-font;
-  font-size: $h4-size;
-  line-height: $body-line-height;
+  font-size: $markdown-font-size;
+  line-height: $markdown-line-height;
   word-wrap: break-word;
 
   @import "../base/kbd.scss"; // adds support for keyboard shortcuts
