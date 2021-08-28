@@ -5,9 +5,9 @@ kbd {
   display: inline-block;
   // stylelint-disable-next-line primer/spacing
   padding: ($spacer-1 - 1) ($spacer-1 + 1);
-  font: 11px $mono-font;
+  font: ($font-size-small - 1) $mono-font;
   // stylelint-disable-next-line primer/typography
-  line-height: 10px;
+  line-height: $lh-condensed-ultra;
   color: $color-text-main-light;
   vertical-align: middle;
   background-color: $color-bg-secondary-lighter;
