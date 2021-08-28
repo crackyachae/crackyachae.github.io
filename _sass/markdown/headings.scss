@@ -13,6 +13,7 @@
     margin-bottom: $spacer-3;
     font-weight: $font-weight-bold;
     line-height: $lh-condensed;
+    color: inherit;
 
     .octicon-link {
       color: $color-text-main-light;
@@ -26,6 +27,10 @@
       .octicon-link {
         visibility: visible;
       }
+    }
+
+    &:before {
+        color: inherit;
     }
 
     tt,

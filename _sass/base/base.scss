@@ -21,14 +21,18 @@ body {
 }
 
 a {
-  // color: $color-text-accent;
-  text-decoration: underline $color-border-primary-light;
+  color: inherit; // $color-text-accent;
+  text-decoration-line: underline;
+  text-decoration-color: $color-border-primary-light;
 
   &:hover {
-    text-decoration: underline $color-border-primary;
+    text-decoration-line: underline;
+    text-decoration-color: $color-border-primary;
   }
 
-  // [ADD] &:visited {}
+  &:visited {
+    color: inherit;
+  }
 }
 
 b,

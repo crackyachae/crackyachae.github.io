@@ -86,5 +86,5 @@ $body-font:
 
 // Monospace font stack
 // Note: SFMono-Regular needs to come before SF Mono to fix an older version of the font in Chrome
-$mono-font: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace !default;
+$mono-font: "Courier New", Courier, "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace !default;
 
