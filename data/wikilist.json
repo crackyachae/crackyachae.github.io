@@ -5,7 +5,7 @@
 {% for doc in documents %}{% if doc.public == true and doc.layout != 'wikiindex'%}{% assign urlChunk = doc.url | split: "/" %}{% assign name = urlChunk[2] %}
 "{{ name }}":{
     "collection":"{{ doc.collection }}",
-    "title":"{{ doc.title }}", {% if doc.summary %} "\n""summary":"{{ doc.summary }}",{% endif %}
+    "title":"{{ doc.title }}", {% if doc.summary %}"summary":"{{ doc.summary }}",{% endif %}
     "updated":"{{ doc.updated }}",
     "parent":"{{ doc.parent }}"},
 {% endif %}{% endfor %}
