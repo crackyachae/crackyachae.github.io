@@ -8,7 +8,7 @@ const tagMap = {};
 const pageMap = {};
 
 for (const col of collections) {
-  getFiles(`./_${col}`, 'article', col, list);
+  getFiles(`./_${col}`, 'wiki', col, list);
 }
 getFiles('./_posts', 'blog', 'posts', list);
 
@@ -130,7 +130,7 @@ function saveTagFiles(tagMap, pageMap) {
             const tagData = tagDatas[index];
             const data = pageMap[tagData.fileName]
 
-            const documentId = (data.type === 'article')
+            const documentId = (data.type === 'wiki')
                 ? tagData.fileName
                 : data.url;
 
@@ -237,7 +237,7 @@ function parseInfo(file, info) {
         obj.url = '/blog/' + obj.date.replace(/^(\d{4})-(\d{2})-(\d{2}).*$/, '$1/$2/$3/');
         obj.url += obj.fileName.replace(/^.*[/]\d{4}-\d{2}-\d{2}-([^/]*)\.md$/, '$1');
     } else {
-        if (file.type === "article") {
+        if (file.type === "wiki") {
             const regex = new RegExp(`^\.\/_${file.collection}`)
             obj.url = file.path
                 .replace(regex, `/${file.collection}`)
