@@ -237,13 +237,11 @@ function parseInfo(file, info) {
         obj.url = '/blog/' + obj.date.replace(/^(\d{4})-(\d{2})-(\d{2}).*$/, '$1/$2/$3/');
         obj.url += obj.fileName.replace(/^.*[/]\d{4}-\d{2}-\d{2}-([^/]*)\.md$/, '$1');
     } else {
-        for (const col of collections) {
-            if (file.type === "article") {
-                obj.url = file.path
-                    .replace(/^\.\/_/, "/")
-                    .replace(`${col}/`, `${col}`)
-                    .replace(/\.md$/, '');
-            }
+        if (file.type === "article") {
+            const regex = new RegExp(`^\.\/_${file.collection}`)
+            obj.url = file.path
+                .replace(regex, `/${file.collection}`)
+                .replace(/\.md$/, '')
         }
     }
 
