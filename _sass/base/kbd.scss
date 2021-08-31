@@ -1,0 +1,20 @@
+// Keyboard shortcuts
+// stylelint-disable selector-max-type
+
+kbd {
+  display: inline-block;
+  // stylelint-disable-next-line primer/spacing
+  padding: ($spacer-1 - 1) ($spacer-1 + 1);
+  font: ($font-size-small - 1) $mono-font;
+  // stylelint-disable-next-line primer/typography
+  line-height: $lh-condensed-ultra;
+  color: $color-text-main-light;
+  vertical-align: middle;
+  background-color: $color-bg-secondary-lighter;
+  // stylelint-disable-next-line primer/borders
+  border: $border-style $border-width $color-border-kbd;
+  border-bottom-color: $color-border-kbd;
+  border-radius: $border-radius * 0.75;
+  // stylelint-disable-next-line primer/box-shadow
+  box-shadow: inset 0 -1px 0 $color-border-kbd;
+}

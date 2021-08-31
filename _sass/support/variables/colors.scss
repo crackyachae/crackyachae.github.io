@@ -1,0 +1,48 @@
+@import "color-system.scss";
+// Color variables
+
+// Border colors
+$color-border-gray: $gray-300 !default;
+
+$color-border-primary: $primary-600 !default;
+$color-border-primary-light: $primary-500 !default;
+$color-border-primary-lighter: $primary-400 !default;
+$color-border-secondary-dark: $secondary-700 !default;
+$color-border-secondary: $secondary-400 !default;
+$color-border-secondary-light: $secondary-300 !default;
+$color-border-secondary-lighter: $secondary-200 !default;
+
+$color-border-kbd: transparentize($secondary-700, 0.2) !default;
+
+// Background colors
+$color-bg-main: $white;
+$color-bg-white: $white;
+$color-bg-black: $black !default;
+
+$color-bg-primary: $primary-400 !default;
+$color-bg-primary-light: $primary-300 !default;
+$color-bg-secondary: $secondary-300 !default;
+$color-bg-secondary-light: $secondary-200 !default;
+$color-bg-secondary-lighter: $secondary-100 !default;
+
+$color-bg-hero: transparentize($primary-600, 0.05) !default;
+$color-bg-pre: $color-bg-black !default;
+
+// Text colors
+$color-text-black: $black !default;
+$color-text-white: $white !default;
+$color-text-gray: $gray-300 !default;
+
+$color-text-main-dark: $secondary-700 !default;
+$color-text-main: $secondary-600 !default;
+$color-text-main-light: $secondary-500 !default;
+
+$color-text-accent: $primary-600 !default;
+
+// icon colors
+$color-bg-cracker: $primary-500 !default;
+
+// Button colors
+$color-button-secondary: $secondary-700 !default;
+$color-button-secondary-light: $secondary-600 !default;
+$color-button-secondary-lighter: $secondary-500 !default;

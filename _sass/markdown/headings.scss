@@ -1,0 +1,79 @@
+// Needs refactoring
+// stylelint-disable selector-max-compound-selectors, selector-max-specificity
+// stylelint-disable selector-max-type
+.markdown-body {
+  // Headings
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: $spacer-4;
+    margin-bottom: $spacer-3;
+    font-weight: $font-weight-bold;
+    line-height: $lh-condensed;
+    color: inherit;
+
+    .octicon-link {
+      color: $color-text-main-light;
+      vertical-align: middle;
+      visibility: hidden;
+    }
+
+    &:hover .anchor {
+      text-decoration: none;
+
+      .octicon-link {
+        visibility: visible;
+      }
+    }
+
+    &:before {
+        color: inherit;
+    }
+
+    tt,
+    code {
+      // stylelint-disable-next-line primer/spacing
+      padding: 0 0.2em;
+      font-size: inherit;
+    }
+  }
+
+  h1 {
+    // stylelint-disable-next-line primer/spacing
+    padding-bottom: 0.3em;
+    // stylelint-disable-next-line primer/typography
+    font-size: $h1-markdown-size;
+    border-bottom: $border-width $border-style $color-border-secondary-light;
+  }
+
+  h2 {
+    // stylelint-disable-next-line primer/spacing
+    padding-bottom: 0.3em;
+    // stylelint-disable-next-line primer/typography
+    font-size: $h2-markdown-size;
+    border-bottom: $border-width $border-style $color-border-secondary-light;
+  }
+
+  h3 {
+    // stylelint-disable-next-line primer/typography
+    font-size: $h3-markdown-size;
+  }
+
+  h4 {
+    font-size: $h4-markdown-size;
+  }
+
+  h5 {
+    // stylelint-disable-next-line primer/typography
+    font-size: $h5-markdown-size;
+  }
+
+  h6 {
+    // stylelint-disable-next-line primer/typography
+    font-size: $h6-markdown-size;
+    color: $color-text-main-light;
+  }
+}

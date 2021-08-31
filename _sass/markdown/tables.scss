@@ -1,0 +1,37 @@
+// Needs refactoring
+// stylelint-disable selector-max-type
+.markdown-body {
+  // Tables
+  table {
+    display: block;
+    width: 100%; // keep for backwards compatibility
+    width: max-content;
+    max-width: 100%;
+    overflow: auto;
+
+    th {
+      font-weight: $font-weight-bold;
+      background-color: $color-bg-primary;
+    }
+
+    th,
+    td {
+      // stylelint-disable-next-line primer/spacing
+      padding: 6px 13px;
+      border: $border-width $border-style $color-border-secondary-lighter;
+    }
+
+    tr {
+      background-color: $color-bg-white;
+      border-top: $border-width $border-style $color-border-secondary-lighter;
+
+      &:nth-child(2n) {
+        background-color: $color-bg-secondary-lighter;
+      }
+    }
+
+    img {
+      background-color: transparent;
+    }
+  }
+}
