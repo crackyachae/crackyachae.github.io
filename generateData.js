@@ -8,9 +8,9 @@ const tagMap = {};
 const pageMap = {};
 
 for (const col of collections) {
-  getFiles(`./_${col}`, 'article', list);
+  getFiles(`./_${col}`, 'article', col, list);
 }
-getFiles('./_posts', 'blog', list);
+getFiles('./_posts', 'blog', 'posts', list);
 
 const dataList = list.map(file => collectData(file))
                      .filter((row) => row != null)
@@ -44,6 +44,7 @@ dataList.sort(lexicalOrderingBy('fileName'))
             pageMap[page.fileName] = 
                         {
                             type: page.type,
+                            collection: page.collection,
                             title: page.title,
                             summary: page.summary,
                             parent: page.parent,
@@ -144,7 +145,8 @@ function saveTagFiles(tagMap, pageMap) {
 function saveMetaDataFiles(pageMap) {
     for (const page in pageMap) {
         const data = pageMap[page];
-        const fileName = data.url.replace(/^[/]wiki[/]/, '');
+        const regex = new RegExp(`^[/]${data.collection}[/]`);
+        const fileName = data.url.replace(regex, '');
         const dirName = `./data/metadata/${fileName}`
             .replace(/(\/\/)/g, '/')
             .replace(/[/][^/]*$/, '');
@@ -205,9 +207,11 @@ function parseInfo(file, info) {
         return undefined;
     }
 
+    const regex = new RegExp(`^\.\/_${file.collection}\/(.+)?\.md$`);
     const obj = {
-        fileName: file.path.replace(/^\.\/_wiki\/(.+)?\.md$/, '$1'),
+        fileName: file.path.replace(regex, '$1'),
         type: file.type,
+        collection: file.collection,
         url: '',
         modified: fs.statSync(file.path).mtime
     };
@@ -257,7 +261,7 @@ function isMarkdown(fileName) {
     return /\.md$/.test(fileName);
 }
 
-function getFiles(path, type, array, testFileList = null) {
+function getFiles(path, type, col, array, testFileList = null) {
 
     fs.readdirSync(path).forEach(fileName => {
 
@@ -274,6 +278,7 @@ function getFiles(path, type, array, testFileList = null) {
             const obj = {
                 'path': `${path}/${fileName}`,
                 'type': type,
+                'collection': col,
                 'name': fileName,
                 'children': [],
             };
