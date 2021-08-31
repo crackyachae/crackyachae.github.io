@@ -4,38 +4,26 @@ const YAML = require('yamljs');
 const fs = require('fs');
 const collections = ['study', 'diary', 'project'];
 const list = [];
+const tagMap = {};
+const pageMap = {};
 
 for (const col of collections) {
-  getFiles(`./_${col}`, 'article', list);
+  getFiles(`./_${col}`, 'wiki', col, list);
 }
-getFiles('./_posts', 'blog', list);
+getFiles('./_posts', 'blog', 'posts', list);
 
-const dataList = list.map(function collectData(file) {
+const dataList = list.map(file => collectData(file))
+    .filter((row) => row != null)
+    .filter((row) => row.public != 'false')
+    .sort(lexicalOrderingBy('fileName'))
 
-    const data = fs.readFileSync(file.path, 'utf8');
-    return parseInfo(file, data.split('---')[1]);
-
-}).filter(function removeNullData(row) {
-
-    return row != null;
-
-}).filter(function removePrivate(row) {
-
-    return row.public != 'false';
-
-}).sort(function sortByFileName(a, b) {
-
-    return a.fileName.toLowerCase().localeCompare(b.fileName.toLowerCase());
-
-});
-
-const tagMap = {};
 
 dataList.forEach(function collectTagMap(data) {
     if (!data.tag) {
         return;
     }
-    data.tag.forEach(function(tag) {
+
+    data.tag.forEach(tag => {
         if (!tagMap[tag]) {
             tagMap[tag] = [];
         }
@@ -46,34 +34,30 @@ dataList.forEach(function collectTagMap(data) {
     });
 });
 
-for (tag in tagMap) {
-    tagMap[tag].sort(function sortByFileName(a, b) {
-        return a.fileName.toLowerCase().localeCompare(b.fileName.toLowerCase());
-    });
+for (const tag in tagMap) {
+    tagMap[tag].sort(lexicalOrderingBy('fileName'));
 }
 saveTagMap(tagMap);
 
-const pageMap = {};
-dataList.sort(function(a, b) {
-    return a.url.toLowerCase().localeCompare(b.url.toLowerCase());
-}).forEach(function(page) {
+dataList.sort(lexicalOrderingBy('fileName'))
+    .forEach((page) => { 
+        pageMap[page.fileName] = 
+            {
+                type: page.type,
+                collection: page.collection,
+                title: page.title,
+                summary: page.summary,
+                parent: page.parent,
+                url: page.url,
+                updated: page.updated || page.date,
+                children: [],
+            };
+    });
 
-    pageMap[page.fileName] = {
-        type: page.type,
-        title: page.title,
-        summary: page.summary,
-        parent: page.parent,
-        url: page.url,
-        updated: page.updated || page.date,
-        children: [],
-    };
-
-});
-
-dataList.forEach(function(page) {
+dataList.forEach(page => {
     if (page.parent && page.parent != 'index') {
 
-        var parent = pageMap[page.parent];
+        const parent = pageMap[page.parent];
 
         if (parent && parent.children) {
             parent.children.push(page.fileName);
@@ -81,14 +65,17 @@ dataList.forEach(function(page) {
     }
 });
 
-savePageList(pageMap);
-
 saveTagFiles(tagMap, pageMap);
-
 saveTagCount(tagMap);
+saveMetaDataFiles(pageMap);
+
+function lexicalOrderingBy(property) {
+    return (a, b) => a[property].toLowerCase()
+        .localeCompare(b[property].toLowerCase())
+}
 
 function saveTagMap(tagMap) {
-    fs.writeFile("./_data/tagMap.yml", YAML.stringify(tagMap), function(err) {
+    fs.writeFile("./_data/tagMap.yml", YAML.stringify(tagMap), err => {
         if (err) {
             return console.log(err);
         }
@@ -126,24 +113,64 @@ function saveTagMap(tagMap) {
     }
   }
 }
- */
+*/
+
 function saveTagFiles(tagMap, pageMap) {
-    for (let tag in tagMap) {
-        var map = {
-            fileName: tag,
-            collection: {}
-        };
-        var tagData = tagMap[tag];
-        for (var i in tagData) {
-            var fileName = tagData[i].fileName;
-            map.collection[fileName] = pageMap[fileName]
+    fs.mkdirSync('./data/tag', { recursive: true }, (err) => {
+        if (err) {
+            return console.log(err);
+        }
+    })
+
+    for (const tag in tagMap) {
+        const collection = [];
+        const tagDatas = tagMap[tag];
+
+        for (const index in tagDatas) {
+            const tagData = tagDatas[index];
+            const data = pageMap[tagData.fileName]
+
+            const documentId = (data.type === 'wiki')
+                ? tagData.fileName
+                : data.url;
+
+            collection.push(documentId);
         }
 
-        fs.writeFile("./data/tag/" + tag + ".json", JSON.stringify(map), function(err) {
+        fs.writeFile(`./data/tag/${tag}.json`, JSON.stringify(collection), err => {
             if (err) {
                 return console.log(err);
             }
         });
+    }
+}
+
+/**
+ * 파일 하나의 정보 파일을 만든다.
+ * 각 파일 하나는 자신만의 정보를 갖는 json 파일을 갖게 된다.
+ * 예를 들어 math.md 라는 파일이 있다면 ./data/metadata/math.json 파일이 만들어진다.
+ * json 파일의 내용은 자신의 metadata와 자식 문서들의 목록이 된다.
+ */
+function saveMetaDataFiles(pageMap) {
+    for (const page in pageMap) {
+        const data = pageMap[page];
+        const regex = new RegExp(`^[/]${data.collection}[/]`);
+        const fileName = data.url.replace(regex, '');
+        const dirName = `./data/metadata/${fileName}`
+            .replace(/(\/\/)/g, '/')
+            .replace(/[/][^/]*$/, '');
+
+        fs.mkdirSync(dirName, { recursive: true }, (err) => {
+            if (err) {
+                return console.log(err);
+            }
+        })
+
+        fs.writeFile(`./data/metadata/${fileName}.json`, JSON.stringify(data), err => {
+            if (err) {
+                return console.log(err);
+            }
+        })
     }
 }
 
@@ -156,17 +183,16 @@ function saveTagFiles(tagMap, pageMap) {
 -
     name: agile
     size: 5
- */
+    */
 function saveTagCount(tagMap) {
-    var list = [];
-    for (var tag in tagMap) {
+    const list = [];
+    for (const tag in tagMap) {
         list.push({
             name: tag,
             size: tagMap[tag].length
         });
     }
-    var sortedList = list.sort((a, b) =>
-        a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+    const sortedList = list.sort((lexicalOrderingBy('name')));
 
     fs.writeFile("./_data/tagCount.yml", YAML.stringify(sortedList), function(err) {
         if (err) {
@@ -176,26 +202,23 @@ function saveTagCount(tagMap) {
     });
 }
 
-function savePageList(pageMap) {
-    fs.writeFile("./_data/pageMap.yml", YAML.stringify(pageMap), function(err) {
-        if (err) {
-            return console.log(err);
-        }
-        console.log("pageMap saved.");
-    });
-}
-
 function parseInfo(file, info) {
-    if (info == null) {
+    if (info === null) {
         return undefined;
     }
-    const obj = {};
-    obj.fileName = file.name.replace(/\.md$/, '');
-    obj.type = file.type;
+
+    const regex = new RegExp(`^\.\/_${file.collection}\/(.+)?\.md$`);
+    const obj = {
+        fileName: file.path.replace(regex, '$1'),
+        type: file.type,
+        collection: file.collection,
+        url: '',
+        modified: fs.statSync(file.path).mtime
+    };
 
     const rawData = info.split('\n');
 
-    rawData.forEach(function(str) {
+    rawData.forEach(str => {
         const result = /^\s*([^:]+):\s*(.+)\s*$/.exec(str);
 
         if (result == null) {
@@ -203,29 +226,28 @@ function parseInfo(file, info) {
         }
 
         const key = result[1].trim();
-        const val = result[2].trim().replace(/\[{2}|\]{2}/g, '');
+        const val = result[2].trim()
+            .replace(/\[{2}\/?|\]{2}/g, '')    // 문서 이름 앞뒤의 [[  ]], [[/ ]] 를 제거한다.
+        ;
 
         obj[key] = val;
     });
 
     if (file.type === 'blog') {
         obj.url = '/blog/' + obj.date.replace(/^(\d{4})-(\d{2})-(\d{2}).*$/, '$1/$2/$3/');
-        obj.url += obj.fileName.replace(/^(\d{4}-\d{2}-\d{2}-)?(.*)$/, '$2');
+        obj.url += obj.fileName.replace(/^.*[/]\d{4}-\d{2}-\d{2}-([^/]*)\.md$/, '$1');
     } else {
-        for (const col of collections) {
-            if (file.type === "article") {
-                obj.url = `/${col}/${obj.fileName}`;
-            }
+        if (file.type === "wiki") {
+            const regex = new RegExp(`^\.\/_${file.collection}`)
+            obj.url = file.path
+                .replace(regex, `/${file.collection}`)
+                .replace(/\.md$/, '')
         }
     }
 
     if (obj.tag) {
         obj.tag = obj.tag.split(/\s+/);
     }
-
-    const mtime = fs.statSync(file.path).mtime;
-    obj.modified = mtime;
-
     return obj;
 }
 
@@ -237,23 +259,33 @@ function isMarkdown(fileName) {
     return /\.md$/.test(fileName);
 }
 
-function getFiles(path, type, array) {
+function getFiles(path, type, col, array, testFileList = null) {
 
-    fs.readdirSync(path).forEach(function(fileName) {
+    fs.readdirSync(path).forEach(fileName => {
 
-        const subPath = path + '/' + fileName;
+        const subPath = `${path}/${fileName}`;
 
         if (isDirectory(subPath)) {
-            return getFiles(subPath, type, array);
+            return getFiles(subPath, type, array, testFileList);
         }
         if (isMarkdown(fileName)) {
+            if(testFileList && !testFileList.includes(fileName)) {
+                return;
+            }
+
             const obj = {
-                'path': path + '/' + fileName,
+                'path': `${path}/${fileName}`,
                 'type': type,
+                'collection': col,
                 'name': fileName,
                 'children': [],
             };
             return array.push(obj);
         }
     });
+}
+
+function collectData(file) {
+    const data = fs.readFileSync(file.path, 'utf8');
+    return parseInfo(file, data.split('---')[1]);
 }
