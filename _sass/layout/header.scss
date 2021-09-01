@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    padding: $spacer-3;
+    background-color: $color-bg-primary-light;
+    line-height: $lh-condensed-ultra;
+
+    a {
+        display: inline-block;
+        color: $color-text-main-dark;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-text-main-light;
+        }
+    }
+
+    &:after {
+        clear: both;
+        content: ' ';
+        display: block;
+    }
+
+    .site-title {
+        flex: auto;
+        padding-top: $spacer-1 * 1.5;
+        font-family: $point-font;
+        font-size: 1.8em;
+        white-space: nowrap;
+    }
+
+    .site-menu {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+
+        div {
+            margin-left: $spacer-3;
+        }
+
+        a {
+            font-weight: $font-weight-semibold;
+        }
+    }
+}

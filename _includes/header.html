@@ -62,22 +62,24 @@
 
 </head>
 <header class="header">
-    <div>
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="site-title">
+        <a href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
-    <div>
-        <a class="site-title-right" href="/about/">me</a>
+    <div class="site-menu">
+    {% assign collections = site.collections | sort: 'number' | shift | pop reverse %}
+    {% for col in collections %}
+        {% assign trail = col.label | slice: 0, 2 %}
+        <div>
+            <a class="collection" href="{{ col.label | prepend: "/" | append: "/index-" | append: trail | append: "/" }}">{{ col.label }}</a>
+        </div>
+    {% endfor %}
+        <div>
+            <a class="me" href="/about/">me</a>
+        </div>
+        <div>
+            <a id="random-button" class="random" href="/study/index-s/#random" onClick="if(typeof random === 'function')random()">random</a>
+        </div>
     </div>
-    <div>
-        <a id="random-button" class="site-title-right" href="/study/index-s/#random" onClick="if(typeof random === 'function')random()">random</a>
-    </div>
-{% assign collections = site.collections | sort: 'number' | shift | pop reverse %}
-{% for col in collections %}
-    {% assign trail = col.label | slice: 0, 2 %}
-    <div>
-        <a class="site-title-right" href="{{ col.label | prepend: "/" | append: "/index-" | append: trail | append: "/" }}">{{ col.label }}</a>
-    </div>
-{% endfor %}
 </header>
 <script>
 ;(function(){
