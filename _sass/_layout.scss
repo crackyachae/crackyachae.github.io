@@ -1,3 +1,5 @@
+@import "./layout/index.scss";
+
 .wrapper {
     margin: 0 auto;
 }
@@ -80,10 +82,6 @@ table.gsc-search-box {
     .page-content .wrapper:before {
         display: none;
     }
-}
-
-.footer {
-    text-align:center;
 }
 
 ul.tag-list {

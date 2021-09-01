@@ -1,0 +1,24 @@
+footer {
+    font-size: $font-size-xsmall;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footer-inner {
+    text-align: center;
+
+    margin: 0 $spacer-4;
+    padding: $spacer-4 0;
+    border-top: $border-width $border-style $color-border-primary;
+}
+
+.copyright {
+    color: $color-text-gray;
+
+    .user {
+        margin-left: 2px;
+        color: $color-text-accent;
+    }
+}

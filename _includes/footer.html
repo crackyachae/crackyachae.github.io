@@ -1,7 +1,10 @@
-<footer class="footer">
-    <div>
-{% if page.latex %}
-  {% include latex.html %}
-{% endif %}
+<footer class="footer"> {% assign username = "Crackyachae" %}
+    <div class="footer-inner">
+        <span class="copyright">
+        DESIGNED BY <a href="{{ site.baseurl }}/" target="_blank" class="user">{{ username }}</a>
+        </span>
     </div>
+    {% if page.latex %}
+        {% include latex.html %}
+    {% endif %}
 </footer>
