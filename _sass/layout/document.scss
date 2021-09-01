@@ -1,0 +1,26 @@
+.post {
+    overflow-x: auto;
+
+    // TEMP
+    table {
+        tr:hover {
+            background: transparentize($color-bg-primary-light, 0.6);
+        }
+    }
+}
+
+.post-header {
+    h2 {
+        border: none;
+    }
+    p {
+        margin: 0;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.post-link {
+    text-decoration: none;
+}

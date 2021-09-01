@@ -7,35 +7,35 @@ layout: document
 {% assign thisName = pathChunk[2] %}
 <input type="hidden" id="thisName" value="{{ thisName }}"/>
 <div class="post">
-    <header class="post-header">
-        <h1 class="page-title">
-            <a href="{{ page.url }}"> {{ page.title }} </a>
-        </h1>
-    {% if page.summary %}
-        <p class="title-summary">{{ page.summary }}</p>
-    {% endif %}
-        <div class="history-button">
-            <p><a href="{{ site.blame }}/{{ thisPath }}.md" target="_blank">created: {{ page.date | date: '%Y.%m.%d' }}</a></p>
-            <p><a href="{{ site.blame }}/{{ thisPath }}.md" target="_blank">updated: {{ page.updated | date: '%Y.%m.%d' }}</a></p>
-            <p>
-                <a href="{{ site.edit }}/{{ thisPath }}.md">편집하기</a>
-                /
-                <a href="{{ site.issue }}?title={{ page.title | url_encode }}&body=의견을%20남겨주세요">의견 남기기</a>
-            </p>
-        </div>
+    <header class="post-header article-header">
 {% raw %}
-        <div id="parent-list"></div>
+        <div id="parent-list" class="article-parent"></div>
 {% endraw %}
-
-{% if page.tags %}
-    {% include post-tags.html %}
-{% endif %}
-
-
+        <div>
+            <h1 class="article-title">
+                <a href="{{ page.url }}"> {{ page.title }} </a>
+            </h1>
+        {% if page.summary %}
+            <p class="title-summary">{{ page.summary }}</p>
+        {% endif %}
+        </div>
+        <div class="article-date">
+            <span><a href="{{ site.blame }}/{{ thisPath }}.md" target="_blank">Created on {{ page.date | date: '%Y.%m.%d' }}</a></span>
+            <span>|</span>
+            <span><a href="{{ site.blame }}/{{ thisPath }}.md" target="_blank">Updated on {{ page.updated | date: '%Y.%m.%d' }}</a></span>
+        </div>
+        <div class="article-communicate">
+            <a href="{{ site.edit }}/{{ thisPath }}.md">편집하기</a>
+            <a href="{{ site.issue }}?title={{ page.title | url_encode }}&body=의견을%20남겨주세요">의견 남기기</a>
+        </div>
     </header>
     <article class="post-content markdown-body">
         {{ content }}
     </article>
+
+{% if page.tags %}
+    {% include post-tags.html %}
+{% endif %}
 
 {% if page.comment != false %}
     {% include comment.html %}

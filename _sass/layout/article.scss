@@ -1,0 +1,44 @@
+.article-header {
+    margin: 0 0 $spacer-4 0;
+    padding: 160px 0 $spacer-3 0;
+    border-bottom: $border-width $border-style $color-border-secondary;
+
+    color: $color-text-main-light;
+
+    div {
+        margin-bottom: $spacer;
+    }
+}
+
+.article-parent {
+    font-size: $font-size-xsmall;
+    margin-bottom: $spacer-1;
+}
+
+.article-title {
+    display: inline-block;
+    margin-bottom: $spacer-1;
+    color: $color-text-main;
+}
+
+.title-summary {
+    font-size: $body-font-size;
+}
+
+.article-date {
+    font-size: $font-size-xsmall;
+
+    span {
+        margin-right: $spacer-1;
+    }
+}
+
+.article-communicate a {
+    margin-right: $spacer;
+    padding: 0.3em 0.6em;
+    border-radius: $border-radius * 0.75;
+
+    background-color: rgba(255, 220, 122, 0.7);
+    color: $color-text-accent-dark;
+    font-size: 10px;
+}
