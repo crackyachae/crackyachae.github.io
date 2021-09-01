@@ -65,6 +65,7 @@
     <div class="site-title">
         <a href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
+    {% include searchbox.html %}
     <div class="site-menu">
     {% assign collections = site.collections | sort: 'number' | shift | pop reverse %}
     {% for col in collections %}

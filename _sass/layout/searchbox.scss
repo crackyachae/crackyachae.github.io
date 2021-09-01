@@ -1,0 +1,32 @@
+.search {
+    position: relative;
+    flex: auto;
+    line-height: 1;
+}
+
+/* .search.on {
+    display: block
+} */
+
+$search-input-height: 32px;
+
+.search-input {
+    max-width: 320px;
+    height: $search-input-height;
+    padding: 0 ($search-input-height + $spacer-1) 0 ($search-input-height / 2 + $spacer-1);
+    border-radius: $search-input-height / 2;
+    border-style: none;
+    background-color: $color-bg-primary;
+
+    font-size: $font-size-small;
+    direction: ltr;
+    -webkit-appearance: textfield;
+}
+
+.search-button {
+    height: 100%;
+    z-index: 2;
+    border: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+}
