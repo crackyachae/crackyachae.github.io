@@ -1,4 +1,31 @@
-.article-header {
+// Reset
+.post {
+    // TEMP
+    table {
+        tr:hover {
+            background: transparentize($color-bg-primary-light, 0.6);
+        }
+    }
+}
+
+.post-header {
+    h2 {
+        border: none;
+    }
+    p {
+        margin: 0;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.post-link {
+    text-decoration: none;
+}
+
+// post design
+.post-header {
     margin: 0 0 $spacer-4 0;
     padding: 160px 0 $spacer-3 0;
     border-bottom: $border-width $border-style $color-border-secondary;
@@ -10,22 +37,22 @@
     }
 }
 
-.article-parent {
+.post-parent {
     font-size: $font-size-xsmall;
     margin-bottom: $spacer-1;
 }
 
-.article-title {
+.post-title {
     display: inline-block;
     margin-bottom: $spacer-1;
     color: $color-text-main;
 }
 
-.title-summary {
+.post-summary {
     font-size: $body-font-size;
 }
 
-.article-date {
+.post-date {
     font-size: $font-size-xsmall;
 
     span {
@@ -33,7 +60,7 @@
     }
 }
 
-.article-communicate a {
+.post-communicate a {
     margin-right: $spacer;
     padding: 0.3em 0.6em;
     border-radius: $border-radius * 0.75;

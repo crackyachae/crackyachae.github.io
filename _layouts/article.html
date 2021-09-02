@@ -7,24 +7,24 @@ layout: document
 {% assign thisName = pathChunk[2] %}
 <input type="hidden" id="thisName" value="{{ thisName }}"/>
 <div class="post">
-    <header class="post-header article-header">
+    <header class="post-header">
 {% raw %}
-        <div id="parent-list" class="article-parent"></div>
+        <div id="parent-list" class="post-parent"></div>
 {% endraw %}
         <div>
-            <h1 class="article-title">
+            <h1 class="post-title">
                 <a href="{{ page.url }}"> {{ page.title }} </a>
             </h1>
         {% if page.summary %}
             <p class="title-summary">{{ page.summary }}</p>
         {% endif %}
         </div>
-        <div class="article-date">
+        <div class="post-date">
             <span><a href="{{ site.blame }}/{{ thisPath }}.md" target="_blank">Created on {{ page.date | date: '%Y.%m.%d' }}</a></span>
             <span>|</span>
             <span><a href="{{ site.blame }}/{{ thisPath }}.md" target="_blank">Updated on {{ page.updated | date: '%Y.%m.%d' }}</a></span>
         </div>
-        <div class="article-communicate">
+        <div class="post-communicate">
             <a href="{{ site.edit }}/{{ thisPath }}.md">편집하기</a>
             <a href="{{ site.issue }}?title={{ page.title | url_encode }}&body=의견을%20남겨주세요">의견 남기기</a>
         </div>
