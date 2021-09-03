@@ -6,17 +6,15 @@ public: true
 ---
 
 {% assign tagCount = site.data.tagCount %}
-<div>
-    <ul class="tag-list">
+<ul class="tag-list">
 {% for tag in tagCount %}
-        <li>
-            <a href="#{{tag.name}}" onclick="showTag('{{tag.name}}')">
-                {{tag.name}}<sup>{{ tag.size }}</sup>
-            </a>
-        </li>
+    <li>
+        <a href="#{{tag.name}}" onclick="showTag('{{tag.name}}')">
+            {{tag.name}}<sup>{{ tag.size }}</sup>
+        </a>
+    </li>
 {% endfor %}
-    </ul>
-</div>
+</ul>
 
 <div id="tag-collection"></div>
 
@@ -47,8 +45,10 @@ public: true
             listItems += `<li id="${idText}"></li>`;
         }
         const template = `
-            <h3>${tagName}</h3>
-            <ul class="post-list"> ${listItems} </ul>`;
+            <div class="list-content">
+                <h3 class="list-header">${tagName}</h3>
+                <ul class="post-list"> ${listItems} </ul>
+            </div>`;
 
         document.getElementById('tag-collection').innerHTML = template;
 

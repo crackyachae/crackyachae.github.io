@@ -1,12 +1,16 @@
 $tag-font-size: $font-size-xsmall;
 
-.post-tag {
+.post .post-tag {
     padding: $spacer-3 0;
     margin: $spacer-4 0;
     border-top: $border-width $border-style $color-border-secondary-light;
     border-bottom: $border-width $border-style $color-border-secondary-light;
+}
+
+.post-tag {
+    margin: $spacer-1 0;
     font-size: $tag-font-size; // to aling tags in center of div
-    
+
     a {
         margin-right: $spacer;
         padding: 0.2em 0.4em;
@@ -16,9 +20,9 @@ $tag-font-size: $font-size-xsmall;
         color: $color-text-accent-dark;
         font-size: $tag-font-size;
         text-decoration: none;
-    }
-}
 
-.post-tag a:first-child {
-    margin-left: 0;
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
