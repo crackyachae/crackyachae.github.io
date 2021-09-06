@@ -1,8 +1,26 @@
 <footer class="footer"> {% assign username = "Crackyachae" %}
     <div class="footer-inner">
-        <span class="copyright">
-        DESIGNED BY <a href="{{ site.baseurl }}/" target="_blank" class="user">{{ username }}</a>
-        </span>
+        <div class="copyright">
+            <span>
+            POWERED BY <a href="https://jekyllrb.com" target="_blank" class="user">Jekyll</a>
+            </span>
+            <span> | </span>
+            <span>
+            DESIGNED BY <a href="{{ site.baseurl }}/" target="_blank" class="user">{{ username }}</a>
+            </span>
+        </div>
+        <div class="contact">
+        {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+        {% endif %}
+        {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+        {% endif %}
+        {% if site.email %}
+            <a href="mailto:{{ site.email }}">Email</a>
+        {% endif %}
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+        </div>
     </div>
     {% if page.latex %}
         {% include latex.html %}
