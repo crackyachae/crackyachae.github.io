@@ -28,8 +28,8 @@ footer a {
         margin-right: $spacer-3;
     }
 
-    .user {
-        margin-left: 2px;
+    a {
+        margin: 0 2px;
         color: $color-text-accent;
 
         &:hover {
