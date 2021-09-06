@@ -3,6 +3,10 @@ body {
     flex-direction: column;
 }
 
+img {
+    max-width:100%;
+}
+
 .page-content {
     padding: 0 60px;
     flex: auto;
@@ -12,9 +16,9 @@ body {
     }
 }
 
-@media (min-width: 880px) { // TEMP
+@media (min-width: 960px) { // TEMP
   .page-content {
-    width: 880px;
+    width: 960px;
     margin: 0 auto;
   }
 }

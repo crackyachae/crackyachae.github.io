@@ -1,3 +1,47 @@
-.blog-face {
+.hero {
+    height: 100vh;
+    background-color: $color-bg-hero;
     text-align: center;
+}
+
+.hero-content {
+    position: relative;
+}
+
+.hero-header {
+    position: absolute;
+    right: 0;
+    top: 44vh;
+    width: 480px;
+}
+
+.hero-title {
+    color: $color-text-black;
+    font-family: $point-font;
+    font-size: 54px;
+    margin-bottom: $spacer-3;
+}
+
+.hero-desc {
+    margin-left: $spacer-1;
+
+    color: $color-text-main-dark;
+    font-size: $font-size-large;
+    text-align: left;
+}
+
+.hero-character {
+    position: absolute;
+    left: 0;
+    top: 40vh;
+}
+
+@media (min-width: 960px) { // TEMP
+  .hero-content {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .hero-character {
+      margin-right: $spacer * 28
+  }
 }
