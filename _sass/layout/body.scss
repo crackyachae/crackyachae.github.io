@@ -6,6 +6,10 @@ body {
 .page-content {
     padding: 0 60px;
     flex: auto;
+
+    > div > * {
+        margin-bottom: $spacer-4;
+    }
 }
 
 @media (min-width: 880px) { // TEMP
