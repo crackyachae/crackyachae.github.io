@@ -1,3 +1,6 @@
+$header-padding: $spacer-3;
+$title-icon-size: $size-6;
+
 .header {
     display: flex;
     align-items: center;
@@ -10,7 +13,7 @@
     z-index: 10;
     width: 100%;
 
-    padding: $spacer-3;
+    padding: $header-padding;
     background-color: $color-bg-primary-light;
     line-height: $lh-condensed-ultra;
 
@@ -36,10 +39,32 @@
 }
 
 .site-title {
-    padding-top: $spacer-1 * 1.5;
     font-family: $point-font;
     font-size: 1.8em;
     white-space: nowrap;
+
+    img {
+        display: inline-block;
+        vertical-align: middle;
+        width: $title-icon-size;
+    }
+
+    p {
+        display: none;
+        vertical-align: middle;
+        padding-top: $spacer-1 * 1.5;
+        margin: 0;
+    }
+
+    @media (min-width: $width-lg) {
+        img {
+            display: none;
+        }
+
+        p {
+            display: inline-block;
+        }
+    }
 }
 
 .site-menu {
@@ -48,10 +73,38 @@
     flex-wrap: nowrap;
 
     div {
+        display: inline-block;
         margin-left: $spacer-3;
     }
 
     a {
         font-weight: $font-weight-semibold;
+    }
+
+    // warning for "MAX" width
+    @media (max-width: $width-lg) {
+        position: absolute;
+        right: 0;
+        // padding + maximum content height
+        top: $header-padding * 2 + $title-icon-size;
+        width: 100%;
+        padding: $spacer $spacer-3;
+        background-color: $color-bg-primary-light;
+
+        &:not(.show) {
+            display: none;
+        }
+    }
+}
+
+.site-menu-button {
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    font-weight: $font-weight-semibold;
+
+    @media (min-width: $width-lg) {
+        display: none;
     }
 }

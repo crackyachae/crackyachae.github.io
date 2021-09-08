@@ -63,10 +63,14 @@
 </head>
 <header class="header">
     <div class="site-title">
-        <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <a href="{{ site.baseurl }}/">
+            <img src="/resource/main-icon.svg" alt="cracker shaped main icon">
+            <p>{{ site.title }}</p>
+        </a>
     </div>
     {% include searchbox.html %}
-    <div class="site-menu">
+    <button class="site-menu-button" onclick="siteMenuCollapseToggle()" data-target="#siteMenuCollapseTarget" data-collapsed="False">Menu</button>
+    <div id="site-menu-collapse-target" class="site-menu collapse">
     {% assign collections = site.collections | sort: 'number' | shift | pop reverse %}
     {% for col in collections %}
         {% assign trail = col.label | slice: 0, 2 %}
@@ -104,4 +108,14 @@
         }
     }
 })();
+</script>
+<script>
+    function siteMenuCollapseToggle(e) {
+        target = document.getElementById("site-menu-collapse-target")
+        if (target.classList.contains("show")) {
+           target.classList.remove("show") 
+        } else {
+           target.classList.add("show") 
+        }
+    }
 </script>
