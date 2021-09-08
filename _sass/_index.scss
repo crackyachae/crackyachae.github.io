@@ -34,13 +34,9 @@
     position: absolute;
     left: 0;
     top: 40vh;
-
-    img {
-        max-width:100%;
-    }
 }
 
-@media (min-width: 960px) { // TEMP
+@media (min-width: $page-content-width) { // TEMP
   .hero-content {
     width: 960px;
     margin: 0 auto;

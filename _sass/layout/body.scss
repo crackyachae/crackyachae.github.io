@@ -12,9 +12,9 @@ body {
     }
 }
 
-@media (min-width: 960px) { // TEMP
+@media (min-width: $width-page-content) {
   .page-content {
-    width: 960px;
+    width: $width-page-content;
     margin: 0 auto;
   }
 }
