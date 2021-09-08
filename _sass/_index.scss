@@ -6,13 +6,25 @@
 
 .hero-content {
     position: relative;
+    padding: 0 80px;
+    margin-top: 32vh;
+
+    @media (min-width: $width-page-content) { 
+        width: $width-page-content;
+        padding: auto;
+        margin: 0 auto;
+    }
 }
 
 .hero-header {
-    position: absolute;
-    right: 0;
-    top: 44vh;
-    width: 480px;
+    margin-bottom: 120px;
+
+    @media (min-width: $width-page-content) {
+        position: absolute;
+        right: 0;
+        top: 44vh;
+        width: 480px;
+    }
 }
 
 .hero-title {
@@ -24,24 +36,28 @@
 
 .hero-desc {
     margin-left: $spacer-1;
-
+    text-align: center;
     color: $color-text-main-dark;
     font-size: $font-size-large;
-    text-align: left;
+
+    @media (min-width: $width-page-content) {
+       text-align: left; 
+    }
 }
 
 .hero-character {
-    position: absolute;
-    left: 0;
-    top: 40vh;
-}
+    img {
+        max-width:100%;
+    }
 
-@media (min-width: $page-content-width) { // TEMP
-  .hero-content {
-    width: 960px;
-    margin: 0 auto;
-  }
-  .hero-character {
-      margin-right: $spacer * 28
-  }
+    @media (min-width: $width-md) {
+        padding: 0 $spacer-5;
+    }
+
+    @media (min-width: $width-page-content) { 
+        position: absolute;
+        left: 0;
+        top: 40vh;
+        margin-right: $spacer * 28
+    }
 }
