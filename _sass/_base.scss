@@ -37,6 +37,7 @@ pre, pre code {
 pre code {
     padding: 0;
 }
+
 .hide {
     display: none;
 }
@@ -50,7 +51,10 @@ pre code {
 .language-html td {
     padding: 0;
     border: 0;
+}
 
+.task-list-item-checkbox {
+    margin-right: $spacer-1 * 1.5;
 }
 
 h1 {
