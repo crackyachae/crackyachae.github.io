@@ -13,9 +13,9 @@ adsense: false
                     <a class="post-link" href="{{ doc.url }}">
                         <div class="post-meta">{{ doc.updated | date: "%Y.%m.%d" }} - {{ doc.title }}</div>
                         <div class="post-excerpt">{{ doc.summary }}</div>
-            {% if doc.tags %}
+                    {% if doc.tags.size > 0 %}
                         <ul class="post-tag">{{ doc.tag }}</ul>
-            {% endif %}
+                    {% endif %}
                     </a>
                 </div>
             </li>

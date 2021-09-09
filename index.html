@@ -33,7 +33,9 @@ regenerate: true
                             {{ doc.title }}
                         </div>
                         <div class="post-excerpt">{{ doc.summary }}</div>
+                    {% if doc.tags.size > 0 %}
                         <ul class="post-tag">{{ doc.tag }}</ul>
+                    {% endif %}
                     </a>
                 </div>
             </li>
