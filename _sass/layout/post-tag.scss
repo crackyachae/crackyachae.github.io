@@ -10,6 +10,15 @@ $tag-font-size: $font-size-xsmall;
     margin: $spacer-1 0;
     font-size: $tag-font-size; // to aling tags in center of div
 
+    li {
+        display: inline-block;
+        font-size: inherit;
+    }
+
+    li + li {
+        margin-top: 0;
+    }
+
     a {
         margin-right: $spacer;
         padding: 0.2em 0.4em;

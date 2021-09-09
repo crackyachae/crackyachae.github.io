@@ -6,9 +6,11 @@
   ul,
   ol {
     // stylelint-disable-next-line primer/spacing
-    padding-left: 2em;
-    margin-top: 0;
-    // margin-bottom: $spacer-3;
+    &:not(.post-tag) {
+        padding-left: 2em;
+        margin-top: 0;
+        // margin-bottom: $spacer-3;
+    }
 
     &.no-list {
       padding: 0;
@@ -36,8 +38,10 @@
   ul ol,
   ol ol,
   ol ul {
-    margin-top: 0;
-    margin-bottom: 0;
+    &:not(.post-tag) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
   }
 
   li > p {

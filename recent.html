@@ -14,7 +14,7 @@ adsense: false
                         <div class="post-meta">{{ doc.updated | date: "%Y.%m.%d" }} - {{ doc.title }}</div>
                         <div class="post-excerpt">{{ doc.summary }}</div>
             {% if doc.tags %}
-                        <div class="post-tag">{{ doc.tag }}</div>
+                        <ul class="post-tag">{{ doc.tag }}</ul>
             {% endif %}
                     </a>
                 </div>
