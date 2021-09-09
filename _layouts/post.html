@@ -23,7 +23,7 @@ layout: default
         {{ content }}
     </article>
 
-{% if page.tags %}
+{% if page.tags.size > 0 %}
     {% include post-tags.html %}
 {% endif %}
 
