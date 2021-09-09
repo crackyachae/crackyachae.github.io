@@ -7,7 +7,7 @@ $color-border-gray: $gray-300 !default;
 $color-border-primary: $primary-600 !default;
 $color-border-primary-light: $primary-500 !default;
 $color-border-primary-lighter: $primary-400 !default;
-$color-border-secondary-dark: $secondary-700 !default;
+$color-border-secondary-dark: $secondary-500 !default;
 $color-border-secondary: $secondary-400 !default;
 $color-border-secondary-light: $secondary-300 !default;
 $color-border-secondary-lighter: $secondary-200 !default;
@@ -25,7 +25,7 @@ $color-bg-secondary: $secondary-300 !default;
 $color-bg-secondary-light: $secondary-200 !default;
 $color-bg-secondary-lighter: $secondary-100 !default;
 
-$color-bg-hero: transparentize($primary-600, 0.05) !default;
+$color-bg-hero: transparentize($primary-600, 0.95) !default;
 $color-bg-pre: $color-bg-black !default;
 
 // Text colors
@@ -37,6 +37,7 @@ $color-text-main-dark: $secondary-700 !default;
 $color-text-main: $secondary-600 !default;
 $color-text-main-light: $secondary-500 !default;
 
+$color-text-accent-dark: $primary-700 !default;
 $color-text-accent: $primary-600 !default;
 
 // icon colors

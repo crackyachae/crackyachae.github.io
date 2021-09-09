@@ -22,12 +22,11 @@ body {
 
 a {
   color: inherit; // $color-text-accent;
-  text-decoration-line: underline;
-  text-decoration-color: $color-border-primary-light;
+  text-decoration-line: none;
 
   &:hover {
     text-decoration-line: underline;
-    text-decoration-color: $color-border-primary;
+    text-decoration-color: $color-border-primary-light;
   }
 
   &:visited {

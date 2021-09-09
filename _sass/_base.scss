@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    height: 100%;
+    min-height: 100vh;
 }
 
 body {
@@ -13,10 +13,6 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
 }
 
 body, th, td, div, p, li {
@@ -41,6 +37,7 @@ pre, pre code {
 pre code {
     padding: 0;
 }
+
 .hide {
     display: none;
 }
@@ -54,7 +51,10 @@ pre code {
 .language-html td {
     padding: 0;
     border: 0;
+}
 
+.task-list-item-checkbox {
+    margin-right: $spacer-1 * 1.5;
 }
 
 h1 {

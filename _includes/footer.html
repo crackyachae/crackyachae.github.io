@@ -1,7 +1,33 @@
-<footer class="footer">
-    <div>
-{% if page.latex %}
-  {% include latex.html %}
-{% endif %}
+<footer class="footer"> {% assign username = "Crackyachae" %}
+    <div class="footer-inner">
+        <div class="copyright">
+            <span>
+                POWERED BY
+                <a href="https://github.com/vimwiki/vimwiki" target="_blank">Vimwiki</a>
+                +
+                <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+                +
+                <a href="https://pages.github.com/" target="_blank">Github.io</a>
+            </span>
+            <span>|</span>
+            <span>
+                DESIGNED BY <a href="{{ site.baseurl }}/" target="_blank">{{ username }}</a>
+            </span>
+        </div>
+        <div class="contact">
+        {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+        {% endif %}
+        {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+        {% endif %}
+        {% if site.email %}
+            <a href="mailto:{{ site.email }}">Email</a>
+        {% endif %}
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+        </div>
     </div>
+    {% if page.latex %}
+        {% include latex.html %}
+    {% endif %}
 </footer>

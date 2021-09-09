@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content {
+    padding: 0 60px;
+    flex: auto;
+
+    > div > * {
+        margin-bottom: $spacer-4;
+    }
+}
+
+@media (min-width: $width-page-content) {
+  .page-content {
+    width: $width-page-content;
+    margin: 0 auto;
+  }
+}

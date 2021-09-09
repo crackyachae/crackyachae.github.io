@@ -1,27 +1,37 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post flag-post">
     <header class="post-header">
-        <h1 class="page-title">
-            <a href="{{ page.url }}"> {{ page.title }} </a>
-        </h1>
-        <p class="created-date">
-            {{ page.date | date: "%Y.%m.%d" }}
-        </p>
-        {% include post-tags.html %}
-        <h2>{{ page.summary }}</h2>
+        <div>
+            <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.summary %}
+            <p class="title-summary">{{ page.summary }}</p>
+        {% endif %}
+        </div>
+        <div class="post-date">
+            <p class="created-date">
+                {{ page.date | date: "%Y.%m.%d" }}
+            </p>
+        </div>
     </header>
 
 {% if page.toc %}
-    <div class="toc">
-    </div>
+    <div class="toc"></div>
 {% endif %}
     <article class="post-content markdown-body">
         {{ content }}
     </article>
-    {% include createLink.html %}
-    {% include comment.html %}
 
-    <script async src="/js/toc-highlight.js"></script>
+{% if page.tags %}
+    {% include post-tags.html %}
+{% endif %}
+
+{% if page.comment != false %}
+    {% include comment.html %}
+{% endif%}
+
 </div>
+{% include createLink.html %}
+
+<script async src="/js/toc-highlight.js"></script>

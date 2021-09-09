@@ -32,6 +32,16 @@
     margin-bottom: 0 !important;
   }
 
+  a {
+    text-decoration-line: underline;
+    text-decoration-color: $color-border-primary-light;
+  
+    &:hover {
+      text-decoration-line: underline;
+      text-decoration-color: $color-border-secondary-dark;
+    }
+  }
+
   // Anchors like <a name="examples">. These sometimes end up wrapped around
   // text when users mistakenly forget to close the tag or use self-closing tag
   // syntax. We don't want them to appear like links.

@@ -4,65 +4,46 @@ adsense: false
 regenerate: true
 ---
 
-<div class="blog-face">
-    <div>
-        <H3>
-            <a href="https://github.com/vimwiki/vimwiki">Vimwiki</a>
-            +
-            <a href="https://jekyllrb.com/">Jekyll</a>
-            +
-            <a href="https://pages.github.com/">Github.io</a>
-        </H3>
+{% assign hero-title = "야채크래커의 부스러기"%}
+{% assign hero-desc = "사람 구실 하기 위해 배워가는 야채크래커의 부스러기"%}
+<div class="hero">
+    <div class="hero-blank-top"></div>
+    <div class="hero-content">
+        <div class="hero-header">
+            <h1 class="hero-title">{{ hero-title }}</h1>
+            <p class="hero-desc">{{ hero-desc }}</p>
+        </div>
+        <div class="hero-character"><img src="/resource/hero-img.png"></div>
     </div>
-        기억 보조용 위키
-    <div>
-    </div>
-    <div>
-        <a href="/blog/">블로그</a>
-        /
-        <a href="/tag/">태그</a>
-    </div>
-    <div class="contact">
-{% if site.github_username %}
-        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
-{% endif %}
-{% if site.twitter_username %}
-        <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
-{% endif %}
-{% if site.email %}
-        <a href="mailto:{{ site.email }}">Email</a>
-{% endif %}
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
-    </div>
+    <div class="hero-blank-bottom"></div>
 </div>
-<div>
-    <H3 class="indent">최근 변경된 문서</H3>
-    <ul class="post-list">
-{% assign documents = site.documents | sort: 'updated' | reverse %}
-{% for doc in documents limit: 30 %}
-    {% if doc.public == true and doc.layout != 'wikiindex'%}
-        <li>
-            <div>
-                <a class="post-link" href="{{ doc.url | prepend: site.baseurl }}">
-                    <div class="post-meta">
-                        {{ doc.updated | date: "%Y.%m.%d" }}
-                        -
-                        {{ doc.title }}
-                    </div>
-                    <div class="post-excerpt">{{ doc.summary }}</div>
-                    <ul class="tag-list">
-                        <li class="post-tag">
-                            {{ doc. tag }}
-                        </li>
-                    </ul>
-                </a>
-            </div>
-        </li>
-    {% endif %}
-{% endfor %}
-    </ul>
-    <h4>
-        <a href="/recent/">전체 문서 리스트 보기 ({{ site.documents | size | minus: 1 }} 항목)</a>
-    </h4>
+<div class="page-content">
+    <div class="list-content">
+        <H3 class="list-header indent">최근 변경된 문서</H3>
+        <ul class="post-list">
+    {% assign documents = site.documents | sort: 'updated' | reverse %}
+    {% for doc in documents limit: 30 %}
+        {% if doc.public == true and doc.layout != 'wikiindex'%}
+            <li>
+                <div>
+                    <a class="post-link" href="{{ doc.url | prepend: site.baseurl }}">
+                        <div class="post-meta">
+                            {{ doc.updated | date: "%Y.%m.%d" }}
+                            -
+                            {{ doc.title }}
+                        </div>
+                        <div class="post-excerpt">{{ doc.summary }}</div>
+                        <ul class="post-tag">{{ doc.tag }}</ul>
+                    </a>
+                </div>
+            </li>
+        {% endif %}
+    {% endfor %}
+        </ul>
+        <h4>
+            <a href="/recent/">전체 문서 리스트 보기 ({{ site.documents | size | minus: 1 }} 항목)</a>
+        </h4>
+
+    </div>
 </div>
 {% include createLink.html %}

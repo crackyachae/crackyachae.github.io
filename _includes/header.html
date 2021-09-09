@@ -62,22 +62,32 @@
 
 </head>
 <header class="header">
-    <div>
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="site-title">
+        <a href="{{ site.baseurl }}/">
+            <img src="/resource/main-icon.svg" alt="cracker shaped main icon">
+            <p>{{ site.title }}</p>
+        </a>
     </div>
-    <div>
-        <a class="site-title-right" href="/about/">me</a>
+    {% include searchbox.html %}
+    <button class="site-menu-button" onclick="siteMenuCollapseToggle()" data-target="#siteMenuCollapseTarget" data-collapsed="False">Menu</button>
+    <div id="site-menu-collapse-target" class="site-menu collapse">
+    {% assign collections = site.collections | sort: 'number' | shift | pop reverse %}
+    {% for col in collections %}
+        {% assign trail = col.label | slice: 0, 2 %}
+        <div>
+            <a class="collection" href="{{ col.label | prepend: "/" | append: "/index-" | append: trail | append: "/" }}">{{ col.label }}</a>
+        </div>
+    {% endfor %}
+        <div>
+            <a class="me" href="/about/">me</a>
+        </div>
+        <div>
+            <a id="random-button" class="random" href="/study/index-s/#random" onClick="if(typeof random === 'function')random()">random</a>
+        </div>
+        <div>
+            <a class="tag" href="/tag/">tags</a>
+        </div>
     </div>
-    <div>
-        <a id="random-button" class="site-title-right" href="/study/index-s/#random" onClick="if(typeof random === 'function')random()">random</a>
-    </div>
-{% assign collections = site.collections | sort: 'number' | shift | pop reverse %}
-{% for col in collections %}
-    {% assign trail = col.label | slice: 0, 2 %}
-    <div>
-        <a class="site-title-right" href="{{ col.label | prepend: "/" | append: "/index-" | append: trail | append: "/" }}">{{ col.label }}</a>
-    </div>
-{% endfor %}
 </header>
 <script>
 ;(function(){
@@ -98,4 +108,14 @@
         }
     }
 })();
+</script>
+<script>
+    function siteMenuCollapseToggle(e) {
+        target = document.getElementById("site-menu-collapse-target")
+        if (target.classList.contains("show")) {
+           target.classList.remove("show") 
+        } else {
+           target.classList.add("show") 
+        }
+    }
 </script>
