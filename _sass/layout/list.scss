@@ -66,6 +66,17 @@
   }
 }
 
+.post-list {
+    a {
+        text-decoration-line: none;
+
+        &:hover {
+            text-decoration-line: underline;
+            text-decoration-color: $color-border-primary-light;
+        }
+    }
+}
+
 .list-header {
     margin: 0 0 $spacer-4 0;
     padding: 120px 0 $spacer-2 0;
