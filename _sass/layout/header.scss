@@ -14,7 +14,7 @@ $title-icon-size: $size-6;
     width: 100%;
 
     padding: $header-padding;
-    background-color: $color-bg-primary-light;
+    background-color: $color-bg-primary;
     line-height: $lh-condensed-ultra;
 
     > div:not(:last-child) {
@@ -101,7 +101,7 @@ $title-icon-size: $size-6;
     padding: 0;
     border: none;
     background: none;
-    color: inherit;
+    color: $color-text-main-dark;
     font-weight: $font-weight-semibold;
 
     @media (min-width: $width-lg) {
