@@ -21,7 +21,8 @@ $tag-font-size: $font-size-xsmall;
         text-decoration: none;
 
         &:hover {
-            text-decoration: none;
+            text-decoration-line: none;
+            text-decoration-color: transparent;
         }
     }
 }

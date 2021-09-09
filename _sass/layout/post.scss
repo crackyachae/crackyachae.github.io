@@ -23,10 +23,10 @@
 .post-link {
     text-decoration: none;
 
-        &:hover {
-            text-decoration-line: underline;
-            text-decoration-color: $color-border-primary;
-        }
+    &:hover {
+        text-decoration-line: underline;
+        text-decoration-color: $color-border-primary;
+    }
 }
 
 // post design
@@ -75,6 +75,7 @@
     font-size: 10px;
 
     &:hover {
-        text-decoration: none;
+        text-decoration-line: none;
+        text-decoration-color: transparent;
     }
 }
