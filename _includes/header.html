@@ -78,9 +78,11 @@
             <a class="collection" href="{{ col.label | prepend: "/" | append: "/index-" | append: trail | append: "/" }}">{{ col.label }}</a>
         </div>
     {% endfor %}
+        <!-- remove link to me page
         <div>
             <a class="me" href="/about/">me</a>
         </div>
+        -->
         <div>
             <a id="random-button" class="random" href="/study/index-st/#random" onClick="if(typeof random === 'function')random()">random</a>
         </div>
