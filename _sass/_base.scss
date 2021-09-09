@@ -2,8 +2,8 @@
 @import "./support/index.scss";
 
 body {
-    margin: 0;
-    min-height: 100vh;
+  margin: 0;
+  min-height: 100vh;
 }
 
 body {
@@ -15,73 +15,85 @@ body {
   font-kerning: normal;
 }
 
+// prettier-ignore
 body, th, td, div, p, li {
     word-break: keep-all;
 }
 
 // property of blockquote, code, pre outside of markdown is not yet defined.
 blockquote {
-    margin:0;
-    padding: 1px 0px 1px 8px;
+  margin: 0;
+  padding: 1px 0px 1px 8px;
 }
 code {
-    padding: 1px 3px;
+  padding: 1px 3px;
 }
 pre {
-    overflow-x: auto;
-    padding: 10px 10px;
+  overflow-x: auto;
+  padding: 10px 10px;
 }
-pre, pre code {
-    color: $secondary-100;
+pre,
+pre code {
+  color: $secondary-100;
 }
 pre code {
-    padding: 0;
+  padding: 0;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 .center {
-    text-align: center;
+  text-align: center;
 }
 .language-html table {
-    background: transparent;
-    margin: 0;
+  background: transparent;
+  margin: 0;
 }
 .language-html td {
-    padding: 0;
-    border: 0;
+  padding: 0;
+  border: 0;
 }
 
 .task-list-item-checkbox {
-    margin-right: $spacer-1 * 1.5;
+  margin-right: $spacer-1 * 1.5;
 }
 
 h1 {
-    margin: 0px;
+  margin: 0px;
 }
 h4 {
-    padding-left: 5px;
+  padding-left: 5px;
 }
 h5 {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 h6 {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .post-content h2 {
-    &:before { content:"⠁"; }
+  &:before {
+    content: "⠁";
+  }
 }
 .post-content h3 {
-    &:before { content:"⠃"; }
+  &:before {
+    content: "⠃";
+  }
 }
 .post-content h4 {
-    &:before { content:"⠋"; }
+  &:before {
+    content: "⠋";
+  }
 }
 .post-content h5 {
-    &:before { content:"⠛"; }
+  &:before {
+    content: "⠛";
+  }
 }
 .post-content h6 {
-    &:before { content:"⠟"; }
+  &:before {
+    content: "⠟";
+  }
 }

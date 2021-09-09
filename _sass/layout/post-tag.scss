@@ -1,37 +1,37 @@
 $tag-font-size: $font-size-xsmall;
 
 .post .post-tag {
-    padding: $spacer-3 0;
-    border-top: $border-width $border-style $color-border-secondary-light;
-    border-bottom: $border-width $border-style $color-border-secondary-light;
+  padding: $spacer-3 0;
+  border-top: $border-width $border-style $color-border-secondary-light;
+  border-bottom: $border-width $border-style $color-border-secondary-light;
 }
 
 .post-tag {
-    margin: $spacer-1 0;
-    font-size: $tag-font-size; // to aling tags in center of div
+  margin: $spacer-1 0;
+  font-size: $tag-font-size; // to aling tags in center of div
 
-    li {
-        display: inline-block;
-        font-size: inherit;
+  li {
+    display: inline-block;
+    font-size: inherit;
+  }
+
+  li + li {
+    margin-top: 0;
+  }
+
+  a {
+    margin-right: $spacer;
+    padding: 0.2em 0.4em;
+    border-radius: $border-radius * 0.75;
+
+    background-color: rgba(255, 220, 122, 0.7);
+    color: $color-text-accent-dark;
+    font-size: $tag-font-size;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration-line: none;
+      text-decoration-color: transparent;
     }
-
-    li + li {
-        margin-top: 0;
-    }
-
-    a {
-        margin-right: $spacer;
-        padding: 0.2em 0.4em;
-        border-radius: $border-radius * 0.75;
-
-        background-color: rgba(255, 220, 122, 0.7);
-        color: $color-text-accent-dark;
-        font-size: $tag-font-size;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration-line: none;
-            text-decoration-color: transparent;
-        }
-    }
+  }
 }

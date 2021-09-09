@@ -12,7 +12,7 @@ kbd {
   vertical-align: middle;
   background-color: $color-bg-secondary-lighter;
   // stylelint-disable-next-line primer/borders
-  border: $border-style $border-width $color-border-kbd;
+  border: $border-width $border-style $color-border-kbd;
   border-bottom-color: $color-border-kbd;
   border-radius: $border-radius * 0.75;
   // stylelint-disable-next-line primer/box-shadow

@@ -1,63 +1,63 @@
 $footer-font-size: $font-size-xsmall;
 
 footer {
-    font-size: $footer-font-size;
-    margin-top: $spacer-8;
+  font-size: $footer-font-size;
+  margin-top: $spacer-8;
 }
 
 footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footer-inner {
-    text-align: center;
+  text-align: center;
 
-    margin: 0 $spacer-4;
-    padding: $spacer-4 0;
-    border-top: $border-width $border-style $color-border-primary;
-    
-    div:not(:last-child) {
-        margin-bottom: $spacer-3;
-    }
+  margin: 0 $spacer-4;
+  padding: $spacer-4 0;
+  border-top: $border-width $border-style $color-border-primary;
+
+  div:not(:last-child) {
+    margin-bottom: $spacer-3;
+  }
 }
 
 .copyright {
-    color: $color-text-gray;
+  color: $color-text-gray;
 
-    span:not(:last-child) {
-        margin-right: $spacer-3;
+  span:not(:last-child) {
+    margin-right: $spacer-3;
+  }
+
+  a {
+    margin: 0 2px;
+    color: $color-text-accent;
+
+    &:hover {
+      text-decoration-color: $color-border-primary;
     }
-
-    a {
-        margin: 0 2px;
-        color: $color-text-accent;
-
-        &:hover {
-            text-decoration-color: $color-border-primary;
-        }
-    }
+  }
 }
 
 .contact {
-    margin: $spacer-1 0;
-    font-size: $footer-font-size; // to aling tags in center of div
-    text-align: center;
+  margin: $spacer-1 0;
+  font-size: $footer-font-size; // to aling tags in center of div
+  text-align: center;
 
-    a {
-        padding: 0.2em 0.6em;
-        border-radius: $border-radius * 0.75;
+  a {
+    padding: 0.2em 0.6em;
+    border-radius: $border-radius * 0.75;
 
-        background-color: rgba(255, 220, 122, 0.5);
-        color: $color-text-accent;
-        text-decoration: none;
+    background-color: rgba(255, 220, 122, 0.5);
+    color: $color-text-accent;
+    text-decoration: none;
 
-        &:hover {
-            text-decoration-line: none;
-            text-decoration-color: transparent;
-        }
+    &:hover {
+      text-decoration-line: none;
+      text-decoration-color: transparent;
     }
+  }
 
-    a:not(:last-child) {
-        margin-right: $spacer-1;
-    }
+  a:not(:last-child) {
+    margin-right: $spacer-1;
+  }
 }

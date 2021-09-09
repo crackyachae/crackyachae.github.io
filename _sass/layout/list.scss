@@ -7,9 +7,9 @@
   ol {
     // stylelint-disable-next-line primer/spacing
     &:not(.post-tag) {
-        padding-left: 2em;
-        margin-top: 0;
-        // margin-bottom: $spacer-3;
+      padding-left: 2em;
+      margin-top: 0;
+      // margin-bottom: $spacer-3;
     }
 
     &.no-list {
@@ -39,8 +39,8 @@
   ol ol,
   ol ul {
     &:not(.post-tag) {
-        margin-top: 0;
-        margin-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 0;
     }
   }
 
@@ -71,24 +71,24 @@
 }
 
 .post-list {
-    a {
-        text-decoration-line: none;
+  a {
+    text-decoration-line: none;
 
-        &:hover {
-            text-decoration-line: underline;
-            text-decoration-color: $color-border-primary-light;
-        }
+    &:hover {
+      text-decoration-line: underline;
+      text-decoration-color: $color-border-primary-light;
     }
+  }
 }
 
 .list-header {
-    margin: 0 0 $spacer-4 0;
-    padding: 120px 0 $spacer-2 0;
-    border-bottom: $border-width $border-style $color-border-secondary-dark;
+  margin: 0 0 $spacer-4 0;
+  padding: 120px 0 $spacer-2 0;
+  border-bottom: $border-width $border-style $color-border-secondary-dark;
 
-    color: $color-text-main;
+  color: $color-text-main;
 }
 
 .post-excerpt {
-    color: $color-text-main-light;
+  color: $color-text-main-light;
 }

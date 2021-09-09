@@ -1,19 +1,19 @@
 summary {
-    color: gray;
+  color: gray;
 }
 
 details {
-    border: 1px dashed gray;
-    padding: 2px;
-    margin-bottom:5px;
+  border: 1px dashed gray;
+  padding: 2px;
+  margin-bottom: 5px;
 }
 
 details[open] > div {
-    opacity: 0;
-    animation-name: slideDown;
-    animation-duration: 0.5s;
-    animation-delay: 0.2s;
-    animation-fill-mode: forwards;
+  opacity: 0;
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes slideDown {
@@ -25,4 +25,3 @@ details[open] > div {
     opacity: 1;
   }
 }
-

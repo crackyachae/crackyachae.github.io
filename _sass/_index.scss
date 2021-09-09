@@ -1,76 +1,76 @@
 .hero {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    height: 100vh;
-    background-color: $color-bg-hero;
-    text-align: center;
+  height: 100vh;
+  background-color: $color-bg-hero;
+  text-align: center;
 }
 
 .hero-blank {
-    &-top {
-        flex: 5 5;
-    }
-    &-bottom {
-        flex: 3 3;
-    }
+  &-top {
+    flex: 5 5;
+  }
+  &-bottom {
+    flex: 3 3;
+  }
 }
 
 .hero-content {
-    padding: 0 64px;
-    flex: 0 0;
+  padding: 0 64px;
+  flex: 0 0;
 
-    @media (min-width: $width-sm) { 
-        padding: 0 80px;
-    }
+  @media (min-width: $width-sm) {
+    padding: 0 80px;
+  }
 
-    @media (min-width: $width-page-content) { 
-        position: relative;
-        width: $width-page-content;
-        padding: 0;
-        margin: 0 auto;
-    }
+  @media (min-width: $width-page-content) {
+    position: relative;
+    width: $width-page-content;
+    padding: 0;
+    margin: 0 auto;
+  }
 }
 
 .hero-header {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 
-    @media (min-width: $width-page-content) {
-        position: absolute;
-        right: 0;
-        top: $spacer-6;
-        width: 480px;
-    }
+  @media (min-width: $width-page-content) {
+    position: absolute;
+    right: 0;
+    top: $spacer-6;
+    width: 480px;
+  }
 }
 
 .hero-title {
-    color: $color-text-black;
-    font-family: $point-font;
-    font-size: 54px;
-    margin-bottom: $spacer-3;
+  color: $color-text-black;
+  font-family: $point-font;
+  font-size: 54px;
+  margin-bottom: $spacer-3;
 }
 
 .hero-desc {
-    margin-left: $spacer-1;
-    text-align: center;
-    color: $color-text-main-dark;
-    font-size: $font-size-large;
+  margin-left: $spacer-1;
+  text-align: center;
+  color: $color-text-main-dark;
+  font-size: $font-size-large;
 
-    @media (min-width: $width-page-content) {
-       text-align: left; 
-    }
+  @media (min-width: $width-page-content) {
+    text-align: left;
+  }
 }
 
 .hero-character {
-    img {
-        max-width:100%;
-    }
+  img {
+    max-width: 100%;
+  }
 
-    @media (min-width: $width-md) {
-        padding: 0 $spacer-6;
-    }
+  @media (min-width: $width-md) {
+    padding: 0 $spacer-6;
+  }
 
-    @media (min-width: $width-page-content) { 
-        margin-right: $spacer * 28
-    }
+  @media (min-width: $width-page-content) {
+    margin-right: $spacer * 28;
+  }
 }
