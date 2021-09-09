@@ -1,14 +1,14 @@
 .search {
-    position: relative;
-    flex: auto;
-    line-height: 1;
+  position: relative;
+  flex: auto;
+  line-height: 1;
 
-    input {
-        // normalize
-        border: none;
-        border-radius: 0px;
-        background-color: transparent;
-    }
+  input {
+    // normalize
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+  }
 }
 
 /* .search.on {
@@ -18,26 +18,26 @@
 $search-input-height: 32px;
 
 .search-box {
-    display: flex;
+  display: flex;
 
-    max-width: 320px;
-    height: $search-input-height;
-    padding: 0 ($search-input-height / 2 + $spacer-1);
-    border-radius: $search-input-height / 2;
-    border-style: none;
-    background-color: $color-bg-primary-light;
+  max-width: 320px;
+  height: $search-input-height;
+  padding: 0 ($search-input-height / 2 + $spacer-1);
+  border-radius: $search-input-height / 2;
+  border-style: none;
+  background-color: $color-bg-primary-light;
 }
 
 .search-input {
-    flex: 1 1;
-    width: 100%;
-    font-size: $font-size-small;
-    direction: ltr;
-    -webkit-appearance: textfield;
+  flex: 1 1;
+  width: 100%;
+  font-size: $font-size-small;
+  direction: ltr;
+  -webkit-appearance: textfield;
 }
 
 .search-button {
-    flex: 0 0;
-    height: 100%;
-    // z-index: 100;
+  flex: 0 0;
+  height: 100%;
+  // z-index: 100;
 }

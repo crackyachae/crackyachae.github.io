@@ -1,13 +1,13 @@
 .wiki-list {
-    color: $color-text-gray;
+  color: $color-text-gray;
 
-    a {
-        color: $color-text-main;
-        text-decoration: none;
+  a {
+    color: $color-text-main;
+    text-decoration: none;
 
-        &:hover {
-            text-decoration-line: underline;
-            text-decoration-color: $color-border-primary;
-        }
+    &:hover {
+      text-decoration-line: underline;
+      text-decoration-color: $color-border-primary;
     }
+  }
 }

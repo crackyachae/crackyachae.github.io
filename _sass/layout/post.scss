@@ -1,81 +1,81 @@
 // Reset
 .post {
-    // TEMP
-    table {
-        tr:hover {
-            background: transparentize($color-bg-primary-light, 0.6);
-        }
+  // TEMP
+  table {
+    tr:hover {
+      background: transparentize($color-bg-primary-light, 0.6);
     }
+  }
 }
 
 .post-header {
-    h2 {
-        border: none;
-    }
-    p {
-        margin: 0;
-    }
-    a {
-        text-decoration: none;
-    }
+  h2 {
+    border: none;
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
 }
 
 .post-link {
-    text-decoration: none;
+  text-decoration: none;
 
-    &:hover {
-        text-decoration-line: underline;
-        text-decoration-color: $color-border-primary;
-    }
+  &:hover {
+    text-decoration-line: underline;
+    text-decoration-color: $color-border-primary;
+  }
 }
 
 // post design
 .post-header {
-    margin: 0 0 $spacer-4 0;
-    padding: 240px 0 $spacer-3 0;
-    border-bottom: $border-width $border-style $color-border-secondary;
+  margin: 0 0 $spacer-4 0;
+  padding: 240px 0 $spacer-3 0;
+  border-bottom: $border-width $border-style $color-border-secondary;
 
-    color: $color-text-main-light;
+  color: $color-text-main-light;
 
-    div {
-        margin-bottom: $spacer;
-    }
+  div {
+    margin-bottom: $spacer;
+  }
 }
 
 .post-parent {
-    font-size: $font-size-xsmall;
-    margin-bottom: $spacer-1;
+  font-size: $font-size-xsmall;
+  margin-bottom: $spacer-1;
 }
 
 .post-title {
-    display: inline-block;
-    margin-bottom: $spacer-1;
-    color: $color-text-main;
+  display: inline-block;
+  margin-bottom: $spacer-1;
+  color: $color-text-main;
 }
 
 .post-summary {
-    font-size: $body-font-size;
+  font-size: $body-font-size;
 }
 
 .post-date {
-    font-size: $font-size-xsmall;
+  font-size: $font-size-xsmall;
 
-    span {
-        margin-right: $spacer-1;
-    }
+  span {
+    margin-right: $spacer-1;
+  }
 }
 
 .post-communicate a {
-    margin-right: $spacer;
-    padding: 0.3em 0.6em;
-    border-radius: $border-radius * 0.75;
+  margin-right: $spacer;
+  padding: 0.3em 0.6em;
+  border-radius: $border-radius * 0.75;
 
-    background-color: rgba(255, 220, 122, 0.7);
-    color: $color-text-accent-dark;
-    font-size: 10px;
+  background-color: rgba(255, 220, 122, 0.7);
+  color: $color-text-accent-dark;
+  font-size: 10px;
 
-    &:hover {
-        text-decoration-line: none;
-        text-decoration-color: transparent;
-    }
+  &:hover {
+    text-decoration-line: none;
+    text-decoration-color: transparent;
+  }
 }
