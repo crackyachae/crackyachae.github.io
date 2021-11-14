@@ -240,11 +240,11 @@ regenerate: true
 #### [[ps-bfs-dfs]]
 
 * [[ps-set-fc-algo-9-bfs-dfs-basic]]
- 
+
 #### [[ps-shortest-mst]]
 
 * [[ps-set-fc-algo-10-graph-advanced]]
-    
+
 #### [[ps-back-tracking]]
 
 * [[ps-set-fc-algo-12-back-tracking]]
@@ -312,7 +312,7 @@ regenerate: true
 
 ## [[Web-Basic]]
 
-### mdn-getting-started-web
+### mdn-learn-web-getting-start
 
 ## [[Web-API]]
 
