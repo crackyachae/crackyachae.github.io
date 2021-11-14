@@ -47,8 +47,10 @@ fast-campus:
     - {fileName: fc-algo-prob-actual}
     - {fileName: fc-algo-prob-type}
 draft:
+    - {fileName: mdn-canvas-tutorial-1-basic-usage}
     - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
     - {fileName: mdn-canvas-tutorial-3-style-and-colors}
+    - {fileName: mdn-canvas-tutorial-4-drawing-text}
     - {fileName: mdn-learn-web-js-1-1-what-is-js}
     - {fileName: mdn-learn-web-js-1-2-first-splash}
     - {fileName: mdn-learn-web-questions-1-1-internet}

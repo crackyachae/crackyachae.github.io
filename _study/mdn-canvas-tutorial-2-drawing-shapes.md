@@ -13,10 +13,11 @@ latex   : false
 * TOC
 {:toc}
 
-> 이 글은 MDN Canvas Tutorial중 [Drawing shapes with canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)의 내용을 복습하기위해 핵심 내용을 요약 정리한 글입니다.
+> 이 글은 MDN Web API의 [Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial) 중 [Drawing shapes with canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)의 내용을 번역 및 정리한 글입니다.
 >
-> 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 원문을 참고해주시길 바랍니다.
-> 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
+> * 제가 필요한 부분 위주로 확인하면서 정리하고 있어 글에 덜 작성된 부분이 있을 수 있습니다.
+> * 글 작성 후 원문의 내용이 수정되거나 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있습니다. 되도록 원문을 참고해주시길 바랍니다.
+> * 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
 
 이제 캔버스에 그림을 그리는 방법을 구체적으로 알아보자. 이 글을 마지막까지 읽으면 사각형, 삼각형, 선, 아치, 곡선 등의 기본적인 도형을 그리는 방법을 익힐 수 있다. 캔버스 위에 물체를 그리는 데는 경로(path)를 다루는 것이 필수적이므로 이것이 어떻게 이뤄지는지도 다룰 예정이다.
 
