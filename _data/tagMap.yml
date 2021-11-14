@@ -49,6 +49,8 @@ fast-campus:
 draft:
     - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
     - {fileName: mdn-canvas-tutorial-3-style-and-colors}
+    - {fileName: mdn-learn-web-js-1-1-what-is-js}
+    - {fileName: mdn-learn-web-js-1-2-first-splash}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}

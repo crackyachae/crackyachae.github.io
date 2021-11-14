@@ -126,13 +126,17 @@ regenerate: true
 * flanagan-js-def-guide-4-exp-op
 * flanagan-js-def-guide-8-fnc
 
-### mdn-async-js
+### [[mdn-learn-web-js]]
 
-* mdn-async-js-1-general-async
-* mdn-async-js-2-intro-async-js
-* mdn-async-js-3-timeout-interval
-* mdn-async-js-4-promise
-* mdn-async-js-5-async-await
+* JavaScript first steps
+    * [[mdn-learn-web-js-1-1-what-is-js]]
+    * [[mdn-learn-web-js-1-2-first-splash]]
+* Asynchronous JavaScript
+    * mdn-async-js-1-general-async
+    * mdn-async-js-2-intro-async-js
+    * mdn-async-js-3-timeout-interval
+    * mdn-async-js-4-promise
+    * mdn-async-js-5-async-await
 
 ### mdn-js-ref
 
