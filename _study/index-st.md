@@ -318,6 +318,15 @@ regenerate: true
 
 ### mdn-learn-web-getting-start
 
+### [[mdn-learn-web-questions]]
+
+* web mechanics
+    * [[mdn-learn-web-questions-1-1-internet]]
+    * [[mdn-learn-web-questions-1-2-web-page-site-server]]
+    * [[mdn-learn-web-questions-1-6-web-server]]
+* tools and setup
+    * [[mdn-learn-web-questions-2-1-needed-software]]
+
 ## [[Web-API]]
 
 ### [[mdn-canvas-tutorial]]
