@@ -57,6 +57,9 @@ draft:
     - {fileName: mdn-learn-web-questions-1-2-web-page-site-server}
     - {fileName: mdn-learn-web-questions-1-6-web-server}
     - {fileName: mdn-learn-web-questions-2-1-needed-software}
+    - {fileName: mdn-learn-web-server-1-1-introduction}
+    - {fileName: mdn-learn-web-server-1-2-client-server-overview}
+    - {fileName: mdn-learn-web-server-1-4-web-security}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}

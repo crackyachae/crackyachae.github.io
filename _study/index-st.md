@@ -318,6 +318,14 @@ regenerate: true
 
 ### mdn-learn-web-getting-start
 
+### [[mdn-learn-web-server]]
+
+* Server-side website programming first steps
+    * [[mdn-learn-web-server-1-1-introduction]]
+    * [[mdn-learn-web-server-1-2-client-server-overview]]
+    * [[mdn-learn-web-server-1-3-server-web-framework]]
+    * [[mdn-learn-web-server-1-4-web-security]]
+
 ### [[mdn-learn-web-questions]]
 
 * web mechanics
