@@ -3,6 +3,7 @@ navigation:
     - {fileName: codeup}
     - {fileName: cs-basic}
     - {fileName: css}
+    - {fileName: express}
     - {fileName: Git}
     - {fileName: JavaScript}
     - {fileName: JS-Library}
@@ -60,6 +61,9 @@ draft:
     - {fileName: mdn-learn-web-server-1-1-introduction}
     - {fileName: mdn-learn-web-server-1-2-client-server-overview}
     - {fileName: mdn-learn-web-server-1-4-web-security}
+    - {fileName: mdn-learn-web-server-3-1-express-intro}
+    - {fileName: mdn-learn-web-server-3-2-set-node-env}
+    - {fileName: mdn-learn-web-server-3-3-express-tutorial-1}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}

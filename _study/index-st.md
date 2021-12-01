@@ -175,6 +175,16 @@ regenerate: true
     * vlpt-react-basic-23-immer
     * vlpt-react-basic-26-componentdidcatch
 
+### [[express]]
+
+#### [[mdn-learn-web-server-3]]
+
+* Express web framework (Node.js/JavaScript)
+    * [[mdn-learn-web-server-3-1-express-intro]]
+    * [[mdn-learn-web-server-3-2-set-node-env]]
+    * [[mdn-learn-web-server-3-3-express-tutorial-1]]
+    * [[mdn-learn-web-server-3-4-express-tutorial-2]]
+
 ## [[Mathematics]]
 
 ### hyu-linear-algebra
@@ -318,7 +328,7 @@ regenerate: true
 
 ### mdn-learn-web-getting-start
 
-### [[mdn-learn-web-server]]
+### [[mdn-learn-web-server-1]]
 
 * Server-side website programming first steps
     * [[mdn-learn-web-server-1-1-introduction]]

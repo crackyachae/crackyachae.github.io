@@ -3,11 +3,11 @@ layout  : overview
 title   : "MDN Learn web development: Server-side website programming"
 summary : 
 date    : 2021-11-13 00:43:01 +0900
-updated : 2021-11-17 23:01:52 +0900
+updated : 2021-11-29 22:39:47 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[Web-Basic]]
+parent  : [[express]]
 latex   : false
 ---
 * TOC
@@ -28,33 +28,16 @@ MDN에서 제공하는 Web 자습서 중 서버 사이드 웹 사이트 프로�
 
 ### Server-side website programming first steps
 
-1. [X] 2021.11.14 Introduction to the server-side
-1. [X] 2021.11.16 Client-Server overview
-1. [X] 2021.11.17 Server-side web frameworks
-1. [X] 2021.11.17 Website security
+[[mdn-learn-web-server-1]]
 
 ### Django Web Framework (Python)
 
-1. [ ] Introduction
-1. [ ] Setting up a development environment
-1. [ ] Tutorial: The Local Library website
-1. [ ] Tutorial Part 2: Creating a skeleton website
-1. [ ] Tutorial Part 3: Using models
-1. [ ] Tutorial Part 4: Django admin site
-1. [ ] Tutorial Part 5: Creating our home page
-1. [ ] Tutorial Part 6: Generic list and detail views
-1. [ ] Tutorial Part 7: Sessions framework
-1. [ ] Tutorial Part 8: User authentication and permissions
-1. [ ] Tutorial Part 9: Working with forms
-1. [ ] Tutorial Part 10: Testing a Django web application
-1. [ ] Tutorial Part 11: Deploying Django to production
-1. [ ] Web application security
-1. [ ] Assessment: DIY mini blog
+mdn-learn-web-server-2
 
 ### Express Web Framework (Node.js/JavaScript)
 
-1. [ ] Express/Node introduction
-1. [ ] Setting up a Node (Express) development environment
+1. [X] 2021.11.29 Express/Node introduction
+1. [X] 2021.11.29 Setting up a Node (Express) development environment
 1. [ ] Express tutorial: The Local Library website
 1. [ ] Express Tutorial Part 2: Creating a skeleton website
 1. [ ] Express Tutorial Part 3: Using a database (with Mongoose)
