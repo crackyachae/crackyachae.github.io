@@ -54,6 +54,9 @@ draft:
     - {fileName: mdn-canvas-tutorial-4-drawing-text}
     - {fileName: mdn-learn-web-js-1-1-what-is-js}
     - {fileName: mdn-learn-web-js-1-2-first-splash}
+    - {fileName: mdn-learn-web-js-1-4-variable}
+    - {fileName: mdn-learn-web-js-1-5-number-operator}
+    - {fileName: mdn-learn-web-js-1-6-string}
     - {fileName: mdn-learn-web-questions-1-1-internet}
     - {fileName: mdn-learn-web-questions-1-2-web-page-site-server}
     - {fileName: mdn-learn-web-questions-1-6-web-server}

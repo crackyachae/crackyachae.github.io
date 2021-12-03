@@ -131,6 +131,10 @@ regenerate: true
 * JavaScript first steps
     * [[mdn-learn-web-js-1-1-what-is-js]]
     * [[mdn-learn-web-js-1-2-first-splash]]
+    * [[mdn-learn-web-js-1-3-troubleshooting]]
+    * [[mdn-learn-web-js-1-4-variable]]
+    * [[mdn-learn-web-js-1-5-number-operator]]
+    * [[mdn-learn-web-js-1-6-string]]
 * Asynchronous JavaScript
     * mdn-async-js-1-general-async
     * mdn-async-js-2-intro-async-js

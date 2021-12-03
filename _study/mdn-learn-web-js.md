@@ -3,7 +3,7 @@ layout  : overview
 title   : "MDN Learn web development: JavaScript"
 summary : 
 date    : 2021-11-02 15:39:49 +0900
-updated : 2021-11-03 14:49:54 +0900
+updated : 2021-12-03 20:43:23 +0900
 tag     : 
 toc     : true
 public  : true
@@ -35,10 +35,10 @@ Vanilla JS로 프로젝트를 하기 전에 JS를 확실하게 정리하고 싶�
 
 1. [X] 2021.11.03 What is JavaScript?
 1. [X] 2021.11.04 A first splash into JavaScript
-1. [ ] What went wrong? Troubleshooting JavaScript
-1. [ ] Storing the information you need — Variables
-1. [ ] Basic math in JavaScript — numbers and operators
-1. [ ] Handling text — strings in JavaScript
+1. [X] 2021.12.02 What went wrong? Troubleshooting JavaScript
+1. [X] 2021.12.03 Storing the information you need — Variables
+1. [X] 2021.12.03 Basic math in JavaScript — numbers and operators
+1. [X] 2021.12.03 Handling text — strings in JavaScript
 1. [ ] Useful string methods
 1. [ ] Arrays
 
