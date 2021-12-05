@@ -57,6 +57,8 @@ draft:
     - {fileName: mdn-learn-web-js-1-4-variable}
     - {fileName: mdn-learn-web-js-1-5-number-operator}
     - {fileName: mdn-learn-web-js-1-6-string}
+    - {fileName: mdn-learn-web-js-1-7-string-method}
+    - {fileName: mdn-learn-web-js-1-8-array}
     - {fileName: mdn-learn-web-questions-1-1-internet}
     - {fileName: mdn-learn-web-questions-1-2-web-page-site-server}
     - {fileName: mdn-learn-web-questions-1-6-web-server}
