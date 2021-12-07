@@ -3,7 +3,7 @@ layout  : overview
 title   : "MDN Learn web development: JavaScript"
 summary : 
 date    : 2021-11-02 15:39:49 +0900
-updated : 2021-12-05 15:55:01 +0900
+updated : 2021-12-07 21:47:12 +0900
 tag     : 
 toc     : true
 public  : true
@@ -44,10 +44,10 @@ Vanilla JS로 프로젝트를 하기 전에 JS를 확실하게 정리하고 싶�
 
 ### JavaScript building blocks
 
-1. [ ] Making decisions in your code — conditionals
-1. [ ] Looping code
-1. [ ] Functions — reusable blocks of code
-1. [ ] Build your own function
+1. [X] 2021.12.06 Making decisions in your code — conditionals
+1. [X] 2021.12.07 Looping code
+1. [X] 2021.12.07 Functions — reusable blocks of code
+1. [X] 2021.12.07 Build your own function
 1. [ ] Function return values
 1. [ ] Introduction to events
 

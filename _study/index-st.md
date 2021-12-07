@@ -137,6 +137,11 @@ regenerate: true
     * [[mdn-learn-web-js-1-6-string]]
     * [[mdn-learn-web-js-1-7-string-method]]
     * [[mdn-learn-web-js-1-8-array]]
+* JavaScript building blocks
+    * [[mdn-learn-web-js-2-1-conditionals]]
+    * [[mdn-learn-web-js-2-2-loop]]
+    * [[mdn-learn-web-js-2-3-functions]]
+    * mdn-learn-web-js-2-4-build-function
 * Asynchronous JavaScript
     * mdn-async-js-1-general-async
     * mdn-async-js-2-intro-async-js

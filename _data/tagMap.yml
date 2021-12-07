@@ -59,6 +59,9 @@ draft:
     - {fileName: mdn-learn-web-js-1-6-string}
     - {fileName: mdn-learn-web-js-1-7-string-method}
     - {fileName: mdn-learn-web-js-1-8-array}
+    - {fileName: mdn-learn-web-js-2-1-conditionals}
+    - {fileName: mdn-learn-web-js-2-2-loop}
+    - {fileName: mdn-learn-web-js-2-3-functions}
     - {fileName: mdn-learn-web-questions-1-1-internet}
     - {fileName: mdn-learn-web-questions-1-2-web-page-site-server}
     - {fileName: mdn-learn-web-questions-1-6-web-server}
