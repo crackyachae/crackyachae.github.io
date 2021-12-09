@@ -3,7 +3,7 @@ layout  : overview
 title   : "MDN Learn web development: JavaScript"
 summary : 
 date    : 2021-11-02 15:39:49 +0900
-updated : 2021-12-07 21:47:12 +0900
+updated : 2021-12-09 01:34:15 +0900
 tag     : 
 toc     : true
 public  : true
@@ -44,12 +44,14 @@ Vanilla JS로 프로젝트를 하기 전에 JS를 확실하게 정리하고 싶�
 
 ### JavaScript building blocks
 
+> * 조건문, 반복문, 함수, 이벤트 등 일반적으로 발생하는 코드 유형을 중심으로 자바스크립트의 중요한 기본 기능에 대해 알아보기.
+
 1. [X] 2021.12.06 Making decisions in your code — conditionals
 1. [X] 2021.12.07 Looping code
 1. [X] 2021.12.07 Functions — reusable blocks of code
 1. [X] 2021.12.07 Build your own function
-1. [ ] Function return values
-1. [ ] Introduction to events
+1. [X] 2021.12.08 Function return values
+1. [X] 2021.12.09 Introduction to events
 
 ### Introducing JavaScript objects
 

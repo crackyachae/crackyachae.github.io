@@ -142,6 +142,8 @@ regenerate: true
     * [[mdn-learn-web-js-2-2-loop]]
     * [[mdn-learn-web-js-2-3-functions]]
     * mdn-learn-web-js-2-4-build-function
+    * [[mdn-learn-web-js-2-5-fnc-return-values]]
+    * [[mdn-learn-web-js-2-6-events]]
 * Asynchronous JavaScript
     * mdn-async-js-1-general-async
     * mdn-async-js-2-intro-async-js
