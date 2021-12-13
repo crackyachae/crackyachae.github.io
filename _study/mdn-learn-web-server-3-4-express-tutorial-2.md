@@ -371,11 +371,11 @@ var usersRouter = require('./routes/users');
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));_ // 언더바 나중에 지우기
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 ```
 
-다음 함수 모음은 `app.use()`를 호출해 *미들웨어* 라이브러리를 요청 처리 단계(chain)에 추가한다. 이전에 가져온 서드파티 라이브러리 외에도 `express.static` 미들웨어를 사용해 *Express*가 프로젝트 루트의 /**public** 디렉토리 안에 있는 모든 정적 파일을 제공하도록 할 수 있다.
+다음 함수 모음은 `app.use()`를 호출해 *미들웨어* 라이브러리를 요청 처리 단계(chain)에 추가한다. 이전에 가져온 서드파티 라이브러리 외에도 `express.static` 미들웨어를 사용해 *Express*가 프로젝트 루트의 **/public** 디렉토리 안에 있는 모든 정적 파일을 제공하도록 할 수 있다.
 
 ```js
 app.use(logger('dev'));
@@ -383,7 +383,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use(express.static(path.join(__dirname, 'public')));_ // 언더바 나중에 지우기
+app.use(express.static(path.join(__dirname, 'public')));
 ```
 
 이제 다른 미들웨어가 모두 설정되었으므로 (이전에 가져온) 라우트 핸들링 코드를 요청 처리 과정(chain)에 추가한다.
