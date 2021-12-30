@@ -241,7 +241,7 @@ var schema = new Schema(
 * 필드 *이름* 다음에 `type`을 정의하는 객체와 그 외 필드의 다른 *옵션*이 오는 경우. 옵션은 다음과 같은 것들을 포함한다:
     * 기본값
     * 내장된 유효성 검사(e.g. 최대/최솟값)와 사용자 정의 유효성 검사 함수
-    * 필드가 필요한지 여부
+    * 필드가 필수적인지 여부
     * `String` 필드에 자동으로 소문자, 대문자, 공백 제거(trim)을 설정할지 (e.g. `{ type: String, lowercase: true, trim: true }`)
 
 옵션에 대한 더 많은 정보는 [SchemaTypes](https://mongoosejs.com/docs/schematypes.html)(Moongose 문서)에서 확인하자.
