@@ -144,6 +144,9 @@ regenerate: true
     * mdn-learn-web-js-2-4-build-function
     * [[mdn-learn-web-js-2-5-fnc-return-values]]
     * [[mdn-learn-web-js-2-6-events]]
+* Introducing JavaScript objects
+    * [[mdn-learn-web-js-3-1-object-basic]]
+    * [[mdn-learn-web-js-3-2-object-oriented-js]]
 * Asynchronous JavaScript
     * mdn-async-js-1-general-async
     * mdn-async-js-2-intro-async-js
