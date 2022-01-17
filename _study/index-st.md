@@ -201,6 +201,7 @@ regenerate: true
     * [[mdn-learn-web-server-3-3-express-tutorial-1]]
     * [[mdn-learn-web-server-3-4-express-tutorial-2]]
     * [[mdn-learn-web-server-3-5-express-tutorial-3]]
+    * [[mdn-learn-web-server-3-6-express-tutorial-4]]
 
 ## [[Mathematics]]
 

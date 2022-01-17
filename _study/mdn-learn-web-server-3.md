@@ -3,7 +3,7 @@ layout  : overview
 title   : "MDN Learn web development: Server-side website programming"
 summary : 
 date    : 2021-11-13 00:43:01 +0900
-updated : 2021-12-13 22:03:42 +0900
+updated : 2022-01-17 21:36:40 +0900
 tag     : 
 toc     : true
 public  : true
@@ -41,7 +41,7 @@ mdn-learn-web-server-2
 1. [X] 2021.11.29 Express tutorial: The Local Library website
 1. [X] 2021.12.08 Express Tutorial Part 2: Creating a skeleton website
 1. [X] 2021.12.13 Express Tutorial Part 3: Using a database (with Mongoose)
-1. [ ] Express Tutorial Part 4: Routes and controllers
+1. [X] 2022.01.10 Express Tutorial Part 4: Routes and controllers
 1. [ ] Express Tutorial Part 5: Displaying library data
 1. [ ] Express Tutorial Part 6: Working with forms
 1. [ ] Express Tutorial Part 7: Deploying to production
