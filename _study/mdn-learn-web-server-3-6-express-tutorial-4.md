@@ -1,6 +1,6 @@
 ---
 layout  : article
-title   : "Express Tutorial Part 4: Routes and controllers"
+title   : "Express Tutorial Part 4: 라우트와 컨트롤러 (Routes and controllers)"
 summary : 
 date    : 2022-01-09 14:43:27 +0900
 updated : 2022-01-10 00:24:05 +0900
