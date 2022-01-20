@@ -3,7 +3,7 @@ layout  : overview
 title   : "MDN Learn web development: JavaScript"
 summary : 
 date    : 2021-11-02 15:39:49 +0900
-updated : 2022-01-12 00:20:33 +0900
+updated : 2022-01-20 16:23:15 +0900
 tag     : 
 toc     : true
 public  : true
@@ -55,10 +55,10 @@ Vanilla JS로 프로젝트를 하기 전에 JS를 확실하게 정리하고 싶�
 
 ### Introducing JavaScript objects
 
-1. [X] 2022.01.11 Object basics
-1. [X] 2022.01.12 Object-oriented JavaScript for beginners
+1. [X] 2022.01.20 Object basics
 1. [ ] Object prototypes
-1. [ ] Inheritance in JavaScript
+1. [ ] Object-oriented programming
+1. [ ] Classes in JavaScript
 1. [ ] Working with JSON data
 1. [ ] Object building practice
 
