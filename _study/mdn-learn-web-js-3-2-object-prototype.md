@@ -3,8 +3,8 @@ layout  : article
 title   : 객체 프로토타입이 (Object prototypes)
 summary : 
 date    : 2022-01-20 16:32:04 +0900
-updated : 2022-01-20 16:33:14 +0900
-tag     : 
+updated : 2022-01-20 23:28:36 +0900
+tag     : draft
 toc     : true
 public  : true
 parent  : [[mdn-learn-web-js]]
