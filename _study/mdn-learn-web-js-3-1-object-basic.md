@@ -45,13 +45,11 @@ Object { }
 const person = {
   name: ['Bob', 'Smith'],
   age: 32,
-  gender: 'male',
-  interests: ['music', 'skiing'],
   bio: function() {
-    alert(this.name[0] + ' ' + this.name[1] + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.');
+    console.log(`${this.name[0]} ${this.name[1]} is ${this.age} years old.`);
   },
-  greeting: function() {
-    alert('Hi! I\'m ' + this.name[0] + '.');
+  introduceSelf: function() {
+    console.log(`Hi! I'm ${this.name[0]}.`);
   }
 };
 ```
@@ -62,9 +60,8 @@ const person = {
 person.name
 person.name[0]
 person.age
-person.interests[1]
 person.bio()
-person.greeting()
+person.introduceSelf()
 ```
 
 이제 객체 내부에 몇 가지 데이터와 기능이 있으며, 간단하고 멋진 구문으로 이들에 접근할 수 있다!
@@ -95,16 +92,16 @@ const person = {
   age: 32,
 
   // 메소드
-    bio() {
+  bio() {
     console.log(`${this.name[0]} ${this.name[1]} is ${this.age} years old.`);
-    },
-    introduceSelf() {
+  },
+  introduceSelf() {
       console.log(`Hi! I'm ${this.name[0]}.`);
-    }
-  };
+  }
+};
 ```
 
-지금부터는 더 짧은 구문을 사용할 것이다.
+지금부터는 위의 예제처럼 더 짧은 구문을 사용할 것이다.
 
 이런 객체는 **객체 리터럴(object literal)**이라고 부른다 - 객체를 생성할 때 객체의 콘텐츠를 말 그대로 작성한다. 객체 리터럴은 클래스로부터 생성(instantiated)된 객체와는 다르다. 이 방식은 뒤에서 살펴볼 예정이다.
 
