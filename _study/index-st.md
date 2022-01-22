@@ -204,6 +204,8 @@ regenerate: true
     * [[mdn-learn-web-server-3-6-express-tutorial-4]]
     * [[mdn-learn-web-server-3-7-express-tutorial-5]]
         * [[mdn-learn-web-server-3-7-1-using-async]]
+        * [[mdn-learn-web-server-3-7-2-template-primer]]
+        * [[mdn-learn-web-server-3-7-3-base-template]]
 
 ## [[Mathematics]]
 

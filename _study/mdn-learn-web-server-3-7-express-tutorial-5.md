@@ -3,7 +3,7 @@ layout  : overview
 title   : "Express Tutorial Part 5: 도서관 데이터를 표시하기 (Displaying library data)"
 summary : 
 date    : 2022-01-19 20:39:24 +0900
-updated : 2022-01-19 23:49:46 +0900
+updated : 2022-01-22 21:07:15 +0900
 tag     : 
 toc     : true
 public  : true
@@ -32,8 +32,8 @@ MDN Express 튜토리얼의 다섯번째 파트로 내용이 많아 내용을 �
 ## Progress
 
 1. [X] 2022.01.19 Asynchronous flow control using async
-1. [ ] Template primer
-1. [ ] The LocalLibrary base template
+1. [X] 2022.01.22 Template primer
+1. [X] 2022.01.22 The LocalLibrary base template
 1. [ ] Home page
 1. [ ] Book list page
 1. [ ] BookInstance list page
