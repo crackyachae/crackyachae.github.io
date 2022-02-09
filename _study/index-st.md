@@ -147,6 +147,8 @@ regenerate: true
 * Introducing JavaScript objects
     * [[mdn-learn-web-js-3-1-object-basic]]
     * [[mdn-learn-web-js-3-2-object-prototype]]
+    * [[mdn-learn-web-js-3-3-oop]]
+    * [[mdn-learn-web-js-3-4-class-in-js]]
 * Asynchronous JavaScript
     * mdn-async-js-1-general-async
     * mdn-async-js-2-intro-async-js
