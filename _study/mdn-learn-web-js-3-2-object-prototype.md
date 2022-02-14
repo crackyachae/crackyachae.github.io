@@ -1,6 +1,6 @@
 ---
 layout  : article
-title   : 객체 프로토타입이 (Object prototypes)
+title   : 객체 프로토타입 (Object prototypes)
 summary : 
 date    : 2022-01-20 16:32:04 +0900
 updated : 2022-01-20 23:28:36 +0900
