@@ -208,6 +208,7 @@ regenerate: true
         * [[mdn-learn-web-server-3-7-1-using-async]]
         * [[mdn-learn-web-server-3-7-2-template-primer]]
         * [[mdn-learn-web-server-3-7-3-base-template]]
+        * [[mdn-learn-web-server-3-7-4-home-page]]
 
 ## [[Mathematics]]
 
