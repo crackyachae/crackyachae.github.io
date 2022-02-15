@@ -38,7 +38,7 @@ latex   : false
 
 시작으로, 이전의 숫자 맞추기 게임으로 돌아가 보자. 이번엔 고의로 오류를 만든 버전을 살펴볼 것이다.
 
-Github에 가서 [number-game-errors.html](https://github.com/mdn/learning-area/blob/master/javascript/introduction-to-js-1/troubleshooting/number-game-errors.html)의 로컬 사본을 저장한다. ([여기서 실제 실행 예제를](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/troubleshooting/number-game-errors.html)을 참고하자)
+Github에 가서 [number-game-errors.html](https://github.com/mdn/learning-area/blob/master/javascript/introduction-to-js-1/troubleshooting/number-game-errors.html)을 로컬 저장소에 복사한다. ([여기서 실제 실행 예제를](https://mdn.github.io/learning-area/javascript/introduction-to-js-1/troubleshooting/number-game-errors.html)을 참고하자)
 
 1. 먼저, 본인이 선호하는 텍스트 에디터와 브라우저에서 위에서 저장한 파일을 연다.
 1. 게임을 시작해본다. "제출(submit) 버튼"을 눌렀을 때, 정상적으로 실행되지 않는 것을 확인할 수 있다.

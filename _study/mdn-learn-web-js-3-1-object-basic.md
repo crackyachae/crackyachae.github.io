@@ -23,7 +23,7 @@ latex   : false
 
 객체는 연관된 데이터 및/혹은 기능(functionality)의 모음이다. 일반적으로 여러 변수와 함수로 (객체 안에 있을 때는 프로퍼티와 메소드라고 부른다) 구성된다. 예제를 통해서 실제로 어떻게 보이는지 알아(understand)보자.
 
-먼저, [oojs.html](https://github.com/mdn/learning-area/blob/main/javascript/oojs/introduction/oojs.html) 파일의 로컬 복사본을 만든다. 이 파일에는 소스 코드를 작성하기 위한 작은 [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) 요소가 포함되어있다. 우리는 기본 객체 문법을 탐구하기 위한 기반으로 이 파일을 사용할 것이다. 예제를 따라 하는 동안은 반드시 [개발자 도구의 자바스크립트 콘솔](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools#the_javascript_console)을 열어두고, 몇몇 명령어를 직접 입력할 준비가 되어있어야 한다.
+먼저, [oojs.html](https://github.com/mdn/learning-area/blob/main/javascript/oojs/introduction/oojs.html) 파일을 로컬 저장소에 복사한다. 이 파일에는 소스 코드를 작성하기 위한 작은 [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) 요소가 포함되어있다. 우리는 기본 객체 문법을 탐구하기 위한 기반으로 이 파일을 사용할 것이다. 예제를 따라 하는 동안은 반드시 [개발자 도구의 자바스크립트 콘솔](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools#the_javascript_console)을 열어두고, 몇몇 명령어를 직접 입력할 준비가 되어있어야 한다.
 
 다른 자바스크립트 요소들과 마찬가지로, 객체를 생성하는 것은 변수를 정의하고 초기화하는 것으로 시작한다. 다음의 코드를 파일 안에 있는 자바스크립트 코드 아래(oojs.html 파일의 `<script>` 태그 사이)에 입력하고 저장한 뒤 새로 고침 해보자:
 
