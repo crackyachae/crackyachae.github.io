@@ -34,7 +34,7 @@ MDN "지역 도서관" Express (Node) 튜토리얼에 온 것을 환영한다. �
 
 이 주제 중 일부는 이미 배웠고, 다른 주제들도 간단히 다뤘다. 이 튜토리얼 시리즈가 끝날 때면, 간단한 Express 앱을 스스로 만들 수 있을 정도로 충분히 알게 될 것이다.
 
-## 로컬 라이브러리 웹사이트 (The LocalLibrary website)
+## 지역 도서관 웹사이트 (The LocalLibrary website)
 
 *지역도서관(LocalLibrary)*은 이 튜토리얼 시리즈 코스를 따라 만들고 발전시킬 웹사이트의 이름이다.
 
