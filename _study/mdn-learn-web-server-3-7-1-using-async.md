@@ -4,7 +4,7 @@ title   : Async를 사용한 비동기 흐름 제어 (Asynchronous flow control 
 summary : 
 date    : 2022-01-19 20:45:30 +0900
 updated : 2022-01-19 23:50:20 +0900
-tag     : 
+tag     : draft
 toc     : true
 public  : true
 parent  : [[mdn-learn-web-server-3-7-express-tutorial-5]]

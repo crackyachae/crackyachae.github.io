@@ -4,7 +4,7 @@ title   : 홈페이지 (Home page)
 summary : 
 date    : 2022-02-09 14:52:56 +0900
 updated : 2022-02-09 21:11:49 +0900
-tag     : 
+tag     : draft
 toc     : true
 public  : true
 parent  : [[mdn-learn-web-server-3-7-express-tutorial-5]]
@@ -139,7 +139,7 @@ block content
 
 > Note: 개수 값이 계산되었기 때문에 개수 값은 이스케이프 하지 않는다 (i.e. `!{}` 구문을 사용한다). 만약 최종 사용자가 제공한 정보를 사용한다면, 이를 출력하기 위해서 변수를 이스케이프 해야 한다.
 
-## 어떻게 생겼나? (What does it look like?)
+## 어떻게 보일까? (What does it look like?)
 
 이쯤이면 인덱스 페이지를 표시하는데 필요한 모든 것을 만들었어야 한다. 애플리케이션을 실행하고 브라우저에서 `http://localhost:3000/`를 열어보자. 모든 것을 알맞게 설정했다면, 사이트가 다음의 스크린샷 처럼 보일 것이다.
 

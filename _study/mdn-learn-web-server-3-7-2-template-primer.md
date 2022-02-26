@@ -4,7 +4,7 @@ title   : 템플릿 기본서 (Template primer)
 summary : 
 date    : 2022-01-22 12:17:33 +0900
 updated : 2022-01-22 16:19:39 +0900
-tag     : 
+tag     : draft
 toc     : true
 public  : true
 parent  : [[mdn-learn-web-server-3-7-express-tutorial-5]]
