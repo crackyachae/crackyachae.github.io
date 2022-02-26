@@ -81,6 +81,17 @@ draft:
     - {fileName: mdn-learn-web-server-3-4-express-tutorial-2}
     - {fileName: mdn-learn-web-server-3-5-express-tutorial-3}
     - {fileName: mdn-learn-web-server-3-6-express-tutorial-4}
+    - {fileName: mdn-learn-web-server-3-7-1-using-async}
+    - {fileName: mdn-learn-web-server-3-7-10-book-detail-page}
+    - {fileName: mdn-learn-web-server-3-7-11-author-detail-page}
+    - {fileName: mdn-learn-web-server-3-7-12-bookinstance-detail-page}
+    - {fileName: mdn-learn-web-server-3-7-2-template-primer}
+    - {fileName: mdn-learn-web-server-3-7-3-base-template}
+    - {fileName: mdn-learn-web-server-3-7-4-home-page}
+    - {fileName: mdn-learn-web-server-3-7-5-book-list-page}
+    - {fileName: mdn-learn-web-server-3-7-7-data-formatting}
+    - {fileName: mdn-learn-web-server-3-7-8-author-genre-list-page}
+    - {fileName: mdn-learn-web-server-3-7-9-genre-detail-page}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}

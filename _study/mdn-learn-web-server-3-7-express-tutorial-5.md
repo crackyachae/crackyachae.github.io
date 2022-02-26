@@ -3,7 +3,7 @@ layout  : overview
 title   : "Express Tutorial Part 5: 도서관 데이터를 표시하기 (Displaying library data)"
 summary : 
 date    : 2022-01-19 20:39:24 +0900
-updated : 2022-02-09 21:11:59 +0900
+updated : 2022-02-26 20:42:39 +0900
 tag     : 
 toc     : true
 public  : true
@@ -35,11 +35,11 @@ MDN Express 튜토리얼의 다섯번째 파트로 내용이 많아 내용을 �
 1. [X] 2022.01.22 Template primer
 1. [X] 2022.01.22 The LocalLibrary base template
 1. [X] 2022.02.09 Home page
-1. [ ] Book list page
-1. [ ] BookInstance list page
-1. [ ] Date formatting using luxon
-1. [ ] Author list page and Genre list page challenge
-1. [ ] Genre detail page
-1. [ ] Book detail page
-1. [ ] Author detail page
-1. [ ] BookInstance detail page and challenge
+1. [X] 2022.02.17 Book list page
+1. [X] 2022.02.17 BookInstance list page
+1. [X] 2022.02.18 Date formatting using luxon
+1. [X] 2022.02.26 Author list page and Genre list page challenge
+1. [X] 2022.02.26 Genre detail page
+1. [X] 2022.02.26 Book detail page
+1. [X] 2022.02.26 Author detail page
+1. [X] 2022.02.26 BookInstance detail page and challenge

@@ -210,6 +210,14 @@ regenerate: true
         * [[mdn-learn-web-server-3-7-2-template-primer]]
         * [[mdn-learn-web-server-3-7-3-base-template]]
         * [[mdn-learn-web-server-3-7-4-home-page]]
+        * [[mdn-learn-web-server-3-7-5-book-list-page]]
+        * [[mdn-learn-web-server-3-7-6-bookinstance-list-page]]
+        * [[mdn-learn-web-server-3-7-7-data-formatting]]
+        * [[mdn-learn-web-server-3-7-8-author-genre-list-page]]
+        * [[mdn-learn-web-server-3-7-9-genre-detail-page]]
+        * [[mdn-learn-web-server-3-7-10-book-detail-page]]
+        * [[mdn-learn-web-server-3-7-11-author-detail-page]]
+        * [[mdn-learn-web-server-3-7-12-bookinstance-detail-page]]
 
 ## [[Mathematics]]
 
