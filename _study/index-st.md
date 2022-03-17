@@ -156,6 +156,12 @@ regenerate: true
     * mdn-async-js-3-timeout-interval
     * mdn-async-js-4-promise
     * mdn-async-js-5-async-await
+* Client-side web APIs
+    * [[mdn-learn-web-js-5-1-web-api-intro]]
+    * [[mdn-learn-web-js-5-2-manipulate-document]]
+    * [[mdn-learn-web-js-5-3-fetch-from-server]]
+    * [[mdn-learn-web-js-5-4-third-party-api]]
+    * [[mdn-learn-web-js-5-7-client-side-storage]]
 
 ### mdn-js-ref
 

@@ -3,7 +3,7 @@ layout  : overview
 title   : "MDN Learn web development: JavaScript"
 summary : 
 date    : 2021-11-02 15:39:49 +0900
-updated : 2022-02-15 13:14:53 +0900
+updated : 2022-03-17 00:32:32 +0900
 tag     : 
 toc     : true
 public  : true
@@ -73,10 +73,10 @@ Vanilla JS로 프로젝트를 하기 전에 JS를 확실하게 정리하고 싶�
 
 ### Client-side web APIs
 
-1. [ ] Introduction to web APIs
-1. [ ] Manipulating documents
-1. [ ] Fetching data from the server
-1. [ ] Third party APIs
+1. [X] 2022.03.11 Introduction to web APIs
+1. [X] 2022.03.11 Manipulating documents
+1. [X] 2022.03.12 Fetching data from the server
+1. [X] 2022.03.15 Third party APIs
 1. [ ] Drawing graphics
 1. [ ] Video and audio APIs
-1. [ ] Client-side storage
+1. [X] 2022.03.17 Client-side storage

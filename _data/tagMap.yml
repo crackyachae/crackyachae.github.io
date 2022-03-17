@@ -68,6 +68,11 @@ draft:
     - {fileName: mdn-learn-web-js-3-2-object-prototype}
     - {fileName: mdn-learn-web-js-3-4-class-in-js}
     - {fileName: mdn-learn-web-js-3-5-json}
+    - {fileName: mdn-learn-web-js-5-1-web-api-intro}
+    - {fileName: mdn-learn-web-js-5-2-manipulate-document}
+    - {fileName: mdn-learn-web-js-5-3-fetch-from-server}
+    - {fileName: mdn-learn-web-js-5-4-third-party-api}
+    - {fileName: mdn-learn-web-js-5-7-client-side-storage}
     - {fileName: mdn-learn-web-questions-1-1-internet}
     - {fileName: mdn-learn-web-questions-1-2-web-page-site-server}
     - {fileName: mdn-learn-web-questions-1-6-web-server}
