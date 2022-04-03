@@ -79,4 +79,4 @@ block content
 
 애플리케이션을 실행시키고 (관련 명령에 관해서는 [Testing the routes](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#testing_the_routes)를 참고하자) 브라우저에서 `http://localhost:3000/`를 열어보자. 그다음에 *All books* 링크를 선택한다. 만약 모든 게 올바르게 갖춰졌다면, 사이트는 다음의 스크린샷처럼 보일 것이다.
 
-![book list page screenshot](../post-img/mdn-learn-web-server-3-7-5-book-list-page/new_book_list.png)
+![book list page screenshot](/post-img/mdn-learn-web-server-3-7-5-book-list-page/new_book_list.png)

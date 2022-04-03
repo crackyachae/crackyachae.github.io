@@ -69,7 +69,7 @@ block content
 
 애플리케이션을 실행시키고 브라우저에서 `http://localhost:3000/`를 열어보자. 그다음에 *All authors* 링크를 선택한다. 만약 모든 게 올바르게 갖춰졌다면, 사이트는 다음의 스크린샷처럼 보일 것이다.
 
-![book instance list page screenshot](../post-img/mdn-learn-web-server-3-7-8-author-genre-list-page/locallibary_express_author_list.png)
+![book instance list page screenshot](/post-img/mdn-learn-web-server-3-7-8-author-genre-list-page/locallibary_express_author_list.png)
 
 > Note: 저자의 *생몰연대(lifespan)*의 모습이 지저분하다! 이를 `BookInstance` 목록에서 사용한 방법과 [같은 방법](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Date_formatting_using_moment)으로 (생몰연대에 대한 가상 속성을 `Author` 모델에 추가하기) 개선할 수 있다.
 >
@@ -80,7 +80,7 @@ block content
 
 이 섹션에서는 자신만의 장르 목록 페이지를 구현해야 한다. 이 페이지는 데이터베이스의 모든 장르의 목록이 표시되어야 하며, 각 장르는 연관된 상세 페이지로 연결되어야 한다. 예상 결과 페이지의 스크린샷은 아래와 같다.
 
-![genre page screenshot](../post-img/mdn-learn-web-server-3-7-8-author-genre-list-page/locallibary_express_genre_list.png)
+![genre page screenshot](/post-img/mdn-learn-web-server-3-7-8-author-genre-list-page/locallibary_express_genre_list.png)
 
 장르 목록 컨트롤러 함수는 모든 `Genre` 인스턴스의 목록을 가져와, 렌더링을 위해 이를 템플릿에 전달해야 한다.
 

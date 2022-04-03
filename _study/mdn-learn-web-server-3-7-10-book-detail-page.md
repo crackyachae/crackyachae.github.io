@@ -117,4 +117,4 @@ block content
 
 애플리케이션을 실행시키고, 브라우저에서 `http://localhost:3000/`를 열자. *All books* 링크를 선택하고, 책 중 하나를 선택하자. 만약 모든 게 올바르게 갖춰졌다면, 사이트는 다음의 스크린샷처럼 보일 것이다.
 
-![book detail page screenshot](../post-img/mdn-learn-web-server-3-7-10-book-detail-page/locallibary_express_book_detail.png)
+![book detail page screenshot](/post-img/mdn-learn-web-server-3-7-10-book-detail-page/locallibary_express_book_detail.png)

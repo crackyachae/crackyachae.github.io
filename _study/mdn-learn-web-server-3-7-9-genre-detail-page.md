@@ -110,7 +110,7 @@ block content
 
 애플리케이션을 실행시키고, 브라우저에서 `http://localhost:3000/`를 열자. *All genres* 링크를 선택하고, 장르 중 하나를 선택하자 (e.g. "Fantasy"). 만약 모든 게 올바르게 갖춰졌다면, 사이트는 다음의 스크린샷처럼 보일 것이다.
 
-![genre detail page screenshot](../post-img/mdn-learn-web-server-3-7-9-genre-detail-page/locallibary_express_genre_detail.png)
+![genre detail page screenshot](/post-img/mdn-learn-web-server-3-7-9-genre-detail-page/locallibary_express_genre_detail.png)
 
 > Note: 이것과 비슷한 오류가 발생할 수도 있다:
 >

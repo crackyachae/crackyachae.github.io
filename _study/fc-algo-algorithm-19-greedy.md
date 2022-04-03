@@ -81,7 +81,7 @@ min_coin_count(4720, coin_list)
 * 물건은 쪼갤 수 있기 때문에 물건 일부분이 배낭에 넣어질 수 있음, 그래서 Fractional Knapsack Problem으로 부름
     * Fractional Knapsack Problem의 반대로 물건을 쪼개서 넣을 수 없는 배낭 문제도 존재함 (0/1 Knapsack Problem으로 부름)
 
-![kanpsack table](../post-img/fc-algo-algorithm-19-greedy/1_knapsack.png)
+![kanpsack table](/post-img/fc-algo-algorithm-19-greedy/1_knapsack.png)
 
 * 현재 상황에서 최적의 선택은 무게 대비 가치가 높은 것.
     * 물건 1과 5를 비교했을 때, 물건 1을 넣는 것이 이득이다.
@@ -132,7 +132,7 @@ get_max_value(data_list, 30)
 
 ### 예시
 
-![greedy](../post-img/fc-algo-algorithm-19-greedy/2_greedy.png)
+![greedy](/post-img/fc-algo-algorithm-19-greedy/2_greedy.png)
 
 '시작' 노드에서 시작해서 가장 작은 값을 찾아 leaf node 까지 가는 경로를 찾을 시에
 

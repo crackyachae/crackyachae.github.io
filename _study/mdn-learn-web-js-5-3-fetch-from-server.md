@@ -25,7 +25,7 @@ latex   : false
 
 웹 페이지는 HTML 페이지와 (일반적으로) 스타일 시트, 스크립트, 이미지와 같은 다양한 다른 파일로 구성되어있다. 웹에서 페이지를 불러오는 기본 모델은 브라우저가 페이지를 표시하기 위해 필요한 파일을 가져오기 위해 한 개 이상의 HTTP 요청을 서버에 만들고, 서버는 요청된 파일과 함께 응답한다. 만약 다른 페이지를 방문하면, 브라우저가 새 파일을 요청하고, 서버는 이들과 함께 응답한다.
 
-![tradktional loading process](../post-img/mdn-learn-web-js-5-3-fetch-from-server/traditional-loading.svg)
+![tradktional loading process](/post-img/mdn-learn-web-js-5-3-fetch-from-server/traditional-loading.svg)
 
 이 모델은 많은 사이트에서 완벽하게 동작한다. 하지만 데이터 중심적(data-driven)인 웹사이트를 생각해보자. 예를 들어, [Vancouver Public Library](https://www.vpl.ca)와 같은 도서관 웹 사이트를 생각해보자. 이런 사이트는 무엇보다도 데이터베이스를 위한 사용자 인터페이스로 볼 수 있다. 이 사이트에서는 특정 장르의 서적을 찾거나, 이전에 빌린 책을 기반으로 좋아할 책 추천을 보여줄 수 있다. 이런 동작을 할 때, 페이지를 표시할 새로운 책 모음으로 갱신해야 한다. 하지만 대부분의 페이지 내용은 - 페이지의 헤더, 사이드바, 푸터와 같은 항목을 포함해서 - 똑같이 유지된다.
 
@@ -33,7 +33,7 @@ latex   : false
 
 그러므로 많은 웹사이트가 전통적인 모델 대신, 서버에 데이터를 요청하고, 페이지 로드 없이 페이지 내용을 갱신하기 위해 자바스크립트 API를 사용한다. 그러므로 사용자가 새로운 제품을 찾으면, 브라우저는 페이지를 갱신해야 할 부분의 데이터만 요청한다 - 예를 들어 표시할 새로운 책 모음과 같이.
 
-![fetch update](../post-img/mdn-learn-web-js-5-3-fetch-from-server/fetch-update.svg)
+![fetch update](/post-img/mdn-learn-web-js-5-3-fetch-from-server/fetch-update.svg)
 
 여기서 사용되는 주된 API는 [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) 이다. 이 API는 페이지에서 실행되는 자바스크립트가 특정 리소스를 가져오기 위한 [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) 요청을 서버에 만들 수 있도록 해준다. 서버가 이 리소스들을 제공하면, 자바스크립트는 데이터를 사용해서 특히 [DOM manipulation APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)를 사용해서, 페이지를 갱신할 수 있다. 요청된 데이터는 주로 [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)으로, 구조화된 데이터를 전송하기에 좋은 포맷이지만, HTML이나 일반 텍스트도 쓸 수 있다.
 
@@ -141,7 +141,7 @@ verseChoose.value = 'Verse 1';
 
 이 예제에서는 통조림 가게라고 불리는 샘플을 만들 것이다 - 통조림만 파는 가상의 슈퍼마켓이다. 이 [실제 실행 예제를 GitHub](https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/)에서 찾을 수 있고, [소스 코드를 봐보자](https://github.com/mdn/learning-area/tree/main/javascript/apis/fetching-data/can-store)
 
-![can store screenshot](../post-img/mdn-learn-web-js-5-3-fetch-from-server/can-store.png)
+![can store screenshot](/post-img/mdn-learn-web-js-5-3-fetch-from-server/can-store.png)
 
 기본적으로, 사이트는 모든 제품을 표시하지만, 왼쪽 열의 양식 컨트롤을 사용해 카테고리 또는 검색어 별로 필터링할 수 있다.
 

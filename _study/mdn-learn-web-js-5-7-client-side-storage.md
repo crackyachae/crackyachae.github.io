@@ -132,7 +132,7 @@ MDN 학습 영역의 다른 곳에서 [정적 사이트](https://developer.mozil
 
 예제 HTML은 [personal-greeting.html](https://github.com/mdn/learning-area/blob/main/javascript/apis/client-side-storage/web-storage/personal-greeting.html)에서 찾을 수 있다 - 이 HTML은 헤더, 내용, 푸터, 이름을 입력하는 양식으로 된 웹사이트를 포함한다.
 
-![web storage demo](../post-img/mdn-learn-web-js-5-7-client-side-storage/web-storage-demo.png)
+![web storage demo](/post-img/mdn-learn-web-js-5-7-client-side-storage/web-storage-demo.png)
 
 예제가 어떻게 동작하는지 알 수 있게 예제를 만들어보자.
 
@@ -233,7 +233,7 @@ MDN 학습 영역의 다른 곳에서 [정적 사이트](https://developer.mozil
 
 앱은 다음과 같이 보인다:
 
-![idb demo](../post-img/mdn-learn-web-js-5-7-client-side-storage/idb-demo.png)
+![idb demo](/post-img/mdn-learn-web-js-5-7-client-side-storage/idb-demo.png)
 
 각 노드는 제목과 본문 텍스트를 갖고, 각각 수정할 수 있다. 아래에서 진행할 자바스크립트 코드에는 코드가 무엇을 하는지 이해하는 데 도움을 줄 주석이 자세히 적혀있다.
 

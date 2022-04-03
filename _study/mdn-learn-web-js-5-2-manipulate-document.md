@@ -27,7 +27,7 @@ latex   : false
 
 제한에도 불구하고, Web API는 여전히 웹 페이지로 많은 것을 할 수 있도록 많은 기능에 접근할 수 있게 허락해준다. 사용자가 코드에서 정기적으로 참조하게 될, 몇 가지 확실한 것(bits)들이 있다 - 웹 페이지를 보는 것과 직접적으로 연관된 브라우저의 주요한 부분을 나타내는 다음의 그림을 참고해보자:
 
-![document, window, navigator of browser](../post-img/mdn-learn-web-js-5-2-manipulate-document/document-window-navigator.png)
+![document, window, navigator of browser](/post-img/mdn-learn-web-js-5-2-manipulate-document/document-window-navigator.png)
 
 * 윈도우(window)는
     * 웹페이지가 로드되는 브라우저 탭이다; 이는 자바스크립트에서 [`Window`](https://developer.mozilla.org/en-US/docs/Web/API/Window) 객체로 나타난다.
@@ -276,7 +276,7 @@ linkPara.parentNode.removeChild(linkPara);
 
 완성된 데모는 다음과 같이 보일 것이다:
 
-![shopping list](../post-img/mdn-learn-web-js-5-2-manipulate-document/shopping-list.png)
+![shopping list](/post-img/mdn-learn-web-js-5-2-manipulate-document/shopping-list.png)
 
 예제를 완성하려면 아래의 단계를 따라가고, 목록이 위에서 설명한 것처럼 작동할 수 있도록 하자.
 

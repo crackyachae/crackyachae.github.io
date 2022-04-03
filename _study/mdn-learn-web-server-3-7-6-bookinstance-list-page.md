@@ -79,4 +79,4 @@ block content
 
 애플리케이션을 실행시키고, 브라우저에서 `http://localhost:3000/`를 연 다음, *All book-instances* 링크를 선택한다. 만약 모든 게 올바르게 갖춰졌다면, 사이트는 다음의 스크린샷처럼 보일 것이다.
 
-![book instance list page screenshot](../post-img/mdn-learn-web-server-3-7-6-bookinstance-list-page/locallibary_express_bookinstance_list.png)
+![book instance list page screenshot](/post-img/mdn-learn-web-server-3-7-6-bookinstance-list-page/locallibary_express_bookinstance_list.png)

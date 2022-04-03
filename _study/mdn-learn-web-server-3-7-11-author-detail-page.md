@@ -95,6 +95,6 @@ block content
 
 애플리케이션을 실행시키고, 브라우저에서 `http://localhost:3000/`를 열자. *All Authors* 링크를 선택하고, 저자 중 하나를 선택하자. 만약 모든 게 올바르게 갖춰졌다면, 사이트는 다음의 스크린샷처럼 보일 것이다.
 
-![author detail page screenshot](../post-img/mdn-learn-web-server-3-7-11-author-detail-page/locallibary_express_author_detail.png)
+![author detail page screenshot](/post-img/mdn-learn-web-server-3-7-11-author-detail-page/locallibary_express_author_detail.png)
 
 > Note: 저자의 *생몰 주기(lifespan)* 날짜의 모습이 지저분하다! 이 글의 마지막 도전에서 이를 처리할 것이다.
