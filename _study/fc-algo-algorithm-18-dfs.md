@@ -87,7 +87,7 @@ graph
 큐와 스택 구현은 별도 라이브러리를 활용할 수도 있지만, 간단히 파이썬 리스트를 활용할 수도 있음
 
 * 딕셔너리에서 첫 key 값(e.g., A)을 꺼내 `need_visit` 스택에 넣는다.
-* `need_visit` 스택에서 첫 값을 pop 해 `visited` 큐에 존재하는지 확인한다.
+* `need_visit` 스택에서 마지막 값을 pop 해 `visited` 큐에 존재하는지 확인한다.
 * 존재하지 않으면 `visited` 큐에 넣는다.
     * 존재하면 아무것도 하지 않고 `need_visit` 스택의 다음 값으로 넘어간다.
 * `visited` 큐에 넣을 때마다 그 값을 key로 갖는 value(e.g., B, C)를 `need_visit` 스택에 넣는다.
