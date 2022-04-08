@@ -323,7 +323,7 @@ exports.bookinstance_update_post = function(req, res) {
 };
 ```
 
-### Genre controller
+### 장르 컨트롤러 (Genre controller)
 
 **/controllers/genreController.js** 파일을 열고 다음의 코드를 복사해 넣자 (`Author`와 `BookInstance` 파일과 같은 패턴을 따른다).
 
