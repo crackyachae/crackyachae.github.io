@@ -13,10 +13,11 @@ latex   : false
 * TOC
 {:toc}
 
-> 이 글은 MDN Canvas Tutorial중 [Applying styles and colors](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors)의 내용을 복습하기위해 핵심 내용을 요약 정리한 글입니다.
+> 이 글은 MDN Web API의 [Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial) 중 [Applying styles and colors](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors)의 내용을 번역 및 정리한 글입니다.
 >
-> 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있기 때문에 되도록 원문을 참고해주시길 바랍니다.
-> 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
+> * 제가 필요한 부분 위주로 확인하면서 정리하고 있어 글에 덜 작성된 부분이 있을 수 있습니다.
+> * 글 작성 후 원문의 내용이 수정되거나 내용을 이해하기 위한 개인적인 설명이나 해석이 있을 수 있습니다. 되도록 원문을 참고해주시길 바랍니다.
+> * 잘못된 부분이 있다면 댓글이나 그 외 편하신 방법으로 알려주시면 감사하겠습니다.
 
 Drawing shapes 글에서는 기본선과 채우기 스타일만 사용했다. 이 글에서는 그림을 좀 더 매력적으로 만들 수 있는 캔버스 옵션을 살펴보게 된다. 다른 색상, 선 스타일, 그라디언트, 패턴 및 그림자를 추가하는 방법을 배울 예정이다.
 

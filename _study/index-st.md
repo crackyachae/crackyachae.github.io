@@ -126,13 +126,42 @@ regenerate: true
 * flanagan-js-def-guide-4-exp-op
 * flanagan-js-def-guide-8-fnc
 
-### mdn-async-js
+### [[mdn-learn-web-js]]
 
-* mdn-async-js-1-general-async
-* mdn-async-js-2-intro-async-js
-* mdn-async-js-3-timeout-interval
-* mdn-async-js-4-promise
-* mdn-async-js-5-async-await
+* JavaScript first steps
+    * [[mdn-learn-web-js-1-1-what-is-js]]
+    * [[mdn-learn-web-js-1-2-first-splash]]
+    * [[mdn-learn-web-js-1-3-troubleshooting]]
+    * [[mdn-learn-web-js-1-4-variable]]
+    * [[mdn-learn-web-js-1-5-number-operator]]
+    * [[mdn-learn-web-js-1-6-string]]
+    * [[mdn-learn-web-js-1-7-string-method]]
+    * [[mdn-learn-web-js-1-8-array]]
+* JavaScript building blocks
+    * [[mdn-learn-web-js-2-1-conditionals]]
+    * [[mdn-learn-web-js-2-2-loop]]
+    * [[mdn-learn-web-js-2-3-functions]]
+    * mdn-learn-web-js-2-4-build-function
+    * [[mdn-learn-web-js-2-5-fnc-return-values]]
+    * [[mdn-learn-web-js-2-6-events]]
+* Introducing JavaScript objects
+    * [[mdn-learn-web-js-3-1-object-basic]]
+    * [[mdn-learn-web-js-3-2-object-prototype]]
+    * [[mdn-learn-web-js-3-3-oop]]
+    * [[mdn-learn-web-js-3-4-class-in-js]]
+    * [[mdn-learn-web-js-3-5-json]]
+* Asynchronous JavaScript
+    * mdn-async-js-1-general-async
+    * mdn-async-js-2-intro-async-js
+    * mdn-async-js-3-timeout-interval
+    * mdn-async-js-4-promise
+    * mdn-async-js-5-async-await
+* Client-side web APIs
+    * [[mdn-learn-web-js-5-1-web-api-intro]]
+    * [[mdn-learn-web-js-5-2-manipulate-document]]
+    * [[mdn-learn-web-js-5-3-fetch-from-server]]
+    * [[mdn-learn-web-js-5-4-third-party-api]]
+    * [[mdn-learn-web-js-5-7-client-side-storage]]
 
 ### mdn-js-ref
 
@@ -170,6 +199,31 @@ regenerate: true
     * vlpt-react-basic-22-context-api
     * vlpt-react-basic-23-immer
     * vlpt-react-basic-26-componentdidcatch
+
+### [[express]]
+
+#### [[mdn-learn-web-server-3]]
+
+* Express web framework (Node.js/JavaScript)
+    * [[mdn-learn-web-server-3-1-express-intro]]
+    * [[mdn-learn-web-server-3-2-set-node-env]]
+    * [[mdn-learn-web-server-3-3-express-tutorial-1]]
+    * [[mdn-learn-web-server-3-4-express-tutorial-2]]
+    * [[mdn-learn-web-server-3-5-express-tutorial-3]]
+    * [[mdn-learn-web-server-3-6-express-tutorial-4]]
+    * [[mdn-learn-web-server-3-7-express-tutorial-5]]
+        * [[mdn-learn-web-server-3-7-1-using-async]]
+        * [[mdn-learn-web-server-3-7-2-template-primer]]
+        * [[mdn-learn-web-server-3-7-3-base-template]]
+        * [[mdn-learn-web-server-3-7-4-home-page]]
+        * [[mdn-learn-web-server-3-7-5-book-list-page]]
+        * [[mdn-learn-web-server-3-7-6-bookinstance-list-page]]
+        * [[mdn-learn-web-server-3-7-7-data-formatting]]
+        * [[mdn-learn-web-server-3-7-8-author-genre-list-page]]
+        * [[mdn-learn-web-server-3-7-9-genre-detail-page]]
+        * [[mdn-learn-web-server-3-7-10-book-detail-page]]
+        * [[mdn-learn-web-server-3-7-11-author-detail-page]]
+        * [[mdn-learn-web-server-3-7-12-bookinstance-detail-page]]
 
 ## [[Mathematics]]
 
@@ -240,11 +294,11 @@ regenerate: true
 #### [[ps-bfs-dfs]]
 
 * [[ps-set-fc-algo-9-bfs-dfs-basic]]
- 
+
 #### [[ps-shortest-mst]]
 
 * [[ps-set-fc-algo-10-graph-advanced]]
-    
+
 #### [[ps-back-tracking]]
 
 * [[ps-set-fc-algo-12-back-tracking]]
@@ -312,7 +366,24 @@ regenerate: true
 
 ## [[Web-Basic]]
 
-### mdn-getting-started-web
+### mdn-learn-web-getting-start
+
+### [[mdn-learn-web-server-1]]
+
+* Server-side website programming first steps
+    * [[mdn-learn-web-server-1-1-introduction]]
+    * [[mdn-learn-web-server-1-2-client-server-overview]]
+    * [[mdn-learn-web-server-1-3-server-web-framework]]
+    * [[mdn-learn-web-server-1-4-web-security]]
+
+### [[mdn-learn-web-questions]]
+
+* web mechanics
+    * [[mdn-learn-web-questions-1-1-internet]]
+    * [[mdn-learn-web-questions-1-2-web-page-site-server]]
+    * [[mdn-learn-web-questions-1-6-web-server]]
+* tools and setup
+    * [[mdn-learn-web-questions-2-1-needed-software]]
 
 ## [[Web-API]]
 

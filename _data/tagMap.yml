@@ -3,6 +3,7 @@ navigation:
     - {fileName: codeup}
     - {fileName: cs-basic}
     - {fileName: css}
+    - {fileName: express}
     - {fileName: Git}
     - {fileName: JavaScript}
     - {fileName: JS-Library}
@@ -47,8 +48,55 @@ fast-campus:
     - {fileName: fc-algo-prob-actual}
     - {fileName: fc-algo-prob-type}
 draft:
+    - {fileName: mdn-canvas-tutorial-1-basic-usage}
     - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
     - {fileName: mdn-canvas-tutorial-3-style-and-colors}
+    - {fileName: mdn-canvas-tutorial-4-drawing-text}
+    - {fileName: mdn-learn-web-js-1-1-what-is-js}
+    - {fileName: mdn-learn-web-js-1-2-first-splash}
+    - {fileName: mdn-learn-web-js-1-4-variable}
+    - {fileName: mdn-learn-web-js-1-5-number-operator}
+    - {fileName: mdn-learn-web-js-1-6-string}
+    - {fileName: mdn-learn-web-js-1-7-string-method}
+    - {fileName: mdn-learn-web-js-1-8-array}
+    - {fileName: mdn-learn-web-js-2-1-conditionals}
+    - {fileName: mdn-learn-web-js-2-2-loop}
+    - {fileName: mdn-learn-web-js-2-3-functions}
+    - {fileName: mdn-learn-web-js-2-5-fnc-return-values}
+    - {fileName: mdn-learn-web-js-2-6-events}
+    - {fileName: mdn-learn-web-js-3-1-object-basic}
+    - {fileName: mdn-learn-web-js-3-2-object-prototype}
+    - {fileName: mdn-learn-web-js-3-4-class-in-js}
+    - {fileName: mdn-learn-web-js-3-5-json}
+    - {fileName: mdn-learn-web-js-5-1-web-api-intro}
+    - {fileName: mdn-learn-web-js-5-2-manipulate-document}
+    - {fileName: mdn-learn-web-js-5-3-fetch-from-server}
+    - {fileName: mdn-learn-web-js-5-4-third-party-api}
+    - {fileName: mdn-learn-web-js-5-7-client-side-storage}
+    - {fileName: mdn-learn-web-questions-1-1-internet}
+    - {fileName: mdn-learn-web-questions-1-2-web-page-site-server}
+    - {fileName: mdn-learn-web-questions-1-6-web-server}
+    - {fileName: mdn-learn-web-questions-2-1-needed-software}
+    - {fileName: mdn-learn-web-server-1-1-introduction}
+    - {fileName: mdn-learn-web-server-1-2-client-server-overview}
+    - {fileName: mdn-learn-web-server-1-4-web-security}
+    - {fileName: mdn-learn-web-server-3-1-express-intro}
+    - {fileName: mdn-learn-web-server-3-2-set-node-env}
+    - {fileName: mdn-learn-web-server-3-3-express-tutorial-1}
+    - {fileName: mdn-learn-web-server-3-4-express-tutorial-2}
+    - {fileName: mdn-learn-web-server-3-5-express-tutorial-3}
+    - {fileName: mdn-learn-web-server-3-6-express-tutorial-4}
+    - {fileName: mdn-learn-web-server-3-7-1-using-async}
+    - {fileName: mdn-learn-web-server-3-7-10-book-detail-page}
+    - {fileName: mdn-learn-web-server-3-7-11-author-detail-page}
+    - {fileName: mdn-learn-web-server-3-7-12-bookinstance-detail-page}
+    - {fileName: mdn-learn-web-server-3-7-2-template-primer}
+    - {fileName: mdn-learn-web-server-3-7-3-base-template}
+    - {fileName: mdn-learn-web-server-3-7-4-home-page}
+    - {fileName: mdn-learn-web-server-3-7-5-book-list-page}
+    - {fileName: mdn-learn-web-server-3-7-7-data-formatting}
+    - {fileName: mdn-learn-web-server-3-7-8-author-genre-list-page}
+    - {fileName: mdn-learn-web-server-3-7-9-genre-detail-page}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}
