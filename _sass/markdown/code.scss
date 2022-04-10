@@ -4,19 +4,31 @@
   code,
   tt {
     // stylelint-disable-next-line primer/spacing
+    display: inline-block;
     padding: 0.2em 0.4em;
-    margin: 0;
+    margin-bottom: $spacer-1;
     // stylelint-disable-next-line primer/typography
+    line-height: $lh-condensed-ultra;
     font-size: $font-size-small;
+    vertical-align: middle;
     color: $color-text-main-light;
     background-color: $color-bg-secondary-light;
     border-radius: $border-radius * 0.75;
 
-    br { display: none; }
+    br {
+      display: none;
+    }
   }
 
-  del code { text-decoration: inherit; }
+  del code {
+    text-decoration: inherit;
+  }
 
+  blockquote {
+    code {
+      background-color: darken($color-bg-secondary-light, 7%);
+    }
+  }
   pre {
     word-wrap: normal;
 

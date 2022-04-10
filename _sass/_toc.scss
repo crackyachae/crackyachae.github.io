@@ -1,10 +1,10 @@
 @media (min-width: 1700px) {
   ul#markdown-toc {
     position: fixed;
-    top: 80px; // TEMP
+    top: 96px; // TEMP
     bottom: 0;
-    left: calc(50vw + 410px);
-    width: 380px;
+    left: calc(50vw + #{$width-page-content / 2});
+    width: calc(50vw - #{$width-page-content / 2});
     z-index: 9999;
     background-color: transparent;
     font-size: 0.8em;
@@ -17,15 +17,19 @@
 
 #markdown-toc {
   font-size: $font-size-small;
-  line-height: $lh-default;
+  line-height: $lh-extended-less;
   color: $color-text-gray;
-  padding: 10px;
-  padding-left: 30px;
+  padding: $spacer-3;
+  padding-left: $spacer-4;
   background-color: $color-bg-secondary-lighter;
   border-radius: $border-radius;
 
   a {
     text-decoration: none;
+  }
+
+  > li {
+    list-style: none;
   }
 }
 
