@@ -97,6 +97,9 @@ draft:
     - {fileName: mdn-learn-web-server-3-7-7-data-formatting}
     - {fileName: mdn-learn-web-server-3-7-8-author-genre-list-page}
     - {fileName: mdn-learn-web-server-3-7-9-genre-detail-page}
+    - {fileName: mdn-learn-web-server-3-8-1-create-genre}
+    - {fileName: mdn-learn-web-server-3-8-3-create-book}
+    - {fileName: mdn-learn-web-server-3-8-express-tutorial-6}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}

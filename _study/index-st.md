@@ -224,6 +224,9 @@ regenerate: true
         * [[mdn-learn-web-server-3-7-10-book-detail-page]]
         * [[mdn-learn-web-server-3-7-11-author-detail-page]]
         * [[mdn-learn-web-server-3-7-12-bookinstance-detail-page]]
+    * [[mdn-learn-web-server-3-8-express-tutorial-6]]
+        * [[mdn-learn-web-server-3-8-1-create-genre]]
+        * [[mdn-learn-web-server-3-8-3-create-book]]
 
 ## [[Mathematics]]
 
