@@ -206,6 +206,7 @@ regenerate: true
 
 ### boj-12000
 
+* [[boj-12100]]
 * [[boj-12865]]
 
 ### boj-14000
