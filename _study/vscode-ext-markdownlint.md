@@ -180,7 +180,7 @@ markdownlint가 설치된 Code에서 마크다운 파일을 수정하면 markdow
 #### `MD028` - Blank line inside blockquote
 
 * 두 개의 블록 인용구가 아무것도 적히지 않은 빈 줄로 나뉘어 있으면 안 된다.
-* `Aliases:` no-blanks-blockquote
+* Aliases: `no-blanks-blockquote`
 
 #### `MD029` - Ordered list item prefix
 
