@@ -71,6 +71,14 @@ regenerate: true
     * fc-algo-prob-actual-2-implement
     * fc-algo-prob-actual-3-type
 
+* [[fc-algo-tech-interview]]
+    * fc-algo-tech-interview-0-ot
+    * fc-algo-tech-interview-1-resume
+    * fc-algo-tech-interview-2-cover-letter
+    * fc-algo-tech-interview-3-cs
+    * fc-algo-tech-interview-4-language
+    * fc-algo-tech-interview-5-hand-coding
+
 ## [[Git]]
 
 * git-memos

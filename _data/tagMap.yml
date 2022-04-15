@@ -39,6 +39,7 @@ intro:
     - {fileName: fc-algo-data-structure}
     - {fileName: fc-algo-prob-actual}
     - {fileName: fc-algo-prob-type}
+    - {fileName: fc-algo-tech-interview}
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}
 fast-campus:
@@ -47,6 +48,7 @@ fast-campus:
     - {fileName: fc-algo-data-structure}
     - {fileName: fc-algo-prob-actual}
     - {fileName: fc-algo-prob-type}
+    - {fileName: fc-algo-tech-interview}
 draft:
     - {fileName: mdn-canvas-tutorial-1-basic-usage}
     - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
