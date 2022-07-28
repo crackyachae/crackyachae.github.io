@@ -102,6 +102,8 @@ draft:
     - {fileName: mdn-learn-web-server-3-8-1-create-genre}
     - {fileName: mdn-learn-web-server-3-8-3-create-book}
     - {fileName: mdn-learn-web-server-3-8-express-tutorial-6}
+    - {fileName: vlpt-react-redux-1-keywords}
+    - {fileName: vlpt-react-redux-2-three-rules}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}
