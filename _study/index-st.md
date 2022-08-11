@@ -208,8 +208,9 @@ regenerate: true
     * vlpt-react-basic-23-immer
     * vlpt-react-basic-26-componentdidcatch
 * [[vlpt-react-redux]]
-    * [[vlpt-react-basic-1-keywords]]
-    * [[vlpt-react-basic-2-three-rules]]
+    * [[vlpt-react-redux-1-keywords]]
+    * [[vlpt-react-redux-2-three-rules]]
+    * [[vlpt-react-redux-3-prepare]]
 
 ### [[express]]
 
@@ -246,6 +247,10 @@ regenerate: true
 * [[redux-links]]
 
 #### [[vlpt-react-redux]]
+
+### [[React-Query]]
+
+* [[react-query-links]]
 
 ## [[Mathematics]]
 
@@ -360,6 +365,8 @@ regenerate: true
 ## [[Tools]]
 
 ### [[terminal]]
+
+* [[iterm2]]
 
 #### opent-posix1-cli
 

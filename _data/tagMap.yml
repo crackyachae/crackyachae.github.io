@@ -1,7 +1,7 @@
 navigation:
-    - {fileName: blog}
+    - {fileName: Blog}
     - {fileName: codeup}
-    - {fileName: cs-basic}
+    - {fileName: CS-Basic}
     - {fileName: css}
     - {fileName: express}
     - {fileName: Git}
