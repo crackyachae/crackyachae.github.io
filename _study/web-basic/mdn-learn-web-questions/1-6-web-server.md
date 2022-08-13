@@ -7,7 +7,7 @@ updated : 2021-11-12 23:34:11 +0900
 tag     : draft
 toc     : true
 public  : true
-parent  : [[mdn-learn-web-quesions]]
+parent  : [[/web-basic/mdn-learn-web-questions]]
 latex   : false
 ---
 * TOC

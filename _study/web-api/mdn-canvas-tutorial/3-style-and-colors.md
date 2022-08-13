@@ -7,7 +7,7 @@ updated : 2021-06-17 22:21:17 +0900
 tag     : draft
 toc     : true
 public  : true
-parent  : [[mdn-canvas-tutorial]]
+parent  : [[/web-api/mdn-canvas-tutorial]]
 latex   : false
 ---
 * TOC

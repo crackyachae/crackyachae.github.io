@@ -7,7 +7,7 @@ updated : 2021-11-29 22:39:47 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[Web-Basic]]
+parent  : [[web-basic]]
 latex   : false
 ---
 * TOC

@@ -75,6 +75,35 @@ regenerate: true
     * /cs-basic/fc-algo/5-tech-interview/4-language
     * /cs-basic/fc-algo/5-tech-interview/5-hand-coding
 
+## [[web-basic]]
+
+### mdn-learn-web-getting-start
+
+### [[/web-basic/mdn-learn-web-server-1]]
+
+* [[/web-basic/mdn-learn-web-server-1/1-introduction]]
+* [[/web-basic/mdn-learn-web-server-1/2-client-server-overview]]
+* [[/web-basic/mdn-learn-web-server-1/3-server-web-framework]]
+* [[/web-basic/mdn-learn-web-server-1/4-web-security]]
+
+### [[/web-basic/mdn-learn-web-questions]]
+
+* web mechanics
+    * [[/web-basic/mdn-learn-web-questions/1-1-internet]]
+    * [[/web-basic/mdn-learn-web-questions/1-2-web-page-site-server]]
+    * [[/web-basic/mdn-learn-web-questions/1-6-web-server]]
+* tools and setup
+    * [[/web-basic/mdn-learn-web-questions/2-1-needed-software]]
+
+## [[web-api]]
+
+### [[/web-api/mdn-canvas-tutorial]]
+
+* [[/web-api/mdn-canvas-tutorial/1-basic-usage]]
+* [[/web-api/mdn-canvas-tutorial/2-drawing-shapes]]
+* [[/web-api/mdn-canvas-tutorial/3-style-and-colors]]
+* [[/web-api/mdn-canvas-tutorial/4-drawing-text]]
+
 ## [[Git]]
 
 * git-memos
@@ -388,36 +417,6 @@ regenerate: true
 * vscode-ext-auto-close-tag
 * vscode-ext-auto-rename-tag
 * [[vscode-ext-markdownlint]]
-
-## [[Web-Basic]]
-
-### mdn-learn-web-getting-start
-
-### [[mdn-learn-web-server-1]]
-
-* Server-side website programming first steps
-    * [[mdn-learn-web-server-1-1-introduction]]
-    * [[mdn-learn-web-server-1-2-client-server-overview]]
-    * [[mdn-learn-web-server-1-3-server-web-framework]]
-    * [[mdn-learn-web-server-1-4-web-security]]
-
-### [[mdn-learn-web-questions]]
-
-* web mechanics
-    * [[mdn-learn-web-questions-1-1-internet]]
-    * [[mdn-learn-web-questions-1-2-web-page-site-server]]
-    * [[mdn-learn-web-questions-1-6-web-server]]
-* tools and setup
-    * [[mdn-learn-web-questions-2-1-needed-software]]
-
-## [[Web-API]]
-
-### [[mdn-canvas-tutorial]]
-
-* [[mdn-canvas-tutorial-1-basic-usage]]
-* [[mdn-canvas-tutorial-2-drawing-shapes]]
-* [[mdn-canvas-tutorial-3-style-and-colors]]
-* [[mdn-canvas-tutorial-4-drawing-text]]
 
 {% comment %}
 

@@ -7,7 +7,7 @@ updated : 2021-06-17 22:26:45 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[Web-API]]
+parent  : [[web-api]]
 latex   : false
 ---
 

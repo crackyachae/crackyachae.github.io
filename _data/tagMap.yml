@@ -31,7 +31,7 @@ navigation:
     - {fileName: vim}
     - {fileName: vscode}
     - {fileName: vscode-ext}
-    - {fileName: Web-Basic}
+    - {fileName: web-basic}
 intro:
     - {fileName: cs-basic/fc-algo}
     - {fileName: cs-basic/fc-algo/1-data-structure}
@@ -62,10 +62,6 @@ draft:
     - {fileName: cs-basic/harvardx-cs50s-intro/8-information}
     - {fileName: cs-basic/harvardx-cs50s-intro/tracks-web-1}
     - {fileName: cs-basic/harvardx-cs50s-intro/tracks-web-2}
-    - {fileName: mdn-canvas-tutorial-1-basic-usage}
-    - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
-    - {fileName: mdn-canvas-tutorial-3-style-and-colors}
-    - {fileName: mdn-canvas-tutorial-4-drawing-text}
     - {fileName: mdn-learn-web-js-1-1-what-is-js}
     - {fileName: mdn-learn-web-js-1-2-first-splash}
     - {fileName: mdn-learn-web-js-1-4-variable}
@@ -87,13 +83,6 @@ draft:
     - {fileName: mdn-learn-web-js-5-3-fetch-from-server}
     - {fileName: mdn-learn-web-js-5-4-third-party-api}
     - {fileName: mdn-learn-web-js-5-7-client-side-storage}
-    - {fileName: mdn-learn-web-questions-1-1-internet}
-    - {fileName: mdn-learn-web-questions-1-2-web-page-site-server}
-    - {fileName: mdn-learn-web-questions-1-6-web-server}
-    - {fileName: mdn-learn-web-questions-2-1-needed-software}
-    - {fileName: mdn-learn-web-server-1-1-introduction}
-    - {fileName: mdn-learn-web-server-1-2-client-server-overview}
-    - {fileName: mdn-learn-web-server-1-4-web-security}
     - {fileName: mdn-learn-web-server-3-1-express-intro}
     - {fileName: mdn-learn-web-server-3-2-set-node-env}
     - {fileName: mdn-learn-web-server-3-3-express-tutorial-1}
@@ -116,6 +105,17 @@ draft:
     - {fileName: mdn-learn-web-server-3-8-express-tutorial-6}
     - {fileName: vlpt-react-redux-1-keywords}
     - {fileName: vlpt-react-redux-2-three-rules}
+    - {fileName: web-api/mdn-canvas-tutorial/1-basic-usage}
+    - {fileName: web-api/mdn-canvas-tutorial/2-drawing-shapes}
+    - {fileName: web-api/mdn-canvas-tutorial/3-style-and-colors}
+    - {fileName: web-api/mdn-canvas-tutorial/4-drawing-text}
+    - {fileName: web-basic/mdn-learn-web-questions/1-1-internet}
+    - {fileName: web-basic/mdn-learn-web-questions/1-2-web-page-site-server}
+    - {fileName: web-basic/mdn-learn-web-questions/1-6-web-server}
+    - {fileName: web-basic/mdn-learn-web-questions/2-1-needed-software}
+    - {fileName: web-basic/mdn-learn-web-server-1/1-introduction}
+    - {fileName: web-basic/mdn-learn-web-server-1/2-client-server-overview}
+    - {fileName: web-basic/mdn-learn-web-server-1/4-web-security}
 ps-python:
     - {fileName: ps-set-automata-py-basic}
     - {fileName: ps-set-codeup-py-basic}
