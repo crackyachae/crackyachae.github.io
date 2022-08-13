@@ -3,7 +3,7 @@ layout  : overview
 title   : Fast Campus_기술면접 완전 정복 올인원 패키지 Online
 summary : 
 date    : 2021-04-18 23:02:33 +0900
-updated : 2021-04-22 23:47:16 +0900
+updated : 2022-08-13 15:50:36 +0900
 tag     : intro fast-campus
 toc     : true
 public  : true
@@ -29,6 +29,6 @@ latex   : false
 
 1. [X] 2021.04.22 자료구조 이론
 1. [ ] 알고리즘 이론
-1. [ ] 유형별 문제 풀이
+1. [X] 2021.07.29 유형별 문제 풀이
 1. [ ] 실전 코딩테스트 문제풀이
-1. [ ] 기술 면접 가이드
+1. [X] 2022.04.14 기술 면접 가이드
