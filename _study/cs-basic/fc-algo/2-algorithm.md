@@ -7,7 +7,7 @@ updated : 2021-07-16 21:42:58 +0900
 tag     : intro fast-campus
 toc     : true
 public  : true
-parent  : [[fc-algo]]
+parent  : [[/cs-basic/fc-algo]]
 latex   : false
 ---
 

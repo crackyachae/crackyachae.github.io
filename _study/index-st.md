@@ -11,7 +11,7 @@ regenerate: true
 
 * markdown
 
-## [[CS-Basic]]
+## [[cs-basic]]
 
 * cs-naming-convention
 
@@ -29,55 +29,55 @@ regenerate: true
 
 ### smu-data-structure
 
-### [[fc-algo]]
+### [[/cs-basic/fc-algo]]
 
 > 유료 강의라 정리글 자체가 자료 유출이 될 수 있는 관계로 일부 강의 정리글은 게시하지 않습니다.
 
-* [[fc-algo-data-structure]]
+* [[/cs-basic/fc-algo/1-data-structure]]
     * fc-algo-data-structure-1-intro
     * fc-algo-data-structure-2-concept
-    * [[fc-algo-data-structure-4-array]]
-    * [[fc-algo-data-structure-5-queue]]
-    * [[fc-algo-data-structure-6-stack]]
-    * [[fc-algo-data-structure-7-linked-list]]
-    * [[fc-algo-data-structure-8-complexity]]
-    * [[fc-algo-data-structure-9-hash-table]]
-    * [[fc-algo-data-structure-10-tree]]
-    * [[fc-algo-data-structure-11-heap]]
-* [[fc-algo-algorithm]]
-    * [[fc-algo-algorithm-12-sort-bubble]]
-    * [[fc-algo-algorithm-12-sort-insert]]
-    * [[fc-algo-algorithm-12-sort-selection]]
-    * [[fc-algo-algorithm-12-space-complexity]]
-    * [[fc-algo-algorithm-13-recursive]]
-    * [[fc-algo-algorithm-14-dp-dac]]
-    * [[fc-algo-algorithm-15-sort-quick]]
-    * [[fc-algo-algorithm-15-sort-merge]]
-    * [[fc-algo-algorithm-16-search-binary]]
-    * [[fc-algo-algorithm-16-search-sequential]]
-    * [[fc-algo-algorithm-17-graph]]
-    * [[fc-algo-algorithm-18-bfs]]
-    * [[fc-algo-algorithm-18-dfs]]
-    * [[fc-algo-algorithm-19-greedy]]
-    * [[fc-algo-algorithm-20-shortest]]
-    * [[fc-algo-algorithm-20-kruskal]]
-    * [[fc-algo-algorithm-20-prim]]
-    * [[fc-algo-algorithm-21-back-tracking]]
+    * [[/cs-basic/fc-algo/1-data-structure/4-array]]
+    * [[/cs-basic/fc-algo/1-data-structure/5-queue]]
+    * [[/cs-basic/fc-algo/1-data-structure/6-stack]]
+    * [[/cs-basic/fc-algo/1-data-structure/7-linked-list]]
+    * [[/cs-basic/fc-algo/1-data-structure/8-complexity]]
+    * [[/cs-basic/fc-algo/1-data-structure/9-hash-table]]
+    * [[/cs-basic/fc-algo/1-data-structure/10-tree]]
+    * [[/cs-basic/fc-algo/1-data-structure/11-heap]]
+* [[/cs-basic/fc-algo/2-algorithm]]
+    * [[/cs-basic/fc-algo/2-algorithm/12-sort-bubble]]
+    * [[/cs-basic/fc-algo/2-algorithm/12-sort-insert]]
+    * [[/cs-basic/fc-algo/2-algorithm/12-sort-selection]]
+    * [[/cs-basic/fc-algo/2-algorithm/12-space-complexity]]
+    * [[/cs-basic/fc-algo/2-algorithm/13-recursive]]
+    * [[/cs-basic/fc-algo/2-algorithm/14-dp-dac]]
+    * [[/cs-basic/fc-algo/2-algorithm/15-sort-quick]]
+    * [[/cs-basic/fc-algo/2-algorithm/15-sort-merge]]
+    * [[/cs-basic/fc-algo/2-algorithm/16-search-binary]]
+    * [[/cs-basic/fc-algo/2-algorithm/16-search-sequential]]
+    * [[/cs-basic/fc-algo/2-algorithm/17-graph]]
+    * [[/cs-basic/fc-algo/2-algorithm/18-bfs]]
+    * [[/cs-basic/fc-algo/2-algorithm/18-dfs]]
+    * [[/cs-basic/fc-algo/2-algorithm/19-greedy]]
+    * [[/cs-basic/fc-algo/2-algorithm/20-shortest]]
+    * [[/cs-basic/fc-algo/2-algorithm/20-kruskal]]
+    * [[/cs-basic/fc-algo/2-algorithm/20-prim]]
+    * [[/cs-basic/fc-algo/2-algorithm/21-back-tracking]]
 
-* [[fc-algo-prob-type]]
+* [[/cs-basic/fc-algo/3-prob-type]]
 
-* [[fc-algo-prob-actual]]
-    * fc-algo-prob-actual-1-code-test
-    * fc-algo-prob-actual-2-implement
-    * fc-algo-prob-actual-3-type
+* [[/cs-basic/fc-algo/4-prob-actual]]
+    * /cs-basic/fc-algo/4-prob-actual/1-code-test
+    * /cs-basic/fc-algo/4-prob-actual/2-implement
+    * /cs-basic/fc-algo/4-prob-actual/3-type
 
-* [[fc-algo-tech-interview]]
-    * fc-algo-tech-interview-0-ot
-    * fc-algo-tech-interview-1-resume
-    * fc-algo-tech-interview-2-cover-letter
-    * fc-algo-tech-interview-3-cs
-    * fc-algo-tech-interview-4-language
-    * fc-algo-tech-interview-5-hand-coding
+* [[/cs-basic/fc-algo/5-tech-interview]]
+    * /cs-basic/fc-algo/5-tech-interview/0-ot
+    * /cs-basic/fc-algo/5-tech-interview/1-resume
+    * /cs-basic/fc-algo/5-tech-interview/2-cover-letter
+    * /cs-basic/fc-algo/5-tech-interview/3-cs
+    * /cs-basic/fc-algo/5-tech-interview/4-language
+    * /cs-basic/fc-algo/5-tech-interview/5-hand-coding
 
 ## [[Git]]
 

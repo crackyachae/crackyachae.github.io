@@ -7,7 +7,7 @@ updated : 2021-04-22 16:01:49 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[fc-algo-data-structure]]
+parent  : [[/cs-basic/fc-algo/1-data-structure]]
 latex   : true
 ---
 * TOC

@@ -3,11 +3,11 @@ layout  : overview
 title   : 1. 자료구조 이론
 summary : 
 date    : 2021-04-18 23:21:11 +0900
-updated : 2021-04-22 23:46:51 +0900
+updated : 2022-08-12 22:40:27 +0900
 tag     : intro fast-campus
 toc     : true
 public  : true
-parent  : [[fc-algo]]
+parent  : [[cs-basic/fc-algo]]
 latex   : false
 ---
 
