@@ -7,7 +7,7 @@ updated : 2022-08-13 15:50:36 +0900
 tag     : intro fast-campus
 toc     : true
 public  : true
-parent  : [[cs-basic]]
+parent  : [[/cs-basic]]
 latex   : false
 ---
 

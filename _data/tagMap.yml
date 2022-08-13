@@ -1,7 +1,7 @@
 navigation:
     - {fileName: Blog}
     - {fileName: codeup}
-    - {fileName: CS-Basic}
+    - {fileName: cs-basic}
     - {fileName: css}
     - {fileName: express}
     - {fileName: Git}
@@ -34,21 +34,21 @@ navigation:
     - {fileName: vscode-ext}
     - {fileName: Web-Basic}
 intro:
-    - {fileName: fc-algo}
-    - {fileName: fc-algo-algorithm}
-    - {fileName: fc-algo-data-structure}
-    - {fileName: fc-algo-prob-actual}
-    - {fileName: fc-algo-prob-type}
-    - {fileName: fc-algo-tech-interview}
+    - {fileName: cs-basic/fc-algo}
+    - {fileName: cs-basic/fc-algo/1-data-structure}
+    - {fileName: cs-basic/fc-algo/2-algorithm}
+    - {fileName: cs-basic/fc-algo/3-prob-type}
+    - {fileName: cs-basic/fc-algo/4-prob-actual}
+    - {fileName: cs-basic/fc-algo/5-tech-interview}
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}
 fast-campus:
-    - {fileName: fc-algo}
-    - {fileName: fc-algo-algorithm}
-    - {fileName: fc-algo-data-structure}
-    - {fileName: fc-algo-prob-actual}
-    - {fileName: fc-algo-prob-type}
-    - {fileName: fc-algo-tech-interview}
+    - {fileName: cs-basic/fc-algo}
+    - {fileName: cs-basic/fc-algo/1-data-structure}
+    - {fileName: cs-basic/fc-algo/2-algorithm}
+    - {fileName: cs-basic/fc-algo/3-prob-type}
+    - {fileName: cs-basic/fc-algo/4-prob-actual}
+    - {fileName: cs-basic/fc-algo/5-tech-interview}
 draft:
     - {fileName: mdn-canvas-tutorial-1-basic-usage}
     - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
