@@ -7,10 +7,6 @@ comment : false
 regenerate: true
 ---
 
-## [[Blog]]
-
-* markdown
-
 ## [[cs-basic]]
 
 * cs-naming-convention

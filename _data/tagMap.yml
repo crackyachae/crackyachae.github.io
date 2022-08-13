@@ -1,5 +1,4 @@
 navigation:
-    - {fileName: Blog}
     - {fileName: codeup}
     - {fileName: cs-basic}
     - {fileName: css}
