@@ -15,17 +15,17 @@ regenerate: true
 
 * cs-naming-convention
 
-### harvardx-cs50s-intro
+### [[/cs-basic/harvardx-cs50s-intro]]
 
-* harvardx-cs50s-intro-0-scratch
-* harvardx-cs50s-intro-1-c
-* harvardx-cs50s-intro-2-array
-* harvardx-cs50s-intro-5-data-structures
-* harvardx-cs50s-intro-6-python
-* harvardx-cs50s-intro-7-sql
-* harvardx-cs50s-intro-8-information
-* harvardx-cs50s-intro-tracks-web-1
-* harvardx-cs50s-intro-tracks-web-2
+* [[/cs-basic/harvardx-cs50s-intro/0-scratch]]
+* [[/cs-basic/harvardx-cs50s-intro/1-c]]
+* [[/cs-basic/harvardx-cs50s-intro/2-array]]
+* [[/cs-basic/harvardx-cs50s-intro/5-data-structures]]
+* [[/cs-basic/harvardx-cs50s-intro/6-python]]
+* [[/cs-basic/harvardx-cs50s-intro/7-sql]]
+* [[/cs-basic/harvardx-cs50s-intro/8-information]]
+* [[/cs-basic/harvardx-cs50s-intro/tracks-web-1]]
+* [[/cs-basic/harvardx-cs50s-intro/tracks-web-2]]
 
 ### smu-data-structure
 

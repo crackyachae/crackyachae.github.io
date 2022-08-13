@@ -3,13 +3,16 @@
     size: 2
 -
     name: draft
-    size: 54
+    size: 64
 -
     name: fast-campus
     size: 6
 -
+    name: harverdx
+    size: 1
+-
     name: intro
-    size: 8
+    size: 9
 -
     name: lint
     size: 1

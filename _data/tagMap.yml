@@ -40,6 +40,7 @@ intro:
     - {fileName: cs-basic/fc-algo/3-prob-type}
     - {fileName: cs-basic/fc-algo/4-prob-actual}
     - {fileName: cs-basic/fc-algo/5-tech-interview}
+    - {fileName: cs-basic/harvardx-cs50s-intro}
     - {fileName: vlpt-react}
     - {fileName: vlpt-react-basic}
 fast-campus:
@@ -49,7 +50,19 @@ fast-campus:
     - {fileName: cs-basic/fc-algo/3-prob-type}
     - {fileName: cs-basic/fc-algo/4-prob-actual}
     - {fileName: cs-basic/fc-algo/5-tech-interview}
+harverdx:
+    - {fileName: cs-basic/harvardx-cs50s-intro}
 draft:
+    - {fileName: cs-basic/harvardx-cs50s-intro}
+    - {fileName: cs-basic/harvardx-cs50s-intro/0-scratch}
+    - {fileName: cs-basic/harvardx-cs50s-intro/1-c}
+    - {fileName: cs-basic/harvardx-cs50s-intro/2-array}
+    - {fileName: cs-basic/harvardx-cs50s-intro/5-data-structures}
+    - {fileName: cs-basic/harvardx-cs50s-intro/6-python}
+    - {fileName: cs-basic/harvardx-cs50s-intro/7-sql}
+    - {fileName: cs-basic/harvardx-cs50s-intro/8-information}
+    - {fileName: cs-basic/harvardx-cs50s-intro/tracks-web-1}
+    - {fileName: cs-basic/harvardx-cs50s-intro/tracks-web-2}
     - {fileName: mdn-canvas-tutorial-1-basic-usage}
     - {fileName: mdn-canvas-tutorial-2-drawing-shapes}
     - {fileName: mdn-canvas-tutorial-3-style-and-colors}
