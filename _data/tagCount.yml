@@ -6,7 +6,7 @@
     size: 1
 -
     name: draft
-    size: 107
+    size: 128
 -
     name: fast-campus
     size: 6
@@ -18,7 +18,7 @@
     size: 1
 -
     name: intro
-    size: 17
+    size: 16
 -
     name: kocw
     size: 1
@@ -39,7 +39,7 @@
     size: 6
 -
     name: rough
-    size: 30
+    size: 20
 -
     name: velopert
-    size: 2
+    size: 1

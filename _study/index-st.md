@@ -77,7 +77,7 @@ regenerate: true
 
 ## [[web-basic]]
 
-### mdn-learn-web-getting-start
+### [[/web-basic/mdn-learn-web-getting-start]]
 
 ### [[/web-basic/mdn-learn-web-server-1]]
 
@@ -104,319 +104,253 @@ regenerate: true
 * [[/web-api/mdn-canvas-tutorial/3-style-and-colors]]
 * [[/web-api/mdn-canvas-tutorial/4-drawing-text]]
 
-## [[Git]]
+### [[/web-api/mdn-learn-web-js-5]]
 
-* git-memos
+* [[/web-api/mdn-learn-web-js-5/1-web-api-intro]]
+* [[/web-api/mdn-learn-web-js-5/2-manipulate-document]]
+* [[/web-api/mdn-learn-web-js-5/3-fetch-from-server]]
+* [[/web-api/mdn-learn-web-js-5/4-third-party-api]]
+* [[/web-api/mdn-learn-web-js-5/7-client-side-storage]]
 
-### opent-git-cli
+## [[css]]
 
-* opent-git1-cli
-* opent-git2-cli-version-control
-* opent-git3-cli-backup
-* opent-git4-cli-collaborate
-* opent-git4-cli-cherry-pick-rebase
+* /css/links
 
-### opent-github
+### [[/css/opent-client-css]]
 
-* opent-github-lec
-* opent-github-pull-request
+* [[/css/opent-client-css/1-intro]]
+* [[/css/opent-client-css/3-meet-html]]
+* [[/css/opent-client-css/4-selector]]
+* [[/css/opent-client-css/6-typo]]
+* [[/css/opent-client-css/7-harmony]]
+* [[/css/opent-client-css/9-layout-1]]
+* [[/css/opent-client-css/9-layout-2]]
+* [[/css/opent-client-css/9-layout-3]]
+* [[/css/opent-client-css/9-layout-4]]
+* [[/css/opent-client-css/9-layout-5]]
+* [[/css/opent-client-css/10-graphic-1]]
+* [[/css/opent-client-css/10-graphic-2]]
+* [[/css/opent-client-css/11-motion]]
+* [[/css/opent-client-css/12-refactor]]
+* [[/css/opent-client-css/13-library]]
 
-## [[JavaScript]]
+## [[javascript]]
 
-* javascript-links
+* /javascript/links
 
-### opent-web2-js
+### [[/javascript/opent-web2-js]]
 
-* opent-web2-js-1-intro
-* opent-web2-js-2-html-meet-js
-* opent-web2-js-5-datatype-6-var
-* opent-web2-js-7-using-css
-* opent-web2-js-10-program
-* opent-web2-js-11-condition
-* opent-web2-js-15-refactor
-* opent-web2-js-16-array-loop
-* opent-web2-js-21-function
-* opent-web2-js-24-object
-* opent-web2-js-27-file-split
-* opent-web2-js-28-library-framework
-* opent-web2-js-29-ui-api-30-end
+* [[/javascript/opent-web2-js/1-intro]]
+* [[/javascript/opent-web2-js/2-html-meet-js]]
+* [[/javascript/opent-web2-js/5-datatype-6-var]]
+* [[/javascript/opent-web2-js/7-using-css]]
+* [[/javascript/opent-web2-js/10-program]]
+* [[/javascript/opent-web2-js/11-condition]]
+* [[/javascript/opent-web2-js/15-refactor]]
+* [[/javascript/opent-web2-js/16-array-loop]]
+* [[/javascript/opent-web2-js/21-function]]
+* [[/javascript/opent-web2-js/24-object]]
+* [[/javascript/opent-web2-js/27-file-split]]
+* [[/javascript/opent-web2-js/28-library-framework]]
+* [[/javascript/opent-web2-js/29-ui-api-30-end]]
 
-### opent-client-web-js
+### [[/javascript/opent-client-web-js]]
 
-* opent-client-web-js-1-webjs-3-js-in-html
-* opent-client-web-js-4-object-model
-* opent-client-web-js-5-bom
-* opent-client-web-js-6-dom-1
-* opent-client-web-js-6-dom-2
-* opent-client-web-js-6-dom-3
-* opent-client-web-js-6-dom-4
+* [[/javascript/opent-client-web-js/1-webjs]]
+* [[/javascript/opent-client-web-js/3-js-in-html]]
+* [[/javascript/opent-client-web-js/4-object-model]]
+* [[/javascript/opent-client-web-js/5-bom]]
+* [[/javascript/opent-client-web-js/6-dom-1]]
+* [[/javascript/opent-client-web-js/6-dom-2]]
+* [[/javascript/opent-client-web-js/6-dom-3]]
+* [[/javascript/opent-client-web-js/6-dom-4]]
 
-### flanagan-js-def-guide
+### [[/javascript/mdn-learn-web-js-1]]
 
-* flanagan-js-def-guide-1-intro
-* flanagan-js-def-guide-2-lexical-struct
-* flanagan-js-def-guide-3-type-val-var
-* flanagan-js-def-guide-4-exp-op
-* flanagan-js-def-guide-8-fnc
+* [[/javascript/mdn-learn-web-js-1/1-what-is-js]]
+* [[/javascript/mdn-learn-web-js-1/2-first-splash]]
+* [[/javascript/mdn-learn-web-js-1/3-troubleshooting]]
+* [[/javascript/mdn-learn-web-js-1/4-variable]]
+* [[/javascript/mdn-learn-web-js-1/5-number-operator]]
+* [[/javascript/mdn-learn-web-js-1/6-string]]
+* [[/javascript/mdn-learn-web-js-1/7-string-method]]
+* [[/javascript/mdn-learn-web-js-1/8-array]]
 
-### [[mdn-learn-web-js]]
+### [[/javascript/mdn-learn-web-js-2]]
 
-* JavaScript first steps
-    * [[mdn-learn-web-js-1-1-what-is-js]]
-    * [[mdn-learn-web-js-1-2-first-splash]]
-    * [[mdn-learn-web-js-1-3-troubleshooting]]
-    * [[mdn-learn-web-js-1-4-variable]]
-    * [[mdn-learn-web-js-1-5-number-operator]]
-    * [[mdn-learn-web-js-1-6-string]]
-    * [[mdn-learn-web-js-1-7-string-method]]
-    * [[mdn-learn-web-js-1-8-array]]
-* JavaScript building blocks
-    * [[mdn-learn-web-js-2-1-conditionals]]
-    * [[mdn-learn-web-js-2-2-loop]]
-    * [[mdn-learn-web-js-2-3-functions]]
-    * mdn-learn-web-js-2-4-build-function
-    * [[mdn-learn-web-js-2-5-fnc-return-values]]
-    * [[mdn-learn-web-js-2-6-events]]
-* Introducing JavaScript objects
-    * [[mdn-learn-web-js-3-1-object-basic]]
-    * [[mdn-learn-web-js-3-2-object-prototype]]
-    * [[mdn-learn-web-js-3-3-oop]]
-    * [[mdn-learn-web-js-3-4-class-in-js]]
-    * [[mdn-learn-web-js-3-5-json]]
-* Asynchronous JavaScript
-    * mdn-async-js-1-general-async
-    * mdn-async-js-2-intro-async-js
-    * mdn-async-js-3-timeout-interval
-    * mdn-async-js-4-promise
-    * mdn-async-js-5-async-await
-* Client-side web APIs
-    * [[mdn-learn-web-js-5-1-web-api-intro]]
-    * [[mdn-learn-web-js-5-2-manipulate-document]]
-    * [[mdn-learn-web-js-5-3-fetch-from-server]]
-    * [[mdn-learn-web-js-5-4-third-party-api]]
-    * [[mdn-learn-web-js-5-7-client-side-storage]]
+* [[/javascript/mdn-learn-web-js-2/1-conditionals]]
+* [[/javascript/mdn-learn-web-js-2/2-loop]]
+* [[/javascript/mdn-learn-web-js-2/3-functions]]
+* /javascript/mdn-learn-web-js-2/4-build-function
+* [[/javascript/mdn-learn-web-js-2/5-fnc-return-values]]
+* [[/javascript/mdn-learn-web-js-2/6-events]]
+
+### [[/javascript/mdn-learn-web-js-3]]
+
+* [[/javascript/mdn-learn-web-js-3/1-object-basic]]
+* [[/javascript/mdn-learn-web-js-3/2-object-prototype]]
+* [[/javascript/mdn-learn-web-js-3/3-oop]]
+* [[/javascript/mdn-learn-web-js-3/4-class-in-js]]
+* [[/javascript/mdn-learn-web-js-3/5-json]]
+
+### [[/javascript/mdn-learn-web-js-4]]
+
+* /javascript/mdn-learn-web-js-4/1-general-async
+* /javascript/mdn-learn-web-js-4/2-intro-async-js
+* /javascript/mdn-learn-web-js-4/3-timeout-interval
+* /javascript/mdn-learn-web-js-4/4-promise
+* /javascript/mdn-learn-web-js-4/5-async-await
 
 ### mdn-js-ref
 
 * mdn-js-ref-template-literal
 
-## [[JS-Library]]
-
-* js-library-links
-
-### [[react]]
+## [[react]]
 
 * react-links
 
-#### opent-react
+### [[/react/opent-react]]
 
-* opent-react-1-env
-* opent-react-2-component
-* opent-react-3-state
-* opent-react-4-event.md
-* opent-react-5-create.md
-* opent-react-6-update-delete.md
-* opent-react-7-end.md
+* [[/react/opent-react/1-env]]
+* [[/react/opent-react/2-component]]
+* [[/react/opent-react/3-state]]
+* [[/react/opent-react/4-event.md]]
+* [[/react/opent-react/5-create.md]]
+* [[/react/opent-react/6-update-delete.md]]
+* [[/react/opent-react/7-end.md]]
 
-#### [[vlpt-react]]
+### [[/react/vlpt-react-1-basic]]
 
-* [[vlpt-react-basic]]
-    * vlpt-react-basic-4-jsx-5-props-6-cond-render
-    * vlpt-react-basic-7-state-8-input
-    * vlpt-react-basic-10-ref-11-array
-    * vlpt-react-basic-13-array-edit
-    * vlpt-react-basic-16-effect
-    * vlpt-react-basic-17-memo-18-callback-19-reactmemo
-    * vlpt-react-basic-20-reducer
-    * vlpt-react-basic-21-custom-hooks
-    * vlpt-react-basic-22-context-api
-    * vlpt-react-basic-23-immer
-    * vlpt-react-basic-26-componentdidcatch
-* [[vlpt-react-redux]]
-    * [[vlpt-react-redux-1-keywords]]
-    * [[vlpt-react-redux-2-three-rules]]
-    * [[vlpt-react-redux-3-prepare]]
+* [[/react/vlpt-react-1-basic/4-jsx]]
+* [[/react/vlpt-react-1-basic/5-props]]
+* [[/react/vlpt-react-1-basic/6-conditional-render]]
+* [[/react/vlpt-react-1-basic/7-useState]]
+* [[/react/vlpt-react-1-basic/8-input]]
+* [[/react/vlpt-react-1-basic/9-many-inputs]]
+* [[/react/vlpt-react-1-basic/10-useRef-1]]
+* [[/react/vlpt-react-1-basic/11-array]]
+* [[/react/vlpt-react-1-basic/12-useRef-2]]
+* [[/react/vlpt-react-1-basic/13-array-add]]
+* [[/react/vlpt-react-1-basic/14-array-delete]]
+* [[/react/vlpt-react-1-basic/15-array-edit]]
+* [[/react/vlpt-react-1-basic/16-useEffect]]
+* [[/react/vlpt-react-1-basic/17-useMemo]]
+* [[/react/vlpt-react-1-basic/18-useCallback]]
+* [[/react/vlpt-react-1-basic/19-react-memo]]
+* [[/react/vlpt-react-1-basic/20-useReducer]]
+* [[/react/vlpt-react-1-basic/21-custom-hooks]]
+* [[/react/vlpt-react-1-basic/22-context-api]]
+* [[/react/vlpt-react-1-basic/23-immer]]
+* [[/react/vlpt-react-1-basic/26-componentdidcatch]]
 
-### [[express]]
+## [[react-library]]
 
-#### [[mdn-learn-web-server-3]]
+### [[/react-library/redux]]
+
+* [[/react-library/redux/links]]
+
+#### [[/react-library/redux/6-vlpt-react-redux]]
+
+* [[/react-libaray/redux/6-vlpt-react-redux/1-keywords]]
+* [[/react-libaray/redux/6-vlpt-react-redux/2-three-rules]]
+* [[/react-libaray/redux/6-vlpt-react-redux/3-prepare]]
+
+## [[js-library]]
+
+* [[/js-library/links]]
+
+### [[/js-library/express]]
+
+#### [[/js-library/express/mdn-learn-web-server-3]]
 
 * Express web framework (Node.js/JavaScript)
-    * [[mdn-learn-web-server-3-1-express-intro]]
-    * [[mdn-learn-web-server-3-2-set-node-env]]
-    * [[mdn-learn-web-server-3-3-express-tutorial-1]]
-    * [[mdn-learn-web-server-3-4-express-tutorial-2]]
-    * [[mdn-learn-web-server-3-5-express-tutorial-3]]
-    * [[mdn-learn-web-server-3-6-express-tutorial-4]]
-    * [[mdn-learn-web-server-3-7-express-tutorial-5]]
-        * [[mdn-learn-web-server-3-7-1-using-async]]
-        * [[mdn-learn-web-server-3-7-2-template-primer]]
-        * [[mdn-learn-web-server-3-7-3-base-template]]
-        * [[mdn-learn-web-server-3-7-4-home-page]]
-        * [[mdn-learn-web-server-3-7-5-book-list-page]]
-        * [[mdn-learn-web-server-3-7-6-bookinstance-list-page]]
-        * [[mdn-learn-web-server-3-7-7-data-formatting]]
-        * [[mdn-learn-web-server-3-7-8-author-genre-list-page]]
-        * [[mdn-learn-web-server-3-7-9-genre-detail-page]]
-        * [[mdn-learn-web-server-3-7-10-book-detail-page]]
-        * [[mdn-learn-web-server-3-7-11-author-detail-page]]
-        * [[mdn-learn-web-server-3-7-12-bookinstance-detail-page]]
-    * [[mdn-learn-web-server-3-8-express-tutorial-6]]
-        * [[mdn-learn-web-server-3-8-1-create-genre]]
-        * [[mdn-learn-web-server-3-8-3-create-book]]
+    * [[/js-library/express/mdn-learn-web-server-3/1-express-intro]]
+    * [[/js-library/express/mdn-learn-web-server-3/2-set-node-env]]
+    * [[/js-library/express/mdn-learn-web-server-3/3-express-tutorial-1]]
+    * [[/js-library/express/mdn-learn-web-server-3/4-express-tutorial-2]]
+    * [[/js-library/express/mdn-learn-web-server-3/5-express-tutorial-3]]
+    * [[/js-library/express/mdn-learn-web-server-3/6-express-tutorial-4]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-express-tutorial-5]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-1-using-async]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-2-template-primer]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-3-base-template]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-4-home-page]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-5-book-list-page]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-6-bookinstance-list-page]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-7-data-formatting]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-8-author-genre-list-page]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-9-genre-detail-page]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-10-book-detail-page]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-11-author-detail-page]]
+        * [[/js-library/express/mdn-learn-web-server-3/7-12-bookinstance-detail-page]]
+    * [[/js-library/express/mdn-learn-web-server-3/8-express-tutorial-6]]
+        * [[/js-library/express/mdn-learn-web-server-3/8-1-create-genre]]
+        * [[/js-library/express/mdn-learn-web-server-3/8-3-create-book]]
 
-## [[React-Library]]
+## [[git]]
 
-### [[Redux]]
+* git-memos
 
-* [[redux-links]]
+### [[/git/opent-git-cli]]
 
-#### [[vlpt-react-redux]]
+* [[/git/opent-git1-cli]]
+* [[/git/opent-git2-cli-version-control]]
+* [[/git/opent-git3-cli-backup]]
+* [[/git/opent-git4-cli-collaborate]]
+* [[/git/opent-git4-cli-cherry-pick-rebase]]
 
-### [[React-Query]]
+### [[/git/opent-github]]
 
-* [[react-query-links]]
+* [[/git/opent-github-lec]]
+* [[/git/opent-github-pull-request]]
 
-## [[Mathematics]]
+## [[tools]]
 
-### hyu-linear-algebra
+### [[/tools/terminal]]
 
-* hyu-linear-algebra-2-3-linear-independence
-* hyu-linear-algebra-2-4-four-subspaces
-* hyu-linear-algebra-2-6-linear-transformations
-* hyu-linear-algebra-3-3-proj-least-squares
-* hyu-linear-algebra-3-4-gram-schmidt
-* hyu-linear-algebra-4-2-properties-of-det
-* hyu-linear-algebra-4-3-form-for-determinant
-* hyu-linear-algebra-4-4-app-of-determinants
-* hyu-linear-algebra-5-2-diagonalization
-* hyu-linear-algebra-5-3-difference-eqn
-* hyu-linear-algebra-5-4-differential-eqn
-* hyu-linear-algebra-5-5-complex-matrix
+* [[/tools/terminal/iterm2]]
 
-## [[Problem-Solving]]
+#### /tools/terminal/opent-posix1-cli
 
-* [[wiki3:index-ps]]{problem-solving-index}
-* problem-solving-links
+* /tools/terminal/opent-posix1-cli-lec
 
-### [[ps-basic]]
+### [[/tools/vim]]
 
-* [[ps-set-codeup-py-basic]]
-* [[ps-set-automata-py-basic]]
-* [[ps-set-plzrun-1-io]]
-* [[ps-set-covenant-start-1-basic]]
-* [[ps-set-covenant-prep-1-basic]]
-* [[ps-set-fc-algo-actual-1-data-structure]]
-* [[ps-set-fc-algo-actual-2-parameter]]
-* [[ps-set-fc-algo-actual-3-exception]]
-* [[ps-set-fc-algo-actual-4-direction]]
+* /tools/vim/links
+* /tools/vim/learning
 
-### [[ps-data-structure]]
+### [[/tools/vscode]]
 
-* [[ps-set-covenant-start-2-stack-queue]]
-* [[ps-set-ryute-1-data-struct]]
-* [[ps-set-fc-algo-1-data-structure]]
-* [[ps-set-covenant-start-3-heap]]
-* [[ps-set-ryute-2-heap]]
-* [[ps-set-fc-algo-2-data-structure]]
+* /tools/vscode-links
 
-### [[ps-sort]]
+#### [[/tools/vscode/docs]]
 
-* [[ps-set-fc-algo-3-sort-basic]]
-* [[ps-set-fc-algo-5-sort-advanced]]
+* [[/tools/vscode/docs/getstarted-settings]]
+    * [[/tools/vscode/docs/getstarted-settings-default]]
+* [[/tools/vscode/docs/editor-codebasics]]
 
-### [[ps-recursive]]
+#### [[/tools/vscode/ext]]
 
-* [[ps-set-fc-algo-4-recursive]]
+* [[/tools/vscode/ext/auto-close-tag]]
+* [[/tools/vscode/ext/auto-rename-tag]]
+* [[/tools/vscode/ext/markdownlint]]
 
-### [[ps-search]]
+## [[mathematics]]
 
-* [[ps-set-fc-algo-6-search-basic]]
-* [[ps-set-fc-algo-7-search-advanced]]
+### [[/mathematics/hyu-linear-algebra]]
 
-### [[ps-dp]]
-
-* ps-set-ryute-3-basic-dp
-* [[ps-set-fc-algo-8-dp]]
-
-### [[ps-graph-search]]
-
-* [[ps-set-fc-algo-actual-5-search]]
-
-#### [[ps-bfs-dfs]]
-
-* [[ps-set-fc-algo-9-bfs-dfs-basic]]
-
-#### [[ps-shortest-mst]]
-
-* [[ps-set-fc-algo-10-graph-advanced]]
-
-#### [[ps-back-tracking]]
-
-* [[ps-set-fc-algo-12-back-tracking]]
-
-### [[ps-greedy]]
-
-* [[ps-set-fc-algo-11-greedy]]
-
-## [[Python]]
-
-* python-links
-
-## [[Style-Sheet]]
-
-### [[css]]
-
-* css-links
-
-### opent-client-css
-
-* opent-client-css-1-intro
-* opent-client-css-3-meet-html
-* opent-client-css-4-selector
-* opent-client-css-6-typo
-* opent-client-css-7-harmony
-* opent-client-css-9-layout-1
-* opent-client-css-9-layout-2
-* opent-client-css-9-layout-3
-* opent-client-css-9-layout-4
-* opent-client-css-9-layout-5
-* opent-client-css-10-graphic-1
-* opent-client-css-10-graphic-2
-* opent-client-css-11-motion
-* opent-client-css-12-refactor
-* opent-client-css-13-library
-
-## [[Tools]]
-
-### [[terminal]]
-
-* [[iterm2]]
-
-#### opent-posix1-cli
-
-* opent-posix1-cli-lec
-
-### [[vim]]
-
-* vim-links
-* vim-learning
-
-### [[vscode]]
-
-* vscode-links
-
-#### vscode-docs
-
-* vscode-docs-getstarted-settings
-    * vscode-docs-getstarted-settings-default
-* vscode-docs-editor-codebasics
-
-#### vscode-ext
-
-* vscode-ext-auto-close-tag
-* vscode-ext-auto-rename-tag
-* [[vscode-ext-markdownlint]]
+* [[/mathematics/hyu-linear-algebra/2-3-linear-independence]]
+* [[/mathematics/hyu-linear-algebra/2-4-four-subspaces]]
+* [[/mathematics/hyu-linear-algebra/2-6-linear-transformations]]
+* [[/mathematics/hyu-linear-algebra/3-3-proj-least-squares]]
+* [[/mathematics/hyu-linear-algebra/3-4-gram-schmidt]]
+* [[/mathematics/hyu-linear-algebra/4-2-properties-of-det]]
+* [[/mathematics/hyu-linear-algebra/4-3-form-for-determinant]]
+* [[/mathematics/hyu-linear-algebra/4-4-app-of-determinants]]
+* [[/mathematics/hyu-linear-algebra/5-2-diagonalization]]
+* [[/mathematics/hyu-linear-algebra/5-3-difference-eqn]]
+* [[/mathematics/hyu-linear-algebra/5-4-differential-eqn]]
+* [[/mathematics/hyu-linear-algebra/5-5-complex-matrix]]
 
 {% comment %}
 

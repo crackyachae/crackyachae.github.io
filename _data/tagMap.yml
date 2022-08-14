@@ -37,8 +37,7 @@ intro:
     - {fileName: javascript/opent-web2-js}
     - {fileName: mathematics/hyu-linear-algebra}
     - {fileName: react/opent-react}
-    - {fileName: react/vlpt-react}
-    - {fileName: react/vlpt-react/1-vlpt-react-basic}
+    - {fileName: react/vlpt-react-1-basic}
     - {fileName: web-basic/mdn-learn-web-getting-start}
 fast-campus:
     - {fileName: cs-basic/fc-algo}
@@ -135,11 +134,32 @@ draft:
     - {fileName: js-library/express/mdn-learn-webserver-3/8-express-tutorial-6}
     - {fileName: react-library/redux/6-vlpt-react-redux/1-keywords}
     - {fileName: react-library/redux/6-vlpt-react-redux/2-three-rules}
+    - {fileName: react/opent-react/1-env}
+    - {fileName: react/opent-react/2-component}
+    - {fileName: react/opent-react/3-state}
     - {fileName: react/opent-react/4-event}
     - {fileName: react/opent-react/5-create}
     - {fileName: react/opent-react/6-update-delete}
     - {fileName: react/opent-react/7-end}
-    - {fileName: react/vlpt-react/1-vlpt-react-basic/23-immer}
+    - {fileName: react/vlpt-react-1-basic/10-useRef-1}
+    - {fileName: react/vlpt-react-1-basic/11-array}
+    - {fileName: react/vlpt-react-1-basic/12-useRef-2}
+    - {fileName: react/vlpt-react-1-basic/13-array-add}
+    - {fileName: react/vlpt-react-1-basic/14-array-delete}
+    - {fileName: react/vlpt-react-1-basic/15-array-edit}
+    - {fileName: react/vlpt-react-1-basic/16-useEffect}
+    - {fileName: react/vlpt-react-1-basic/17-useMemo}
+    - {fileName: react/vlpt-react-1-basic/18-useCallback}
+    - {fileName: react/vlpt-react-1-basic/19-react-memo}
+    - {fileName: react/vlpt-react-1-basic/20-useReducer}
+    - {fileName: react/vlpt-react-1-basic/21-custom-hooks}
+    - {fileName: react/vlpt-react-1-basic/23-immer}
+    - {fileName: react/vlpt-react-1-basic/4-jsx}
+    - {fileName: react/vlpt-react-1-basic/5-props}
+    - {fileName: react/vlpt-react-1-basic/6-conditional-render}
+    - {fileName: react/vlpt-react-1-basic/7-useState}
+    - {fileName: react/vlpt-react-1-basic/8-input}
+    - {fileName: react/vlpt-react-1-basic/9-many-inputs}
     - {fileName: web-api/mdn-canvas-tutorial/1-basic-usage}
     - {fileName: web-api/mdn-canvas-tutorial/2-drawing-shapes}
     - {fileName: web-api/mdn-canvas-tutorial/3-style-and-colors}
@@ -185,16 +205,6 @@ rough:
     - {fileName: mathematics/hyu-linear-algebra/5-4-differential-eqn}
     - {fileName: mathematics/hyu-linear-algebra/5-5-complex-matrix}
     - {fileName: react/opent-react}
-    - {fileName: react/opent-react/1-env}
-    - {fileName: react/opent-react/2-component}
-    - {fileName: react/opent-react/3-state}
-    - {fileName: react/vlpt-react/1-vlpt-react-basic/10-ref-11-array}
-    - {fileName: react/vlpt-react/1-vlpt-react-basic/13-array-edit}
-    - {fileName: react/vlpt-react/1-vlpt-react-basic/16-effect}
-    - {fileName: react/vlpt-react/1-vlpt-react-basic/17-memo-18-callback-19-reactmemo}
-    - {fileName: react/vlpt-react/1-vlpt-react-basic/20-reducer}
-    - {fileName: react/vlpt-react/1-vlpt-react-basic/4-jsx-5-props-6-cond-render}
-    - {fileName: react/vlpt-react/1-vlpt-react-basic/7-state-8-input}
 git:
     - {fileName: git/opent-git2-cli-version-control}
     - {fileName: git/opent-git3-cli-backup}
@@ -206,8 +216,7 @@ draf1:
 kocw:
     - {fileName: mathematics/hyu-linear-algebra}
 velopert:
-    - {fileName: react/vlpt-react}
-    - {fileName: react/vlpt-react/1-vlpt-react-basic}
+    - {fileName: react/vlpt-react-1-basic}
 docs:
     - {fileName: tools/vscode/docs}
     - {fileName: tools/vscode/ext}
