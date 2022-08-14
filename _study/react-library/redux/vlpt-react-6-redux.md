@@ -1,6 +1,6 @@
 ---
 layout  : overview
-title   : 6장. 리덕스
+title   : "벨로퍼트와 함께하는 모던 React: 6장. 리덕스"
 summary : 
 date    : 2022-07-28 22:21:22 +0900
 updated : 2022-08-02 08:07:27 +0900
