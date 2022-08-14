@@ -1,5 +1,5 @@
 ---
-layout  : category
+layout  : overview
 title   : HarvardX_CS50's Introduction to Computer Science (2019)
 summary : 
 date    : 2020-04-19 15:58:27 +0900
