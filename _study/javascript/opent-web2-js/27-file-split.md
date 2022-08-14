@@ -1,10 +1,10 @@
 ---
-layout  : wiki
+layout  : article
 title   : 27. 파일로 쪼개서 정리정돈하기
 summary : 
 date    : 2020-05-07 22:01:02 +0900
 updated : 2020-05-07 22:13:33 +0900
-tag     : rough
+tag     : draft
 toc     : true
 public  : true
 parent  : [[/javascript/opent-web2-js]]

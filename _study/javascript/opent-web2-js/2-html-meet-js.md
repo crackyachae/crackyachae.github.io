@@ -1,10 +1,10 @@
 ---
-layout  : wiki
+layout  : article
 title   : 2-4. HTML과 JavaScript의 만남
 summary : 
 date    : 2020-04-30 13:34:41 +0900
 updated : 2020-04-30 13:57:20 +0900
-tag     : rough
+tag     : draft
 toc     : true
 public  : true
 parent  : [[/javascript/opent-web2-js]]

@@ -1,5 +1,5 @@
 ---
-layout  : category
+layout  : overview
 title   : "생활코딩: 웹브라우저 자바스크립트"
 summary : 
 date    : 2020-05-13 22:52:18 +0900
