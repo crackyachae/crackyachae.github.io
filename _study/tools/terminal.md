@@ -7,6 +7,6 @@ updated : 2020-06-01 23:49:29 +0900
 tag     : navigation
 toc     : true
 public  : true
-parent  : [[Tools]]
+parent  : [[/tools]]
 latex   : false
 ---

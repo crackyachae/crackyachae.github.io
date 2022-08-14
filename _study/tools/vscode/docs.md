@@ -7,7 +7,7 @@ updated : 2020-04-03 23:48:59 +0900
 tag     : docs
 toc     : true
 public  : true
-parent  : [[vscode]]
+parent  : [[/tools/vscode]]
 latex   : false
 ---
 * TOC

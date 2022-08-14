@@ -38,6 +38,7 @@ intro:
     - {fileName: mathematics/hyu-linear-algebra}
     - {fileName: react/opent-react}
     - {fileName: react/vlpt-react-1-basic}
+    - {fileName: tools/terminal/opent-posix1-cli}
     - {fileName: web-basic/mdn-learn-web-getting-start}
 fast-campus:
     - {fileName: cs-basic/fc-algo}
@@ -174,6 +175,11 @@ draft:
     - {fileName: react/vlpt-react-1-basic/7-useState}
     - {fileName: react/vlpt-react-1-basic/8-input}
     - {fileName: react/vlpt-react-1-basic/9-many-inputs}
+    - {fileName: tools/terminal/opent-posix1-cli/lecture}
+    - {fileName: tools/vscode/docs/editor-codebasics}
+    - {fileName: tools/vscode/docs/getstarted-settings}
+    - {fileName: tools/vscode/ext/auto-close-tag}
+    - {fileName: tools/vscode/ext/auto-rename-tag}
     - {fileName: web-api/mdn-canvas-tutorial/1-basic-usage}
     - {fileName: web-api/mdn-canvas-tutorial/2-drawing-shapes}
     - {fileName: web-api/mdn-canvas-tutorial/3-style-and-colors}
@@ -198,6 +204,7 @@ opentutorials:
     - {fileName: javascript/opent-client-web-js}
     - {fileName: javascript/opent-web2-js}
     - {fileName: react/opent-react}
+    - {fileName: tools/terminal/opent-posix1-cli}
 rough:
     - {fileName: css/opent-client-css}
     - {fileName: react/opent-react}
@@ -211,12 +218,23 @@ kocw:
     - {fileName: mathematics/hyu-linear-algebra}
 velopert:
     - {fileName: react/vlpt-react-1-basic}
+posix:
+    - {fileName: tools/terminal/opent-posix1-cli}
+    - {fileName: tools/terminal/opent-posix1-cli/lecture}
 docs:
     - {fileName: tools/vscode/docs}
+    - {fileName: tools/vscode/docs/getstarted-settings}
     - {fileName: tools/vscode/ext}
+vscode:
+    - {fileName: tools/vscode/docs/getstarted-settings}
+    - {fileName: tools/vscode/ext/auto-close-tag}
+    - {fileName: tools/vscode/ext/auto-rename-tag}
+extension:
+    - {fileName: tools/vscode/ext/auto-close-tag}
+    - {fileName: tools/vscode/ext/auto-rename-tag}
 markdown:
-    - {fileName: tools/vscode/ext/vscode-ext-markdownlint}
+    - {fileName: tools/vscode/ext/markdownlint}
 lint:
-    - {fileName: tools/vscode/ext/vscode-ext-markdownlint}
+    - {fileName: tools/vscode/ext/markdownlint}
 mdn:
     - {fileName: web-basic/mdn-learn-web-getting-start}
