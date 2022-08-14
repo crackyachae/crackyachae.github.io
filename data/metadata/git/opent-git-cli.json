@@ -1,1 +1,1 @@
-{"type":"wiki","collection":"study","title":"생활코딩_Git CLI","summary":"","parent":"Git","url":"/study/git/opent-git-cli","updated":"2020-12-15 02:18:19 +0900","children":[]}
+{"type":"wiki","collection":"study","title":"생활코딩_Git CLI","summary":"","parent":"git","url":"/study/git/opent-git-cli","updated":"2020-12-15 02:18:19 +0900","children":["git/opent-git-cli/2-version-control","git/opent-git-cli/3-backup","git/opent-git-cli/4-cherry-pick-rebase","git/opent-git-cli/4-collaborate"]}

@@ -1,5 +1,5 @@
 ---
-layout  : article
+layout  : overview
 title   : 6장. 리덕스
 summary : 
 date    : 2022-07-28 22:21:22 +0900
