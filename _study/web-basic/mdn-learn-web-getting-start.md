@@ -1,6 +1,6 @@
 ---
 layout  : overview
-title   : MDN_Getting started with the Web
+title   : "MDN Learn web development: Complete Begginers - Getting started with the Web"
 summary : 
 date    : 2021-01-11 21:11:15 +0900
 updated : 2021-01-12 14:22:15 +0900
