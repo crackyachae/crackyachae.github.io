@@ -7,7 +7,7 @@ updated : 2021-04-23 23:31:58 +0900
 tag     : ps-python
 toc     : true
 public  : true
-parent  : [[Programmers-Index]]
+parent  : [[/programmers]]
 latex   : false
 ---
 * TOC

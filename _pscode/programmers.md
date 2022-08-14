@@ -1,6 +1,6 @@
 ---
 layout  : category
-title   : Programmers Index
+title   : Programmers 
 summary : 
 date    : 2021-04-23 23:05:49 +0900
 updated : 2021-04-23 23:06:18 +0900
