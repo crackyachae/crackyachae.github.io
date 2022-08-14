@@ -7,7 +7,7 @@ updated : 2022-03-15 16:10:38 +0900
 tag     : draft
 toc     : true
 public  : true
-parent  : [[mdn-learn-web-js]]
+parent  : [[/web-api/mdn-learn-web-js-5]]
 latex   : false
 ---
 * TOC
