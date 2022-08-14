@@ -7,9 +7,8 @@ updated : 2022-07-28 22:16:18 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[React-Library]]
+parent  : [[/react-library]]
 latex   : false
 ---
 * TOC
 {:toc}
-

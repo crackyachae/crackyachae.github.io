@@ -7,12 +7,12 @@ updated : 2022-07-28 22:18:53 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[redux]]
+parent  : [[/react-library/redux]]
 latex   : false
 ---
 * TOC
 {:toc}
 
-## 문서형 강의
+## Tutorial Series
 
 * [벨로퍼트와 함께하는 모던 리액트: 6장. 리덕스](https://react.vlpt.us/redux/) by Velopert

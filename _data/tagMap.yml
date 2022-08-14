@@ -132,8 +132,8 @@ draft:
     - {fileName: js-library/express/mdn-learn-webserver-3/8-1-create-genre}
     - {fileName: js-library/express/mdn-learn-webserver-3/8-3-create-book}
     - {fileName: js-library/express/mdn-learn-webserver-3/8-express-tutorial-6}
-    - {fileName: react-library/redux/6-vlpt-react-redux/1-keywords}
-    - {fileName: react-library/redux/6-vlpt-react-redux/2-three-rules}
+    - {fileName: react-library/redux/vlpt-react-6-redux/1-keywords}
+    - {fileName: react-library/redux/vlpt-react-6-redux/2-three-rules}
     - {fileName: react/opent-react/1-env}
     - {fileName: react/opent-react/2-component}
     - {fileName: react/opent-react/3-state}
