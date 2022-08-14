@@ -74,9 +74,9 @@ draft:
     - {fileName: css/opent-client-css/9-layout-4}
     - {fileName: css/opent-client-css/9-layout-5}
     - {fileName: git/opent-git-cli}
-    - {fileName: git/opent-git-cli/3-backup}
-    - {fileName: git/opent-git-cli/4-cherry-pick-rebase}
-    - {fileName: git/opent-git-cli/4-collaborate}
+    - {fileName: git/opent-git-cli/2-version-control}
+    - {fileName: git/opent-github}
+    - {fileName: git/opent-github/github}
     - {fileName: javascript/mdn-learn-web-js-1/1-what-is-js}
     - {fileName: javascript/mdn-learn-web-js-1/2-first-splash}
     - {fileName: javascript/mdn-learn-web-js-1/4-variable}
@@ -188,9 +188,6 @@ opentutorials:
     - {fileName: react/opent-react}
 rough:
     - {fileName: css/opent-client-css}
-    - {fileName: git/opent-git-cli/2-version-control}
-    - {fileName: git/opent-github}
-    - {fileName: git/opent-github/github}
     - {fileName: mathematics/hyu-linear-algebra/2-3-linear-independence}
     - {fileName: mathematics/hyu-linear-algebra/2-4-four-subspaces}
     - {fileName: mathematics/hyu-linear-algebra/2-6-linear-transformations}
@@ -207,9 +204,6 @@ rough:
     - {fileName: react/opent-react}
 git:
     - {fileName: git/opent-git-cli/2-version-control}
-    - {fileName: git/opent-git-cli/3-backup}
-    - {fileName: git/opent-git-cli/4-cherry-pick-rebase}
-    - {fileName: git/opent-git-cli/4-collaborate}
     - {fileName: git/opent-github/github}
 draf1:
     - {fileName: javascript/opent-web2-js/21-function}

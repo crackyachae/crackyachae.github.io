@@ -12,7 +12,7 @@
     size: 6
 -
     name: git
-    size: 5
+    size: 2
 -
     name: harverdx
     size: 1
@@ -39,7 +39,7 @@
     size: 6
 -
     name: rough
-    size: 18
+    size: 15
 -
     name: velopert
     size: 1
