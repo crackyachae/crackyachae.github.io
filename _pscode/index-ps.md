@@ -165,18 +165,18 @@ regenerate: true
 * [[/boj/boj-2000s/boj-2920]]
 * [[/boj/boj-2000s/boj-2935]]
 
-### boj-3000
+### [[/boj/boj-3000s]]
 
 * [[/boj/boj-3000s/boj-3009]]
 * [[/boj/boj-3000s/boj-3046]]
 * [[/boj/boj-3000s/boj-3460]]
 
-### boj-4000
+### [[/boj/boj-4000s]]
 
 * [[/boj/boj-4000s/boj-4101]]
 * [[/boj/boj-4000s/boj-4195]]
 
-### boj-5000
+### [[/boj/boj-5000s]]
 
 * [[/boj/boj-5000s/boj-5063]]
 * [[/boj/boj-5000s/boj-5086]]
@@ -188,20 +188,20 @@ regenerate: true
 * [[/boj/boj-5000s/boj-5717]]
 * [[/boj/boj-5000s/boj-5719]]
 
-### boj-6000
+### /boj/boj-6000s
 
-### boj-7000
+### [[/boj/boj-7000s]]
 
 * [[/boj/boj-7000s/boj-7287]]
 * [[/boj/boj-7000s/boj-7490]]
 * [[/boj/boj-7000s/boj-7567]]
 
-### boj-8000
+### [[/boj/boj-8000s]]
 
 * [[/boj/boj-8000s/boj-8393]]
 * [[/boj/boj-8000s/boj-8958]]
 
-### boj-9000
+### [[/boj/boj-9000s]]
 
 * [[/boj/boj-9000s/boj-9012]]
 * [[/boj/boj-9000s/boj-9037]]
@@ -212,7 +212,7 @@ regenerate: true
 * [[/boj/boj-9000s/boj-9610]]
 * [[/boj/boj-9000s/boj-9663]]
 
-### boj-10000
+### [[/boj/boj-10000s]]
 
 * [[/boj/boj-10000s/boj-10039]]
 * [[/boj/boj-10000s/boj-10102]]
@@ -247,7 +247,7 @@ regenerate: true
 * [[/boj/boj-10000s/boj-10992]]
 * [[/boj/boj-10000s/boj-10998]]
 
-### boj-11000
+### [[/boj/boj-11000s]]
 
 * [[/boj/boj-11000s/boj-11004]]
 * [[/boj/boj-11000s/boj-11021]]
@@ -263,20 +263,20 @@ regenerate: true
 * [[/boj/boj-11000s/boj-11720]]
 * [[/boj/boj-11000s/boj-11721]]
 
-### boj-12000
+### [[/boj/boj-12000s]]
 
 * [[/boj/boj-12000s/boj-12100]]
 * [[/boj/boj-12000s/boj-12865]]
 
-### boj-14000
+### [[/boj/boj-14000s]]
 
 * [[/boj/boj-14000s/boj-14620]]
 
-### boj-15000
+### [[/boj/boj-15000s]]
 
 * [[/boj/boj-15000s/boj-15969]]
 
-### boj-16000
+### [[/boj/boj-16000s]]
 
 * [[/boj/boj-16000s/boj-16165]]
 * [[/boj/boj-16000s/boj-16675]]
@@ -284,7 +284,7 @@ regenerate: true
 * [[/boj/boj-16000s/boj-16769]]
 * [[/boj/boj-16000s/boj-16956]]
 
-### boj-17000
+### [[/boj/boj-17000s]]
 
 * [[/boj/boj-17000s/boj-17224]]
 * [[/boj/boj-17000s/boj-17269]]
