@@ -1,5 +1,5 @@
 ---
-layout  : category
+layout  : overview
 title   : "생활코딩: Client CSS"
 summary : 
 date    : 2020-03-04 13:04:39 +0900
