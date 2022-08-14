@@ -249,43 +249,42 @@ regenerate: true
 
 * [[/react-library/redux/links]]
 
-#### [[/react-library/redux/6-vlpt-react-redux]]
+#### [[/react-library/redux/vlpt-react-6-redux]]
 
-* [[/react-libaray/redux/6-vlpt-react-redux/1-keywords]]
-* [[/react-libaray/redux/6-vlpt-react-redux/2-three-rules]]
-* [[/react-libaray/redux/6-vlpt-react-redux/3-prepare]]
+* [[/react-library/redux/vlpt-react-6-redux/1-keywords]]
+* [[/react-library/redux/vlpt-react-6-redux/2-three-rules]]
+* [[/react-library/redux/vlpt-react-6-redux/3-prepare]]
 
 ## [[js-library]]
 
-* [[/js-library/links]]
+* /js-library/links
 
 ### [[/js-library/express]]
 
 #### [[/js-library/express/mdn-learn-web-server-3]]
 
-* Express web framework (Node.js/JavaScript)
-    * [[/js-library/express/mdn-learn-web-server-3/1-express-intro]]
-    * [[/js-library/express/mdn-learn-web-server-3/2-set-node-env]]
-    * [[/js-library/express/mdn-learn-web-server-3/3-express-tutorial-1]]
-    * [[/js-library/express/mdn-learn-web-server-3/4-express-tutorial-2]]
-    * [[/js-library/express/mdn-learn-web-server-3/5-express-tutorial-3]]
-    * [[/js-library/express/mdn-learn-web-server-3/6-express-tutorial-4]]
-    * [[/js-library/express/mdn-learn-web-server-3/7-express-tutorial-5]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-1-using-async]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-2-template-primer]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-3-base-template]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-4-home-page]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-5-book-list-page]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-6-bookinstance-list-page]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-7-data-formatting]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-8-author-genre-list-page]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-9-genre-detail-page]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-10-book-detail-page]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-11-author-detail-page]]
-        * [[/js-library/express/mdn-learn-web-server-3/7-12-bookinstance-detail-page]]
-    * [[/js-library/express/mdn-learn-web-server-3/8-express-tutorial-6]]
-        * [[/js-library/express/mdn-learn-web-server-3/8-1-create-genre]]
-        * [[/js-library/express/mdn-learn-web-server-3/8-3-create-book]]
+* [[/js-library/express/mdn-learn-web-server-3/1-express-intro]]
+* [[/js-library/express/mdn-learn-web-server-3/2-set-node-env]]
+* [[/js-library/express/mdn-learn-web-server-3/3-express-tutorial-1]]
+* [[/js-library/express/mdn-learn-web-server-3/4-express-tutorial-2]]
+* [[/js-library/express/mdn-learn-web-server-3/5-express-tutorial-3]]
+* [[/js-library/express/mdn-learn-web-server-3/6-express-tutorial-4]]
+* [[/js-library/express/mdn-learn-web-server-3/7-express-tutorial-5]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-1-using-async]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-2-template-primer]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-3-base-template]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-4-home-page]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-5-book-list-page]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-6-bookinstance-list-page]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-7-data-formatting]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-8-author-genre-list-page]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-9-genre-detail-page]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-10-book-detail-page]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-11-author-detail-page]]
+    * [[/js-library/express/mdn-learn-web-server-3/7-12-bookinstance-detail-page]]
+* [[/js-library/express/mdn-learn-web-server-3/8-express-tutorial-6]]
+    * [[/js-library/express/mdn-learn-web-server-3/8-1-create-genre]]
+    * [[/js-library/express/mdn-learn-web-server-3/8-3-create-book]]
 
 ## [[git]]
 
@@ -293,26 +292,23 @@ regenerate: true
 
 ### [[/git/opent-git-cli]]
 
-* [[/git/opent-git1-cli]]
-* [[/git/opent-git2-cli-version-control]]
-* [[/git/opent-git3-cli-backup]]
-* [[/git/opent-git4-cli-collaborate]]
-* [[/git/opent-git4-cli-cherry-pick-rebase]]
+* [[/git/opent-git-cli/2-version-control]]
+* /git/opent-git-cli/3-backup
+* /git/opent-git-cli/4-collaborate
+* /git/opent-git-cli/4-cherry-pick-rebase
 
 ### [[/git/opent-github]]
 
-* [[/git/opent-github-lec]]
-* [[/git/opent-github-pull-request]]
+* [[/git/opent-github/github]]
+* /git/opent-github/pull-request
 
 ## [[tools]]
 
 ### [[/tools/terminal]]
 
-* [[/tools/terminal/iterm2]]
+#### [[/tools/terminal/opent-posix1-cli]]
 
-#### /tools/terminal/opent-posix1-cli
-
-* /tools/terminal/opent-posix1-cli-lec
+* [[/tools/terminal/opent-posix1-cli/lecture]]
 
 ### [[/tools/vim]]
 
@@ -326,7 +322,6 @@ regenerate: true
 #### [[/tools/vscode/docs]]
 
 * [[/tools/vscode/docs/getstarted-settings]]
-    * [[/tools/vscode/docs/getstarted-settings-default]]
 * [[/tools/vscode/docs/editor-codebasics]]
 
 #### [[/tools/vscode/ext]]
@@ -344,7 +339,7 @@ regenerate: true
 * [[/mathematics/hyu-linear-algebra/2-6-linear-transformations]]
 * [[/mathematics/hyu-linear-algebra/3-3-proj-least-squares]]
 * [[/mathematics/hyu-linear-algebra/3-4-gram-schmidt]]
-* [[/mathematics/hyu-linear-algebra/4-2-properties-of-det]]
+* [[/mathematics/hyu-linear-algebra/4-2-prop-of-determinant]]
 * [[/mathematics/hyu-linear-algebra/4-3-form-for-determinant]]
 * [[/mathematics/hyu-linear-algebra/4-4-app-of-determinants]]
 * [[/mathematics/hyu-linear-algebra/5-2-diagonalization]]
