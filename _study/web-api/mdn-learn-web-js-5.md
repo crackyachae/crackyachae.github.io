@@ -15,7 +15,7 @@ latex   : false
 
 ## Description
 
-MDN에서 제공하는 Web 자습서 중 [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)의 다섯번 째 모듈이다. 기본적인 Web API에 대한 내용을 다룬다.
+MDN에서 제공하는 Web 자습서 중 [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)의 다섯 번째 모듈이다. 기본적인 Web API에 대한 내용을 다룬다.
 
 * 주소: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs
     * 번역: https://developer.mozilla.org/ko/docs/Learn/JavaScript/Client-side_web_APIs
