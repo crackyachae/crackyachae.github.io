@@ -60,6 +60,20 @@ draft:
     - {fileName: cs-basic/harvardx-cs50s-intro/8-information}
     - {fileName: cs-basic/harvardx-cs50s-intro/tracks-web-1}
     - {fileName: cs-basic/harvardx-cs50s-intro/tracks-web-2}
+    - {fileName: css/opent-client-css/1-intro}
+    - {fileName: css/opent-client-css/10-graphic-1}
+    - {fileName: css/opent-client-css/10-graphic-2}
+    - {fileName: css/opent-client-css/11-motion}
+    - {fileName: css/opent-client-css/12-refactor}
+    - {fileName: css/opent-client-css/3-meet-html}
+    - {fileName: css/opent-client-css/4-selector}
+    - {fileName: css/opent-client-css/6-typo}
+    - {fileName: css/opent-client-css/7-harmony}
+    - {fileName: css/opent-client-css/9-layout-1}
+    - {fileName: css/opent-client-css/9-layout-2}
+    - {fileName: css/opent-client-css/9-layout-3}
+    - {fileName: css/opent-client-css/9-layout-4}
+    - {fileName: css/opent-client-css/9-layout-5}
     - {fileName: git/opent-git-cli}
     - {fileName: git/opent-git3-cli-backup}
     - {fileName: git/opent-git4-cli-cherry-pick-rebase}
@@ -133,21 +147,6 @@ opentutorials:
     - {fileName: react/opent-react}
 rough:
     - {fileName: css/opent-client-css}
-    - {fileName: css/opent-client-css/1-intro}
-    - {fileName: css/opent-client-css/10-graphic-1}
-    - {fileName: css/opent-client-css/10-graphic-2}
-    - {fileName: css/opent-client-css/11-motion}
-    - {fileName: css/opent-client-css/12-refactor}
-    - {fileName: css/opent-client-css/13-library}
-    - {fileName: css/opent-client-css/3-meet-html}
-    - {fileName: css/opent-client-css/4-selector}
-    - {fileName: css/opent-client-css/6-typo}
-    - {fileName: css/opent-client-css/7-harmony}
-    - {fileName: css/opent-client-css/9-layout-1}
-    - {fileName: css/opent-client-css/9-layout-2}
-    - {fileName: css/opent-client-css/9-layout-3}
-    - {fileName: css/opent-client-css/9-layout-4}
-    - {fileName: css/opent-client-css/9-layout-5}
     - {fileName: git/opent-git2-cli-version-control}
     - {fileName: git/opent-github}
     - {fileName: git/opent-github-lec}
