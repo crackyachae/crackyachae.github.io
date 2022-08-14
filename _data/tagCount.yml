@@ -1,15 +1,27 @@
 -
     name: docs
-    size: 2
+    size: 3
 -
     name: draft
-    size: 54
+    size: 149
+-
+    name: extension
+    size: 2
 -
     name: fast-campus
     size: 6
 -
+    name: git
+    size: 2
+-
+    name: harverdx
+    size: 1
+-
     name: intro
-    size: 8
+    size: 17
+-
+    name: kocw
+    size: 1
 -
     name: lint
     size: 1
@@ -17,14 +29,23 @@
     name: markdown
     size: 1
 -
-    name: navigation
-    size: 34
--
-    name: ps-javascript
+    name: mdn
     size: 1
 -
-    name: ps-python
-    size: 22
+    name: navigation
+    size: 23
+-
+    name: opentutorials
+    size: 7
+-
+    name: posix
+    size: 2
+-
+    name: rough
+    size: 2
 -
     name: velopert
-    size: 2
+    size: 1
+-
+    name: vscode
+    size: 3
