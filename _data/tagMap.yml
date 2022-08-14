@@ -134,6 +134,18 @@ draft:
     - {fileName: js-library/express/mdn-learn-web-server-3/8-1-create-genre}
     - {fileName: js-library/express/mdn-learn-web-server-3/8-3-create-book}
     - {fileName: js-library/express/mdn-learn-web-server-3/8-express-tutorial-6}
+    - {fileName: mathematics/hyu-linear-algebra/2-3-linear-independence}
+    - {fileName: mathematics/hyu-linear-algebra/2-4-four-subspaces}
+    - {fileName: mathematics/hyu-linear-algebra/2-6-linear-transformations}
+    - {fileName: mathematics/hyu-linear-algebra/3-1-orthogonal}
+    - {fileName: mathematics/hyu-linear-algebra/3-3-proj-least-squares}
+    - {fileName: mathematics/hyu-linear-algebra/3-4-gram-schmidt}
+    - {fileName: mathematics/hyu-linear-algebra/4-2-prop-of-determinant}
+    - {fileName: mathematics/hyu-linear-algebra/4-3-form-for-determinant}
+    - {fileName: mathematics/hyu-linear-algebra/5-2-diagonalization}
+    - {fileName: mathematics/hyu-linear-algebra/5-3-difference-eqn}
+    - {fileName: mathematics/hyu-linear-algebra/5-4-differential-eqn}
+    - {fileName: mathematics/hyu-linear-algebra/5-5-complex-matrix}
     - {fileName: react-library/redux/vlpt-react-6-redux/1-keywords}
     - {fileName: react-library/redux/vlpt-react-6-redux/2-three-rules}
     - {fileName: react/opent-react/1-env}
@@ -188,25 +200,13 @@ opentutorials:
     - {fileName: react/opent-react}
 rough:
     - {fileName: css/opent-client-css}
-    - {fileName: mathematics/hyu-linear-algebra/2-3-linear-independence}
-    - {fileName: mathematics/hyu-linear-algebra/2-4-four-subspaces}
-    - {fileName: mathematics/hyu-linear-algebra/2-6-linear-transformations}
-    - {fileName: mathematics/hyu-linear-algebra/3-1-orthogonal}
-    - {fileName: mathematics/hyu-linear-algebra/3-3-proj-least-squares}
-    - {fileName: mathematics/hyu-linear-algebra/3-4-gram-schmidt}
-    - {fileName: mathematics/hyu-linear-algebra/4-2-prop-of-determinant}
-    - {fileName: mathematics/hyu-linear-algebra/4-3-form-for-determinant}
-    - {fileName: mathematics/hyu-linear-algebra/4-4-app-of-determinants}
-    - {fileName: mathematics/hyu-linear-algebra/5-2-diagonalization}
-    - {fileName: mathematics/hyu-linear-algebra/5-3-difference-eqn}
-    - {fileName: mathematics/hyu-linear-algebra/5-4-differential-eqn}
-    - {fileName: mathematics/hyu-linear-algebra/5-5-complex-matrix}
     - {fileName: react/opent-react}
 git:
     - {fileName: git/opent-git-cli/2-version-control}
     - {fileName: git/opent-github/github}
 draf1:
     - {fileName: javascript/opent-web2-js/21-function}
+    - {fileName: mathematics/hyu-linear-algebra/4-4-app-of-determinants}
 kocw:
     - {fileName: mathematics/hyu-linear-algebra}
 velopert:
