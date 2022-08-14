@@ -1,36 +1,26 @@
 navigation:
-    - {fileName: codeup}
     - {fileName: cs-basic}
     - {fileName: css}
-    - {fileName: express}
-    - {fileName: Git}
-    - {fileName: JavaScript}
-    - {fileName: JS-Library}
-    - {fileName: Mathematics}
-    - {fileName: Problem-Solving}
-    - {fileName: ps-basic}
-    - {fileName: ps-data-structure}
-    - {fileName: ps-dp}
-    - {fileName: ps-graph-search}
-    - {fileName: ps-greedy}
-    - {fileName: ps-recursive}
-    - {fileName: Python}
+    - {fileName: git}
+    - {fileName: javascript}
+    - {fileName: js-library}
+    - {fileName: js-library/express}
+    - {fileName: mathematics}
     - {fileName: react}
-    - {fileName: Style-Sheet}
     - {fileName: System}
     - {fileName: system-blog}
-    - {fileName: terminal}
     - {fileName: Thesia}
     - {fileName: Thought}
     - {fileName: TIL}
     - {fileName: til-2020}
     - {fileName: Tistory-Skin}
     - {fileName: Todo}
-    - {fileName: Tools}
+    - {fileName: tools}
+    - {fileName: tools/terminal}
+    - {fileName: tools/vim}
+    - {fileName: tools/vscode}
+    - {fileName: tools/vscode/ext}
     - {fileName: Toy}
-    - {fileName: vim}
-    - {fileName: vscode}
-    - {fileName: vscode-ext}
     - {fileName: web-basic}
 intro:
     - {fileName: cs-basic/fc-algo}
@@ -40,8 +30,16 @@ intro:
     - {fileName: cs-basic/fc-algo/4-prob-actual}
     - {fileName: cs-basic/fc-algo/5-tech-interview}
     - {fileName: cs-basic/harvardx-cs50s-intro}
-    - {fileName: vlpt-react}
-    - {fileName: vlpt-react-basic}
+    - {fileName: css/opent-client-css}
+    - {fileName: git/opent-git-cli}
+    - {fileName: git/opent-github}
+    - {fileName: javascript/opent-client-web-js}
+    - {fileName: javascript/opent-web2-js}
+    - {fileName: mathematics/hyu-linear-algebra}
+    - {fileName: react/opent-react}
+    - {fileName: react/vlpt-react}
+    - {fileName: react/vlpt-react/1-vlpt-react-basic}
+    - {fileName: web-basic/mdn-learn-web-getting-start}
 fast-campus:
     - {fileName: cs-basic/fc-algo}
     - {fileName: cs-basic/fc-algo/1-data-structure}
@@ -62,53 +60,63 @@ draft:
     - {fileName: cs-basic/harvardx-cs50s-intro/8-information}
     - {fileName: cs-basic/harvardx-cs50s-intro/tracks-web-1}
     - {fileName: cs-basic/harvardx-cs50s-intro/tracks-web-2}
-    - {fileName: mdn-learn-web-js-1-1-what-is-js}
-    - {fileName: mdn-learn-web-js-1-2-first-splash}
-    - {fileName: mdn-learn-web-js-1-4-variable}
-    - {fileName: mdn-learn-web-js-1-5-number-operator}
-    - {fileName: mdn-learn-web-js-1-6-string}
-    - {fileName: mdn-learn-web-js-1-7-string-method}
-    - {fileName: mdn-learn-web-js-1-8-array}
-    - {fileName: mdn-learn-web-js-2-1-conditionals}
-    - {fileName: mdn-learn-web-js-2-2-loop}
-    - {fileName: mdn-learn-web-js-2-3-functions}
-    - {fileName: mdn-learn-web-js-2-5-fnc-return-values}
-    - {fileName: mdn-learn-web-js-2-6-events}
-    - {fileName: mdn-learn-web-js-3-1-object-basic}
-    - {fileName: mdn-learn-web-js-3-2-object-prototype}
-    - {fileName: mdn-learn-web-js-3-4-class-in-js}
-    - {fileName: mdn-learn-web-js-3-5-json}
-    - {fileName: mdn-learn-web-js-5-1-web-api-intro}
-    - {fileName: mdn-learn-web-js-5-2-manipulate-document}
-    - {fileName: mdn-learn-web-js-5-3-fetch-from-server}
-    - {fileName: mdn-learn-web-js-5-4-third-party-api}
-    - {fileName: mdn-learn-web-js-5-7-client-side-storage}
-    - {fileName: mdn-learn-web-server-3-1-express-intro}
-    - {fileName: mdn-learn-web-server-3-2-set-node-env}
-    - {fileName: mdn-learn-web-server-3-3-express-tutorial-1}
-    - {fileName: mdn-learn-web-server-3-4-express-tutorial-2}
-    - {fileName: mdn-learn-web-server-3-5-express-tutorial-3}
-    - {fileName: mdn-learn-web-server-3-6-express-tutorial-4}
-    - {fileName: mdn-learn-web-server-3-7-1-using-async}
-    - {fileName: mdn-learn-web-server-3-7-10-book-detail-page}
-    - {fileName: mdn-learn-web-server-3-7-11-author-detail-page}
-    - {fileName: mdn-learn-web-server-3-7-12-bookinstance-detail-page}
-    - {fileName: mdn-learn-web-server-3-7-2-template-primer}
-    - {fileName: mdn-learn-web-server-3-7-3-base-template}
-    - {fileName: mdn-learn-web-server-3-7-4-home-page}
-    - {fileName: mdn-learn-web-server-3-7-5-book-list-page}
-    - {fileName: mdn-learn-web-server-3-7-7-data-formatting}
-    - {fileName: mdn-learn-web-server-3-7-8-author-genre-list-page}
-    - {fileName: mdn-learn-web-server-3-7-9-genre-detail-page}
-    - {fileName: mdn-learn-web-server-3-8-1-create-genre}
-    - {fileName: mdn-learn-web-server-3-8-3-create-book}
-    - {fileName: mdn-learn-web-server-3-8-express-tutorial-6}
-    - {fileName: vlpt-react-redux-1-keywords}
-    - {fileName: vlpt-react-redux-2-three-rules}
+    - {fileName: git/opent-git-cli}
+    - {fileName: git/opent-git3-cli-backup}
+    - {fileName: git/opent-git4-cli-cherry-pick-rebase}
+    - {fileName: git/opent-git4-cli-collaborate}
+    - {fileName: javascript/mdn-learn-web-js/1-1-what-is-js}
+    - {fileName: javascript/mdn-learn-web-js/1-2-first-splash}
+    - {fileName: javascript/mdn-learn-web-js/1-4-variable}
+    - {fileName: javascript/mdn-learn-web-js/1-5-number-operator}
+    - {fileName: javascript/mdn-learn-web-js/1-6-string}
+    - {fileName: javascript/mdn-learn-web-js/1-7-string-method}
+    - {fileName: javascript/mdn-learn-web-js/1-8-array}
+    - {fileName: javascript/mdn-learn-web-js/2-1-conditionals}
+    - {fileName: javascript/mdn-learn-web-js/2-2-loop}
+    - {fileName: javascript/mdn-learn-web-js/2-3-functions}
+    - {fileName: javascript/mdn-learn-web-js/2-5-fnc-return-values}
+    - {fileName: javascript/mdn-learn-web-js/2-6-events}
+    - {fileName: javascript/mdn-learn-web-js/3-1-object-basic}
+    - {fileName: javascript/mdn-learn-web-js/3-2-object-prototype}
+    - {fileName: javascript/mdn-learn-web-js/3-4-class-in-js}
+    - {fileName: javascript/mdn-learn-web-js/3-5-json}
+    - {fileName: js-library/express/mdn-learn-webserver-3/1-express-intro}
+    - {fileName: js-library/express/mdn-learn-webserver-3/2-set-node-env}
+    - {fileName: js-library/express/mdn-learn-webserver-3/3-express-tutorial-1}
+    - {fileName: js-library/express/mdn-learn-webserver-3/4-express-tutorial-2}
+    - {fileName: js-library/express/mdn-learn-webserver-3/5-express-tutorial-3}
+    - {fileName: js-library/express/mdn-learn-webserver-3/6-express-tutorial-4}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-1-using-async}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-10-book-detail-page}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-11-author-detail-page}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-12-bookinstance-detail-page}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-2-template-primer}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-3-base-template}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-4-home-page}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-5-book-list-page}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-7-data-formatting}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-8-author-genre-list-page}
+    - {fileName: js-library/express/mdn-learn-webserver-3/7-9-genre-detail-page}
+    - {fileName: js-library/express/mdn-learn-webserver-3/8-1-create-genre}
+    - {fileName: js-library/express/mdn-learn-webserver-3/8-3-create-book}
+    - {fileName: js-library/express/mdn-learn-webserver-3/8-express-tutorial-6}
+    - {fileName: react-library/redux/6-vlpt-react-redux/1-keywords}
+    - {fileName: react-library/redux/6-vlpt-react-redux/2-three-rules}
+    - {fileName: react/opent-react/4-event}
+    - {fileName: react/opent-react/5-create}
+    - {fileName: react/opent-react/6-update-delete}
+    - {fileName: react/opent-react/7-end}
+    - {fileName: react/vlpt-react/1-vlpt-react-basic/23-immer}
     - {fileName: web-api/mdn-canvas-tutorial/1-basic-usage}
     - {fileName: web-api/mdn-canvas-tutorial/2-drawing-shapes}
     - {fileName: web-api/mdn-canvas-tutorial/3-style-and-colors}
     - {fileName: web-api/mdn-canvas-tutorial/4-drawing-text}
+    - {fileName: web-api/mdn-learn-web-js-5/1-web-api-intro}
+    - {fileName: web-api/mdn-learn-web-js-5/2-manipulate-document}
+    - {fileName: web-api/mdn-learn-web-js-5/3-fetch-from-server}
+    - {fileName: web-api/mdn-learn-web-js-5/4-third-party-api}
+    - {fileName: web-api/mdn-learn-web-js-5/7-client-side-storage}
+    - {fileName: web-basic/mdn-learn-web-getting-start}
     - {fileName: web-basic/mdn-learn-web-questions/1-1-internet}
     - {fileName: web-basic/mdn-learn-web-questions/1-2-web-page-site-server}
     - {fileName: web-basic/mdn-learn-web-questions/1-6-web-server}
@@ -116,38 +124,95 @@ draft:
     - {fileName: web-basic/mdn-learn-web-server-1/1-introduction}
     - {fileName: web-basic/mdn-learn-web-server-1/2-client-server-overview}
     - {fileName: web-basic/mdn-learn-web-server-1/4-web-security}
-ps-python:
-    - {fileName: ps-set-automata-py-basic}
-    - {fileName: ps-set-codeup-py-basic}
-    - {fileName: ps-set-covenant-prep-1-basic}
-    - {fileName: ps-set-covenant-start-1-basic}
-    - {fileName: ps-set-covenant-start-2-stack-queue}
-    - {fileName: ps-set-covenant-start-3-heap}
-    - {fileName: ps-set-fc-algo-1-data-structure}
-    - {fileName: ps-set-fc-algo-10-graph-advanced}
-    - {fileName: ps-set-fc-algo-11-greedy}
-    - {fileName: ps-set-fc-algo-12-back-tracking}
-    - {fileName: ps-set-fc-algo-2-data-structure}
-    - {fileName: ps-set-fc-algo-3-sort-basic}
-    - {fileName: ps-set-fc-algo-4-recursive}
-    - {fileName: ps-set-fc-algo-5-sort-advanced}
-    - {fileName: ps-set-fc-algo-8-dp}
-    - {fileName: ps-set-fc-algo-9-bfs-dfs-basic}
-    - {fileName: ps-set-fc-algo-actual-1-data-structure}
-    - {fileName: ps-set-fc-algo-actual-2-parameter}
-    - {fileName: ps-set-fc-algo-actual-3-exception}
-    - {fileName: ps-set-fc-algo-actual-4-direction}
-    - {fileName: ps-set-fc-algo-actual-5-search}
-    - {fileName: ps-set-plzrun-1-io}
-ps-javascript:
-    - {fileName: ps-set-codeup-py-basic}
+opentutorials:
+    - {fileName: css/opent-client-css}
+    - {fileName: git/opent-git-cli}
+    - {fileName: git/opent-github}
+    - {fileName: javascript/opent-client-web-js}
+    - {fileName: javascript/opent-web2-js}
+    - {fileName: react/opent-react}
+rough:
+    - {fileName: css/opent-client-css}
+    - {fileName: css/opent-client-css/1-intro}
+    - {fileName: css/opent-client-css/10-graphic-1}
+    - {fileName: css/opent-client-css/10-graphic-2}
+    - {fileName: css/opent-client-css/11-motion}
+    - {fileName: css/opent-client-css/12-refactor}
+    - {fileName: css/opent-client-css/13-library}
+    - {fileName: css/opent-client-css/3-meet-html}
+    - {fileName: css/opent-client-css/4-selector}
+    - {fileName: css/opent-client-css/6-typo}
+    - {fileName: css/opent-client-css/7-harmony}
+    - {fileName: css/opent-client-css/9-layout-1}
+    - {fileName: css/opent-client-css/9-layout-2}
+    - {fileName: css/opent-client-css/9-layout-3}
+    - {fileName: css/opent-client-css/9-layout-4}
+    - {fileName: css/opent-client-css/9-layout-5}
+    - {fileName: git/opent-git2-cli-version-control}
+    - {fileName: git/opent-github}
+    - {fileName: git/opent-github-lec}
+    - {fileName: javascript/opent-client-web-js/1-webjs-3-js-in-html}
+    - {fileName: javascript/opent-client-web-js/4-object-model}
+    - {fileName: javascript/opent-client-web-js/5-bom}
+    - {fileName: javascript/opent-client-web-js/6-dom-1}
+    - {fileName: javascript/opent-client-web-js/6-dom-2}
+    - {fileName: javascript/opent-client-web-js/6-dom-3}
+    - {fileName: javascript/opent-client-web-js/6-dom-4}
+    - {fileName: javascript/opent-web2-js}
+    - {fileName: javascript/opent-web2-js/1-intro}
+    - {fileName: javascript/opent-web2-js/10-program}
+    - {fileName: javascript/opent-web2-js/11-condition}
+    - {fileName: javascript/opent-web2-js/15-refactor}
+    - {fileName: javascript/opent-web2-js/16-array-loop}
+    - {fileName: javascript/opent-web2-js/2-html-meet-js}
+    - {fileName: javascript/opent-web2-js/21-function}
+    - {fileName: javascript/opent-web2-js/24-object}
+    - {fileName: javascript/opent-web2-js/27-file-split}
+    - {fileName: javascript/opent-web2-js/28-library-framework}
+    - {fileName: javascript/opent-web2-js/29-ui-api-30-end}
+    - {fileName: javascript/opent-web2-js/5-datatype-6-var}
+    - {fileName: javascript/opent-web2-js/7-using-css}
+    - {fileName: mathematics/hyu-linear-algebra/2-3-linear-independence}
+    - {fileName: mathematics/hyu-linear-algebra/2-4-four-subspaces}
+    - {fileName: mathematics/hyu-linear-algebra/2-6-linear-transformations}
+    - {fileName: mathematics/hyu-linear-algebra/3-1-orthogonal}
+    - {fileName: mathematics/hyu-linear-algebra/3-3-proj-least-squares}
+    - {fileName: mathematics/hyu-linear-algebra/3-4-gram-schmidt}
+    - {fileName: mathematics/hyu-linear-algebra/4-2-prop-of-determinant}
+    - {fileName: mathematics/hyu-linear-algebra/4-3-form-for-determinant}
+    - {fileName: mathematics/hyu-linear-algebra/4-4-app-of-determinants}
+    - {fileName: mathematics/hyu-linear-algebra/5-2-diagonalization}
+    - {fileName: mathematics/hyu-linear-algebra/5-3-difference-eqn}
+    - {fileName: mathematics/hyu-linear-algebra/5-4-differential-eqn}
+    - {fileName: mathematics/hyu-linear-algebra/5-5-complex-matrix}
+    - {fileName: react/opent-react}
+    - {fileName: react/opent-react/1-env}
+    - {fileName: react/opent-react/2-component}
+    - {fileName: react/opent-react/3-state}
+    - {fileName: react/vlpt-react/1-vlpt-react-basic/10-ref-11-array}
+    - {fileName: react/vlpt-react/1-vlpt-react-basic/13-array-edit}
+    - {fileName: react/vlpt-react/1-vlpt-react-basic/16-effect}
+    - {fileName: react/vlpt-react/1-vlpt-react-basic/17-memo-18-callback-19-reactmemo}
+    - {fileName: react/vlpt-react/1-vlpt-react-basic/20-reducer}
+    - {fileName: react/vlpt-react/1-vlpt-react-basic/4-jsx-5-props-6-cond-render}
+    - {fileName: react/vlpt-react/1-vlpt-react-basic/7-state-8-input}
+git:
+    - {fileName: git/opent-git2-cli-version-control}
+    - {fileName: git/opent-git3-cli-backup}
+    - {fileName: git/opent-git4-cli-cherry-pick-rebase}
+    - {fileName: git/opent-git4-cli-collaborate}
+    - {fileName: git/opent-github-lec}
+kocw:
+    - {fileName: mathematics/hyu-linear-algebra}
 velopert:
-    - {fileName: vlpt-react}
-    - {fileName: vlpt-react-basic}
+    - {fileName: react/vlpt-react}
+    - {fileName: react/vlpt-react/1-vlpt-react-basic}
 docs:
-    - {fileName: vscode-docs}
-    - {fileName: vscode-ext}
+    - {fileName: tools/vscode/docs}
+    - {fileName: tools/vscode/ext}
 markdown:
-    - {fileName: vscode-ext-markdownlint}
+    - {fileName: tools/vscode/ext/vscode-ext-markdownlint}
 lint:
-    - {fileName: vscode-ext-markdownlint}
+    - {fileName: tools/vscode/ext/vscode-ext-markdownlint}
+mdn:
+    - {fileName: web-basic/mdn-learn-web-getting-start}

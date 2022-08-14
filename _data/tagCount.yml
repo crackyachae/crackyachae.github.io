@@ -3,16 +3,22 @@
     size: 2
 -
     name: draft
-    size: 64
+    size: 74
 -
     name: fast-campus
     size: 6
+-
+    name: git
+    size: 5
 -
     name: harverdx
     size: 1
 -
     name: intro
-    size: 9
+    size: 17
+-
+    name: kocw
+    size: 1
 -
     name: lint
     size: 1
@@ -20,14 +26,17 @@
     name: markdown
     size: 1
 -
-    name: navigation
-    size: 33
--
-    name: ps-javascript
+    name: mdn
     size: 1
 -
-    name: ps-python
-    size: 22
+    name: navigation
+    size: 23
+-
+    name: opentutorials
+    size: 6
+-
+    name: rough
+    size: 64
 -
     name: velopert
     size: 2

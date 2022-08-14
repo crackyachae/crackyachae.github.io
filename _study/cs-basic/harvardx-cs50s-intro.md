@@ -7,7 +7,7 @@ updated : 2021-02-25 14:28:42 +0900
 tag     : intro harverdx draft
 toc     : true
 public  : true
-parent  : [[cs-basic]]
+parent  : [[/cs-basic]]
 latex   : false
 ---
 
