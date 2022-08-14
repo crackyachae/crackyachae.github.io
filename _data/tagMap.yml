@@ -107,7 +107,9 @@ draft:
     - {fileName: javascript/opent-web2-js/11-condition}
     - {fileName: javascript/opent-web2-js/15-refactor}
     - {fileName: javascript/opent-web2-js/16-array-loop}
+    - {fileName: javascript/opent-web2-js/2-html-meet-js}
     - {fileName: javascript/opent-web2-js/24-object}
+    - {fileName: javascript/opent-web2-js/27-file-split}
     - {fileName: javascript/opent-web2-js/28-library-framework}
     - {fileName: javascript/opent-web2-js/29-ui-api-30-end}
     - {fileName: javascript/opent-web2-js/5-datatype-6-var}
@@ -189,8 +191,6 @@ rough:
     - {fileName: git/opent-git-cli/2-version-control}
     - {fileName: git/opent-github}
     - {fileName: git/opent-github/github}
-    - {fileName: javascript/opent-web2-js/2-html-meet-js}
-    - {fileName: javascript/opent-web2-js/27-file-split}
     - {fileName: mathematics/hyu-linear-algebra/2-3-linear-independence}
     - {fileName: mathematics/hyu-linear-algebra/2-4-four-subspaces}
     - {fileName: mathematics/hyu-linear-algebra/2-6-linear-transformations}
