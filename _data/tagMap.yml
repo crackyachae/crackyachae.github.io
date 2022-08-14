@@ -78,22 +78,41 @@ draft:
     - {fileName: git/opent-git3-cli-backup}
     - {fileName: git/opent-git4-cli-cherry-pick-rebase}
     - {fileName: git/opent-git4-cli-collaborate}
-    - {fileName: javascript/mdn-learn-web-js/1-1-what-is-js}
-    - {fileName: javascript/mdn-learn-web-js/1-2-first-splash}
-    - {fileName: javascript/mdn-learn-web-js/1-4-variable}
-    - {fileName: javascript/mdn-learn-web-js/1-5-number-operator}
-    - {fileName: javascript/mdn-learn-web-js/1-6-string}
-    - {fileName: javascript/mdn-learn-web-js/1-7-string-method}
-    - {fileName: javascript/mdn-learn-web-js/1-8-array}
-    - {fileName: javascript/mdn-learn-web-js/2-1-conditionals}
-    - {fileName: javascript/mdn-learn-web-js/2-2-loop}
-    - {fileName: javascript/mdn-learn-web-js/2-3-functions}
-    - {fileName: javascript/mdn-learn-web-js/2-5-fnc-return-values}
-    - {fileName: javascript/mdn-learn-web-js/2-6-events}
-    - {fileName: javascript/mdn-learn-web-js/3-1-object-basic}
-    - {fileName: javascript/mdn-learn-web-js/3-2-object-prototype}
-    - {fileName: javascript/mdn-learn-web-js/3-4-class-in-js}
-    - {fileName: javascript/mdn-learn-web-js/3-5-json}
+    - {fileName: javascript/mdn-learn-web-js-1/1-what-is-js}
+    - {fileName: javascript/mdn-learn-web-js-1/2-first-splash}
+    - {fileName: javascript/mdn-learn-web-js-1/4-variable}
+    - {fileName: javascript/mdn-learn-web-js-1/5-number-operator}
+    - {fileName: javascript/mdn-learn-web-js-1/6-string}
+    - {fileName: javascript/mdn-learn-web-js-1/7-string-method}
+    - {fileName: javascript/mdn-learn-web-js-1/8-array}
+    - {fileName: javascript/mdn-learn-web-js-2/1-conditionals}
+    - {fileName: javascript/mdn-learn-web-js-2/2-loop}
+    - {fileName: javascript/mdn-learn-web-js-2/3-functions}
+    - {fileName: javascript/mdn-learn-web-js-2/5-fnc-return-values}
+    - {fileName: javascript/mdn-learn-web-js-2/6-events}
+    - {fileName: javascript/mdn-learn-web-js-3/1-object-basic}
+    - {fileName: javascript/mdn-learn-web-js-3/2-object-prototype}
+    - {fileName: javascript/mdn-learn-web-js-3/4-class-in-js}
+    - {fileName: javascript/mdn-learn-web-js-3/5-json}
+    - {fileName: javascript/opent-client-web-js/1-webjs}
+    - {fileName: javascript/opent-client-web-js/3-js-in-html}
+    - {fileName: javascript/opent-client-web-js/4-object-model}
+    - {fileName: javascript/opent-client-web-js/5-bom}
+    - {fileName: javascript/opent-client-web-js/6-dom-1}
+    - {fileName: javascript/opent-client-web-js/6-dom-2}
+    - {fileName: javascript/opent-client-web-js/6-dom-3}
+    - {fileName: javascript/opent-client-web-js/6-dom-4}
+    - {fileName: javascript/opent-web2-js}
+    - {fileName: javascript/opent-web2-js/1-intro}
+    - {fileName: javascript/opent-web2-js/10-program}
+    - {fileName: javascript/opent-web2-js/11-condition}
+    - {fileName: javascript/opent-web2-js/15-refactor}
+    - {fileName: javascript/opent-web2-js/16-array-loop}
+    - {fileName: javascript/opent-web2-js/24-object}
+    - {fileName: javascript/opent-web2-js/28-library-framework}
+    - {fileName: javascript/opent-web2-js/29-ui-api-30-end}
+    - {fileName: javascript/opent-web2-js/5-datatype-6-var}
+    - {fileName: javascript/opent-web2-js/7-using-css}
     - {fileName: js-library/express/mdn-learn-webserver-3/1-express-intro}
     - {fileName: js-library/express/mdn-learn-webserver-3/2-set-node-env}
     - {fileName: js-library/express/mdn-learn-webserver-3/3-express-tutorial-1}
@@ -150,27 +169,8 @@ rough:
     - {fileName: git/opent-git2-cli-version-control}
     - {fileName: git/opent-github}
     - {fileName: git/opent-github-lec}
-    - {fileName: javascript/opent-client-web-js/1-webjs-3-js-in-html}
-    - {fileName: javascript/opent-client-web-js/4-object-model}
-    - {fileName: javascript/opent-client-web-js/5-bom}
-    - {fileName: javascript/opent-client-web-js/6-dom-1}
-    - {fileName: javascript/opent-client-web-js/6-dom-2}
-    - {fileName: javascript/opent-client-web-js/6-dom-3}
-    - {fileName: javascript/opent-client-web-js/6-dom-4}
-    - {fileName: javascript/opent-web2-js}
-    - {fileName: javascript/opent-web2-js/1-intro}
-    - {fileName: javascript/opent-web2-js/10-program}
-    - {fileName: javascript/opent-web2-js/11-condition}
-    - {fileName: javascript/opent-web2-js/15-refactor}
-    - {fileName: javascript/opent-web2-js/16-array-loop}
     - {fileName: javascript/opent-web2-js/2-html-meet-js}
-    - {fileName: javascript/opent-web2-js/21-function}
-    - {fileName: javascript/opent-web2-js/24-object}
     - {fileName: javascript/opent-web2-js/27-file-split}
-    - {fileName: javascript/opent-web2-js/28-library-framework}
-    - {fileName: javascript/opent-web2-js/29-ui-api-30-end}
-    - {fileName: javascript/opent-web2-js/5-datatype-6-var}
-    - {fileName: javascript/opent-web2-js/7-using-css}
     - {fileName: mathematics/hyu-linear-algebra/2-3-linear-independence}
     - {fileName: mathematics/hyu-linear-algebra/2-4-four-subspaces}
     - {fileName: mathematics/hyu-linear-algebra/2-6-linear-transformations}
@@ -201,6 +201,8 @@ git:
     - {fileName: git/opent-git4-cli-cherry-pick-rebase}
     - {fileName: git/opent-git4-cli-collaborate}
     - {fileName: git/opent-github-lec}
+draf1:
+    - {fileName: javascript/opent-web2-js/21-function}
 kocw:
     - {fileName: mathematics/hyu-linear-algebra}
 velopert:
