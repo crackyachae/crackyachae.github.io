@@ -4,7 +4,7 @@ title   : 4.4 Applications of Determinants
 summary : 
 date    : 2020-08-13 17:19:38 +0900
 updated : 2020-08-15 15:06:49 +0900
-tag     : draf1
+tag     : draft
 toc     : true
 public  : true
 parent  : [[/mathematics/hyu-linear-algebra]]

@@ -109,6 +109,7 @@ draft:
     - {fileName: javascript/opent-web2-js/15-refactor}
     - {fileName: javascript/opent-web2-js/16-array-loop}
     - {fileName: javascript/opent-web2-js/2-html-meet-js}
+    - {fileName: javascript/opent-web2-js/21-function}
     - {fileName: javascript/opent-web2-js/24-object}
     - {fileName: javascript/opent-web2-js/27-file-split}
     - {fileName: javascript/opent-web2-js/28-library-framework}
@@ -143,6 +144,7 @@ draft:
     - {fileName: mathematics/hyu-linear-algebra/3-4-gram-schmidt}
     - {fileName: mathematics/hyu-linear-algebra/4-2-prop-of-determinant}
     - {fileName: mathematics/hyu-linear-algebra/4-3-form-for-determinant}
+    - {fileName: mathematics/hyu-linear-algebra/4-4-app-of-determinants}
     - {fileName: mathematics/hyu-linear-algebra/5-2-diagonalization}
     - {fileName: mathematics/hyu-linear-algebra/5-3-difference-eqn}
     - {fileName: mathematics/hyu-linear-algebra/5-4-differential-eqn}
@@ -211,9 +213,6 @@ rough:
 git:
     - {fileName: git/opent-git-cli/2-version-control}
     - {fileName: git/opent-github/github}
-draf1:
-    - {fileName: javascript/opent-web2-js/21-function}
-    - {fileName: mathematics/hyu-linear-algebra/4-4-app-of-determinants}
 kocw:
     - {fileName: mathematics/hyu-linear-algebra}
 velopert:

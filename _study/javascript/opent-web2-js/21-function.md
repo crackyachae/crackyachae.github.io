@@ -4,7 +4,7 @@ title   : 21-23. 함수
 summary : 
 date    : 2020-05-04 23:52:42 +0900
 updated : 2020-05-05 17:59:10 +0900
-tag     : draf1
+tag     : draft
 toc     : true
 public  : true
 parent  : [[/javascript/opent-web2-js]]
