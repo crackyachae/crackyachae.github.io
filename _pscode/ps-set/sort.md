@@ -1,5 +1,5 @@
 ---
-layout  : cartegory
+layout  : category
 title   : 정렬 문제 모음
 summary : 
 date    : 2021-05-14 14:05:27 +0900

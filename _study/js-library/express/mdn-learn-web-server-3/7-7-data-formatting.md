@@ -1,5 +1,5 @@
 ---
-layout  : articel
+layout  : article
 title   : Luxon을 사용한 데이터 형식화 (Date formatting using luxon)
 summary : 
 date    : 2022-02-18 15:30:56 +0900
