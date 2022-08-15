@@ -2,9 +2,10 @@
 layout: document
 ---
 
-{% assign thisPath = page.id | slice: 1, page.id.size | prepend: '_' %}
 {% assign pathChunk = page.id | split: "/" %}
-{% assign thisName = pathChunk[2] %}
+{% assign collection = pathChunk[1] %}
+{% assign thisName = page.id | remove_first: "/" | remove_first: collection | remove_first: "/" %}
+{% assign thisPath = collection | prepend: "_" | append: "/" | append: thisName %}
 <input type="hidden" id="thisName" value="{{ thisName }}"/>
 <div class="post">
     <header class="post-header">
