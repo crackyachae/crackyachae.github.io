@@ -266,7 +266,7 @@ function getFiles(path, type, col, array, testFileList = null) {
         const subPath = `${path}/${fileName}`;
 
         if (isDirectory(subPath)) {
-            return getFiles(subPath, type, array, testFileList);
+            return getFiles(subPath, type, col, array, testFileList);
         }
         if (isMarkdown(fileName)) {
             if(testFileList && !testFileList.includes(fileName)) {
