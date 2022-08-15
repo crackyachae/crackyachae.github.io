@@ -7,7 +7,7 @@ updated : 2021-09-26 15:28:44 +0900
 tag     : draft
 toc     : true
 public  : true
-parent  [[/mathematics/hyu-linear-algebra]]
+parent  : [[/mathematics/hyu-linear-algebra]]
 latex   : true
 ---
 * TOC
