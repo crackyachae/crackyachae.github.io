@@ -1,6 +1,6 @@
 ---
 layout  : article
-title   : Express Tutorial Part 6: 양식 작업하기 (Working with forms)
+title   : "Express Tutorial Part 6: 양식 작업하기 (Working with forms)"
 summary : 
 date    : 2022-03-28 14:35:50 +0900
 updated : 2022-03-28 22:25:21 +0900
