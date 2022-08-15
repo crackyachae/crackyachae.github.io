@@ -71,7 +71,7 @@
     {% include searchbox.html %}
     <button class="site-menu-button" onclick="siteMenuCollapseToggle()" data-target="#siteMenuCollapseTarget" data-collapsed="False">Menu</button>
     <div id="site-menu-collapse-target" class="site-menu collapse">
-    {% assign collections = site.collections | sort: 'number' | shift | pop reverse %}
+    {% assign collections = site.collections | sort: 'number' | shift %}
     {% for col in collections %}
         {% assign trail = col.label | slice: 0, 2 %}
         <div>
