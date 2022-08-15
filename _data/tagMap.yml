@@ -1,5 +1,5 @@
 navigation:
-    - {fileName: CS-Basic}
+    - {fileName: cs-basic}
     - {fileName: css}
     - {fileName: git}
     - {fileName: javascript}
