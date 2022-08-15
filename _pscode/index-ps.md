@@ -1,6 +1,6 @@
 ---
 layout  : wikiindex
-title   : Problem Solving Index
+title   : 코딩 테스트(Problem Solving) 문제 풀이
 toc     : true
 public  : true
 comment : false
