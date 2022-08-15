@@ -15,7 +15,7 @@ latex   : false
 
 [생활코딩](https://opentutorials.org/course/1) 에서 제공하는 POSIX Command Line 강의. Git2 CLI Version 선행강의로 수강했다.
 
-+ 주소: [[https://opentutorials.org/module/3747]]
++ 주소: https://opentutorials.org/module/3747
 
 ## Review
 

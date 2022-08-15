@@ -15,7 +15,7 @@ latex   : false
 
 [생활코딩](https://opentutorials.org/course/1) 에서 제공하는 React 강의. 짧은 시간 안에 가장 확실하게 React의 '기본'을 익힐 수 있을 것 같아 수강했다.
 
-+ 주소: [[https://opentutorials.org/module/4058]]
++ 주소: https://opentutorials.org/module/4058
 
 ## Review
 

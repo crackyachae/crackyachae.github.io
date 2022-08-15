@@ -17,7 +17,7 @@ latex   : false
 
 함수형 컴포넌트와 Hooks 위주로 리액트의 기본적인 사용 방법을 배운다.
 
-* 주소: [[https://react.vlpt.us/basic/]]
+* 주소: https://react.vlpt.us/basic/
 
 ## Review
 

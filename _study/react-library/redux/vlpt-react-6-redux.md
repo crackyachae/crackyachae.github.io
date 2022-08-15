@@ -17,7 +17,7 @@ latex   : false
 
 [벨로퍼트와 함께하는 모던 리액트 강의](https://react.vlpt.us)의 여섯 번째 강의이다. 리액트의 대표적인 상태관리 라이브러리인 리덕스에 대해 배운다.
 
-* 주소: [[https://react.vlpt.us/redux/]]
+* 주소: https://react.vlpt.us/redux/
 
 ## Review
 
