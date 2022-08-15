@@ -15,7 +15,7 @@ latex   : false
 
 [패스트캠퍼스](https://fastcampus.co.kr)의 기술면접과 알고리즘 강의를 모아놓은 온라인 올인원 패키지. 코딩 테스트를 위한 문제풀이(problem solving)를 할 때 학습 갈피를 잡기위해 수강하기로 결정했다.
 
-+ 주소: [[https://fastcampus.co.kr/dev_online_algo]]
++ 주소: https://fastcampus.co.kr/dev_online_algo
 
 ## Review
 

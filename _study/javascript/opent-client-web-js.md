@@ -17,7 +17,7 @@ latex   : false
 
 언어 자체는 서적으로 깊게 공부하고 우선 직접 활용할 정도로 익히기 위해 자바스크립트언어 자체 강의가 아니라 웹브라우저 응용 강의를 듣기로 결정했다.
 
-* 주소: [[https://opentutorials.org/course/1375]]
+* 주소: https://opentutorials.org/course/1375
 
 ## Review
 

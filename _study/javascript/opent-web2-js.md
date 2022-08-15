@@ -15,7 +15,7 @@ latex   : false
 
 [생활코딩](https://opentutorials.org/course/1) 에서 제공하는 JavaScript 강의. JavaScript 학습을 시작하기위해 선택했다.
 
-* 주소: [[https://opentutorials.org/course/3085]]
+* 주소: https://opentutorials.org/course/3085
 
 ## Review
 

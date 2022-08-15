@@ -21,8 +21,8 @@ latex   : false
 
 주소
 
-* github: [[https://opentutorials.org/module/4636]]
-* pull request: [[https://opentutorials.org/module/5083]]
+* github: https://opentutorials.org/module/4636
+* pull request: https://opentutorials.org/module/5083
 
 ## Review
 

@@ -21,11 +21,11 @@ Git을 사용하기 전에 기본적인 것들을 알고 시작하고 싶어서 
 
 주소
 
-* Git2 버전관리: [[https://opentutorials.org/course/3839]]
-* Git3 Branch & Conflict: [[https://opentutorials.org/course/3840]]
-* Git3 Backup: [[https://opentutorials.org/course/3841]]
-* Git4 협업: [[https://opentutorials.org/course/3842]]
-* Git4 Cherry-pick & rebase: [[https://opentutorials.org/course/3843]]
+* Git2 버전관리: https://opentutorials.org/course/3839
+* Git3 Branch & Conflict: https://opentutorials.org/course/3840
+* Git3 Backup: https://opentutorials.org/course/3841
+* Git4 협업: https://opentutorials.org/course/3842
+* Git4 Cherry-pick & rebase: https://opentutorials.org/course/3843
 
 ## Review
 
