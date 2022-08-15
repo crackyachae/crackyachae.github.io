@@ -2,7 +2,7 @@
 
 const YAML = require('yamljs');
 const fs = require('fs');
-const collections = ['study', 'diary', 'project'];
+const collections = ['study', 'diary', 'project', 'pscode'];
 const list = [];
 const tagMap = {};
 const pageMap = {};

@@ -1,4 +1,5 @@
 navigation:
+    - {fileName: boj}
     - {fileName: cs-basic}
     - {fileName: css}
     - {fileName: git}
@@ -6,6 +7,13 @@ navigation:
     - {fileName: js-library}
     - {fileName: js-library/express}
     - {fileName: mathematics}
+    - {fileName: ps-set/basic}
+    - {fileName: ps-set/data-structure}
+    - {fileName: ps-set/dp}
+    - {fileName: ps-set/graph-search}
+    - {fileName: ps-set/greedy}
+    - {fileName: ps-set/recursive}
+    - {fileName: ps-set/set}
     - {fileName: react}
     - {fileName: System}
     - {fileName: system-blog}
@@ -22,34 +30,245 @@ navigation:
     - {fileName: tools/vscode/ext}
     - {fileName: Toy}
     - {fileName: web-basic}
-intro:
-    - {fileName: cs-basic/fc-algo}
-    - {fileName: cs-basic/fc-algo/1-data-structure}
-    - {fileName: cs-basic/fc-algo/2-algorithm}
-    - {fileName: cs-basic/fc-algo/3-prob-type}
-    - {fileName: cs-basic/fc-algo/4-prob-actual}
-    - {fileName: cs-basic/fc-algo/5-tech-interview}
-    - {fileName: cs-basic/harvardx-cs50s-intro}
-    - {fileName: css/opent-client-css}
-    - {fileName: git/opent-git-cli}
-    - {fileName: git/opent-github}
-    - {fileName: javascript/opent-client-web-js}
-    - {fileName: javascript/opent-web2-js}
-    - {fileName: mathematics/hyu-linear-algebra}
-    - {fileName: react/opent-react}
-    - {fileName: react/vlpt-react-1-basic}
-    - {fileName: tools/terminal/opent-posix1-cli}
-    - {fileName: web-basic/mdn-learn-web-getting-start}
-fast-campus:
-    - {fileName: cs-basic/fc-algo}
-    - {fileName: cs-basic/fc-algo/1-data-structure}
-    - {fileName: cs-basic/fc-algo/2-algorithm}
-    - {fileName: cs-basic/fc-algo/3-prob-type}
-    - {fileName: cs-basic/fc-algo/4-prob-actual}
-    - {fileName: cs-basic/fc-algo/5-tech-interview}
-harverdx:
-    - {fileName: cs-basic/harvardx-cs50s-intro}
+ps-python:
+    - {fileName: boj/boj-10000s/boj-10039}
+    - {fileName: boj/boj-10000s/boj-10102}
+    - {fileName: boj/boj-10000s/boj-10103}
+    - {fileName: boj/boj-10000s/boj-10156}
+    - {fileName: boj/boj-10000s/boj-10162}
+    - {fileName: boj/boj-10000s/boj-10214}
+    - {fileName: boj/boj-10000s/boj-10282}
+    - {fileName: boj/boj-10000s/boj-10430}
+    - {fileName: boj/boj-10000s/boj-10539}
+    - {fileName: boj/boj-10000s/boj-10699}
+    - {fileName: boj/boj-10000s/boj-10757}
+    - {fileName: boj/boj-10000s/boj-10809}
+    - {fileName: boj/boj-10000s/boj-10814}
+    - {fileName: boj/boj-10000s/boj-10817}
+    - {fileName: boj/boj-10000s/boj-10818}
+    - {fileName: boj/boj-10000s/boj-10828}
+    - {fileName: boj/boj-10000s/boj-10845}
+    - {fileName: boj/boj-10000s/boj-10866}
+    - {fileName: boj/boj-10000s/boj-10869}
+    - {fileName: boj/boj-10000s/boj-10870}
+    - {fileName: boj/boj-10000s/boj-10872}
+    - {fileName: boj/boj-10000s/boj-10886}
+    - {fileName: boj/boj-10000s/boj-10930}
+    - {fileName: boj/boj-10000s/boj-10950}
+    - {fileName: boj/boj-10000s/boj-10951}
+    - {fileName: boj/boj-10000s/boj-10952}
+    - {fileName: boj/boj-10000s/boj-10953}
+    - {fileName: boj/boj-10000s/boj-10988}
+    - {fileName: boj/boj-10000s/boj-10989}
+    - {fileName: boj/boj-10000s/boj-10991}
+    - {fileName: boj/boj-10000s/boj-10992}
+    - {fileName: boj/boj-10000s/boj-10998}
+    - {fileName: boj/boj-1000s/boj-1000}
+    - {fileName: boj/boj-1000s/boj-1001}
+    - {fileName: boj/boj-1000s/boj-1008}
+    - {fileName: boj/boj-1000s/boj-1012}
+    - {fileName: boj/boj-1000s/boj-1037}
+    - {fileName: boj/boj-1000s/boj-1074}
+    - {fileName: boj/boj-1000s/boj-1092}
+    - {fileName: boj/boj-1000s/boj-1158}
+    - {fileName: boj/boj-1000s/boj-1236}
+    - {fileName: boj/boj-1000s/boj-1260}
+    - {fileName: boj/boj-1000s/boj-1292}
+    - {fileName: boj/boj-1000s/boj-1302}
+    - {fileName: boj/boj-1000s/boj-1325}
+    - {fileName: boj/boj-1000s/boj-1406}
+    - {fileName: boj/boj-1000s/boj-1427}
+    - {fileName: boj/boj-1000s/boj-1439}
+    - {fileName: boj/boj-1000s/boj-1461}
+    - {fileName: boj/boj-1000s/boj-1495}
+    - {fileName: boj/boj-1000s/boj-1543}
+    - {fileName: boj/boj-1000s/boj-1546}
+    - {fileName: boj/boj-1000s/boj-1568}
+    - {fileName: boj/boj-1000s/boj-1655}
+    - {fileName: boj/boj-1000s/boj-1668}
+    - {fileName: boj/boj-1000s/boj-1697}
+    - {fileName: boj/boj-1000s/boj-1715}
+    - {fileName: boj/boj-1000s/boj-1759}
+    - {fileName: boj/boj-1000s/boj-1766}
+    - {fileName: boj/boj-1000s/boj-1774}
+    - {fileName: boj/boj-1000s/boj-1781}
+    - {fileName: boj/boj-1000s/boj-1789}
+    - {fileName: boj/boj-1000s/boj-1874}
+    - {fileName: boj/boj-1000s/boj-1904}
+    - {fileName: boj/boj-1000s/boj-1920}
+    - {fileName: boj/boj-1000s/boj-1924}
+    - {fileName: boj/boj-1000s/boj-1927}
+    - {fileName: boj/boj-1000s/boj-1934}
+    - {fileName: boj/boj-1000s/boj-1939}
+    - {fileName: boj/boj-1000s/boj-1966}
+    - {fileName: boj/boj-1000s/boj-1978}
+    - {fileName: boj/boj-1000s/boj-1987}
+    - {fileName: boj/boj-1000s/boj-1991}
+    - {fileName: boj/boj-11000s/boj-11004}
+    - {fileName: boj/boj-11000s/boj-11021}
+    - {fileName: boj/boj-11000s/boj-11022}
+    - {fileName: boj/boj-11000s/boj-11053}
+    - {fileName: boj/boj-11000s/boj-11279}
+    - {fileName: boj/boj-11000s/boj-11286}
+    - {fileName: boj/boj-11000s/boj-11557}
+    - {fileName: boj/boj-11000s/boj-11650}
+    - {fileName: boj/boj-11000s/boj-11653}
+    - {fileName: boj/boj-11000s/boj-11718}
+    - {fileName: boj/boj-11000s/boj-11719}
+    - {fileName: boj/boj-11000s/boj-11720}
+    - {fileName: boj/boj-11000s/boj-11721}
+    - {fileName: boj/boj-12000s/boj-12100}
+    - {fileName: boj/boj-12000s/boj-12865}
+    - {fileName: boj/boj-14000s/boj-14620}
+    - {fileName: boj/boj-15000s/boj-15969}
+    - {fileName: boj/boj-16000s/boj-16165}
+    - {fileName: boj/boj-16000s/boj-16675}
+    - {fileName: boj/boj-16000s/boj-16768}
+    - {fileName: boj/boj-16000s/boj-16769}
+    - {fileName: boj/boj-16000s/boj-16956}
+    - {fileName: boj/boj-17000s/boj-17224}
+    - {fileName: boj/boj-17000s/boj-17269}
+    - {fileName: boj/boj-17000s/boj-17389}
+    - {fileName: boj/boj-17000s/boj-17413}
+    - {fileName: boj/boj-2000s/boj-2012}
+    - {fileName: boj/boj-2000s/boj-2110}
+    - {fileName: boj/boj-2000s/boj-2163}
+    - {fileName: boj/boj-2000s/boj-2212}
+    - {fileName: boj/boj-2000s/boj-2250}
+    - {fileName: boj/boj-2000s/boj-2309}
+    - {fileName: boj/boj-2000s/boj-2438}
+    - {fileName: boj/boj-2000s/boj-2439}
+    - {fileName: boj/boj-2000s/boj-2440}
+    - {fileName: boj/boj-2000s/boj-2441}
+    - {fileName: boj/boj-2000s/boj-2442}
+    - {fileName: boj/boj-2000s/boj-2443}
+    - {fileName: boj/boj-2000s/boj-2444}
+    - {fileName: boj/boj-2000s/boj-2445}
+    - {fileName: boj/boj-2000s/boj-2446}
+    - {fileName: boj/boj-2000s/boj-2460}
+    - {fileName: boj/boj-2000s/boj-2476}
+    - {fileName: boj/boj-2000s/boj-2480}
+    - {fileName: boj/boj-2000s/boj-2484}
+    - {fileName: boj/boj-2000s/boj-2501}
+    - {fileName: boj/boj-2000s/boj-2522}
+    - {fileName: boj/boj-2000s/boj-2525}
+    - {fileName: boj/boj-2000s/boj-2530}
+    - {fileName: boj/boj-2000s/boj-2557}
+    - {fileName: boj/boj-2000s/boj-2558}
+    - {fileName: boj/boj-2000s/boj-2562}
+    - {fileName: boj/boj-2000s/boj-2576}
+    - {fileName: boj/boj-2000s/boj-2581}
+    - {fileName: boj/boj-2000s/boj-2588}
+    - {fileName: boj/boj-2000s/boj-2606}
+    - {fileName: boj/boj-2000s/boj-2609}
+    - {fileName: boj/boj-2000s/boj-2655}
+    - {fileName: boj/boj-2000s/boj-2675}
+    - {fileName: boj/boj-2000s/boj-2693}
+    - {fileName: boj/boj-2000s/boj-2696}
+    - {fileName: boj/boj-2000s/boj-2739}
+    - {fileName: boj/boj-2000s/boj-2741}
+    - {fileName: boj/boj-2000s/boj-2742}
+    - {fileName: boj/boj-2000s/boj-2747}
+    - {fileName: boj/boj-2000s/boj-2750}
+    - {fileName: boj/boj-2000s/boj-2751}
+    - {fileName: boj/boj-2000s/boj-2753}
+    - {fileName: boj/boj-2000s/boj-2754}
+    - {fileName: boj/boj-2000s/boj-2798}
+    - {fileName: boj/boj-2000s/boj-2884}
+    - {fileName: boj/boj-2000s/boj-2914}
+    - {fileName: boj/boj-2000s/boj-2920}
+    - {fileName: boj/boj-2000s/boj-2935}
+    - {fileName: boj/boj-3000s}
+    - {fileName: boj/boj-3000s/boj-3009}
+    - {fileName: boj/boj-3000s/boj-3046}
+    - {fileName: boj/boj-3000s/boj-3460}
+    - {fileName: boj/boj-4000s/boj-4101}
+    - {fileName: boj/boj-4000s/boj-4195}
+    - {fileName: boj/boj-5000s/boj-5063}
+    - {fileName: boj/boj-5000s/boj-5086}
+    - {fileName: boj/boj-5000s/boj-5355}
+    - {fileName: boj/boj-5000s/boj-5397}
+    - {fileName: boj/boj-5000s/boj-5430}
+    - {fileName: boj/boj-5000s/boj-5585}
+    - {fileName: boj/boj-5000s/boj-5598}
+    - {fileName: boj/boj-5000s/boj-5717}
+    - {fileName: boj/boj-5000s/boj-5719}
+    - {fileName: boj/boj-7000s/boj-7287}
+    - {fileName: boj/boj-7000s/boj-7490}
+    - {fileName: boj/boj-7000s/boj-7567}
+    - {fileName: boj/boj-8000s/boj-8393}
+    - {fileName: boj/boj-8000s/boj-8958}
+    - {fileName: boj/boj-9000s/boj-9012}
+    - {fileName: boj/boj-9000s/boj-9037}
+    - {fileName: boj/boj-9000s/boj-9093}
+    - {fileName: boj/boj-9000s/boj-9251}
+    - {fileName: boj/boj-9000s/boj-9498}
+    - {fileName: boj/boj-9000s/boj-9506}
+    - {fileName: boj/boj-9000s/boj-9610}
+    - {fileName: boj/boj-9000s/boj-9663}
+    - {fileName: programmers}
+    - {fileName: programmers/programmers-12977}
+    - {fileName: programmers/programmers-42583}
+    - {fileName: programmers/programmers-42584}
+    - {fileName: programmers/programmers-42587}
+    - {fileName: ps-set/basic/automata-py-basic}
+    - {fileName: ps-set/basic/codeup-py-basic}
+    - {fileName: ps-set/basic/covenant-prep-1-basic}
+    - {fileName: ps-set/basic/covenant-start-1-basic}
+    - {fileName: ps-set/basic/fc-algo-actual-1-data-structure}
+    - {fileName: ps-set/basic/fc-algo-actual-2-parameter}
+    - {fileName: ps-set/basic/fc-algo-actual-3-exception}
+    - {fileName: ps-set/basic/fc-algo-actual-4-direction}
+    - {fileName: ps-set/basic/plzrun-1-io}
+    - {fileName: ps-set/data-structure/covenant-start-2-stack-queue}
+    - {fileName: ps-set/data-structure/covenant-start-3-heap}
+    - {fileName: ps-set/data-structure/fc-algo-1-data-structure}
+    - {fileName: ps-set/data-structure/fc-algo-2-data-structure}
+    - {fileName: ps-set/dp/fc-algo-8-dp}
+    - {fileName: ps-set/graph-search/fc-algo-10-graph-advanced}
+    - {fileName: ps-set/graph-search/fc-algo-12-back-tracking}
+    - {fileName: ps-set/graph-search/fc-algo-9-bfs-dfs-basic}
+    - {fileName: ps-set/graph-search/fc-algo-actual-5-search}
+    - {fileName: ps-set/greedy/fc-algo-11-greedy}
+    - {fileName: ps-set/recursive/fc-algo-4-recursive}
+    - {fileName: ps-set/sort/fc-algo-3-sort-basic}
+    - {fileName: ps-set/sort/fc-algo-5-sort-advanced}
+ps-js:
+    - {fileName: boj/boj-10000s/boj-10282}
+    - {fileName: boj/boj-10000s/boj-10539}
+    - {fileName: boj/boj-1000s/boj-1012}
+    - {fileName: boj/boj-1000s/boj-1260}
+    - {fileName: boj/boj-1000s/boj-1325}
+    - {fileName: boj/boj-1000s/boj-1439}
+    - {fileName: boj/boj-1000s/boj-1461}
+    - {fileName: boj/boj-1000s/boj-1495}
+    - {fileName: boj/boj-1000s/boj-1697}
+    - {fileName: boj/boj-1000s/boj-1759}
+    - {fileName: boj/boj-1000s/boj-1774}
+    - {fileName: boj/boj-1000s/boj-1987}
+    - {fileName: boj/boj-1000s/boj-1991}
+    - {fileName: boj/boj-11000s/boj-11053}
+    - {fileName: boj/boj-12000s/boj-12865}
+    - {fileName: boj/boj-15000s/boj-15969}
+    - {fileName: boj/boj-16000s/boj-16768}
+    - {fileName: boj/boj-17000s/boj-17269}
+    - {fileName: boj/boj-17000s/boj-17389}
+    - {fileName: boj/boj-2000s/boj-2012}
+    - {fileName: boj/boj-2000s/boj-2212}
+    - {fileName: boj/boj-2000s/boj-2250}
+    - {fileName: boj/boj-2000s/boj-2606}
+    - {fileName: boj/boj-2000s/boj-2655}
+    - {fileName: boj/boj-5000s/boj-5585}
+    - {fileName: boj/boj-9000s/boj-9663}
 draft:
+    - {fileName: boj/boj-1000s/boj-1074}
+    - {fileName: boj/boj-1000s/boj-1325}
+    - {fileName: boj/boj-1000s/boj-1766}
+    - {fileName: boj/boj-12000s/boj-12100}
+    - {fileName: boj/boj-12000s/boj-12865}
+    - {fileName: boj/boj-16000s/boj-16768}
+    - {fileName: boj/boj-9000s/boj-9251}
+    - {fileName: boj/boj-9000s/boj-9663}
     - {fileName: cs-basic/harvardx-cs50s-intro}
     - {fileName: cs-basic/harvardx-cs50s-intro/0-scratch}
     - {fileName: cs-basic/harvardx-cs50s-intro/1-c}
@@ -199,6 +418,41 @@ draft:
     - {fileName: web-basic/mdn-learn-web-server-1/1-introduction}
     - {fileName: web-basic/mdn-learn-web-server-1/2-client-server-overview}
     - {fileName: web-basic/mdn-learn-web-server-1/4-web-security}
+failed:
+    - {fileName: boj/boj-1000s/boj-1766}
+    - {fileName: boj/boj-1000s/boj-1939}
+    - {fileName: boj/boj-12000s/boj-12100}
+    - {fileName: boj/boj-2000s/boj-2110}
+    - {fileName: boj/boj-4000s/boj-4195}
+    - {fileName: boj/boj-5000s/boj-5719}
+    - {fileName: boj/boj-9000s/boj-9251}
+intro:
+    - {fileName: cs-basic/fc-algo}
+    - {fileName: cs-basic/fc-algo/1-data-structure}
+    - {fileName: cs-basic/fc-algo/2-algorithm}
+    - {fileName: cs-basic/fc-algo/3-prob-type}
+    - {fileName: cs-basic/fc-algo/4-prob-actual}
+    - {fileName: cs-basic/fc-algo/5-tech-interview}
+    - {fileName: cs-basic/harvardx-cs50s-intro}
+    - {fileName: css/opent-client-css}
+    - {fileName: git/opent-git-cli}
+    - {fileName: git/opent-github}
+    - {fileName: javascript/opent-client-web-js}
+    - {fileName: javascript/opent-web2-js}
+    - {fileName: mathematics/hyu-linear-algebra}
+    - {fileName: react/opent-react}
+    - {fileName: react/vlpt-react-1-basic}
+    - {fileName: tools/terminal/opent-posix1-cli}
+    - {fileName: web-basic/mdn-learn-web-getting-start}
+fast-campus:
+    - {fileName: cs-basic/fc-algo}
+    - {fileName: cs-basic/fc-algo/1-data-structure}
+    - {fileName: cs-basic/fc-algo/2-algorithm}
+    - {fileName: cs-basic/fc-algo/3-prob-type}
+    - {fileName: cs-basic/fc-algo/4-prob-actual}
+    - {fileName: cs-basic/fc-algo/5-tech-interview}
+harverdx:
+    - {fileName: cs-basic/harvardx-cs50s-intro}
 opentutorials:
     - {fileName: css/opent-client-css}
     - {fileName: git/opent-git-cli}
@@ -215,6 +469,8 @@ git:
     - {fileName: git/opent-github/github}
 kocw:
     - {fileName: mathematics/hyu-linear-algebra}
+ps-javascript:
+    - {fileName: ps-set/basic/codeup-py-basic}
 velopert:
     - {fileName: react/vlpt-react-1-basic}
 posix:
