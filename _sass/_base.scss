@@ -97,3 +97,16 @@ h6 {
     content: "⠟";
   }
 }
+
+.post-content .external-link {
+  &:after {
+    content: url("/resource/icon/external-link.svg");
+  }
+}
+
+.broken-link {
+  &:before {
+    content: url("/resource/icon/external-link.svg");
+    color: red;
+  }
+}
