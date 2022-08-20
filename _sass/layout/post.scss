@@ -20,6 +20,10 @@
   }
 }
 
+.post-item:hover {
+  background-color: $color-bg-primary-light;
+}
+
 .post-link {
   text-decoration: none;
 
