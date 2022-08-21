@@ -24,13 +24,15 @@ permalink: /404.html
   <p>The requested page could not be found.</p>
 </div>
 <script>
-    const url = window.location.pathname;
-    console.log(url);
+    const url = window.location.pathname
+        .replace(/[/]*$/, '/');
+
+    console.log(window.location.pathname, "->", url);
 
     const fallbackRouter = {
     };
 
     if (fallbackRouter[url]) {
-        window.location.href = fallbackRouter[url];
+        window.location.href = fallbackRouter[url].concat(window.location.hash);
     }
 </script>
