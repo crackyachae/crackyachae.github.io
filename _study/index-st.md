@@ -10,6 +10,7 @@ regenerate: true
 
 ## [[cs-basic]]
 
+* [[/cs-basic/links]]
 * cs-naming-convention
 
 ### [[/cs-basic/harvardx-cs50s-intro]]
