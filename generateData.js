@@ -59,7 +59,7 @@ function main() {
       });
 
   dataList.forEach(page => {
-      if (page.parent && page.parent != 'index') {
+      if (page.parent) {
 
           const parent = pageMap[page.parent];
 
