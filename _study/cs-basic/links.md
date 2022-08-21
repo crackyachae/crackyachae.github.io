@@ -4,7 +4,7 @@ title   : CS Basic 링크
 summary : 컴퓨터 공학 관련 자료 링크 모음
 date    : 2022-08-21 21:57:47 +0900
 updated : 2022-08-21 22:42:43 +0900
-tag     : 
+tag     : links
 toc     : true
 public  : true
 parent  : [[/cs-basic]]
