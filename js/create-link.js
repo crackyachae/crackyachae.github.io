@@ -46,23 +46,44 @@
     function link(content) {
         // {% assign collections = site.collections | sort: 'number' | map: 'label' | shift | join: '", "' %}
         const wiki = ["{{ collections }}"]
-        // (1) "\[[escape]]" 와 같이 앞에 "\"가 있다면 "\[\[escape\]\]" 로 바꾸기만 하고 링크는 생성하지 않는다.
+
+        // (주석처리) "\[[escape]]" 와 같이 앞에 "\"가 있다면 "\[\[escape\]\]" 로 바꾸기만 하고 링크는 생성하지 않는다.
+        //                            \[[      ]]
         content = content.replace(/\\\[\[(.+?)\]\]/g, '\\[\\[$1\\]\\]');
-        // (2-1) 다른 wiki로 이동하는 경로인 경우 wiki(n): 을 제거하고 col 값을 해당 collection으로 바꾼다.
+
+        // (태그, 타이틀 처리) "[[#tagName#]]{text}"를 <a href="/wiki/tagName#">text</a> 로 replace하여 링크를 만든다.
+        //                           [[#           #]]      {            }
+        content = content.replace(/\[\[#([^\[\]]+?)#\s*\]\]\{([^\{\}]+?)\}/g,
+            '<a href="/tag#$1" class="inner-link labeled-link" data-name="$1"><sup class="tagged-link"/></sup>$2</a>');
+
+
+        // (태그 처리) "[[#tagName#]]"을 <a href="/wiki/tagName#">tagName</a> 로 replace하여 링크를 만든다.
+        //                           [[#           #]]      {            }
+        content = content.replace(/\[\[#([^\[\]]+?)#\s*\]\]/g,
+            '<a href="/tag#$1" class="inner-link labeled-link" data-name="$1"><sup class="tagged-link"/></sup>$1</a>');
+
+
+        // (위키간 이동 처리) 다른 wiki로 이동하는 경로인 경우 wiki(n): 을 제거하고 col 값을 해당 collection으로 바꾼다.
         content = content.replace(/\[\[?wiki(\d)\:\/?/g, (match, p1) => {
             col = wiki[p1]
             return '[[';
         });
-        // (2) 다음과 같은 문자열을 <a href="/wiki/document">document-name</a> 으로 replace하여 링크를 만든다.
+
+        // (추가 타이틀 처리) 다음과 같은 문자열을 <a href="/wiki/document">document-name</a> 으로 replace하여 링크를 만든다.
         //  [[document]]{document-name}       => <a href="/wiki/document">document-name</a>
         //  [[/document]]{document-name}      => <a href="/wiki/document">document-name</a>
         //  [[/dir/document]]{document-name}  => <a href="/wiki/dir/document">document-name</a>
-        content = content.replace(/\[\[\/?([^\[\]]+?)\s*\]\]\{([^\{\}]+?)\}/g, `<a href="/${col}/$1" class="inner-link labeled-link" data-name="$1">$2</a>`);
-        // (3) "[[document]]"가 있다면 <a href="/wiki/document">document</a> 와 같이 replace하여 링크를 만든다.
-        //  예제는 (2)와 거의 비슷하다.
-        content = content.replace(/\[\[\/?(.+?)\s*\]\]/g, `<a href="/${col}/$1" class="inner-link no-labeled-link" data-name="$1">$1</a>`);
-        // (4) (1)에서 이스케이프한 문자열을 본래 표현하려 한 형식으로 되돌린다.
+        content = content.replace(/\[\[\/?([^\[\]]+?)\s*\]\]\{([^\{\}]+?)\}/g,
+            `<a href="/${col}/$1" class="inner-link labeled-link" data-name="$1">$2</a>`);
+
+        // "[[document]]"가 있다면 <a href="/wiki/document">document</a> 와 같이 replace하여 링크를 만든다.
+        //  예제는 (추가 타이틀 처리)와 거의 비슷하다.
+        content = content.replace(/\[\[\/?(.+?)\s*\]\]/g,
+            `<a href="/${col}/$1" class="inner-link no-labeled-link" data-name="$1">$1</a>`);
+
+        // (주석처리)에서 이스케이프한 문자열을 본래 표현하려 한 형식으로 되돌린다.
         content = content.replace(/\\\[\\\[(.+?)\\\]\\\]/g, '[[$1]]');
+
         return content;
     }
 
