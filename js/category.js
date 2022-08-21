@@ -20,7 +20,7 @@
 
             var html = '';
             for (var i = 0; i < children.length; i++) {
-                html += `<li id="child-document-${i} class="post-item"></li>`
+                html += `<li id="child-document-${i}" class="post-item"></li>`
             }
             document.getElementById('document-list').innerHTML = `<ul class="post-list">${html}</ul>`
 
@@ -43,6 +43,7 @@
             fetch(`/data/metadata/${target}.json`)
                 .then(response => response.json())
                 .then(function(data) {
+                    console.log('data', data);
                     if (data == null) {            
                         return;
                     }
@@ -56,6 +57,7 @@
                     const subDoc = (data.children && data.children.length > 0) ? `<div class="post-sub-document"> - 서브 문서: ${data.children.length} 개</div>` : '';
 
                     const html = `<a href="${data.url}" class="post-link">${title}${date}${summary}${subDoc}</a>`;
+                    console.log('html', html);
                     document.getElementById(`child-document-${i}`).innerHTML = html;
 
                     return;
