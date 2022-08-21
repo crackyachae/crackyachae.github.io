@@ -1,16 +1,8 @@
 ---
 ---
+
 // This wiki uses Primer/css (https://primer.style/css/) for styling
 @charset "utf-8";
 
 // Import from 'sass_dir' (default: _sass)
-@import
-    "base",
-    "markdown",
-    "layout",
-    "syntax",
-    "index",
-    "details",
-    "toc",
-    "utterances"
-;
+@import "base", "markdown", "layout", "index", "details", "toc", "utterances";
