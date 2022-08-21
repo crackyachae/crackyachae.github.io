@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2022-08-15 16:18:42 +0900
+updated : 2022-08-21 22:45:54 +0900
 regenerate: true
 ---
 
@@ -116,7 +116,7 @@ regenerate: true
 
 ## [[css]]
 
-* /css/links
+* [[/css/links]]
 
 ### [[/css/opent-client-css]]
 
