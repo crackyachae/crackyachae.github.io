@@ -520,8 +520,6 @@ $$
 
 ## Powers and Products: $A^k$ and $AB$
 
----
-
 $A^2$의 eigenvalue는 $\lambda_1^2, \lambda_2^2, \cdots, \lambda_n^2$ 이고, $A$의 eigenvector는 $A^2$의 eigenvector와 동일하다.
 
 $Ax = \lambda x$에서 시작하면

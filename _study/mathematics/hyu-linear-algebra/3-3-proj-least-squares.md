@@ -109,8 +109,6 @@ $$
 
 ## Least Squares Problems with Several Variables
 
----
-
 전 단원에서 line에 한정지었던 projection을 space로 확장. → Matrix $A$가 m by n matrix. column의 수가 1개가 아닌 $n$개
 
 그 외는 이전과 동일하다.
@@ -272,8 +270,6 @@ $b$가 이미 $A$의 column space안에 있는 vector라면 ($Ax=b$) $b$를 proj
 
 ## The Cross-Product Matrix $A^TA$
 
----
-
 $A^TA$는 symmetric하다.
 
 $$
@@ -295,8 +291,6 @@ $$
 > $A$가 independent columns를 가지면 $A^TA$는 $\text{square, symmetric}$ and $\text{invertible}$ 하다.
 
 ## Projection Matrices
-
----
 
 위에서 $b$에 가장 가까운 point $p$를 나타내는 식이 $p=A(A^TA)^{-1}A^Tb$임을 밝혔다.
 
@@ -357,7 +351,6 @@ Identity matrix는 symmetric하고 $I^2=I$이며 error $b-Ib$는 zero다.
 
 ## Least-Squares Fitting of Data
 
----
 Input $t$에 대한 linear function의 결과로 output $b$가 나오는 일련의 실험을 진행했다고 가정하자.
 
 이 때, 실험 결과를 나타내는 $\text{straight line }b=C+Dt$를 찾으려한다.
@@ -491,8 +484,6 @@ A^Tb \qquad or \qquad
 $$
 
 ## Weighted Least Squares
-
----
 
 13강 일반 최소제곱법 부분. 자세하게는 다루지 않음.
 

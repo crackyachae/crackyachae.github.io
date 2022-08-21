@@ -84,7 +84,6 @@ $$
 
 ## Transform Represented by Matrices
 
----
 >모든 basis vector에 대해서 $Ax$를 알면, 모든 vector space에 대해 $Ax$를 알 수 있다.
 
 이는 Lineary system에서 A를 정확히 모르더라도 A를 통해 모든 basis vector를 변환한 결과를 알고 있으면 space내의 모든 vector의 변환 결과를 알 수 있다는 것을 의미한다.
@@ -233,8 +232,6 @@ $$
 * 순서를 바꾸면 성립하지 않는다. $A_{int}A_{diff}$ is not $I$
 
 ## Rotations Q, Projections P, and Reflections H
-
----
 
 ### Rotation
 
