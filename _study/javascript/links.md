@@ -59,15 +59,15 @@ latex   : false
     * 번역: [소년코딩의 자바스크립트 공부 방법](https://boycoding.tistory.com/1) by 소년코딩
 * [The Best Way to Learn JavaScript](https://code.tutsplus.com/tutorials/the-best-way-to-learn-javascript--net-21954) by Andrew Burgess @ envato-tuts+
 
-### JavaScript Style Guide
+### JavaScript 스타일 가이드
 
 * [5 JavaScript Style Guides — Including AirBnB, GitHub, & Google](https://codeburst.io/5-javascript-style-guides-including-airbnb-github-google-88cbc6b2b7aa) by Brandon Morelli
-* [airbnb javascript style guide](https://github.com/airbnb/javascript)
-* [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
-* [Idiomatic JavaScript Style Guide](https://github.com/rwaldron/idiomatic.js/)
-* [JavaScript Standard Style Guide](https://github.com/standard/standard)
+* Style Guides
+    * [airbnb javascript style guide](https://github.com/airbnb/javascript)
+    * [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+    * [Idiomatic JavaScript Style Guide](https://github.com/rwaldron/idiomatic.js/)
+    * [JavaScript Standard Style Guide](https://github.com/standard/standard)
 * [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript) by ryanmcdermott
-* 참고: React 스타일 가이드 [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react#naming)
 
 ## 임시
 
