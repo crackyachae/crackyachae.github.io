@@ -289,8 +289,6 @@ $x_r$은 $x$를 row space로, $x_n$은 $x$를 nullspace로 projection한 것이�
 
 ## 3.2 Cosines and Projections onto Lines
 
----
-
 * Vector의 inner product를 vector가 이루는 각과 연결시키기 위함.
 * Vector가 이루는 각이 right angle이 아니고 그 inner product 값도 zero가 아닌 경우.
 

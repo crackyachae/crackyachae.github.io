@@ -215,10 +215,10 @@ regenerate: true
 * [[/react/opent-react/1-env]]
 * [[/react/opent-react/2-component]]
 * [[/react/opent-react/3-state]]
-* [[/react/opent-react/4-event.md]]
-* [[/react/opent-react/5-create.md]]
-* [[/react/opent-react/6-update-delete.md]]
-* [[/react/opent-react/7-end.md]]
+* [[/react/opent-react/4-event]]
+* [[/react/opent-react/5-create]]
+* [[/react/opent-react/6-update-delete]]
+* [[/react/opent-react/7-end]]
 
 ### [[/react/vlpt-react-1-basic]]
 
