@@ -1,1 +1,17 @@
-{"type":"wiki","collection":"pscode","title":"자료구조 문제 모음","summary":"","parent":"ps-set","url":"/pscode/ps-set/data-structure","updated":"2021-04-23 21:59:51 +0900","children":["ps-set/data-structure/covenant-start-2-stack-queue","ps-set/data-structure/covenant-start-3-heap","ps-set/data-structure/fc-algo-1-data-structure","ps-set/data-structure/fc-algo-2-data-structure","ps-set/data-structure/ryute-1-data-struct","ps-set/data-structure/ryute-2-heap"]}
+{
+ "type": "wiki",
+ "collection": "pscode",
+ "title": "자료구조 문제 모음",
+ "summary": "",
+ "parent": "ps-set",
+ "url": "/pscode/ps-set/data-structure",
+ "updated": "2021-04-23 21:59:51 +0900",
+ "children": [
+  "ps-set/data-structure/covenant-start-2-stack-queue",
+  "ps-set/data-structure/covenant-start-3-heap",
+  "ps-set/data-structure/fc-algo-1-data-structure",
+  "ps-set/data-structure/fc-algo-2-data-structure",
+  "ps-set/data-structure/ryute-1-data-struct",
+  "ps-set/data-structure/ryute-2-heap"
+ ]
+}

@@ -1,1 +1,32 @@
-{"type":"wiki","collection":"study","title":"\"벨로퍼트와 함께하는 모던 React: 1장. 리액트 입문\"","summary":"","parent":"react","url":"/study/react/vlpt-react-1-basic","updated":"2021-03-29 12:38:44 +0900","children":["react/vlpt-react-1-basic/10-useRef-1","react/vlpt-react-1-basic/11-array","react/vlpt-react-1-basic/12-useRef-2","react/vlpt-react-1-basic/13-array-add","react/vlpt-react-1-basic/14-array-delete","react/vlpt-react-1-basic/15-array-edit","react/vlpt-react-1-basic/16-useEffect","react/vlpt-react-1-basic/17-useMemo","react/vlpt-react-1-basic/18-useCallback","react/vlpt-react-1-basic/19-react-memo","react/vlpt-react-1-basic/20-useReducer","react/vlpt-react-1-basic/21-custom-hooks","react/vlpt-react-1-basic/22-context-API","react/vlpt-react-1-basic/23-immer","react/vlpt-react-1-basic/26-componentdidcatch","react/vlpt-react-1-basic/4-jsx","react/vlpt-react-1-basic/5-props","react/vlpt-react-1-basic/6-conditional-render","react/vlpt-react-1-basic/7-useState","react/vlpt-react-1-basic/8-input","react/vlpt-react-1-basic/9-many-inputs"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "\"벨로퍼트와 함께하는 모던 React: 1장. 리액트 입문\"",
+ "summary": "",
+ "parent": "react",
+ "url": "/study/react/vlpt-react-1-basic",
+ "updated": "2021-03-29 12:38:44 +0900",
+ "children": [
+  "react/vlpt-react-1-basic/10-useRef-1",
+  "react/vlpt-react-1-basic/11-array",
+  "react/vlpt-react-1-basic/12-useRef-2",
+  "react/vlpt-react-1-basic/13-array-add",
+  "react/vlpt-react-1-basic/14-array-delete",
+  "react/vlpt-react-1-basic/15-array-edit",
+  "react/vlpt-react-1-basic/16-useEffect",
+  "react/vlpt-react-1-basic/17-useMemo",
+  "react/vlpt-react-1-basic/18-useCallback",
+  "react/vlpt-react-1-basic/19-react-memo",
+  "react/vlpt-react-1-basic/20-useReducer",
+  "react/vlpt-react-1-basic/21-custom-hooks",
+  "react/vlpt-react-1-basic/22-context-API",
+  "react/vlpt-react-1-basic/23-immer",
+  "react/vlpt-react-1-basic/26-componentdidcatch",
+  "react/vlpt-react-1-basic/4-jsx",
+  "react/vlpt-react-1-basic/5-props",
+  "react/vlpt-react-1-basic/6-conditional-render",
+  "react/vlpt-react-1-basic/7-useState",
+  "react/vlpt-react-1-basic/8-input",
+  "react/vlpt-react-1-basic/9-many-inputs"
+ ]
+}

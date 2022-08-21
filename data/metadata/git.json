@@ -1,1 +1,12 @@
-{"type":"wiki","collection":"study","title":"Git","parent":"index-st","url":"/study/git","updated":"2020-04-30 00:19:04 +0900","children":["git/opent-git-cli","git/opent-github"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "Git",
+ "parent": "index-st",
+ "url": "/study/git",
+ "updated": "2020-04-30 00:19:04 +0900",
+ "children": [
+  "git/opent-git-cli",
+  "git/opent-github"
+ ]
+}

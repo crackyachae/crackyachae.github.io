@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"책 인스턴스 상세 페이지와 도전 (BookInstance detail page and challenge)","summary":"","parent":"js-library/express/mdn-learn-web-server-3/7-express-tutorial-5","url":"/study/js-library/express/mdn-learn-web-server-3/7-12-bookinstance-detail-page","updated":"2022-02-26 20:42:47 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "책 인스턴스 상세 페이지와 도전 (BookInstance detail page and challenge)",
+ "summary": "",
+ "parent": "js-library/express/mdn-learn-web-server-3/7-express-tutorial-5",
+ "url": "/study/js-library/express/mdn-learn-web-server-3/7-12-bookinstance-detail-page",
+ "updated": "2022-02-26 20:42:47 +0900",
+ "children": []
+}

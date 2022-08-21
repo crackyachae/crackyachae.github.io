@@ -31,6 +31,10 @@ Gemfile.lock
 *.DS_Store
 *.swp
 
+# server
+.localhost.log
+.localhost.pid
+
 # Folders
 /vendor
 bbin/

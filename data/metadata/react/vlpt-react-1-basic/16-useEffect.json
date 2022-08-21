@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"16. useEffect를 사용하여 마운트/언마운트/업데이트시 할 작업 설정하기","summary":"","parent":"react/vlpt-react-1-basic","url":"/study/react/vlpt-react-1-basic/16-useEffect","updated":"2021-01-02 00:42:10 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "16. useEffect를 사용하여 마운트/언마운트/업데이트시 할 작업 설정하기",
+ "summary": "",
+ "parent": "react/vlpt-react-1-basic",
+ "url": "/study/react/vlpt-react-1-basic/16-useEffect",
+ "updated": "2021-01-02 00:42:10 +0900",
+ "children": []
+}

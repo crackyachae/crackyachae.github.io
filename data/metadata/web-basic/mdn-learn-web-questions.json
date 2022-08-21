@@ -1,1 +1,15 @@
-{"type":"wiki","collection":"study","title":"\"MDN Learn web development: Common questions\"","summary":"","parent":"web-basic","url":"/study/web-basic/mdn-learn-web-questions","updated":"2021-11-13 00:09:43 +0900","children":["web-basic/mdn-learn-web-questions/1-1-internet","web-basic/mdn-learn-web-questions/1-2-web-page-site-server","web-basic/mdn-learn-web-questions/1-6-web-server","web-basic/mdn-learn-web-questions/2-1-needed-software"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "\"MDN Learn web development: Common questions\"",
+ "summary": "",
+ "parent": "web-basic",
+ "url": "/study/web-basic/mdn-learn-web-questions",
+ "updated": "2021-11-13 00:09:43 +0900",
+ "children": [
+  "web-basic/mdn-learn-web-questions/1-1-internet",
+  "web-basic/mdn-learn-web-questions/1-2-web-page-site-server",
+  "web-basic/mdn-learn-web-questions/1-6-web-server",
+  "web-basic/mdn-learn-web-questions/2-1-needed-software"
+ ]
+}

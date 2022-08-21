@@ -1,1 +1,13 @@
-{"type":"wiki","collection":"study","title":"React","summary":"","parent":"index-st","url":"/study/react","updated":"2022-08-14 18:13:21 +0900","children":["react/opent-react","react/vlpt-react-1-basic"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "React",
+ "summary": "",
+ "parent": "index-st",
+ "url": "/study/react",
+ "updated": "2022-08-14 18:13:21 +0900",
+ "children": [
+  "react/opent-react",
+  "react/vlpt-react-1-basic"
+ ]
+}

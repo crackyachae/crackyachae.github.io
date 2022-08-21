@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"Posix1 CLI","summary":"","parent":"tools/terminal/opent-posix1-cli","url":"/study/tools/terminal/opent-posix1-cli/lecture","updated":"2020-06-07 16:58:39 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "Posix1 CLI",
+ "summary": "",
+ "parent": "tools/terminal/opent-posix1-cli",
+ "url": "/study/tools/terminal/opent-posix1-cli/lecture",
+ "updated": "2020-06-07 16:58:39 +0900",
+ "children": []
+}

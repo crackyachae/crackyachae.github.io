@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"\"생활코딩: Git2 CLI 버전관리\"","summary":"","parent":"git/opent-git-cli","url":"/study/git/opent-git-cli/2-version-control","updated":"2020-12-03 21:02:31 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "\"생활코딩: Git2 CLI 버전관리\"",
+ "summary": "",
+ "parent": "git/opent-git-cli",
+ "url": "/study/git/opent-git-cli/2-version-control",
+ "updated": "2020-12-03 21:02:31 +0900",
+ "children": []
+}

@@ -1,1 +1,4 @@
-["git/opent-git-cli/2-version-control","git/opent-github/github"]
+[
+ "git/opent-git-cli/2-version-control",
+ "git/opent-github/github"
+]

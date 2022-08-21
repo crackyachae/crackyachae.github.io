@@ -22,22 +22,22 @@
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="{{ page.summary }}" />
 
-    <link rel="apple-touch-icon" sizes="57x57"        href="{{ "/resource/icon.ico/apple-icon-57x57.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="apple-touch-icon" sizes="60x60"        href="{{ "/resource/icon.ico/apple-icon-60x60.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="apple-touch-icon" sizes="72x72"        href="{{ "/resource/icon.ico/apple-icon-72x72.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="apple-touch-icon" sizes="76x76"        href="{{ "/resource/icon.ico/apple-icon-76x76.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="apple-touch-icon" sizes="114x114"      href="{{ "/resource/icon.ico/apple-icon-114x114.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="apple-touch-icon" sizes="120x120"      href="{{ "/resource/icon.ico/apple-icon-120x120.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="apple-touch-icon" sizes="144x144"      href="{{ "/resource/icon.ico/apple-icon-144x144.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="apple-touch-icon" sizes="152x152"      href="{{ "/resource/icon.ico/apple-icon-152x152.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="apple-touch-icon" sizes="180x180"      href="{{ "/resource/icon.ico/apple-icon-180x180.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ "/resource/icon.ico/android-icon-192x192.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="icon" type="image/png" sizes="32x32"   href="{{ "/resource/icon.ico/favicon-32x32.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="icon" type="image/png" sizes="96x96"   href="{{ "/resource/icon.ico/favicon-96x96.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="icon" type="image/png" sizes="16x16"   href="{{ "/resource/icon.ico/favicon-16x16.png" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="manifest" href="{{ "/resource/icon.ico/manifest.json" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="apple-touch-icon" sizes="57x57"        href="{{ "/resource/icon/apple-icon-57x57.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="apple-touch-icon" sizes="60x60"        href="{{ "/resource/icon/apple-icon-60x60.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="apple-touch-icon" sizes="72x72"        href="{{ "/resource/icon/apple-icon-72x72.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="apple-touch-icon" sizes="76x76"        href="{{ "/resource/icon/apple-icon-76x76.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="apple-touch-icon" sizes="114x114"      href="{{ "/resource/icon/apple-icon-114x114.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="apple-touch-icon" sizes="120x120"      href="{{ "/resource/icon/apple-icon-120x120.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="apple-touch-icon" sizes="144x144"      href="{{ "/resource/icon/apple-icon-144x144.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="apple-touch-icon" sizes="152x152"      href="{{ "/resource/icon/apple-icon-152x152.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="apple-touch-icon" sizes="180x180"      href="{{ "/resource/icon/apple-icon-180x180.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ "/resource/icon/android-icon-192x192.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="icon" type="image/png" sizes="32x32"   href="{{ "/resource/icon/favicon-32x32.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="icon" type="image/png" sizes="96x96"   href="{{ "/resource/icon/favicon-96x96.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="icon" type="image/png" sizes="16x16"   href="{{ "/resource/icon/favicon-16x16.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="manifest" href="{{ "/resource/icon/manifest.json" | prepend: site.baseurl | prepend: site.url }}" />
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ "/resource/icon.ico/ms-icon-144x144.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <meta name="msapplication-TileImage" content="{{ "/resource/icon/ms-icon-144x144.png" | prepend: site.baseurl | prepend: site.url }}" />
     <meta name="theme-color" content="#ffffff">
 
 {% if site.google_analytics.ua %}
@@ -84,7 +84,7 @@
         </div>
         -->
         <div>
-            <a id="random-button" class="random" href="/study/index-st/#random" onClick="if(typeof random === 'function')random()">random</a>
+            <a id="random-button" class="site-title-right" onClick="goToRandomDocument()">random</a
         </div>
         <div>
             <a class="tag" href="/tag/">tags</a>
@@ -92,6 +92,24 @@
     </div>
 </header>
 <script>
+function goToRandomDocument() {
+    fetch(`/data/total-document-url-list.json`)
+        .then(response => response.json())
+        .then(function(data) {
+            const num = getRandomInt(0, data.length);
+            window.location.href = data[num];
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+}
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min; //최댓값은 제외, 최솟값은 포함
+}
+
 ;(function(){
     var isCtrl = false;
 
@@ -106,7 +124,7 @@
             isCtrl = true;
         }
         if(e.which == 82 && isCtrl == true) {
-            document.getElementById("random-button").click();
+            goToRandomDocument();
         }
     }
 })();

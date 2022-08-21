@@ -1,0 +1,86 @@
+[
+ {
+  "name": "docs",
+  "size": 3
+ },
+ {
+  "name": "draft",
+  "size": 157
+ },
+ {
+  "name": "extension",
+  "size": 2
+ },
+ {
+  "name": "failed",
+  "size": 7
+ },
+ {
+  "name": "fast-campus",
+  "size": 6
+ },
+ {
+  "name": "git",
+  "size": 2
+ },
+ {
+  "name": "harverdx",
+  "size": 1
+ },
+ {
+  "name": "intro",
+  "size": 17
+ },
+ {
+  "name": "kocw",
+  "size": 1
+ },
+ {
+  "name": "lint",
+  "size": 1
+ },
+ {
+  "name": "markdown",
+  "size": 1
+ },
+ {
+  "name": "mdn",
+  "size": 1
+ },
+ {
+  "name": "navigation",
+  "size": 31
+ },
+ {
+  "name": "opentutorials",
+  "size": 7
+ },
+ {
+  "name": "posix",
+  "size": 2
+ },
+ {
+  "name": "ps-javascript",
+  "size": 1
+ },
+ {
+  "name": "ps-js",
+  "size": 26
+ },
+ {
+  "name": "ps-python",
+  "size": 202
+ },
+ {
+  "name": "rough",
+  "size": 2
+ },
+ {
+  "name": "velopert",
+  "size": 1
+ },
+ {
+  "name": "vscode",
+  "size": 3
+ }
+]

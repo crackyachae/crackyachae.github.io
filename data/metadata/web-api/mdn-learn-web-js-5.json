@@ -1,1 +1,16 @@
-{"type":"wiki","collection":"study","title":"\"MDN Learn web development: JavaScript - Client-side web APIs\"","summary":"","parent":"web-api","url":"/study/web-api/mdn-learn-web-js-5","updated":"2022-03-17 00:32:32 +0900","children":["web-api/mdn-learn-web-js-5/1-web-api-intro","web-api/mdn-learn-web-js-5/2-manipulate-document","web-api/mdn-learn-web-js-5/3-fetch-from-server","web-api/mdn-learn-web-js-5/4-third-party-api","web-api/mdn-learn-web-js-5/7-client-side-storage"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "\"MDN Learn web development: JavaScript - Client-side web APIs\"",
+ "summary": "",
+ "parent": "web-api",
+ "url": "/study/web-api/mdn-learn-web-js-5",
+ "updated": "2022-03-17 00:32:32 +0900",
+ "children": [
+  "web-api/mdn-learn-web-js-5/1-web-api-intro",
+  "web-api/mdn-learn-web-js-5/2-manipulate-document",
+  "web-api/mdn-learn-web-js-5/3-fetch-from-server",
+  "web-api/mdn-learn-web-js-5/4-third-party-api",
+  "web-api/mdn-learn-web-js-5/7-client-side-storage"
+ ]
+}

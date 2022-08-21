@@ -1,1 +1,23 @@
-{"type":"wiki","collection":"study","title":"\"Express Tutorial Part 5: 도서관 데이터를 표시하기 (Displaying library data)\"","summary":"","parent":"js-library/express/mdn-learn-web-server-3","url":"/study/js-library/express/mdn-learn-web-server-3/7-express-tutorial-5","updated":"2022-02-26 20:42:39 +0900","children":["js-library/express/mdn-learn-web-server-3/7-1-using-async","js-library/express/mdn-learn-web-server-3/7-10-book-detail-page","js-library/express/mdn-learn-web-server-3/7-11-author-detail-page","js-library/express/mdn-learn-web-server-3/7-12-bookinstance-detail-page","js-library/express/mdn-learn-web-server-3/7-2-template-primer","js-library/express/mdn-learn-web-server-3/7-3-base-template","js-library/express/mdn-learn-web-server-3/7-4-home-page","js-library/express/mdn-learn-web-server-3/7-5-book-list-page","js-library/express/mdn-learn-web-server-3/7-6-bookinstance-list-page","js-library/express/mdn-learn-web-server-3/7-7-data-formatting","js-library/express/mdn-learn-web-server-3/7-8-author-genre-list-page","js-library/express/mdn-learn-web-server-3/7-9-genre-detail-page"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "\"Express Tutorial Part 5: 도서관 데이터를 표시하기 (Displaying library data)\"",
+ "summary": "",
+ "parent": "js-library/express/mdn-learn-web-server-3",
+ "url": "/study/js-library/express/mdn-learn-web-server-3/7-express-tutorial-5",
+ "updated": "2022-02-26 20:42:39 +0900",
+ "children": [
+  "js-library/express/mdn-learn-web-server-3/7-1-using-async",
+  "js-library/express/mdn-learn-web-server-3/7-10-book-detail-page",
+  "js-library/express/mdn-learn-web-server-3/7-11-author-detail-page",
+  "js-library/express/mdn-learn-web-server-3/7-12-bookinstance-detail-page",
+  "js-library/express/mdn-learn-web-server-3/7-2-template-primer",
+  "js-library/express/mdn-learn-web-server-3/7-3-base-template",
+  "js-library/express/mdn-learn-web-server-3/7-4-home-page",
+  "js-library/express/mdn-learn-web-server-3/7-5-book-list-page",
+  "js-library/express/mdn-learn-web-server-3/7-6-bookinstance-list-page",
+  "js-library/express/mdn-learn-web-server-3/7-7-data-formatting",
+  "js-library/express/mdn-learn-web-server-3/7-8-author-genre-list-page",
+  "js-library/express/mdn-learn-web-server-3/7-9-genre-detail-page"
+ ]
+}

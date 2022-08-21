@@ -1,1 +1,15 @@
-{"type":"wiki","collection":"study","title":"\"MDN Web API: Canvas tutorial\"","summary":"","parent":"web-api","url":"/study/web-api/mdn-canvas-tutorial","updated":"2022-08-14 16:40:34 +0900","children":["web-api/mdn-canvas-tutorial/1-basic-usage","web-api/mdn-canvas-tutorial/2-drawing-shapes","web-api/mdn-canvas-tutorial/3-style-and-colors","web-api/mdn-canvas-tutorial/4-drawing-text"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "\"MDN Web API: Canvas tutorial\"",
+ "summary": "",
+ "parent": "web-api",
+ "url": "/study/web-api/mdn-canvas-tutorial",
+ "updated": "2022-08-14 16:40:34 +0900",
+ "children": [
+  "web-api/mdn-canvas-tutorial/1-basic-usage",
+  "web-api/mdn-canvas-tutorial/2-drawing-shapes",
+  "web-api/mdn-canvas-tutorial/3-style-and-colors",
+  "web-api/mdn-canvas-tutorial/4-drawing-text"
+ ]
+}

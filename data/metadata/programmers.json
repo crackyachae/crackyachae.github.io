@@ -1,1 +1,15 @@
-{"type":"wiki","collection":"pscode","title":"Programmers","summary":"","parent":"index-ps","url":"/pscode/programmers","updated":"2021-04-23 23:06:18 +0900","children":["programmers/programmers-12977","programmers/programmers-42583","programmers/programmers-42584","programmers/programmers-42587"]}
+{
+ "type": "wiki",
+ "collection": "pscode",
+ "title": "Programmers",
+ "summary": "",
+ "parent": "index-ps",
+ "url": "/pscode/programmers",
+ "updated": "2021-04-23 23:06:18 +0900",
+ "children": [
+  "programmers/programmers-12977",
+  "programmers/programmers-42583",
+  "programmers/programmers-42584",
+  "programmers/programmers-42587"
+ ]
+}

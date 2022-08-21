@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"Auto Close Tag","summary":"","parent":"tools/vscode/ext","url":"/study/tools/vscode/ext/auto-close-tag","updated":"2020-04-05 17:09:43 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "Auto Close Tag",
+ "summary": "",
+ "parent": "tools/vscode/ext",
+ "url": "/study/tools/vscode/ext/auto-close-tag",
+ "updated": "2020-04-05 17:09:43 +0900",
+ "children": []
+}

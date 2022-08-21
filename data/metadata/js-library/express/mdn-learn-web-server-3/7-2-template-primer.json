@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"템플릿 기본서 (Template primer)","summary":"","parent":"js-library/express/mdn-learn-web-server-3/7-express-tutorial-5","url":"/study/js-library/express/mdn-learn-web-server-3/7-2-template-primer","updated":"2022-01-22 16:19:39 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "템플릿 기본서 (Template primer)",
+ "summary": "",
+ "parent": "js-library/express/mdn-learn-web-server-3/7-express-tutorial-5",
+ "url": "/study/js-library/express/mdn-learn-web-server-3/7-2-template-primer",
+ "updated": "2022-01-22 16:19:39 +0900",
+ "children": []
+}

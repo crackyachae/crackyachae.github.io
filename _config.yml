@@ -56,7 +56,7 @@ disqus:
   shortname: crackyachae
 utterances:
   repo: crackyachae/crackyachae.github.io
-  issue-term: pathname
+  issue-term: url
   label: Comment
   branch: main
 

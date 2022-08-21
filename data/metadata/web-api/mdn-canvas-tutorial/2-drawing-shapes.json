@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"Drawing shapes with canvas","summary":"","parent":"web-api/mdn-canvas-tutorial","url":"/study/web-api/mdn-canvas-tutorial/2-drawing-shapes","updated":"2021-06-09 00:09:34 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "Drawing shapes with canvas",
+ "summary": "",
+ "parent": "web-api/mdn-canvas-tutorial",
+ "url": "/study/web-api/mdn-canvas-tutorial/2-drawing-shapes",
+ "updated": "2021-06-09 00:09:34 +0900",
+ "children": []
+}

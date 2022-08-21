@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"23. Immer 를 사용한 더 쉬운 불변성 관리","summary":"","parent":"react/vlpt-react-1-basic","url":"/study/react/vlpt-react-1-basic/23-immer","updated":"2021-03-29 00:22:53 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "23. Immer 를 사용한 더 쉬운 불변성 관리",
+ "summary": "",
+ "parent": "react/vlpt-react-1-basic",
+ "url": "/study/react/vlpt-react-1-basic/23-immer",
+ "updated": "2021-03-29 00:22:53 +0900",
+ "children": []
+}

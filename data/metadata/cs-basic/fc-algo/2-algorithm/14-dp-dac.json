@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"Chapter 14. 동적 계획법(Dynamic Programming)과 분할 정복(Divide and Conquer)","summary":"","parent":"cs-basic/fc-algo/2-algorithm","url":"/study/cs-basic/fc-algo/2-algorithm/14-dp-dac","updated":"2021-05-05 12:16:57 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "Chapter 14. 동적 계획법(Dynamic Programming)과 분할 정복(Divide and Conquer)",
+ "summary": "",
+ "parent": "cs-basic/fc-algo/2-algorithm",
+ "url": "/study/cs-basic/fc-algo/2-algorithm/14-dp-dac",
+ "updated": "2021-05-05 12:16:57 +0900",
+ "children": []
+}

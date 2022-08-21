@@ -1,1 +1,4 @@
-["css/opent-client-css","react/opent-react"]
+[
+ "css/opent-client-css",
+ "react/opent-react"
+]
