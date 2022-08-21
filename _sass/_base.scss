@@ -25,20 +25,6 @@ blockquote {
   margin: 0;
   padding: 1px 0px 1px 8px;
 }
-code {
-  padding: 1px 3px;
-}
-pre {
-  overflow-x: auto;
-  padding: 10px 10px;
-}
-pre,
-pre code {
-  color: $secondary-100;
-}
-pre code {
-  padding: 0;
-}
 
 .hide {
   display: none;
