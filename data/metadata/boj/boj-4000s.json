@@ -1,1 +1,13 @@
-{"type":"wiki","collection":"pscode","title":"BAEKJOON ONLINE JUDGE 4000번대","summary":"","parent":"boj","url":"/pscode/boj/boj-4000s","updated":"2022-08-15 00:40:59 +0900","children":["boj/boj-4000s/boj-4101","boj/boj-4000s/boj-4195"]}
+{
+ "type": "wiki",
+ "collection": "pscode",
+ "title": "BAEKJOON ONLINE JUDGE 4000번대",
+ "summary": "",
+ "parent": "boj",
+ "url": "/pscode/boj/boj-4000s",
+ "updated": "2022-08-15 00:40:59 +0900",
+ "children": [
+  "boj/boj-4000s/boj-4101",
+  "boj/boj-4000s/boj-4195"
+ ]
+}

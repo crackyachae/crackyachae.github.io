@@ -1,1 +1,13 @@
-{"type":"wiki","collection":"study","title":"Web API","summary":"","parent":"index-st","url":"/study/web-api","updated":"2022-08-13 17:04:10 +0900","children":["web-api/mdn-canvas-tutorial","web-api/mdn-learn-web-js-5"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "Web API",
+ "summary": "",
+ "parent": "index-st",
+ "url": "/study/web-api",
+ "updated": "2022-08-13 17:04:10 +0900",
+ "children": [
+  "web-api/mdn-canvas-tutorial",
+  "web-api/mdn-learn-web-js-5"
+ ]
+}

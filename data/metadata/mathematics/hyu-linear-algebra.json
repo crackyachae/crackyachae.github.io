@@ -1,1 +1,23 @@
-{"type":"wiki","collection":"study","title":"\"KOCW: HYU 선형대수\"","summary":"","parent":"mathematics","url":"/study/mathematics/hyu-linear-algebra","updated":"2020-12-15 02:21:12 +0900","children":["mathematics/hyu-linear-algebra/2-3-linear-independence","mathematics/hyu-linear-algebra/2-4-four-subspaces","mathematics/hyu-linear-algebra/2-6-linear-transformations","mathematics/hyu-linear-algebra/3-3-proj-least-squares","mathematics/hyu-linear-algebra/3-4-gram-schmidt","mathematics/hyu-linear-algebra/4-2-prop-of-determinant","mathematics/hyu-linear-algebra/4-3-form-for-determinant","mathematics/hyu-linear-algebra/4-4-app-of-determinants","mathematics/hyu-linear-algebra/5-2-diagonalization","mathematics/hyu-linear-algebra/5-3-difference-eqn","mathematics/hyu-linear-algebra/5-4-differential-eqn","mathematics/hyu-linear-algebra/5-5-complex-matrix"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "\"KOCW: HYU 선형대수\"",
+ "summary": "",
+ "parent": "mathematics",
+ "url": "/study/mathematics/hyu-linear-algebra",
+ "updated": "2020-12-15 02:21:12 +0900",
+ "children": [
+  "mathematics/hyu-linear-algebra/2-3-linear-independence",
+  "mathematics/hyu-linear-algebra/2-4-four-subspaces",
+  "mathematics/hyu-linear-algebra/2-6-linear-transformations",
+  "mathematics/hyu-linear-algebra/3-3-proj-least-squares",
+  "mathematics/hyu-linear-algebra/3-4-gram-schmidt",
+  "mathematics/hyu-linear-algebra/4-2-prop-of-determinant",
+  "mathematics/hyu-linear-algebra/4-3-form-for-determinant",
+  "mathematics/hyu-linear-algebra/4-4-app-of-determinants",
+  "mathematics/hyu-linear-algebra/5-2-diagonalization",
+  "mathematics/hyu-linear-algebra/5-3-difference-eqn",
+  "mathematics/hyu-linear-algebra/5-4-differential-eqn",
+  "mathematics/hyu-linear-algebra/5-5-complex-matrix"
+ ]
+}

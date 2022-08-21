@@ -1,1 +1,4 @@
-["tools/terminal/opent-posix1-cli","tools/terminal/opent-posix1-cli/lecture"]
+[
+ "tools/terminal/opent-posix1-cli",
+ "tools/terminal/opent-posix1-cli/lecture"
+]

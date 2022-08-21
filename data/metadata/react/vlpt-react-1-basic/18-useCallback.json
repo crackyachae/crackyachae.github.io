@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"18. useCallback 를 사용하여 함수 재사용하기","summary":"","parent":"react/vlpt-react-1-basic","url":"/study/react/vlpt-react-1-basic/18-useCallback","updated":"2021-03-03 23:24:06 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "18. useCallback 를 사용하여 함수 재사용하기",
+ "summary": "",
+ "parent": "react/vlpt-react-1-basic",
+ "url": "/study/react/vlpt-react-1-basic/18-useCallback",
+ "updated": "2021-03-03 23:24:06 +0900",
+ "children": []
+}

@@ -1,1 +1,12 @@
-{"type":"wiki","collection":"study","title":"생활코딩_github","summary":"","parent":"git","url":"/study/git/opent-github","updated":"2020-12-15 02:17:30 +0900","children":["git/opent-github/github"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "생활코딩_github",
+ "summary": "",
+ "parent": "git",
+ "url": "/study/git/opent-github",
+ "updated": "2020-12-15 02:17:30 +0900",
+ "children": [
+  "git/opent-github/github"
+ ]
+}

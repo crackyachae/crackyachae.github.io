@@ -1,1 +1,19 @@
-{"type":"wiki","collection":"study","title":"1. 자료구조 이론","summary":"","parent":"cs-basic/fc-algo","url":"/study/cs-basic/fc-algo/1-data-structure","updated":"2022-08-12 22:40:27 +0900","children":["cs-basic/fc-algo/1-data-structure/10-tree","cs-basic/fc-algo/1-data-structure/11-heap","cs-basic/fc-algo/1-data-structure/4-array","cs-basic/fc-algo/1-data-structure/5-queue","cs-basic/fc-algo/1-data-structure/6-stack","cs-basic/fc-algo/1-data-structure/7-linked-list","cs-basic/fc-algo/1-data-structure/8-complexity","cs-basic/fc-algo/1-data-structure/9-hash-table"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "1. 자료구조 이론",
+ "summary": "",
+ "parent": "cs-basic/fc-algo",
+ "url": "/study/cs-basic/fc-algo/1-data-structure",
+ "updated": "2022-08-12 22:40:27 +0900",
+ "children": [
+  "cs-basic/fc-algo/1-data-structure/10-tree",
+  "cs-basic/fc-algo/1-data-structure/11-heap",
+  "cs-basic/fc-algo/1-data-structure/4-array",
+  "cs-basic/fc-algo/1-data-structure/5-queue",
+  "cs-basic/fc-algo/1-data-structure/6-stack",
+  "cs-basic/fc-algo/1-data-structure/7-linked-list",
+  "cs-basic/fc-algo/1-data-structure/8-complexity",
+  "cs-basic/fc-algo/1-data-structure/9-hash-table"
+ ]
+}

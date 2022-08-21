@@ -142,7 +142,7 @@ function saveTagFiles(tagMap, pageMap) {
             collection.push(documentId);
         }
 
-        saveToFile(`./data/tag/${tag}.json`, JSON.stringify(collection), NO_PRINT);
+        saveToFile(`./data/tag/${tag}.json`, JSON.stringify(collection, null, 1), NO_PRINT);
     }
 }
 
@@ -167,7 +167,7 @@ function saveMetaDataFiles(pageMap) {
             }
         })
 
-        saveToFile(`./data/metadata/${fileName}.json`, JSON.stringify(data), NO_PRINT);
+        saveToFile(`./data/metadata/${fileName}.json`, JSON.stringify(data, null, 1), NO_PRINT);
     }
 }
 

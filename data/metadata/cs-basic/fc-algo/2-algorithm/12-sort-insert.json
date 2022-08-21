@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"\"Chapter 12. 기본 정렬 알고리즘: 삽입 정렬(Insertion Sort)\"","summary":"","parent":"cs-basic/fc-algo/2-algorithm","url":"/study/cs-basic/fc-algo/2-algorithm/12-sort-insert","updated":"2021-05-13 19:25:43 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "\"Chapter 12. 기본 정렬 알고리즘: 삽입 정렬(Insertion Sort)\"",
+ "summary": "",
+ "parent": "cs-basic/fc-algo/2-algorithm",
+ "url": "/study/cs-basic/fc-algo/2-algorithm/12-sort-insert",
+ "updated": "2021-05-13 19:25:43 +0900",
+ "children": []
+}

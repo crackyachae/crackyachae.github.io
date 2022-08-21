@@ -1,1 +1,20 @@
-{"type":"wiki","collection":"study","title":"HarvardX_CS50's Introduction to Computer Science (2019)","summary":"","parent":"cs-basic","url":"/study/cs-basic/harvardx-cs50s-intro","updated":"2021-02-25 14:28:42 +0900","children":["cs-basic/harvardx-cs50s-intro/0-scratch","cs-basic/harvardx-cs50s-intro/1-c","cs-basic/harvardx-cs50s-intro/2-array","cs-basic/harvardx-cs50s-intro/5-data-structures","cs-basic/harvardx-cs50s-intro/6-python","cs-basic/harvardx-cs50s-intro/7-sql","cs-basic/harvardx-cs50s-intro/8-information","cs-basic/harvardx-cs50s-intro/tracks-web-1","cs-basic/harvardx-cs50s-intro/tracks-web-2"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "HarvardX_CS50's Introduction to Computer Science (2019)",
+ "summary": "",
+ "parent": "cs-basic",
+ "url": "/study/cs-basic/harvardx-cs50s-intro",
+ "updated": "2021-02-25 14:28:42 +0900",
+ "children": [
+  "cs-basic/harvardx-cs50s-intro/0-scratch",
+  "cs-basic/harvardx-cs50s-intro/1-c",
+  "cs-basic/harvardx-cs50s-intro/2-array",
+  "cs-basic/harvardx-cs50s-intro/5-data-structures",
+  "cs-basic/harvardx-cs50s-intro/6-python",
+  "cs-basic/harvardx-cs50s-intro/7-sql",
+  "cs-basic/harvardx-cs50s-intro/8-information",
+  "cs-basic/harvardx-cs50s-intro/tracks-web-1",
+  "cs-basic/harvardx-cs50s-intro/tracks-web-2"
+ ]
+}

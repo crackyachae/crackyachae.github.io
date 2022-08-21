@@ -1,1 +1,12 @@
-{"type":"wiki","collection":"pscode","title":"동적 계획법(Dynamic Programming) 문제 모음","summary":"","parent":"ps-set","url":"/pscode/ps-set/dp","updated":"2021-05-06 19:53:58 +0900","children":["ps-set/dp/fc-algo-8-dp"]}
+{
+ "type": "wiki",
+ "collection": "pscode",
+ "title": "동적 계획법(Dynamic Programming) 문제 모음",
+ "summary": "",
+ "parent": "ps-set",
+ "url": "/pscode/ps-set/dp",
+ "updated": "2021-05-06 19:53:58 +0900",
+ "children": [
+  "ps-set/dp/fc-algo-8-dp"
+ ]
+}

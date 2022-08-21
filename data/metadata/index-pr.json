@@ -1,1 +1,12 @@
-{"type":"wiki","collection":"project","title":"프로젝트를 합니다","url":"/project/index-pr","updated":"2022-08-15 16:18:52 +0900","children":["Thesia","Tistory-Skin","Toy"]}
+{
+ "type": "wiki",
+ "collection": "project",
+ "title": "프로젝트를 합니다",
+ "url": "/project/index-pr",
+ "updated": "2022-08-15 16:18:52 +0900",
+ "children": [
+  "Thesia",
+  "Tistory-Skin",
+  "Toy"
+ ]
+}

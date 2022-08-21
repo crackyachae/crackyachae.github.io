@@ -1,1 +1,10 @@
-{"type":"wiki","collection":"study","title":"\"Chapter 20. 최소 신장 트리의 이해: 크루스칼 알고리즘(Kruskal's Algorithm)\"","summary":"","parent":"cs-basic/fc-algo/2-algorithm","url":"/study/cs-basic/fc-algo/2-algorithm/20-kruskal","updated":"2021-07-05 19:31:52 +0900","children":[]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "\"Chapter 20. 최소 신장 트리의 이해: 크루스칼 알고리즘(Kruskal's Algorithm)\"",
+ "summary": "",
+ "parent": "cs-basic/fc-algo/2-algorithm",
+ "url": "/study/cs-basic/fc-algo/2-algorithm/20-kruskal",
+ "updated": "2021-07-05 19:31:52 +0900",
+ "children": []
+}

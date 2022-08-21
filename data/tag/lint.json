@@ -1,1 +1,3 @@
-["tools/vscode/ext/markdownlint"]
+[
+ "tools/vscode/ext/markdownlint"
+]

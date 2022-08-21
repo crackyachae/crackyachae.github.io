@@ -1,1 +1,12 @@
-{"type":"wiki","collection":"pscode","title":"BAEKJOON ONLINE JUDGE 14000번대","summary":"","parent":"boj","url":"/pscode/boj/boj-14000s","updated":"2022-08-15 00:43:24 +0900","children":["boj/boj-14000s/boj-14620"]}
+{
+ "type": "wiki",
+ "collection": "pscode",
+ "title": "BAEKJOON ONLINE JUDGE 14000번대",
+ "summary": "",
+ "parent": "boj",
+ "url": "/pscode/boj/boj-14000s",
+ "updated": "2022-08-15 00:43:24 +0900",
+ "children": [
+  "boj/boj-14000s/boj-14620"
+ ]
+}

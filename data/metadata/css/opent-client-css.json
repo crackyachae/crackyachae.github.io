@@ -1,1 +1,26 @@
-{"type":"wiki","collection":"study","title":"\"생활코딩: Client CSS\"","summary":"","parent":"css","url":"/study/css/opent-client-css","updated":"2020-03-04 13:05:17 +0900","children":["css/opent-client-css/1-intro","css/opent-client-css/10-graphic-1","css/opent-client-css/10-graphic-2","css/opent-client-css/11-motion","css/opent-client-css/12-refactor","css/opent-client-css/13-library","css/opent-client-css/3-meet-html","css/opent-client-css/4-selector","css/opent-client-css/6-typo","css/opent-client-css/7-harmony","css/opent-client-css/9-layout-1","css/opent-client-css/9-layout-2","css/opent-client-css/9-layout-3","css/opent-client-css/9-layout-4","css/opent-client-css/9-layout-5"]}
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "\"생활코딩: Client CSS\"",
+ "summary": "",
+ "parent": "css",
+ "url": "/study/css/opent-client-css",
+ "updated": "2020-03-04 13:05:17 +0900",
+ "children": [
+  "css/opent-client-css/1-intro",
+  "css/opent-client-css/10-graphic-1",
+  "css/opent-client-css/10-graphic-2",
+  "css/opent-client-css/11-motion",
+  "css/opent-client-css/12-refactor",
+  "css/opent-client-css/13-library",
+  "css/opent-client-css/3-meet-html",
+  "css/opent-client-css/4-selector",
+  "css/opent-client-css/6-typo",
+  "css/opent-client-css/7-harmony",
+  "css/opent-client-css/9-layout-1",
+  "css/opent-client-css/9-layout-2",
+  "css/opent-client-css/9-layout-3",
+  "css/opent-client-css/9-layout-4",
+  "css/opent-client-css/9-layout-5"
+ ]
+}

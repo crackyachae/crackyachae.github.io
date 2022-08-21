@@ -1,1 +1,13 @@
-{"type":"wiki","collection":"diary","title":"기록을 합니다","url":"/diary/index-di","updated":"2022-08-15 16:19:00 +0900","children":["System","Thought","TIL","Todo"]}
+{
+ "type": "wiki",
+ "collection": "diary",
+ "title": "기록을 합니다",
+ "url": "/diary/index-di",
+ "updated": "2022-08-15 16:19:00 +0900",
+ "children": [
+  "System",
+  "Thought",
+  "TIL",
+  "Todo"
+ ]
+}

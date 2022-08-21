@@ -1,1 +1,13 @@
-{"type":"wiki","collection":"pscode","title":"탐색 문제 모음","summary":"","parent":"ps-set","url":"/pscode/ps-set/search","updated":"2021-05-18 15:17:09 +0900","children":["ps-set/search/fc-algo-6-search-basic","ps-set/search/fc-algo-7-search-advanced"]}
+{
+ "type": "wiki",
+ "collection": "pscode",
+ "title": "탐색 문제 모음",
+ "summary": "",
+ "parent": "ps-set",
+ "url": "/pscode/ps-set/search",
+ "updated": "2021-05-18 15:17:09 +0900",
+ "children": [
+  "ps-set/search/fc-algo-6-search-basic",
+  "ps-set/search/fc-algo-7-search-advanced"
+ ]
+}
