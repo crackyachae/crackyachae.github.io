@@ -3,12 +3,10 @@
 set -euo pipefail; IFS=$'\n\t'
 
 if [[ $1 = "docker" ]]; then
-    bundle update && bundle install
     ./generateData.js
     docker-compose up
 
 elif [[ $1 = "watch" ]]; then
-    bundle update && bundle install
     ./generateData.js
     bundle exec jekyll server --watch
 
