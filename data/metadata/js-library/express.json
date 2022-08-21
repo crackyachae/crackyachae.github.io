@@ -1,11 +1,11 @@
 {
  "type": "wiki",
  "collection": "study",
- "title": "React",
+ "title": "Express",
  "summary": "",
  "parent": "js-library",
  "url": "/study/js-library/express",
- "updated": "2021-11-26 11:39:26 +0900",
+ "updated": "2022-08-17 23:40:35 +0900",
  "children": [
   "js-library/express/mdn-learn-web-server-3"
  ]

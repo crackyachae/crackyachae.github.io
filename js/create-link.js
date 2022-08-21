@@ -14,7 +14,7 @@
         }
         tagList = tagList.split(/\s+/)
             .map(function(tag) {
-                return `<li><a href="/tag/#${tag}">#${tag}</a></li>`;
+                return `<a href="/tag/#${tag}">#${tag}</a>`;
             })
             .join(' ');
         tags[i].innerHTML = tagList;
@@ -56,12 +56,10 @@
         content = content.replace(/\[\[#([^\[\]]+?)#\s*\]\]\{([^\{\}]+?)\}/g,
             '<a href="/tag#$1" class="inner-link labeled-link" data-name="$1"><sup class="tagged-link"/></sup>$2</a>');
 
-
         // (태그 처리) "[[#tagName#]]"을 <a href="/wiki/tagName#">tagName</a> 로 replace하여 링크를 만든다.
         //                           [[#           #]]
         content = content.replace(/\[\[#([^\[\]]+?)#\s*\]\]/g,
             '<a href="/tag#$1" class="inner-link labeled-link" data-name="$1"><sup class="tagged-link"/></sup>$1</a>');
-
 
         // (위키간 이동 처리) 다른 wiki로 이동하는 경로인 경우 wiki(n): 을 제거하고 col 값을 해당 collection으로 바꾼다.
         content = content.replace(/\[\[?wiki(\d)\:\/?/g, (match, p1) => {
@@ -107,19 +105,19 @@
         const target = item.getAttribute('data-name')
             .replace(/#.*$/, '');
 
-            let status = undefined;
+        let status = undefined;
         fetch(`/data/metadata/${target}.json`)
             .then(response => {
                 status = response.status;
                 return response.json()
             })
             .then(function(data) {
-                    if (data == null) {
-                        return;
-                    }
-                    item.innerText = data.title;
+                if (data == null) {
                     return;
-                })
+                }
+                item.innerText = data.title;
+                return;
+            })
             .catch(function(error) {
                 item.classList.add('error-link');
                 item.innerHTML += `<sub class="link-${status}"></sub>`
@@ -127,7 +125,8 @@
             });
     }
 })();
-;isRandom || (function() {
+
+;(function() {
     // 외부 링크에 표시를 달아준다.
     const links = document.links;
 
