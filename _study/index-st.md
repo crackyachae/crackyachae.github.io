@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2022-08-21 23:31:33 +0900
+updated : 2022-08-29 22:13:00 +0900
 regenerate: true
 ---
 
@@ -287,6 +287,10 @@ regenerate: true
 * [[/js-library/express/mdn-learn-web-server-3/8-express-tutorial-6]]
     * [[/js-library/express/mdn-learn-web-server-3/8-1-create-genre]]
     * [[/js-library/express/mdn-learn-web-server-3/8-3-create-book]]
+
+## [[sql]]
+
+* [[/sql/links]]
 
 ## [[git]]
 

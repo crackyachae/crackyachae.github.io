@@ -1,0 +1,12 @@
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "SQL",
+ "summary": "",
+ "parent": "index-st",
+ "url": "/study/sql",
+ "updated": "2022-08-29 22:12:38 +0900",
+ "children": [
+  "sql/links"
+ ]
+}
