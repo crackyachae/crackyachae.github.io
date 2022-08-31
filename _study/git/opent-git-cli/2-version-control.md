@@ -1,6 +1,6 @@
 ---
 layout  : article
-title   : "생활코딩: Git2 CLI 버전관리"
+title   : 생활코딩_Git2 CLI 버전관리
 summary : 
 date    : 2020-06-24 10:15:18 +0900
 updated : 2020-12-03 21:02:31 +0900

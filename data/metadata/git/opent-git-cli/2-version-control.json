@@ -1,7 +1,7 @@
 {
  "type": "wiki",
  "collection": "study",
- "title": "\"생활코딩: Git2 CLI 버전관리\"",
+ "title": "생활코딩_Git2 CLI 버전관리",
  "summary": "",
  "parent": "git/opent-git-cli",
  "url": "/study/git/opent-git-cli/2-version-control",
