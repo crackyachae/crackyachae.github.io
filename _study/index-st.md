@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2022-08-29 22:13:00 +0900
+updated : 2022-08-31 22:50:32 +0900
 regenerate: true
 ---
 
@@ -76,6 +76,8 @@ regenerate: true
     * /cs-basic/fc-algo/5-tech-interview/3-cs
     * /cs-basic/fc-algo/5-tech-interview/4-language
     * /cs-basic/fc-algo/5-tech-interview/5-hand-coding
+
+### [[/cs-basic/opent-database-database1]]
 
 ## [[web-basic]]
 
@@ -291,6 +293,8 @@ regenerate: true
 ## [[sql]]
 
 * [[/sql/links]]
+
+### [[/sql/opent-database-mysql]]
 
 ## [[git]]
 

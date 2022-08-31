@@ -9,6 +9,7 @@
  "children": [
   "cs-basic/fc-algo",
   "cs-basic/harvardx-cs50s-intro",
-  "cs-basic/links"
+  "cs-basic/links",
+  "cs-basic/opent-database-database1"
  ]
 }
