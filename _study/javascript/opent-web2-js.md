@@ -1,6 +1,6 @@
 ---
 layout  : overview
-title   : "생활코딩: WEB2 JavaScript"
+title   : 생활코딩_WEB2 JavaScript
 summary : 
 date    : 2020-04-30 13:15:18 +0900
 updated : 2021-05-07 22:34:31 +0900

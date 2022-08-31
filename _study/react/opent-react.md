@@ -1,6 +1,6 @@
 ---
 layout  : overview
-title   : "생활코딩: React"
+title   : 생활코딩_React
 summary : 
 date    : 2020-11-29 16:27:10 +0900
 updated : 2020-11-29 16:32:55 +0900

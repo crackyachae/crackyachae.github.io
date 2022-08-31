@@ -1,6 +1,6 @@
 ---
 layout  : overview
-title   : "생활코딩: Client CSS"
+title   : 생활코딩_Client CSS
 summary : 
 date    : 2020-03-04 13:04:39 +0900
 updated : 2020-03-04 13:05:17 +0900

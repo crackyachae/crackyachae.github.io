@@ -1,6 +1,6 @@
 ---
 layout  : article
-title   : "생활코딩: Github"
+title   : 생활코딩_Github
 summary : 
 date    : 2020-06-24 14:51:38 +0900
 updated : 2020-12-03 21:23:11 +0900

@@ -1,6 +1,6 @@
 ---
 layout  : overview
-title   : "KOCW: HYU 선형대수"
+title   : KOCW_HYU 선형대수
 summary : 
 date    : 2020-03-22 20:58:56 +0900
 updated : 2020-12-15 02:21:12 +0900
