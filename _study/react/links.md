@@ -43,6 +43,10 @@ latex   : false
     * [React Hooks: useCallback 사용법](https://www.daleseo.com/react-hooks-use-callback/) by DaleSeo
     * [Understanding useMemo and useCallback](https://www.joshwcomeau.com/react/usememo-and-usecallback/) by Josh Comeau
 
+### 컴포넌트 디자인
+
+* [Making good component design decisions in React](https://marvelapp.com/blog/making-good-component-design-decisions-in-react/) by Boris Ablamunits
+
 ### 일반
 
 * [안녕, 리액트(Hello, React)](https://blog.gaerae.com/2016/04/hello-react.html) by 개발자스럽다
