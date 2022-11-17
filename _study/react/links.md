@@ -3,7 +3,7 @@ layout  : article
 title   : React 링크
 summary : React 관련 링크 모음
 date    : 2022-08-21 23:31:34 +0900
-updated : 2022-08-21 23:43:53 +0900
+updated : 2022-11-17 17:14:31 +0900 
 tag     : links
 toc     : true
 public  : true
@@ -35,6 +35,14 @@ latex   : false
 
 ## 글 (주제별)
 
+### Hooks
+
+* useMemo & useCallback
+    * [이제는 사용해보자 useMemo & useCallback](https://leehwarang.github.io/2020/05/02/useMemo&useCallback.html) by 이화랑 블로그
+    * [React Hooks: useMemo 사용법](https://www.daleseo.com/react-hooks-use-memo/) by DaleSeo
+    * [React Hooks: useCallback 사용법](https://www.daleseo.com/react-hooks-use-callback/) by DaleSeo
+    * [Understanding useMemo and useCallback](https://www.joshwcomeau.com/react/usememo-and-usecallback/) by Josh Comeau
+
 ### 일반
 
 * [안녕, 리액트(Hello, React)](https://blog.gaerae.com/2016/04/hello-react.html) by 개발자스럽다
@@ -54,3 +62,4 @@ latex   : false
 ## 임시
 
 * [벨로퍼트와 함께하는 리액트 테스팅](https://learn-react-test.vlpt.us/#/)
+* [React 렌더링 이해 및 최적화 (With Hook)](https://medium.com/vingle-tech-blog/react-렌더링-이해하기-f255d6569849)
