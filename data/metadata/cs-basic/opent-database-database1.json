@@ -5,6 +5,11 @@
  "summary": "",
  "parent": "cs-basic",
  "url": "/study/cs-basic/opent-database-database1",
- "updated": "2022-08-31 22:48:04 +0900",
- "children": []
+ "updated": "2022-11-18 00:58:08 +0900",
+ "children": [
+  "cs-basic/opent-database-database1/0-intro",
+  "cs-basic/opent-database-database1/1-nature-of-database",
+  "cs-basic/opent-database-database1/2-file-vs-database",
+  "cs-basic/opent-database-database1/3-end"
+ ]
 }
