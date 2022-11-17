@@ -5,17 +5,17 @@
  "url": "/study/index-st",
  "updated": "2022-08-31 22:50:32 +0900",
  "children": [
-  "cs-basic",
+  "cs-basic_",
   "css",
-  "git",
-  "javascript",
-  "js-library",
-  "mathematics",
-  "react",
-  "react-library",
+  "git_",
+  "javascript_",
+  "js-library_",
+  "mathematics_",
+  "react_",
+  "react-library_",
   "sql",
-  "tools",
+  "tools_",
   "web-api",
-  "web-basic"
+  "web-basic_"
  ]
 }
