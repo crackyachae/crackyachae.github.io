@@ -3,7 +3,7 @@ layout  : article
 title   : React 링크
 summary : React 관련 링크 모음
 date    : 2022-08-21 23:31:34 +0900
-updated : 2022-11-17 17:14:31 +0900 
+updated : 2022-11-17 18:14:15 +0900 
 tag     : links
 toc     : true
 public  : true
@@ -35,18 +35,6 @@ latex   : false
 
 ## 글 (주제별)
 
-### Hooks
-
-* useMemo & useCallback
-    * [이제는 사용해보자 useMemo & useCallback](https://leehwarang.github.io/2020/05/02/useMemo&useCallback.html) by 이화랑 블로그
-    * [React Hooks: useMemo 사용법](https://www.daleseo.com/react-hooks-use-memo/) by DaleSeo
-    * [React Hooks: useCallback 사용법](https://www.daleseo.com/react-hooks-use-callback/) by DaleSeo
-    * [Understanding useMemo and useCallback](https://www.joshwcomeau.com/react/usememo-and-usecallback/) by Josh Comeau
-
-### 컴포넌트 디자인
-
-* [Making good component design decisions in React](https://marvelapp.com/blog/making-good-component-design-decisions-in-react/) by Boris Ablamunits
-
 ### 일반
 
 * [안녕, 리액트(Hello, React)](https://blog.gaerae.com/2016/04/hello-react.html) by 개발자스럽다
@@ -59,9 +47,21 @@ latex   : false
     * [React 적용 가이드 - React 작동 방법](https://d2.naver.com/helloworld/9297403)
     * [React 적용 가이드 - 네이버 메일 모바일 웹 적용기](https://d2.naver.com/helloworld/4966453)
 
+### 컴포넌트 디자인
+
+* [Making good component design decisions in React](https://marvelapp.com/blog/making-good-component-design-decisions-in-react/) by Boris Ablamunits
+
 ### React 스타일 가이드
 
 * [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react#naming)
+
+### Hooks
+
+* useMemo & useCallback
+    * [이제는 사용해보자 useMemo & useCallback](https://leehwarang.github.io/2020/05/02/useMemo&useCallback.html) by 이화랑 블로그
+    * [React Hooks: useMemo 사용법](https://www.daleseo.com/react-hooks-use-memo/) by DaleSeo
+    * [React Hooks: useCallback 사용법](https://www.daleseo.com/react-hooks-use-callback/) by DaleSeo
+    * [Understanding useMemo and useCallback](https://www.joshwcomeau.com/react/usememo-and-usecallback/) by Josh Comeau
 
 ## 임시
 
