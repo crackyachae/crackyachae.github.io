@@ -1,0 +1,12 @@
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "TypeScript",
+ "summary": "",
+ "parent": "index-st",
+ "url": "/study/typescript",
+ "updated": "2022-12-06 13:49:32 +0900",
+ "children": [
+  "typescript/links"
+ ]
+}

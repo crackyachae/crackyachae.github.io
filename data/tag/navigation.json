@@ -29,5 +29,6 @@
  "tools/vscode",
  "tools/vscode/ext",
  "Toy",
+ "typescript",
  "web-basic"
 ]

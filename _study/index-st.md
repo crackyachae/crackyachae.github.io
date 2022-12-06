@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2022-11-18 00:21:52 +0900
+updated : 2022-12-06 13:48:33 +0900
 regenerate: true
 ---
 
@@ -213,6 +213,10 @@ regenerate: true
 ### mdn-js-ref
 
 * mdn-js-ref-template-literal
+
+## [[typescript]]
+
+* [[/typescript/links]]
 
 ## [[react]]
 

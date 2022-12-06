@@ -37,7 +37,7 @@
  },
  {
   "name": "links",
-  "size": 5
+  "size": 6
  },
  {
   "name": "lint",
@@ -53,7 +53,7 @@
  },
  {
   "name": "navigation",
-  "size": 31
+  "size": 32
  },
  {
   "name": "opentutorials",

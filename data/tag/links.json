@@ -3,5 +3,6 @@
  "css/links",
  "javascript/links",
  "react/links",
- "sql/links"
+ "sql/links",
+ "typescript/links"
 ]
