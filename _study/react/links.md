@@ -62,6 +62,8 @@ latex   : false
     * [React Hooks: useMemo 사용법](https://www.daleseo.com/react-hooks-use-memo/) by DaleSeo
     * [React Hooks: useCallback 사용법](https://www.daleseo.com/react-hooks-use-callback/) by DaleSeo
     * [Understanding useMemo and useCallback](https://www.joshwcomeau.com/react/usememo-and-usecallback/) by Josh Comeau
+* useRef
+    * [React useRef의 다양한 활용 방법(mutable object, callback ref와 forwardRef)](https://leehwarang.github.io/2020/11/29/ref.html) by 이화랑 블로그
 
 ### Context
 

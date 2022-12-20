@@ -2,6 +2,7 @@
  "cs-basic/links",
  "css/links",
  "javascript/links",
+ "react-library/recoil/links",
  "react/links",
  "sql/links",
  "typescript/links"
