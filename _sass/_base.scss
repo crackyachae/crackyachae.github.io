@@ -96,6 +96,13 @@ h6 {
   }
 }
 
+
+mark {
+    color: #275715;
+    background-color: #dbedd4;
+    border-radius: 3px;
+}
+
 .error-link {
   &:after {
     font-style: italic;
