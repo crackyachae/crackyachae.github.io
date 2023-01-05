@@ -17,6 +17,9 @@ latex   : false
 
 ## 강의
 
+* [code.plus](https://code.plus/courses/)
+    * 백준 온라인 저지의 최백준님의 코딩테스트 및 알고리즘 강의
+
 ### Edx
 
 * [CS50's Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) [Eng]
