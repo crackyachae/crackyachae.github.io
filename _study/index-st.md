@@ -4,9 +4,11 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2022-12-20 22:54:18 +0900
+updated : 2023-01-05 17:24:43 +0900
 regenerate: true
 ---
+
+* [[links]]
 
 ## [[cs-basic]]
 
@@ -85,6 +87,8 @@ regenerate: true
 * [[/cs-basic/opent-database-database1/3-end]]
 
 ## [[web-basic]]
+
+* [[/web-basic/links]]
 
 ### [[/web-basic/mdn-learn-web-getting-start]]
 
@@ -327,6 +331,8 @@ regenerate: true
 * /git/opent-github/pull-request
 
 ## [[tools]]
+
+* [[/tools/links]]
 
 ### [[/tools/terminal]]
 
