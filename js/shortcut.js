@@ -87,4 +87,7 @@
             return;
         }
     }
+
+    document.getElementById('random-button')
+        .addEventListener('click', goToRandomDocument);
 })();
