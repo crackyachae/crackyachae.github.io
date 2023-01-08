@@ -6,5 +6,6 @@
  "react-library/recoil/links",
  "react/links",
  "sql/links",
- "typescript/links"
+ "typescript/links",
+ "web-api/links"
 ]

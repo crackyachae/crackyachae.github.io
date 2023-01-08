@@ -37,7 +37,7 @@
  },
  {
   "name": "links",
-  "size": 8
+  "size": 9
  },
  {
   "name": "lint",
@@ -49,6 +49,10 @@
  },
  {
   "name": "mdn",
+  "size": 1
+ },
+ {
+  "name": "memo",
   "size": 1
  },
  {
