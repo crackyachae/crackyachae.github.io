@@ -101,3 +101,8 @@ latex   : false
 ### 국내 개인 블로그
 
 * [Poiemaweb](https://poiemaweb.com/)
+
+## Inputs
+
+* [Geek News](https://news.hada.io)
+    * 기술, 개발, 스타트업과 등에 관련된 뉴스를 정기적으로 업로드한다.
