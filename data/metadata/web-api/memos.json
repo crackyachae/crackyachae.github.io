@@ -2,9 +2,9 @@
  "type": "wiki",
  "collection": "study",
  "title": "Web-api 메모",
- "summary": "아직 하나의 글이 되기는 부족한 간단한 web-api 관련 메모들",
+ "summary": "글이 되기는 부족한 간단한 web-api 관련 메모들",
  "parent": "web-api",
  "url": "/study/web-api/memos",
- "updated": "2023-01-08 13:40:57 +0900",
+ "updated": "2023-01-08 14:11:47 +0900",
  "children": []
 }

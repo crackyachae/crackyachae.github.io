@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2023-01-05 17:24:43 +0900
+updated : 2023-01-08 13:40:49 +0900
 regenerate: true
 ---
 
@@ -109,6 +109,9 @@ regenerate: true
     * [[/web-basic/mdn-learn-web-questions/2-1-needed-software]]
 
 ## [[web-api]]
+
+* [[/web-api/links]]
+* [[/web-api/memos]]
 
 ### [[/web-api/mdn-canvas-tutorial]]
 
