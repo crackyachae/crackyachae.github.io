@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2023-01-10 16:14:07 +0900
+updated : 2023-01-10 20:53:16 +0900
 regenerate: true
 ---
 
@@ -13,6 +13,7 @@ regenerate: true
 ## [[cs-basic]]
 
 * [[/cs-basic/links]]
+* [[/cs-basic/clean-code]]
 * cs-naming-convention
 
 ### [[/cs-basic/harvardx-cs50s-intro]]

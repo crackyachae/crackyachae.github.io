@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "클린 코드 - 로버트 C. 마틴",
+ "summary": "애자일 소프트웨어 장인 정신",
+ "parent": "cs-basic",
+ "url": "/study/cs-basic/clean-code",
+ "updated": "2023-01-10 22:04:20 +0900",
+ "children": []
+}

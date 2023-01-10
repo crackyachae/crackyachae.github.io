@@ -1,5 +1,9 @@
 [
  {
+  "name": "book",
+  "size": 1
+ },
+ {
   "name": "docs",
   "size": 3
  },
