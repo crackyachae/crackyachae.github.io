@@ -50,6 +50,10 @@ latex   : false
 
 ## 프로그래밍 전반
 
+* [Summary of Books](https://saseungmin.github.io/reading_books_record_repository/)
+    * saseungmin님이 개발서적을 읽고 요약 정리한 내용들로 이루어져있다.
+    * 클린 코드, 실용주의 프로그래머 등 다양한 책의 요약을 볼 수 있다.
+
 ### 국내 영상 강의
 
 무료
