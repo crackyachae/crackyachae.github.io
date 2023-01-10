@@ -3,7 +3,7 @@ layout  : article
 title   : 클린 코드 - 로버트 C. 마틴
 summary : 애자일 소프트웨어 장인 정신
 date    : 2023-01-10 20:53:16 +0900
-updated : 2023-01-10 22:04:20 +0900
+updated : 2023-01-10 20:55:03 +0900
 tag     : book
 toc     : true
 public  : true
@@ -54,5 +54,5 @@ latex   : false
 
 ## 주석
 
-[^leblanc] Later equals never - LeBlanc's law
-[^boy-scout] 보이스카우트 규칙, Leave the campground cleaner than you found it.
+[^leblanc]: Later equals never - LeBlanc's law
+[^boy-scout]: 보이스카우트 규칙, Leave the campground cleaner than you found it.
