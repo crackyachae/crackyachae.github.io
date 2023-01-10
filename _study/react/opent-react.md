@@ -3,7 +3,7 @@ layout  : overview
 title   : 생활코딩_React
 summary : 
 date    : 2020-11-29 16:27:10 +0900
-updated : 2020-11-29 16:32:55 +0900
+updated : 2023-01-10 16:00:37 +0900
 tag     : intro opentutorials rough
 toc     : true
 public  : true
@@ -15,7 +15,13 @@ latex   : false
 
 [생활코딩](https://opentutorials.org/course/1) 에서 제공하는 React 강의. 짧은 시간 안에 가장 확실하게 React의 '기본'을 익힐 수 있을 것 같아 수강했다.
 
-+ 주소: https://opentutorials.org/module/4058
+* 주소: https://opentutorials.org/module/4058
+
+> 2023.01.10 업데이트
+>
+> * 2022년도에 개정 강의가 나왔다.
+> * 주소: https://opentutorials.org/course/4900
+> * 수강 당시에도 이미 함수형 컴포넌트를 주로 사용하고 있었던 추세라 강의가 조금 outdated된 느낌이 있었는데 개정된 강의는 함수형 컴포넌트로 수업을 진행하는 것 같다.
 
 ## Review
 
@@ -25,7 +31,7 @@ React 강의를 듣고 Guide의 Main Concept 부분을 읽어보니 생활코딩
 
 ## Progress
 
-+ 기간: 2020.11.28 - 2020.12.02
+* 기간: 2020.11.28 - 2020.12.02
 
 1. [X] 개발환경
 1. [X] 컴포넌트 제작
