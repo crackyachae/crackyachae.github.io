@@ -55,6 +55,8 @@ latex   : false
 무료
 
 * [생활코딩](https://opentutorials.org/course/1)
+    * [강의맵](https://seomal.com/map/)
+    * 생활코딩에서 제공하는 모든 강의를 보여주는 다이어그램. 각 강의를 Node로 선행 강의와 후속강의가 연결되어있으며 검색도 제공한다.
 
 ### 해외 영상 강의
 
@@ -76,6 +78,9 @@ latex   : false
 * [w3schools](https://www.w3schools.com/)
 
 ## 웹 전반
+
+* [2022, 비전공자에서 개발자 취업까지 필요한 모든 것](https://wiken.io/ken/4680)
+    * 웹 개발을 하는 데 필요한 스택들의 강의를 단계를 나눠 순차적으로 안내하는 글.
 
 ### 해외 영상 강의
 
