@@ -1,0 +1,12 @@
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "Next JS",
+ "summary": "",
+ "parent": "react-library",
+ "url": "/study/react-library/nextjs",
+ "updated": "2023-01-10 16:13:39 +0900",
+ "children": [
+  "react-library/nextjs/links"
+ ]
+}
