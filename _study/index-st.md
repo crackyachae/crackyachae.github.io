@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2023-01-10 20:53:16 +0900
+updated : 2023-01-11 16:50:37 +0900
 regenerate: true
 ---
 
@@ -284,6 +284,8 @@ regenerate: true
 ### [[/react-library/nextjs]]
 
 * [[/react-library/nextjs/links]]
+
+#### [[/react-library/nextjs/learn-course]]
 
 ## [[js-library]]
 
