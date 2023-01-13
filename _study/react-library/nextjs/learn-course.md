@@ -3,7 +3,7 @@ layout  : overview
 title   : NEXT.js learn cource
 summary : NEXT.js 공식 홈페이지에서 제공하는 학습 문서
 date    : 2023-01-11 16:27:43 +0900
-updated : 2023-01-12 18:20:05 +0900
+updated : 2023-01-13 16:58:02 +0900
 tag     : navigation
 toc     : true
 public  : true
@@ -23,6 +23,8 @@ Next.js에서 제공하는 공식 학습 문서이다.
 
 ## Review
 
+각 문서를 다 읽고 넘어가면 옆에 체크마크가 표시된다.
+
 ## Progress
 
 * 기간: 2023.01.11 -
@@ -31,7 +33,7 @@ Next.js에서 제공하는 공식 학습 문서이다.
 
 * [X] 2023.01.12 [[/react-library/nextjs/learn-course/1-1-about-next]]{About Next.js}
 * [ ] From JavaScript to React
-* [ ] [[/react-library/nextjs/learn-course/1-3-to-nextjs]]{From React to Next.js}
+* [X] 2023.01.13 [[/react-library/nextjs/learn-course/1-3-to-nextjs]]{From React to Next.js}
 * [ ] How Next.js Works
 
 ### CREATE YOUR FIRST APP
