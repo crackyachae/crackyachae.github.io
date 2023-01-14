@@ -3,7 +3,7 @@ layout  : overview
 title   : NEXT.js learn cource
 summary : NEXT.js 공식 홈페이지에서 제공하는 학습 문서
 date    : 2023-01-11 16:27:43 +0900
-updated : 2023-01-13 16:58:02 +0900
+updated : 2023-01-14 17:25:57 +0900
 tag     : navigation
 toc     : true
 public  : true
@@ -38,8 +38,8 @@ Next.js에서 제공하는 공식 학습 문서이다.
 
 ### CREATE YOUR FIRST APP
 
-* [ ] Create a Next.js App
-* [ ] Navigate Between Pages
+* [ ] Create a Next.js App}
+* [ ] 2023.01.14 [[/react-library/nextjs/learn-course/2-2-navigate]]{Navigate Between Pages}
 * [ ] Assets, Metadata, and CSS
 * [ ] Pre-rendering and Data Fetching
 * [ ] Dynamic Routes
