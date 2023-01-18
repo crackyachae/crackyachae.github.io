@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "사전 렌더링과 데이터 가져오기 (Pre-rendering and Data Fetching)",
+ "summary": "",
+ "parent": "react-library/nextjs/learn-course",
+ "url": "/study/react-library/nextjs/learn-course/2-4-pre-render",
+ "updated": "2023-01-18 22:39:44 +0900",
+ "children": []
+}
