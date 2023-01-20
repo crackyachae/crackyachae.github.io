@@ -42,7 +42,7 @@ Next.js에서 제공하는 공식 학습 문서이다.
 * [X] 2023.01.14 [[/react-library/nextjs/learn-course/2-2-navigate]]
 * [ ] Assets, Metadata, and CSS
 * [X] 2023.01.18 [[/react-library/nextjs/learn-course/2-4-pre-render]]
-* [ ] [[/react-library/nextjs/learn-course/2-5-dynamic-routes]]
+* [X] 2023.01.20 [[/react-library/nextjs/learn-course/2-5-dynamic-routes]]
 * [ ] API Routes
 * [ ] Deploying Your Next.js App
 
