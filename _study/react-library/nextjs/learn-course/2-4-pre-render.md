@@ -476,7 +476,7 @@ function Profile() {
 
 더 자세히 배우고 싶다면 [SWR 문서](https://swr.vercel.app/ko)를 확인하세요.
 
-### 여기까지
+### 이상입니다
 
 다음 강의에서는 **[동적 경로](https://nextjs.org/docs/routing/dynamic-routes)**를 사용해 각 블로그 게시글을 위한 페이지를 만들 예정입니다.
 
