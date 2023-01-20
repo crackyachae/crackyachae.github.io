@@ -96,7 +96,7 @@ Next.js에는 두 가지 형태의 사전 렌더링이 있습니다: **[정적 �
 ![정적 생성](https://nextjs.org/static/images/learn/data-fetching/static-generation.png)
 ![서버 측 렌더링](https://nextjs.org/static/images/learn/data-fetching/server-side-rendering.png)
 
-> 개발 모드(당신이 `npm run dev`나 `yarn dev`를 실행할 때)에서는, 페이지가 요청마다 [사전 렌더링](https://nextjs.org/docs/basic-features/pages#pre-rendering) 됩니다. 이는 더 쉽게 개발할 수 있도록 [정적 생성]에도 똑같이 적용됩니다. 프로덕션에서는, 정적 생성이 매 요청이 아닌 빌드 타임에 한 번 발생합니다.
+> 개발 모드(당신이 `npm run dev`나 `yarn dev`를 실행할 때)에서는, 페이지가 요청마다 [사전 렌더링](https://nextjs.org/docs/basic-features/pages#pre-rendering) 됩니다. 이는 더 쉽게 개발할 수 있도록 [정적 생성](https://nextjs.org/docs/basic-features/pages#static-generation-recommended)에도 똑같이 적용됩니다. 프로덕션에서는, 정적 생성이 매 요청이 아닌 빌드 타임에 한 번 발생합니다.
 
 ### 페이지 기반 (Per-page Basis)
 
@@ -400,11 +400,11 @@ export async function getSortedPostsData() {
 }
 ```
 
-이것은 [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/overview#getstaticprops-static-generation)가 **서버 측에서만 실행되기** 때문에 가능하다. `getStaticProps`는 클라이언트 측에서는 절대 실행되지 않는다. 브라우저의 JS 번들에 포함되지도 않을 것이다. 즉, 직접적인(direct) 데이터베이스 쿼리와 같은 코드를 브라우저에 전송하지 않고 작성할 수 있다는 것을 의미한다.
+이것은 [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/overview#getstaticprops-static-generation)가 **서버 측에서만 실행되기** 때문에 가능합니다. `getStaticProps`는 클라이언트 측에서는 절대 실행되지 않습니다. 브라우저의 JS 번들에 포함되지도 않을 것입니다. 즉, 직접적인(direct) 데이터베이스 쿼리와 같은 코드를 브라우저에 전송하지 않고 작성할 수 있다는 것을 의미합니다.
 
 ### 개발 vs. 프로덕션
 
-* **개발** (`npm run dev` 또는 `yarn dev`)에서는 [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/overview#getstaticprops-static-generation)가 *요청마다* 실행된다.
+* **개발** (`npm run dev` 또는 `yarn dev`)에서는 [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/overview#getstaticprops-static-generation)가 *요청마다* 실행됩니다.
 * **프로덕션**에서는, [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/overview#getstaticprops-static-generation)가 *빌드 타임*에만 실행됩니다. 하지만, 이 동작은 [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching/overview#getstaticprops-static-generation)가 반환하는 [`fallback` key](https://nextjs.org/docs/api-reference/data-fetching/get-static-paths#fallback-false)를 사용해 향상할 수 있습니다.
 
 빌드 타임에 실행되게 되어있기 때문에, 쿼리 매개변수 또는 HTTP 헤더와 같이 요청 시간 중에만 사용할 수 있는 데이터는 사용할 수 없습니다.
