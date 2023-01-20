@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2023-01-11 16:50:37 +0900
+updated : 2023-01-20 16:56:13 +0900
 regenerate: true
 ---
 
@@ -286,6 +286,18 @@ regenerate: true
 * [[/react-library/nextjs/links]]
 
 #### [[/react-library/nextjs/learn-course]]
+
+* FOUNDATIONS
+    * [[/react-library/nextjs/learn-course/1-1-about-next]]
+    * From JavaScript to React
+    * [[/react-library/nextjs/learn-course/1-3-to-nextjs]]
+    * How Next.js Works
+* CREATE YOUR FIRST APP
+    * Create a Next.js App
+    * [[/react-library/nextjs/learn-course/2-2-navigate]]
+    * Assets, Metadata, and CSS
+    * [[/react-library/nextjs/learn-course/2-4-pre-render]]
+    * [[/react-library/nextjs/learn-course/2-5-dynamic-routes]]
 
 ## [[js-library]]
 
