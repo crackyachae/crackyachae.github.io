@@ -1,9 +1,9 @@
 ---
 layout  : overview
-title   : NEXT.js learn cource
-summary : NEXT.js 공식 홈페이지에서 제공하는 학습 문서
+title   : Next.js learn cource
+summary : Next.js 공식 홈페이지에서 제공하는 학습 문서
 date    : 2023-01-11 16:27:43 +0900
-updated : 2023-01-18 22:41:10 +0900
+updated : 2023-01-20 16:55:29 +0900
 tag     : navigation
 toc     : true
 public  : true
@@ -31,18 +31,18 @@ Next.js에서 제공하는 공식 학습 문서이다.
 
 ### FOUNDATIONS
 
-* [X] 2023.01.12 [[/react-library/nextjs/learn-course/1-1-about-next]]{About Next.js}
+* [X] 2023.01.12 [[/react-library/nextjs/learn-course/1-1-about-next]]
 * [ ] From JavaScript to React
-* [X] 2023.01.13 [[/react-library/nextjs/learn-course/1-3-to-nextjs]]{From React to Next.js}
+* [X] 2023.01.13 [[/react-library/nextjs/learn-course/1-3-to-nextjs]]
 * [ ] How Next.js Works
 
 ### CREATE YOUR FIRST APP
 
 * [ ] Create a Next.js App
-* [X] 2023.01.14 [[/react-library/nextjs/learn-course/2-2-navigate]]{Navigate Between Pages}
+* [X] 2023.01.14 [[/react-library/nextjs/learn-course/2-2-navigate]]
 * [ ] Assets, Metadata, and CSS
-* [X] 2023.01.18 [[/react-library/nextjs/learn-course/2-4-pre-render]]{Pre-rendering and Data Fetching}
-* [ ] Dynamic Routes
+* [X] 2023.01.18 [[/react-library/nextjs/learn-course/2-4-pre-render]]
+* [ ] [[/react-library/nextjs/learn-course/2-5-dynamic-routes]]
 * [ ] API Routes
 * [ ] Deploying Your Next.js App
 
