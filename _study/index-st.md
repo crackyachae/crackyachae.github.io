@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2023-01-20 16:56:13 +0900
+updated : 2023-01-23 11:10:49 +0900
 regenerate: true
 ---
 
@@ -298,6 +298,7 @@ regenerate: true
     * Assets, Metadata, and CSS
     * [[/react-library/nextjs/learn-course/2-4-pre-render]]
     * [[/react-library/nextjs/learn-course/2-5-dynamic-routes]]
+    * [[/react-library/nextjs/learn-course/2-6-api-routes]]
 
 ## [[js-library]]
 

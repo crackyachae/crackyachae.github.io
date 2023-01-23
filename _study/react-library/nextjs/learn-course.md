@@ -3,7 +3,7 @@ layout  : overview
 title   : Next.js learn cource
 summary : Next.js 공식 홈페이지에서 제공하는 학습 문서
 date    : 2023-01-11 16:27:43 +0900
-updated : 2023-01-20 16:55:29 +0900
+updated : 2023-01-23 13:34:19 +0900
 tag     : navigation
 toc     : true
 public  : true
@@ -43,7 +43,7 @@ Next.js에서 제공하는 공식 학습 문서이다.
 * [ ] Assets, Metadata, and CSS
 * [X] 2023.01.18 [[/react-library/nextjs/learn-course/2-4-pre-render]]
 * [X] 2023.01.20 [[/react-library/nextjs/learn-course/2-5-dynamic-routes]]
-* [ ] API Routes
+* [X] 2023.01.23 [[/react-library/nextjs/learn-course/2-6-api-routes]]
 * [ ] Deploying Your Next.js App
 
 ### SEARCH ENGINE OPTIMIZATION
