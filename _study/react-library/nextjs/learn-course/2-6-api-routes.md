@@ -84,7 +84,7 @@ http://localhost:3000/api/hello에서 이것에 접근해보세요. `{"text":"He
 
 [API 라우트](https://nextjs.org/docs/api-routes/introduction)에 대해 알아야 할 필수 정보들은 다음과 같습니다.
 
-### API 라우트를 `getStaticProps`나 `getStaticPatsh`에서 가져오지 마세요
+### API 라우트를 `getStaticProps`나 `getStaticPath`에서 가져오지 마세요
 
 [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation)나 [`getStaticPaths`](https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation)에서 API 라우트를 가져오면 **안**됩니다. 대신 서버 측 코드는 [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation)나 [`getStaticPaths`](https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation)에 직접 작성하세요 (또는 헬퍼 함수를 호출하세요).
 
