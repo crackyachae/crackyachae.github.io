@@ -3,7 +3,7 @@ layout  : article
 title   : Applying styles and colors
 summary : 
 date    : 2021-06-09 11:15:10 +0900
-updated : 2021-06-17 22:21:17 +0900
+updated : 2023-01-26 18:45:12 +0900
 tag     : draft
 toc     : true
 public  : true
@@ -310,13 +310,75 @@ Scalable 2D 그래픽으로 작업을 시작하는 것은 약간 힘들지만, �
 
 > 작성 예정
 
-## Gradients
+## 그라데이션(Gradients)
 
-> 작성 예정
+다른 일반적인 그림 프로그램처럼 선형, 방사형 및 원뿔 그라데이션을 사용하여 특정 모양의 색을 채우거나 테두리를 그릴 수 있습니다. 다음 메소드 중 하나를 사용해 [`CanvasGradient`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasGradient) 객체를 만들 수 있습니다. 그 다음 `fillStyle` 혹은 `strokeStyle` 속성에 이 객체를 할당할 수 있습니다.
 
-### A createLinearGradient example
+[`createLinearGradient(x1, y1, x2, y2)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient)
 
-> 작성 예정
+시작점이 (`x1`, `y1`), 끝점이 (`x2`, `y2`)인 선형 그라데이션 객체를 만듭니다.
+
+[`createRadialGradient(x1, y1, r1, x2, y2, r2)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient)
+
+원형 그라데이션을 만듭니다. 매개 변수는 두 개의 원을 나타냅니다. 그 중 하나는 원점이 (`x1`, `y1`)이고 반지금이 `r1`이며 다른 하나는 원점이 (`x2`, `y2`) 반지름이 `r2`입니다.
+
+[`createConicGradient(angle, x, y)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createConicGradient)
+
+위치 (`x`, `y`)에서 라디안 단위로 `angle`의 시작각을 갖는 원뿔형 그라데이션 객체를 만듭니다.
+
+예를 들면:
+
+```js
+const lineargradient = ctx.createLinearGradient(0, 0, 150, 150);
+const radialgradient = ctx.createRadialGradient(75, 75, 0, 75, 75, 100);
+```
+
+`CanvasGradient` 객체를 만든 후에는 `addColorStop()` 메소드를 사용해 색상을 지정할 수 있습니다.
+
+[`gradient.addColorStop(position, color)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasGradient/addColorStop)
+
+`gradient` 객체에 새로운 중지점(color stop) 생성합니다. `position`은 0.0과 1.0 사이의 숫자로 그라데이션 내부에서의 상대적인 위치를 정의합니다. `color` 인자는 CSS [`<color>`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)를 나타내며 색상이 전환될 때 해당 지점에서 도달해야 하는 색상을 의미합니다.
+
+중지점은 필요하다면 원하는 만큼 추가할 수 있습니다. 아래는 매우 간단한 흰색에서 검은색으로의 선형 그라데이션 예제입니다.
+
+```js
+const lineargradient = ctx.createLinearGradient(0, 0, 150, 150);
+lineargradient.addColorStop(0, "white");
+lineargradient.addColorStop(1, "black");
+```
+
+### `createLinearGradient` 예제
+
+이 예제에서는 두 개의 그라데이션을 만들 것입니다. 여기서 볼 수 있듯이, `strokeStyle`과 `fillStyle` 속성 도누가 `canvasGradient` 객체를 유효한 입력으로 받을 수 있습니다.
+
+```js
+function draw() {
+  const ctx = document.getElementById("canvas").getContext("2d");
+
+  // 그라데이션을 생성합니다
+  const lingrad = ctx.createLinearGradient(0, 0, 0, 150);
+  lingrad.addColorStop(0, "#00ABEB");
+  lingrad.addColorStop(0.5, "#fff");
+  lingrad.addColorStop(0.5, "#26C000");
+  lingrad.addColorStop(1, "#fff");
+
+  const lingrad2 = ctx.createLinearGradient(0, 50, 0, 95);
+  lingrad2.addColorStop(0.5, "#000");
+  lingrad2.addColorStop(1, "rgba(0, 0, 0, 0)");
+
+  // 그라데이션을 fill과 stroke 스타일로 지정합니다
+  ctx.fillStyle = lingrad;
+  ctx.strokeStyle = lingrad2;
+
+  // 모양을 그립니다
+  ctx.fillRect(10, 10, 130, 130);
+  ctx.strokeRect(50, 50, 50, 50);
+}
+```
+
+첫 번째 그라데이션은 배경 그라데이션 입니다. 위에서 볼 수 있듯이 같은 위치에 두 색상을 지정했습니다. 매우 급격한(sharp) 색상 변화를 만들고 싶을 때 이렇게 할 수 있습니다 - 이 예제에서는 흰색에서 초록색으로 색상을 바꿨습니다. 일반적으로, 중지점을 정의하는 순서는 문제가 되지 않지만, 이와 같은 특별한 경우에서는 문제가 됩니다. 그라데이션을 그리려는 순서대로 색상을 지정한다면 문제가 되지 않을 것입니다.
+
+두 번째 그라데이션에서는 시작 색상(위치 0.0에서의 색상)을 지정하지 않았는데, 이는 다음 중지점의 색상을 자동으로 가정하므로 색상값이 따로 필요하지 않기(not strictly necessary) 때문입니다. 그러므로, 0.5인 지점을 검정색으로 지정하면 시작부터 해당 중지점까지 자동으로 검정색으로 그라데이션 색상을 채웁니다.
 
 ### A createRadialGradient example
 
