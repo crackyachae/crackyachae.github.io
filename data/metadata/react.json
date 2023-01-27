@@ -9,6 +9,7 @@
  "children": [
   "react/links",
   "react/opent-react",
+  "react/test",
   "react/vlpt-react-1-basic"
  ]
 }

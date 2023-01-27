@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2023-01-23 11:10:49 +0900
+updated : 2023-01-27 17:17:02 +0900
 regenerate: true
 ---
 
@@ -229,6 +229,7 @@ regenerate: true
 ## [[react]]
 
 * [[/react/links]]
+* [[react/test]]
 
 ### [[/react/opent-react]]
 
