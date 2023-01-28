@@ -3,13 +3,13 @@ title: 야채크래커의 부스러기
 url: "https://crackyachae.github.io"
 baseurl: ""
 description: >
-    사람 구실 하기 위해 배워가는 야채크래커의 부스러기
+  사람 구실 하기 위해 배워가는 야채크래커의 부스러기
 
 # My information
 email: crackyachae@gmail.com
 author: 야채크래커
 profile: 부스러기
-## twitter_username: 
+## twitter_username:
 github_username: crackyachae
 
 # Build settings
@@ -19,11 +19,11 @@ plugins:
 
 permalink: /blog/:year/:month/:day/:title/
 
-markdown: kramdown
+markdown: CommonMarkGhPages
 highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "tables"]
 
 paginate: 10
 paginator_path: "/blog"
@@ -32,22 +32,22 @@ paginate_path: "/blog/page:num/"
 # Collections
 # use same order as vimwiki_list
 collections:
-    study:
-        output: true
-        permalink: /:collection/:path/
-        number: 0
-    diary:
-        output: true
-        permalink: /:collection/:path/
-        number: 1
-    project:
-        output: true
-        permalink: /:collection/:path/
-        number: 2
-    pscode:
-        output: true
-        permalink: /:collection/:path/
-        number: 3
+  study:
+    output: true
+    permalink: /:collection/:path/
+    number: 0
+  diary:
+    output: true
+    permalink: /:collection/:path/
+    number: 1
+  project:
+    output: true
+    permalink: /:collection/:path/
+    number: 2
+  pscode:
+    output: true
+    permalink: /:collection/:path/
+    number: 3
 
 # Comment Service
 giscus:
@@ -60,7 +60,7 @@ google_analytics:
   ua: UA-191829412-1
 
 #google_adsense:
-  #client: ca-pub-3675948545737694
+#client: ca-pub-3675948545737694
 
 blame: "https://github.com/crackyachae/crackyachae.github.io/blame/main"
 edit: "https://github.com/crackyachae/crackyachae.github.io/edit/main"
@@ -70,4 +70,4 @@ timezone: "Asia/Seoul"
 
 # https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
 kramdown:
-    smart_quotes: ["apos", "apos", "quot", "quot"]
+  smart_quotes: ["apos", "apos", "quot", "quot"]
