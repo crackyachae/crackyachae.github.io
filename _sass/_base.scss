@@ -97,19 +97,19 @@ h6 {
 }
 
 .link-checked {
-    color: #FFFFFF;
-    background-color: #BA55D3;
-    border-radius: 3px;
+  color: #ffffff;
+  background-color: #ba55d3;
+  border-radius: 3px;
 
-    &:visited {
-        color: #FFFFFF;
-    }
+  &:visited {
+    color: #ffffff;
+  }
 }
 
 mark {
-    color: #275715;
-    background-color: #dbedd4;
-    border-radius: 3px;
+  color: #275715;
+  background-color: #dbedd4;
+  border-radius: 3px;
 }
 
 .error-link {
@@ -184,7 +184,7 @@ sup[role="doc-noteref"] {
       max-width: 800px;
       min-width: 300px;
       background-color: #ffffff;
-      color: $main-font-color;
+      color: $color-text-main;
       text-align: left;
       border-radius: 7px;
       border: 1px solid #df0000;
