@@ -11,7 +11,6 @@ author: 야채크래커
 profile: 부스러기
 ## twitter_username: 
 github_username: crackyachae
-comment-support: giscus
 
 # Build settings
 plugins:
@@ -51,14 +50,6 @@ collections:
         number: 3
 
 # Comment Service
-disqus:
-  id: crackyachae # make account when use
-  shortname: crackyachae
-utterances:
-  repo: crackyachae/crackyachae.github.io
-  issue-term: url
-  label: Comment
-  branch: main
 giscus:
   repo: crackyachae/crackyachae.github.io
   repo_id: MDEwOlJlcG9zaXRvcnkzNDYyMDQ5MTg=
