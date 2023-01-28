@@ -96,6 +96,15 @@ h6 {
   }
 }
 
+.link-checked {
+    color: #FFFFFF;
+    background-color: #BA55D3;
+    border-radius: 3px;
+
+    &:visited {
+        color: #FFFFFF;
+    }
+}
 
 mark {
     color: #275715;
