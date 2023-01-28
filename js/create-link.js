@@ -156,6 +156,8 @@
         note.setAttribute('title', text);
     }
 })();
+/*
+ * 용도를 잘 모르겠고, 기존에 다른 방식으로 만드는 링크와 충돌이 새겨서 주석처리.
 ;(function() {
     // 화면 상단의 해시태그에 링크를 걸어준다.
     var tags = document.querySelectorAll('.post-tag');
@@ -179,6 +181,7 @@
     }
     return;
 })();
+*/ 
 ;(function() {
     // 본문 전체의 vimwiki 링크를 html 링크로 변환한다.
     var post = document.querySelector('article.post-content');
