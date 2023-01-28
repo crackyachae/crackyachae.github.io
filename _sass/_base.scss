@@ -130,3 +130,52 @@ h6 {
     content: "[500 Internal Server Error]";
   }
 }
+
+.post-item:hover {
+  background-color: #fff5ff;
+}
+
+video {
+  max-width: 100%;
+}
+
+// 팝업 주석
+sup[role="doc-noteref"] {
+  position: absolute;
+
+  a.footnote {
+    position: relative;
+    padding-bottom: 1em;
+    top: -0.9em;
+    text-decoration: none;
+
+    &:before {
+      content: "[";
+    }
+    &:after {
+      content: "]";
+    }
+    &:hover {
+      color: #df0000;
+      & + .tooltiptext {
+        color: red;
+        // display: block; // create-link.js 에서 처리한다
+      }
+    }
+
+    & + .tooltiptext {
+      display: none;
+      max-width: 800px;
+      min-width: 300px;
+      background-color: #ffffff;
+      color: $main-font-color;
+      text-align: left;
+      border-radius: 7px;
+      border: 1px solid #df0000;
+      padding: 0px 12px 0px 12px;
+      position: absolute;
+      bottom: 29px;
+      z-index: 1;
+    }
+  }
+}
