@@ -11,7 +11,6 @@ author: 야채크래커
 profile: 부스러기
 ## twitter_username: 
 github_username: crackyachae
-comment-support: utterances
 
 # Build settings
 plugins:
@@ -51,14 +50,11 @@ collections:
         number: 3
 
 # Comment Service
-disqus:
-  id: crackyachae # make account when use
-  shortname: crackyachae
-utterances:
+giscus:
   repo: crackyachae/crackyachae.github.io
-  issue-term: url
-  label: Comment
-  branch: main
+  repo_id: MDEwOlJlcG9zaXRvcnkzNDYyMDQ5MTg=
+  category: Announcements
+  category_id: DIC_kwDOFKKq9s4CT2bf
 
 google_analytics:
   ua: UA-191829412-1

@@ -11,6 +11,10 @@ package-lock.json
 _site/
 .sass-cache/
 .jekyll-cache/
+.DS_Store
+.localhost.log
+.localhost.pid
+.quickfix-bookmark
 .jekyll-metadata
 .jekyll
 Gemfile.lock

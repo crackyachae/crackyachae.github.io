@@ -43,8 +43,7 @@
             fetch(`/data/metadata/${target}.json`)
                 .then(response => response.json())
                 .then(function(data) {
-                    console.log('data', data);
-                    if (data == null) {            
+                    if (data == null) {
                         return;
                     }
 
