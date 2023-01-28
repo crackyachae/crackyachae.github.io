@@ -175,7 +175,7 @@ function saveMetaDataFiles(pageMap) {
 /**
  * 모든 문서 파일의 목록 json 파일을 생성합니다.
  */
- function saveDocumentUrlList(pageMap) {
+function saveDocumentUrlList(pageMap) {
     const urlList = [];
     for (const page in pageMap) {
         const data = pageMap[page];
@@ -207,7 +207,7 @@ function saveTagCount(tagMap) {
  * @param dataString 파일의 내용이 될 문자열
  * @param isPrintWhenSuccess 파일이 저장되었을 때 표준 출력으로 메시지를 띄우려 한다면 true
  */
- function saveToFile(fileLocation, dataString, isPrintWhenSuccess) {
+function saveToFile(fileLocation, dataString, isPrintWhenSuccess) {
     fs.writeFile(fileLocation, dataString, function(err) {
         if (err) {
             return console.log(err);
