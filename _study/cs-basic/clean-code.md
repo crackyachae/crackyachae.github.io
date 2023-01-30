@@ -20,7 +20,8 @@ latex   : false
 > 유명한 책이라 그런지 이미 다양한 요약정리 글들이 존재한다.
 >
 > * [Clean Code](https://kwosu87.gitbooks.io/clean-code/content/) by kwosu87
->     * 가장 깔끔하게 정리가 되어있다고 생각한다.
+> * [Clean Code](https://catsbi.oopy.io/69d08818-656d-4fd3-a9c5-f06ba67a64c3) by Catsbi's Dlog
+>     * 두 글이 가장 깔끔하게 정리가 되어있다고 생각한다.
 > * [클린 코드: 애자일 소프트웨어 장인정신](https://saseungmin.github.io/reading_books_record_repository/docs/clean/clean-code/table-of-contents) by saseungmin
 >     * 윗 문서보다 내용을 조금 더 자세하게 다루고 있다.
 > * [클린코드](https://nahwasa.com/category/Study/클린코드) by Nahwasa
