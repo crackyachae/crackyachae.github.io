@@ -29,7 +29,29 @@ latex   : false
 > * [Clean Code 정리](https://csupreme19.github.io/development/2022/01/03/clean-code.html) by Seunghoon Choi
 >     * 코드 예시가 가장 많다.
 
-### 클린코드 체크리스트
+<details>
+    <summary>클린코드 체크리스트</summary>
+
+#### 2장 의미 있는 이름
+
+* 의도를 분명히 밝혀라: 주석이 필요한 변수는 좋은 변수가 아니다.
+* 그릇된 정보를 피하라
+* 의미 있게 구분하라: noise word를 쓰지 말자
+* 발음하기 쉬운 이름을 사용하라
+* 검색하기 쉬운 이름을 사용하라
+* 인코딩(변수에 부가 정보를 덧붙여 표기하는 것)을 피하라
+* 자신의 기억력을 자랑하지 마라
+* 클래스 이름: 명사, 명사구
+* 메서드 이름: 동사, 동사구
+* 기발한 이름은 피하라
+* 한 개념에 한 단어를 사용하라
+* 말장난을 하지 마라
+* 해법 영역에서 가져온 이름을 사용하라
+* 문제 영역에서 가져온 이름을 사용하라
+* 의미 있는 맥락을 추가하라
+* 불필요한 맥락을 없애라
+
+</details>
 
 ### 마음가짐
 
@@ -42,6 +64,10 @@ latex   : false
 > 캠프장은 처음 왔을 때보다 더 깨끗하게 해놓고 떠나라[^boy-scout]
 >
 > 한꺼번에 많은 시간과 노력을 투자해 코드를 정리할 필요가 없다. 변수 이름 하나를 개선하고, 조금 긴 함수 하나를 분할하고, 약간의 중복을 제거하고, 복잡한 if문 하나를 정리하면 충분하다.
+
+* 2장 의미 있는 이름, 26쪽
+
+> 불용어[^noise-word]는 중복이다.
 
 ## Links
 
@@ -57,3 +83,4 @@ latex   : false
 
 [^leblanc]: Later equals never - LeBlanc's law
 [^boy-scout]: 보이스카우트 규칙, Leave the campground cleaner than you found it.
+[^noise-word]: noise word
