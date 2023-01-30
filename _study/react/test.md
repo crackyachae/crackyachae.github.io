@@ -250,10 +250,12 @@ React Native 컴포넌트 테스트, 컴포넌트가 렌더링하는 컴포넌�
 * [프론트엔드 개발자의 TDD 적응하기](https://blog.wadiz.kr/프론트엔드-개발자의-tdd-적응하기/)
     * 관점 부분은 이미 대부분의 소개글이 agile 관점에서 소개하고 있어서 넘겨도 괜찮을 것 같다.
     * 테스트 컴포넌트의 의존성을 해결하기 위해 사용한 방법을 다루고 있다.
+* [프론트엔드 테스트 팁](https://tech.madup.com/front-test-tips/) by Willy @MADTECH
 * [An in-depth beginner's guide to testing React applications in 2020](https://jkettmann.com/beginners-guide-to-testing-react) by Johannes Kettmann
     * [[번역] 초보자를 위한 React 어플리케이션 테스트 심층 가이드 (1)](https://blog.rhostem.com/posts/2020-10-14-beginners-guide-to-testing-react-1) by blog.rhostem.com
     * [[번역] 초보자를 위한 React 어플리케이션 테스트 심층 가이드 (2)](https://blog.rhostem.com/posts/2020-10-15-beginners-guide-to-testing-react-2) blog.rhostem.com
     * 사용자 관점에서 리액트로 구현한 주요 기능의 테스트를 작성하는 예시를 다룬다.
+* [Next.js Head 테스트 작성하기 w/ Next.js router mock](https://www.hyesungoh.xyz/test-nextjs-head-with-mocking-router) by Cometin'
 * [Jest + react testing library로 react 테스트 코드 작성하기](https://cocoder16.tistory.com/73) by 기분따라 코딩
     * Jest와 RTL을 이용해 리덕스와 ajax에 의존하는 컴포넌트의 테스트를 작성하는 예시를 다룬다.
 * [How to Write Unit Tests in React](https://www.freecodecamp.org/news/how-to-write-unit-tests-in-react/) by Kunal Nalawade @freeCodeCamp
