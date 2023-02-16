@@ -3,7 +3,7 @@ title: 야채크래커의 부스러기
 url: "https://crackyachae.github.io"
 baseurl: ""
 description: >
-  사람 구실 하기 위해 배워가는 야채크래커의 부스러기
+    사람 구실 하기 위해 배워가는 야채크래커의 부스러기
 
 # My information
 email: crackyachae@gmail.com
@@ -14,16 +14,16 @@ github_username: crackyachae
 
 # Build settings
 plugins:
-  - jekyll-paginate
-  - jekyll-gist
+    - jekyll-paginate
+    - jekyll-gist
 
 permalink: /blog/:year/:month/:day/:title/
 
 markdown: CommonMarkGhPages
 highlighter: rouge
 commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "tables"]
+    options: ["UNSAFE", "SMART", "FOOTNOTES"]
+    extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
 paginate: 10
 paginator_path: "/blog"
@@ -32,32 +32,32 @@ paginate_path: "/blog/page:num/"
 # Collections
 # use same order as vimwiki_list
 collections:
-  study:
-    output: true
-    permalink: /:collection/:path/
-    number: 0
-  diary:
-    output: true
-    permalink: /:collection/:path/
-    number: 1
-  project:
-    output: true
-    permalink: /:collection/:path/
-    number: 2
-  pscode:
-    output: true
-    permalink: /:collection/:path/
-    number: 3
+    study:
+        output: true
+        permalink: /:collection/:path/
+        number: 0
+    diary:
+        output: true
+        permalink: /:collection/:path/
+        number: 1
+    project:
+        output: true
+        permalink: /:collection/:path/
+        number: 2
+    pscode:
+        output: true
+        permalink: /:collection/:path/
+        number: 3
 
 # Comment Service
 giscus:
-  repo: crackyachae/crackyachae.github.io
-  repo_id: MDEwOlJlcG9zaXRvcnkzNDYyMDQ5MTg=
-  category: Announcements
-  category_id: DIC_kwDOFKKq9s4CT2bf
+    repo: crackyachae/crackyachae.github.io
+    repo_id: MDEwOlJlcG9zaXRvcnkzNDYyMDQ5MTg=
+    category: Announcements
+    category_id: DIC_kwDOFKKq9s4CT2bf
 
 google_analytics:
-  ua: UA-191829412-1
+    ua: UA-191829412-1
 
 #google_adsense:
 #client: ca-pub-3675948545737694
@@ -70,4 +70,4 @@ timezone: "Asia/Seoul"
 
 # https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
 kramdown:
-  smart_quotes: ["apos", "apos", "quot", "quot"]
+    smart_quotes: ["apos", "apos", "quot", "quot"]
