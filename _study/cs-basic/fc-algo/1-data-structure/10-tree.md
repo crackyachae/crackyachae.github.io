@@ -3,7 +3,7 @@ layout  : article
 title   : Chapter 10. 트리(Tree)
 summary : 
 date    : 2021-04-21 23:04:18 +0900
-updated : 2021-04-22 16:01:49 +0900
+updated : 2023-02-16 13:53:56 +0900
 tag     : 
 toc     : true
 public  : true
@@ -28,16 +28,16 @@ latex   : true
 
 ## 2. 알아둘 용어
 
-| 분류  | 용어 | 설명 |
-| --- | --- | --- |
-| 기본| Node | 트리에서 데이터를 저장하는 기본 요소 (데이터와 다른 연결된 노드에 대한 Branch 정보 포함)
-| 노드 종류 | Root Node | 트리 맨 위에 있는 노드
-| | Parent Node | 어떤 노드의 다음 레벨에 연결된 노드
-|| Child Node | 어떤 노드의 상위 레벨에 연결된 노드
-| | Leaf Node (Terminal Node) | Child Node가 하나도 없는 노드
-| | Sibling (Brother Node) | 동일한 Parent Node를 가진 노드
-| 트리 특성 | Level | 최상위 노드를 Level 0으로 하였을 때, 하위 Branch로 연결된 노드의 깊이를 나타냄
-| | Depth | 트리에서 Node가 가질 수 있는 최대 Level
+| 분류      | 용어          |                                                 |
+| -------- | ----------- | ------------------------------------------------ |
+| 기본      | Node | 트리에서 데이터를 저장하는 기본 요소 (데이터와 다른 연결된 노드에 대한 Branch 정보 포함) |
+| 노드 종류 | Root Node | 트리 맨 위에 있는 노드 |
+|           | Parent Node | 어떤 노드의 다음 레벨에 연결된 노드 |
+|           | Child Node | 어떤 노드의 상위 레벨에 연결된 노드 |
+|           | Leaf(Terminal) Node | Child Node가 하나도 없는 노드 |
+|           | Sibling(Brother) Node | 동일한 Parent Node를 가진 노드 |
+| 트리 특성 | Level | 최상위 노드를 Level 0으로 하였을 때, 하위 Branch로 연결된 노드의 깊이를 나타냄 |
+|           | Depth | 트리에서 Node가 가질 수 있는 최대 Level |
 
 ![tree](/post-img/fc-algo-data-structure-10-tree/10-1_tree.png)
 
