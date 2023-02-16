@@ -80,8 +80,8 @@ graph
 자료구조 큐를 활용함
 
 * `need_visit` 큐와 `visited` 큐, 두 개의 큐를 생성
-* `need_visit` 큐: 이미 방문한 노드를 담는 큐
-* `visited` 큐: 방문해야 하는 노드를 담는 큐
+* `need_visit` 큐: 방문해야 하는 노드를 담는 큐
+* `visited` 큐: 이미 방문한 노드를 담는 큐
 
 ![bfs queue](/post-img/fc-algo-algorithm-18-bfs/3_bfsqueue.png)
 
