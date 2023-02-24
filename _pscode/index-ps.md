@@ -4,7 +4,7 @@ title   : 코딩 테스트(Problem Solving) 문제 풀이
 toc     : true
 public  : true
 comment : false
-updated : 2023-02-22 10:58:01 +0900
+updated : 2023-02-24 14:09:09 +0900
 regenerate: true
 ---
 
@@ -22,7 +22,7 @@ regenerate: true
 * [[/ps-set/basic/fc-algo-actual-1-data-structure]]
 * [[/ps-set/basic/fc-algo-actual-2-parameter]]
 * [[/ps-set/basic/fc-algo-actual-3-exception]]
-* [[/ps-set/basic/fc-algo-actual-4-direction]]
+* [[/ps-set/basic/fc-algo-actual-3-direction]]
 
 ### [[/ps-set/data-structure]]
 
@@ -54,7 +54,7 @@ regenerate: true
 
 ### [[/ps-set/graph-search]]
 
-* [[/ps-set/graph-search/fc-algo-actual-5-search]]
+* [[/ps-set/graph-search/fc-algo-actual-3-search]]
 
 * 그래프 기본 탐색(BFS, DFS)
     * [[/ps-set/graph-search/fc-algo-9-bfs-dfs-basic]]
