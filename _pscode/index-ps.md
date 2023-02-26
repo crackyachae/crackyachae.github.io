@@ -4,7 +4,7 @@ title   : 코딩 테스트(Problem Solving) 문제 풀이
 toc     : true
 public  : true
 comment : false
-updated : 2023-02-24 16:51:49 +0900
+updated : 2023-02-26 00:37:34 +0900
 regenerate: true
 ---
 
@@ -106,6 +106,7 @@ regenerate: true
 * [[/boj/boj-1000s/boj-1789]]
 * [[/boj/boj-1000s/boj-1874]]
 * [[/boj/boj-1000s/boj-1904]]
+* [[/boj/boj-1000s/boj-1915]]
 * [[/boj/boj-1000s/boj-1920]]
 * [[/boj/boj-1000s/boj-1924]]
 * [[/boj/boj-1000s/boj-1927]]
