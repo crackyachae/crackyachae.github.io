@@ -259,6 +259,7 @@ regenerate: true
 * [[/boj/boj-11000s/boj-11022]]
 * [[/boj/boj-11000s/boj-11053]]
 * [[/boj/boj-11000s/boj-11055]]
+* [[/boj/boj-11000s/boj-11066]]
 * [[/boj/boj-11000s/boj-11279]]
 * [[/boj/boj-11000s/boj-11286]]
 * [[/boj/boj-11000s/boj-11557]]
