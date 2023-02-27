@@ -4,7 +4,7 @@ title   : 코딩 테스트(Problem Solving) 문제 풀이
 toc     : true
 public  : true
 comment : false
-updated : 2023-02-26 12:33:16 +0900
+updated : 2023-02-27 17:38:21 +0900
 regenerate: true
 ---
 
@@ -67,6 +67,7 @@ regenerate: true
 ### [[/ps-set/greedy]]
 
 * [[/ps-set/greedy/fc-algo-11-greedy]]
+* [[/ps-set/greedy/fc-algo-actual-5-greedy]]
 
 ## [[boj]]
 
@@ -288,6 +289,7 @@ regenerate: true
 
 * [[/boj/boj-16000s/boj-16165]]
 * [[/boj/boj-16000s/boj-16675]]
+* [[/boj/boj-16000s/boj-16676]]
 * [[/boj/boj-16000s/boj-16768]]
 * [[/boj/boj-16000s/boj-16769]]
 * [[/boj/boj-16000s/boj-16956]]
