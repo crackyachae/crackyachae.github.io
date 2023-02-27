@@ -23,6 +23,7 @@
  "boj/boj-14000s/boj-14620",
  "boj/boj-15000s/boj-15969",
  "boj/boj-16000s/boj-16675",
+ "boj/boj-16000s/boj-16676",
  "boj/boj-16000s/boj-16768",
  "boj/boj-16000s/boj-16769",
  "boj/boj-17000s/boj-17224",
@@ -40,5 +41,6 @@
  "boj/boj-5000s/boj-5585",
  "boj/boj-9000s/boj-9037",
  "boj/boj-9000s/boj-9663",
- "ps-set/dp/fc-algo-actual-4-dp"
+ "ps-set/dp/fc-algo-actual-4-dp",
+ "ps-set/greedy/fc-algo-actual-5-greedy"
 ]
