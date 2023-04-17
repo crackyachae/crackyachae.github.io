@@ -78,8 +78,17 @@ latex   : false
 
 ### 해외 문서 강의
 
+* [freeCodeCamp](https://www.freecodecamp.org/news)
+    * 시리즈 강의는 아니지만 튜토리얼 위주의 글들이 작성되어있다.
 * [geeksforgeeks](https://www.geeksforgeeks.org/)
 * [w3schools](https://www.w3schools.com/)
+
+### 해외 커뮤니티
+
+* [stackoverflow](https://stackoverflow.com)
+    * 개발 관련 질문-답변 커뮤니티.
+* [dev.to](https://dev.to)
+    * 코스가 구조화 되어있거나 하진 않지만 잘 작성된 글이 많다.
 
 ## 웹 전반
 
@@ -103,9 +112,17 @@ latex   : false
 
 ### 국내 기업 블로그
 
+* [Kakao Pay Tech Log](https://tech.kakaopay.com)
+* [banksalad 블로그](https://blog.banksalad.com/tech)
 * [TOAST UI](https://ui.toast.com/posts/ko)
     * TOAST UI에서 게시하는 포스트.
     * 다양한 좋은 주제의 글을 다루고 있고 시각적 자료가 잘 갖춰져 있어 이해하기 쉽다.
+* [Wadiz Blog](https://blog.wadiz.kr/category/tech/)
+    * 와디즈에서 게시하는 테크관련 포스트.
+    * 앱을 개발하는 과정에서의 경험에 대한 글이 주를 이루고 있다.
+* [29cm](https://medium.com/29cm)
+    * 29cm에서 게시하는 팀 관련 포스트.
+    * CULTURE 탭을 제외하고는 모두 제품, 테크관련이며 프론트엔드, 백엔드 등으로 분류되어있다.
 
 ### 국내 개인 블로그
 
