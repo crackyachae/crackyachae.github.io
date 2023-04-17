@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "jest-dom custom matcher",
+ "summary": "jest-dom의 README의 custom matcher를 정리하자",
+ "parent": "react-library/react-testing-library",
+ "url": "/study/react-library/react-testing-library/jest-dom-matcher",
+ "updated": "2023-03-17 15:40:03 +0900",
+ "children": []
+}

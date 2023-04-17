@@ -8,6 +8,8 @@
  "updated": "2022-07-28 22:15:47 +0900",
  "children": [
   "react-library/nextjs",
+  "react-library/react-query",
+  "react-library/react-testing-library",
   "react-library/recoil",
   "react-library/redux"
  ]
