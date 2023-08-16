@@ -4,7 +4,7 @@ title   : 코딩 테스트(Problem Solving) 문제 풀이
 toc     : true
 public  : true
 comment : false
-updated : 2023-08-16 15:50:48 +0900
+updated : 2023-08-16 22:11:18 +0900
 regenerate: true
 ---
 
@@ -22,6 +22,8 @@ regenerate: true
 * [[/ps-set/basic/codeup-py-basic]]
 * [[/ps-set/basic/automata-py-basic]]
 * [[/ps-set/basic/plzrun-1-io]]
+* [[/ps-set/basic/programmers-training]]
+* [[/ps-set/basic/programmers-beginner]]
 * [[/ps-set/basic/covenant-start-1-basic]]
 * [[/ps-set/basic/covenant-prep-1-basic]]
 * [[/ps-set/basic/fc-algo-actual-1-data-structure]]
