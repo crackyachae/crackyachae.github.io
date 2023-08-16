@@ -41,7 +41,7 @@
  },
  {
   "name": "links",
-  "size": 10
+  "size": 11
  },
  {
   "name": "lint",
@@ -57,7 +57,7 @@
  },
  {
   "name": "memo",
-  "size": 1
+  "size": 2
  },
  {
   "name": "navigation",

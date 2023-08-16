@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "collection": "pscode",
+ "title": "PS 기초 이론 메모",
+ "summary": "글이 되기는 부족한 간단한 PS 기초 이론 관련 메모들",
+ "parent": "ps-basic",
+ "url": "/pscode/ps-basic/memos",
+ "updated": "2023-08-16 15:48:47 +0900",
+ "children": []
+}
