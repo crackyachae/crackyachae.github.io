@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 기초 트레이닝
 summary : 
 date    : 2023-08-16 22:11:18 +0900
-updated : 2023-08-16 23:10:07 +0900
+updated : 2023-08-22 00:06:10 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -20,7 +20,381 @@ latex   : true
 > 정렬은 문제번호를 기준으로 되어있으며 문제명으로 검색해서 조회하는 것을 추천드립니다.
 >
 
-### 문제 목록
+## 181913 - 문자열 여러 번 뒤집기
+
+```js
+function solution(my_string, queries) {
+    let ans = my_string;
+    queries.forEach(([s, e]) => {
+        ans = ans.slice(0, s) + [...ans.slice(s, e + 1)].reverse().join("") + ans.slice(e + 1);
+    });
+
+    return ans;
+}
+```
+
+## 181914 - 9로 나눈 나머지
+
+```js
+function solution(number) {
+    return [...number].reduce((acc, curr) => acc + Number(curr), 0) % 9;
+}
+```
+
+## 181915 - 글자 이어 붙여 문자열 만들기
+
+```js
+function solution(my_string, index_list) {
+    return index_list.map((idx) => my_string[idx]).join("");
+}
+```
+
+## 181916 - 주사위 게임 3
+
+```js
+function solution(a, b, c, d) {
+    const set = new Set([a, b, c, d]);
+    const arr = [a, b, c, d].sort((a, b) => b - a);
+
+    // 4개 모두 동일 [p, p, p, p]
+    if (set.size === 1) {
+        return arr[0] * 1111;
+    }
+    if (set.size === 2) {
+        // 3개 동일 [p, p, p, q], [q, p, p, p]
+        if (arr[1] === arr[2]) {
+            return (10 * arr[1] + (arr[0] + arr[3] - arr[1])) ** 2;
+            // 2개씩 동일 [p, p, q, q]
+        } else {
+            return (arr[1] + arr[2]) * Math.abs(arr[1] - arr[2]);
+        }
+    }
+    // 2개만 동일 [p, p, q, r] [q, p, p, r], [q, r, p, p]
+    if (set.size === 3) {
+        const arrMulti = arr.reduce((acc, curr) => acc * curr);
+        const setMulti = [...set].reduce((acc, curr) => acc * curr);
+        const p = arrMulti / setMulti;
+
+        return arrMulti / p ** 2;
+    }
+
+    return arr[3];
+}
+```
+
+### 참고 답안
+
+* [TODO] 추후에 확인해보기.
+
+## 181917 - 간단한 논리 연산
+
+```js
+function solution(x1, x2, x3, x4) {
+    return (x1 || x2) && (x3 || x4);
+}
+```
+
+## 181918 - 배열 만들기 4
+
+```js
+function solution(arr) {
+    const stk = [];
+    let i = 0;
+
+    while (i < arr.length) {
+        if (stk.length && stk[stk.length - 1] >= arr[i]) {
+            stk.pop();
+        } else {
+            stk.push(arr[i]);
+            i += 1;
+        }
+    }
+
+    return stk;
+}
+```
+
+## 181919 - 콜라츠 수열 만들기
+
+```js
+function solution(n) {
+    const answer = [n];
+    let x = n;
+
+    while (x !== 1) {
+        x = x % 2 ? 3 * x + 1 : x / 2;
+        answer.push(x);
+    }
+
+    return answer;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(n, arr = []) {
+    arr.push(n);
+
+    if (n === 1) return arr;
+    if (n % 2 === 0) return solution(n / 2, arr);
+    return solution(3 * n + 1, arr);
+}
+```
+
+* 재귀를 이용한 풀이이다.
+
+## 181920 - 카운트 업
+
+```js
+function solution(start_num, end_num) {
+    return Array(end_num - start_num + 1)
+        .fill(0)
+        .map((n, i) => i + start_num);
+}
+```
+
+## 181921 - 배열 만들기 2
+
+```js
+function solution(l, r) {
+    const calcL = Math.ceil(l / 5);
+    const calcR = Math.floor(r / 5);
+
+    let begin = 2 ** (`${calcL}`.length - 1);
+    let end = parseInt(Array(`${calcR}`.length).fill(1).join(""), 2);
+
+    while (Number(begin.toString(2)) < calcL) {
+        begin += 1;
+    }
+    while (Number(end.toString(2)) > calcR) {
+        end -= 1;
+    }
+
+    if (begin >= end) {
+        return [-1];
+    }
+
+    return Array(end - begin + 1)
+        .fill(0)
+        .map((n, i) => Number((i + begin).toString(2)) * 5);
+}
+```
+
+### 참고 답안
+
+* [TODO] 추후에 확인해보기.
+
+## 181922 - 수열과 구간 쿼리 4
+
+```js
+function solution(arr, queries) {
+    queries.forEach(([s, e, k]) => {
+        for (let i = s; i < e + 1; i += 1) {
+            if (!(i % k)) arr[i] += 1;
+        }
+    });
+
+    return arr;
+}
+```
+
+## 181923 - 수열과 구간 쿼리 2
+
+```js
+function solution(arr, queries) {
+    return queries.map(([s, e, k]) => {
+        const filtered = arr.slice(s, e + 1).filter((n) => n > k);
+
+        return filtered.length ? Math.min(...filtered) : -1;
+    });
+}
+```
+
+## 181924 - 수열과 구간 쿼리 3
+
+```js
+function solution(arr, queries) {
+    queries.forEach(([i, j]) => {
+        const tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+    });
+
+    return arr;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(arr, queries) {
+    queries.forEach(([a, b]) => {
+        [arr[a], arr[b]] = [arr[b], arr[a]];
+    });
+    return arr;
+}
+```
+
+* 구조분해할당을 이용해 swap을 더 간단하게 할 수 있다.
+
+## 181925 - 수 조작하기 2
+
+```js
+function solution(numLog) {
+    const rev_op = {
+        1: "w",
+        "-1": "s",
+        10: "d",
+        "-10": "a",
+    };
+
+    return numLog.reduce((acc, curr, i) => (i ? acc + rev_op[`${curr - numLog[i - 1]}`] : ""), "");
+}
+```
+
+### 참고 답안
+
+```js
+function solution(numLog) {
+    const convert = {
+        1: "w",
+        "-1": "s",
+        10: "d",
+        "-10": "a",
+    };
+
+    return numLog
+        .slice(1)
+        .map((v, i) => {
+            return convert[v - numLog[i]];
+        })
+        .join("");
+}
+```
+
+* 첫 원소는 `slice`로 제외시킨 후 `map`을 이용해서 변환한 뒤 `join`으로 문자열로 묶는 것이 더 깔끔한 것 같다.
+
+## 181926 - 수 조작하기 1
+
+```js
+function solution(n, control) {
+    const operation = {
+        w: 1,
+        s: -1,
+        d: 10,
+        a: -10,
+    };
+
+    [...control].forEach((c) => {
+        n += operation[c];
+    });
+
+    return n;
+}
+```
+
+## 181927 - 마지막 두 원소
+
+```js
+function solution(num_list) {
+    const last = num_list[num_list.length - 1];
+    const before = num_list[num_list.length - 2];
+
+    num_list.push(last > before ? last - before : last * 2);
+
+    return num_list;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(num_list) {
+    const [a, b] = [...num_list].reverse();
+    return [...num_list, a > b ? a - b : a * 2];
+}
+```
+
+* 불필요한 과정이 많긴 하지만 코드 자체는 깔끔해서 답안을 첨부.
+
+## 181928 - 이어 붙인 수
+
+```js
+function solution(num_list) {
+    let odd = 0;
+    let even = 0;
+
+    num_list.forEach((n) => {
+        if (n % 2) {
+            odd = odd * 10 + n;
+        } else {
+            even = even * 10 + n;
+        }
+    });
+
+    return odd + even;
+}
+```
+
+### 아이디어 & 풀이
+
+문자열과 숫자 사이의 형변환을 최소화 하기 위해서 숫자를 순서대로 이어붙이는 과정을 기존 수에 10을 곱한 뒤 현재 값을 더하는 것으로 대신했다.
+
+## 181929 - 원소들의 곱과 합
+
+```js
+function solution(num_list) {
+    const times = num_list.reduce((acc, curr) => acc * curr);
+    const sum = num_list.reduce((acc, curr) => acc + curr);
+
+    return times < sum ** 2 ? 1 : 0;
+}
+```
+
+## 181930 - 주사위 게임 2
+
+```js
+function solution(a, b, c) {
+    const count = new Set([a, b, c]).size;
+
+    if (count === 1) {
+        return (a + b + c) * (a ** 2 + b ** 2 + c ** 2) * (a ** 3 + b ** 3 + c ** 3);
+    }
+    if (count === 2) {
+        return (a + b + c) * (a ** 2 + b ** 2 + c ** 2);
+    }
+
+    return a + b + c;
+}
+```
+
+## 181931 - 등차수열의 특정한 항만 더하기
+
+```js
+function solution(a, d, included) {
+    return included.reduce((acc, curr, i) => (curr ? acc + a + d * i : acc), 0);
+}
+```
+
+## 181932 - 코드 처리하기
+
+```js
+function solution(code) {
+    let mode = 0;
+    let ret = "";
+
+    [...code].forEach((c, i) => {
+        if (c === "1") {
+            mode = Number(!mode);
+        } else if (!(mode ^ i % 2)) {
+            ret += c;
+        }
+    });
+
+    return ret === "" ? "EMPTY" : ret;
+}
+```
 
 ## 181933 - flag에 따라 다른 값 반환하기
 
