@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 테스트 입문
 summary : 
 date    : 2023-08-16 22:11:27 +0900
-updated : 2023-08-16 22:11:27 +0900
+updated : 2023-08-22 21:56:24 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -249,5 +249,130 @@ function solution(slice, n) {
 ```js
 function solution(numbers) {
     return numbers.reduce((acc, curr) => acc + curr) / numbers.length;
+}
+```
+
+## 120818 - 옷가게 할인 받기
+
+```js
+function solution(price) {
+    if (price >= 500000) {
+        return Math.trunc(price * 0.8);
+    }
+    if (price >= 300000) {
+        return Math.trunc(price * 0.9);
+    }
+    if (price >= 100000) {
+        return Math.trunc(price * 0.95);
+    }
+
+    return price;
+}
+```
+
+## 120819 - 아이스 아메리카노
+
+```js
+function solution(money) {
+    return [Math.trunc(money / 5500), money % 5500];
+}
+```
+
+## 120820 - 나이 출력
+
+```js
+function solution(age) {
+    return 2022 - age + 1;
+}
+```
+
+## 120821 - 배열 뒤집기
+
+```js
+function solution(num_list) {
+    return num_list.reverse();
+}
+```
+
+## 120822 - 문자열 뒤집기
+
+```js
+function solution(my_string) {
+    return [...my_string].reverse().join("");
+}
+```
+
+## 120823 - 직각삼각형 출력하기
+
+```js
+const readline = require("readline");
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+});
+
+let input = [];
+
+rl.on("line", function (line) {
+    input = line.split(" ");
+}).on("close", function () {
+    const n = Number(input);
+    console.log(
+        Array(n)
+            .fill(0)
+            .map((c, i) =>
+                Array(i + 1)
+                    .fill("*")
+                    .join("")
+            )
+            .join("\n")
+    );
+});
+```
+
+### 참고 답안
+
+```js
+const n = Number(input);
+console.log(
+    Array(n)
+        .fill("*")
+        .map((c, i) => c.repeat(i + 1))
+        .join("\n")
+);
+```
+
+* `repeat` 메소드를 사용하면 더 간단하게 작성할 수 있다.
+
+## 120824 - 짝수 홀수 개수
+
+```js
+function solution(num_list) {
+    const oddCount = num_list.filter((n) => n % 2).length;
+    return [num_list.length - oddCount, oddCount];
+}
+```
+
+### 참고 답안
+
+```js
+function solution(num_list) {
+    const answer = [0, 0];
+
+    for (let a of num_list) {
+        answer[a % 2] += 1;
+    }
+
+    return answer;
+}
+```
+
+* 2로 나눈 나머지 값을 단순히 구분 조건이 아니라 반환하는 `answer` 배열의 인덱스로 사용한 풀이이다.
+
+## 120825 - 문자 반복 출력하기
+
+```js
+function solution(my_string, n) {
+    return [...my_string].map((c) => c.repeat(n)).join("");
 }
 ```
