@@ -376,3 +376,372 @@ function solution(my_string, n) {
     return [...my_string].map((c) => c.repeat(n)).join("");
 }
 ```
+
+## 120826 - 특정 문자 제거하기
+
+```js
+function solution(my_string, letter) {
+    return [...my_string].filter((c) => c !== letter).join("");
+}
+```
+
+### 참고 답안
+
+```js
+function solution(my_string, letter) {
+    const answer = my_string.split(letter).join("");
+    return answer;
+}
+```
+
+* 지정된 문자로 `split` 하면 해당 문자가 제거되면서 해당 문자를 기준으로 문자열이 나눠지므로 다시 `join` 하기만 하면 된다.
+
+## 120829 - 각도기
+
+```js
+function solution(angle) {
+    return angle % 90 ? [1, 3][Math.trunc(angle / 90)] : [2, 4][angle / 90 - 1];
+}
+```
+
+### 참고 답안
+
+```js
+function solution(angle) {
+    return [0, 90, 91, 180].filter((x) => angle >= x).length;
+}
+```
+
+## 120830 - 양꼬치
+
+```js
+function solution(n, k) {
+    return n * 12000 + (k - Math.trunc(n / 10)) * 2000;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(n, k) {
+    k -= ~~(n / 10);
+    if (k < 0) k = 0;
+    return n * 12000 + k * 2000;
+}
+```
+
+* tile (`~`) 연산자를 두 번 사용해 소숫점 이하를 절삭한 풀이이다.
+    * [Bitwise NOT (~)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_NOT) by MDN
+    * 해당 수를 이진수로 변환한 뒤 각 자리의 1 혹은 0을 반대로 전환하는 연산자로 `~n`의 결과값은 `-(n + 1)`과 같다. 변환 과정에서 소숫점 아래는 절삭되므로 "양수"의 경우 이를 두 번 반복하면 소숫점 아래를 절삭한 값을 얻을 수 있다.
+
+## 120831 - 짝수의 합
+
+```js
+function solution(n) {
+    return (Math.trunc(n / 2)) * (Math.trunc(n / 2) + 1);
+}
+```
+
+## 120833 - 배열 자르기
+
+```js
+function solution(numbers, num1, num2) {
+    return numbers.slice(num1, num2 + 1);
+}
+```
+
+## 120834 - 외계행성의 나이
+
+```js
+const PRO = {
+    0: "a",
+    1: "b",
+    2: "c",
+    3: "d",
+    4: "e",
+    5: "f",
+    6: "g",
+    7: "h",
+    8: "i",
+    9: "j",
+};
+
+function solution(age) {
+    return [...`${age}`].map((c) => PRO[c]).join("");
+}
+```
+
+### 참고 답안
+
+```js
+function solution(age) {
+    return [...age.toString()].map((v) => "abcdefghij"[v]).join("");
+}
+```
+
+* 숫자-문자간 변환을 직접 하지 않고 문자열로 작성한 뒤 문자열의 인덱스를 이용했다.
+
+## 120835 - 진료 순서 정하기
+
+```js
+function solution(emergency) {
+    const sorted = [...emergency].sort((a, b) => b - a);
+    return emergency.map((n) => sorted.indexOf(n) + 1);
+}
+```
+
+## 120836 - 순서쌍의 개수
+
+```js
+function getPrime(n) {
+    const r = Math.trunc(n ** 0.5);
+    const prime = Array(r + 1).fill(0);
+    let i = 2;
+
+    while (i <= r) {
+        while (!(n % i)) {
+            prime[i] += 1;
+            n /= i;
+        }
+        i += 1;
+    }
+
+    if (n > 1) {
+        // r의 범위를 넘어가는 소수가 남을 수 있으므로
+        // 그냥 idx 0을 해당 수로 생각하고 약수의 개수를 증가시킨다.
+        prime[0] += 1;
+    }
+
+    return prime;
+}
+
+function solution(n) {
+    if (n === 1) {
+        return 1;
+    }
+
+    return getPrime(n)
+        .filter((n) => n)
+        .map((n) => n + 1)
+        .reduce((acc, curr) => acc * curr);
+}
+```
+
+### 참고 풀이
+
+```js
+function solution(n) {
+    let ans = 0;
+    for (let i = 1; i < Math.sqrt(n); i++) if (n % i === 0) ans += 2;
+
+    return Number.isInteger(Math.sqrt(n)) ? ans + 1 : ans;
+}
+```
+
+* [TODO] 추후에 확인해보기.
+
+## 120837 - 개미 군단
+
+```js
+function solution(hp) {
+    return Math.trunc(hp / 5) + Math.trunc((hp % 5) / 3) + ((hp % 5) % 3);
+}
+```
+
+## 120838 - 모스부호 (1)
+
+```js
+const morse = { 
+    '.-':'a','-...':'b','-.-.':'c','-..':'d','.':'e','..-.':'f',
+    '--.':'g','....':'h','..':'i','.---':'j','-.-':'k','.-..':'l',
+    '--':'m','-.':'n','---':'o','.--.':'p','--.-':'q','.-.':'r',
+    '...':'s','-':'t','..-':'u','...-':'v','.--':'w','-..-':'x',
+    '-.--':'y','--..':'z'
+}
+
+function solution(letter) {
+    return letter.split(" ").map(c => morse[c]).join("");
+}
+```
+
+## 120839 - 가위 바위 보
+
+```js
+const rspWin = {
+    0: "5",
+    2: "0",
+    5: "2",
+};
+
+function solution(rsp) {
+    return [...rsp].map((c) => rspWin[c]).join("");
+}
+```
+
+## 120840 - 구슬을 나누는 경우의 수
+
+```js
+function factorial(n) {
+    if (n === 0 || n === 1) {
+        return BigInt(1);
+    }
+
+    return Array.from(Array(n), (_, i) => i + 1).reduce((acc, curr) => BigInt(acc) * BigInt(curr));
+}
+
+function solution(balls, share) {
+    return factorial(balls) / factorial(balls - share) / factorial(share);
+}
+```
+
+### 아이디어 & 풀이
+
+* 질문 목록중 [문제 해결에 놓치기 쉬운 내용 간단 정리_코드x](https://school.programmers.co.kr/questions/42602)을 참고하면 좋다.
+* 팩토리얼을 그냥 계산하면 주어진 최대 인풋인 30!의 경우 기존 `Number` 자료형의 범위를 넘어가므로 `BigInt`형으로 변환해주어야 한다.
+    * [BigInt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/BigInt) by MDN
+    * `BigInt` 자료형은 숫자 뒤에 `n`을 붙여서 표현하며 `Number` 자료형과 혼용하여 계산할 수 없다.
+* `n === 0`인 경우에만 `BigInt(1)`이 반환되도록 하면 `n`이 1일 때 `reduce`에서 초기값인 숫자 1만 반환하므로 계산에서 오류가 난다.
+    * 위의 풀이처럼 `n === 1`인 경우에도 예외처리를 해주거나
+    * 처음 `Array.from`으로 배열을 만들 때 반환 값을 `i + 1`이 아닌 `BigInt(i + 1)`로 반환하면 된다.
+
+### 참고 답안
+
+```js
+function factorial(num) {
+    return num === 0 ? 1 : num * factorial(num - 1);
+}
+
+function solution(balls, share) {
+    return Math.round(factorial(balls) / factorial(balls - share) / factorial(share));
+}
+```
+
+* 팩토리얼을 재귀를 이용해서 구현했다.
+* `BigInt`형으로 변환해서 계산하지 않고 계산 결과에 `Math.round` 처리를 해주었다. 답안 댓글을 보면 `Math.floor`가 아닌 `Math.round`만 제대로 계산하는 것 같다.
+
+## 120841 - 점의 위치 구하기
+
+```js
+function solution(dot) {
+    const [x, y] = dot;
+
+    if (y > 0) {
+        if (x > 0) {
+            return 1;
+        } else {
+            return 2;
+        }
+    } else {
+        if (x < 0) {
+            return 3;
+        } else {
+            return 4;
+        }
+    }
+}
+```
+
+## 120842 - 2차원으로 만들기
+
+```js
+function solution(num_list, n) {
+    const answer = Array.from(Array(num_list.length / n), () => []);
+    num_list.forEach((num, i) => {
+        answer[Math.trunc(i / n)].push(num);
+    });
+
+    return answer;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(num_list, n) {
+    return Array(num_list.length / n)
+        .fill([])
+        .map(() => num_list.splice(0, n));
+}
+```
+
+## 120843 - 공 던지기
+
+```js
+function solution(numbers, k) {
+    return numbers[(k * 2 - 2) % numbers.length];
+}
+```
+
+### 피드백
+
+* `(k - 1) * 2`로 푸는 경우가 더 많다.
+
+## 120844 - 배열 회전시키기
+
+```js
+function solution(numbers, direction) {
+    return direction[0] === "l" ? [...numbers.slice(1), numbers[0]] : [numbers.pop(), ...numbers];
+}
+```
+
+### 참고 답안
+
+```js
+function solution(numbers, direction) {
+    direction === "right" ? numbers.unshift(numbers.pop()) : numbers.push(numbers.shift());
+    return numbers;
+}
+```
+
+## 120845 - 주사위의 개수
+
+```js
+function solution(box, n) {
+    return box.map((l) => Math.trunc(l / n)).reduce((acc, curr) => acc * curr);
+}
+```
+
+### 피드백
+
+* 별도의 `map` 없이 `reduce`에서 `Math.trunc(curr / n)` 처리를 하면 더 깔끔하다.
+
+## 120846 - 합성수 찾기
+
+```js
+const prime = [
+    2, 3, 5, 7, 11, 13, 17, 19, 23, 29,
+    31, 37, 41, 43, 47, 53, 59, 61, 67,
+    71, 73, 79, 83, 89, 97,
+];
+
+function solution(n) {
+    // subtract 1 for 1
+    return n - prime.filter((p) => p <= n).length - 1;
+}
+```
+
+### 아이디어 & 풀이
+
+* 합성수는 1과 소수가 아닌 수이므로 n에서 n까지의 소수의 개수와 1에 해당하는 1을 빼준 값을 반환한다.
+* 100까지의 소수는 많지 않아서 직접 작성한 뒤 `filter`를 이용해 그 개수를 구했지만 범위가 넓어지면 `n`까지의 소수의 개수를 구하는 함수를 별도로 작성해 푸는 게 나을 것 같다.
+
+## 120847 - 최댓값 만들기 (1)
+
+```js
+function solution(numbers) {
+    numbers.sort((a, b) => b - a);
+    return numbers[0] * numbers[1];
+}
+```
+
+## 120848 - 팩토리얼
+
+```js
+const factorial = [1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800];
+
+function solution(n) {
+    return factorial.filter((f) => f <= n).length;
+}
+```
+
+## 120849
