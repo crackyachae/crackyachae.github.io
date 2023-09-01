@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2023-04-16 14:52:27 +0900
+updated : 2023-04-17 16:27:55 +0900
 regenerate: true
 ---
 
@@ -309,6 +309,7 @@ regenerate: true
 
 * [[/react-library/react-query/guides-concepts/2-queries]]
 * [[/react-library/react-query/guides-concepts/25-ssr]]
+* [[/react-library/react-query/guides-concepts/29-testing]]
 
 ### [[/react-library/react-testing-library]]
 
