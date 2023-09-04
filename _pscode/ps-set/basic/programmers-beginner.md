@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 테스트 입문
 summary : 
 date    : 2023-08-16 22:11:27 +0900
-updated : 2023-08-22 21:56:24 +0900
+updated : 2023-09-04 23:45:10 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -744,4 +744,138 @@ function solution(n) {
 }
 ```
 
-## 120849
+## 120849 - 모음 제거
+
+```js
+function solution(my_string) {
+    return [...my_string].filter((c) => !/a|e|i|o|u/.test(c)).join("");
+}
+```
+
+### 참고 답안
+
+```js
+function solution(my_string) {
+    return my_string.replace(/[aeiou]/g, "");
+}
+```
+
+* `replace`를 사용하면 더 간단하게 작성할 수 있다.
+
+## 120850 - 문자열 정렬하기 (1)
+
+```js
+function solution(my_string) {
+    return [...my_string]
+        .map((c) => parseInt(c))
+        .filter((n) => Number.isInteger(n))
+        .sort((a, b) => a - b);
+}
+```
+
+### 참고 답안
+
+```js
+function solution(my_string) {
+    return my_string
+        .match(/\d/g)
+        .map((n) => Number(n));
+        .sort((a, b) => a - b)
+}
+```
+
+* 정규 표현식을 사용해 숫자만 남긴 뒤 변환 및 정렬을 수행한 풀이이다.
+
+## 120851 - 숨어있는 숫자의 덧셈 (1)
+
+```js
+function solution(my_string) {
+    return my_string
+        .match(/\d/g)
+        .map((n) => Number(n))
+        .reduce((acc, curr) => acc + curr);
+}
+```
+
+## 120852 - 소인수분해
+
+```js
+function solution(n) {
+    const r = Math.ceil(n ** 0.5);
+    const answer = [];
+
+    let i = 2;
+
+    while (i <= r) {
+        if (!(n % i)) {
+            answer.push(i);
+            n /= i;
+        } else {
+            i += 1;
+        }
+    }
+
+    if (n > 1) answer.push(n);
+
+    return [...new Set(answer)];
+}
+```
+
+## 120853 - 컨트롤 제트
+
+```js
+function solution(s) {
+    return s
+        .replace(/-*\d+ Z/g, "")
+        .split(" ")
+        .map((n) => Number(n))
+        .reduce((acc, curr) => acc + curr);
+}
+```
+
+### 참고 답안
+
+```js
+function solution(s) {
+    const stack = [];
+
+    s.split(" ").forEach((target) => {
+        if (target === "Z") stack.pop();
+        else stack.push(+target);
+    });
+
+    return stack.length ? stack.reduce((acc, cur) => acc + cur) : 0;
+}
+```
+
+* stack을 이용한 풀이다. 위의 풀이보다 더 빠르게 실행된다.
+
+## 120854 - 배열 원소의 길이
+
+```js
+function solution(strlist) {
+    return strlist.map((s) => s.length);
+}
+```
+
+## 120888 - 중복된 문자 제거
+
+```js
+function solution(my_string) {
+    return [...new Set([...my_string])].join("");
+}
+```
+
+### 피드백
+
+* `my_string`을 `Set`으로 만들 때 spread 하지 않아도 된다. `[...new Set(my_string)]`
+
+## 120889 - 삼각형의 완성조건 (1)
+
+```js
+function solution(sides) {
+    const [l, a, b] = sides.sort((a, b) => b - a);
+
+    return l < a + b ? 1 : 2;
+}
+```
