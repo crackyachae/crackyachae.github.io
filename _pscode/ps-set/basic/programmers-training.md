@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 기초 트레이닝
 summary : 
 date    : 2023-08-16 22:11:18 +0900
-updated : 2023-08-22 21:57:23 +0900
+updated : 2023-09-04 01:02:37 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -20,6 +20,315 @@ latex   : true
 > 정렬은 문제번호를 기준으로 되어있으며 문제명으로 검색해서 조회하는 것을 추천드립니다.
 
 > 문제 풀이가 어려운 경우 [코딩테스트 입문](https://school.programmers.co.kr/learn/challenges/beginner)의 문제들이 훨씬 기초에 가깝기 때문에 해당 문제들을 먼저 푸는 것을 추천드립니다.
+
+## 181893 - 배열 조각하기
+
+```js
+function solution(arr, query) {
+    let answer = arr;
+    query.forEach((q, i) => {
+        answer = i % 2 ? answer.slice(q) : answer.slice(0, q + 1);
+    });
+
+    return answer;
+}
+```
+
+## 181894 - 2의 영역
+
+```js
+function solution(arr) {
+    const idx = [];
+    arr.forEach((n, i) => {
+        if (n === 2) {
+            idx.push(i);
+        }
+    });
+
+    return idx.length ? arr.slice(idx[0], idx[idx.length - 1] + 1) : [-1];
+}
+```
+
+### 참고 답안
+
+```js
+function solution(arr) {
+    const from = arr.indexOf(2);
+    const end = arr.lastIndexOf(2);
+
+    return from === -1 ? [-1] : arr.slice(from, end + 1);
+}
+```
+
+* `indexOf`는 찾는 첫 번째 원소의 index를 `lastIndexOf`는 마지막 원소의 index를 반환하므로 이를 이용해서 `slice` 하면 된다.
+* `lastIndexOf`를 사용하면 뒤에서부터 탐색하므로 모든 원소를 순회하는 것보다 훨씬 효율적이다.
+
+## 181895 - 배열 만들기 3
+
+```js
+function solution(arr, intervals) {
+    const [[a1, b1], [a2, b2]] = intervals;
+    return [...arr.slice(a1, b1 + 1), ...arr.slice(a2, b2 + 1)];
+}
+```
+
+## 181896 - 첫 번째로 나오는 음수
+
+```js
+function solution(num_list) {
+    return num_list.findIndex((n) => n < 0);
+}
+```
+
+## 181897 - 리스트 자르기
+
+```js
+function solution(n, slicer, num_list) {
+    const [a, b, c] = slicer;
+
+    const start = n === 1 ? 0 : a;
+    const end = n === 2 ? num_list.length : b;
+    const gap = n === 4 ? c : 1;
+
+    return num_list.slice(start, end + 1).filter((_, i) => !(i % gap));
+}
+```
+
+### 피드백
+
+각 케이스마다 `slice`한 결과를 각각 반환하는 게 더 깔끔할 수도 있을 것 같다.
+
+```js
+function solution(n, slicer, num_list) {
+    const [a, b, c] = slicer;
+
+    switch (n) {
+        case 1:
+            return num_list.slice(0, b + 1);
+        case 2:
+            return num_list.slice(a);
+        case 3:
+            return num_list.slice(a, b + 1);
+        case 4:
+            return num_list.slice(a, b + 1).filter((_, idx) => !(idx % c));
+    }
+}
+```
+
+## 181898 - 가까운 1 찾기
+
+```js
+function solution(arr, idx) {
+    return arr.findIndex((b, i) => b && i >= idx);
+}
+```
+
+### 참고 답안
+
+```js
+function solution(arr, idx) {
+    return arr.indexOf(1, idx);
+}
+```
+
+* `indexOf` 메소드를 사용했다. 두 번째 인자는 탐색을 시작할 인덱스 값이다.
+
+## 181899 - 카운트 다운
+
+```js
+function solution(start_num, end_num) {
+    return new Array(start_num - end_num + 1).fill(0).map((_, i) => start_num - i);
+}
+```
+
+## 181900 - 글자 지우기
+
+```js
+function solution(my_string, indices) {
+    const strArr = [...my_string];
+    indices.forEach((i) => {
+        strArr.splice(i, 1, "-");
+    });
+    return strArr.join("").split("-").join("");
+}
+```
+
+### 참고 답안
+
+```js
+function solution(my_string, indices) {
+    return [...my_string].filter((c, i) => !indices.includes(i)).join("");
+}
+```
+
+* `filter` 메소드를 사용해 인덱스가 `indices`에 포함되어있는지 확인하는 게 훨씬 간결하다.
+
+## 181901 - 배열 만들기 1
+
+```js
+function solution(n, k) {
+    return new Array(Math.trunc(n / k)).fill(k).map((n, i) => (i + 1) * n);
+}
+```
+
+## 181902 - 문자 개수 세기
+
+```js
+function solution(my_string) {
+    const answer = new Array(52).fill(0);
+    [...my_string].forEach((c) => {
+        const idx = c.charCodeAt(0) - (c.charCodeAt(0) > 90 ? 71 : 65);
+        answer[idx] += 1;
+    });
+
+    return answer;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(my_string) {
+    const alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    const answer = new Array(52).fill(0);
+
+    [...my_string].forEach((c) => {
+        answer[alpha.indexOf(c)] += 1;
+    });
+
+    return answer;
+}
+```
+
+## 181903 - qr code
+
+```js
+function solution(q, r, code) {
+    return [...code].filter((_, i) => i % q === r).join("");
+}
+```
+
+## 181904 - 세로 읽기
+
+```js
+function solution(my_string, m, c) {
+    return [...my_string].filter((w, i) => !((i % m) - (c - 1))).join("");
+}
+```
+
+### 피드백
+
+조건을 `i % m === c - 1`로 적는 게 조금 더 명확한 것 같다.
+
+### 참고 답안
+
+```js
+function solution(my_string, m, c) {
+    my_string
+        .match(new RegExp(`.{${m}}`, "g"))
+        .map((v) => v[c - 1])
+        .join("");
+}
+```
+
+* 정규표현식을 이용한 풀이이다.
+
+## 181905 - 문자열 뒤집기
+
+```js
+function solution(my_string, s, e) {
+    return (
+        my_string.slice(0, s) +
+        [...my_string.slice(s, e + 1)].reverse().join("") +
+        my_string.slice(e + 1)
+    );
+}
+```
+
+## 181906 - 접두사인지 확인하기
+
+```js
+function solution(my_string, is_prefix) {
+    return Number(my_string.slice(0, is_prefix.length) === is_prefix);
+}
+```
+
+### 참고 답안
+
+```js
+function solution(my_string, is_prefix) {
+    return +my_string.startsWith(is_prefix);
+}
+```
+
+* `startWith` 메소드를 사용했다.
+
+## 181907 - 문자열의 앞의 n글자
+
+```js
+function solution(my_string, n) {
+    return my_string.slice(0, n);
+}
+```
+
+## 181908 - 접미사인지 확인하기
+
+```js
+function solution(my_string, is_suffix) {
+    return Number(my_string.slice(my_string.length - is_suffix.length) === is_suffix);
+}
+```
+
+### 참고 답안
+
+```js
+function solution(my_string, is_suffix) {
+    return my_string.endsWith(is_suffix) ? 1 : 0;
+}
+```
+
+## 181909 - 접미사 배열
+
+```js
+function solution(my_string) {
+    return Array(my_string.length)
+        .fill(my_string)
+        .map((str, i) => str.slice(i))
+        .sort();
+}
+```
+
+## 181910 - 문자열의 뒤의 n글자
+
+```js
+function solution(my_string, n) {
+    return [...my_string].slice(my_string.length - n).join("");
+}
+```
+
+### 참고 답안
+
+```js
+function solution(my_string, n) {
+    return my_string.slice(-1 * n);
+}
+```
+
+## 181911 - 부분 문자열 이어 붙여 문자열 만들기
+
+```js
+function solution(my_strings, parts) {
+    return my_strings.map((str, i) => str.slice(parts[i][0], parts[i][1] + 1)).join("");
+}
+```
+
+## 181912 - 배열 만들기 5
+
+```js
+function solution(intStrs, k, s, l) {
+    return intStrs.map((n) => Number(n.slice(s, s + l))).filter((n) => n > k);
+}
+```
 
 ## 181913 - 문자열 여러 번 뒤집기
 
