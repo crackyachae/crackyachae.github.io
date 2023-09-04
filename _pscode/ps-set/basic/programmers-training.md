@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 기초 트레이닝
 summary : 
 date    : 2023-08-16 22:11:18 +0900
-updated : 2023-09-04 01:02:37 +0900
+updated : 2023-09-04 14:19:14 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -20,6 +20,213 @@ latex   : true
 > 정렬은 문제번호를 기준으로 되어있으며 문제명으로 검색해서 조회하는 것을 추천드립니다.
 
 > 문제 풀이가 어려운 경우 [코딩테스트 입문](https://school.programmers.co.kr/learn/challenges/beginner)의 문제들이 훨씬 기초에 가깝기 때문에 해당 문제들을 먼저 푸는 것을 추천드립니다.
+
+## 181878 - 원하는 문자열 찾기
+
+```js
+function solution(myString, pat) {
+    return +myString.toLowerCase().includes(pat.toLowerCase());
+}
+```
+
+## 181879 - 길이에 따른 연산
+
+```js
+function solution(num_list) {
+    return num_list.length >= 11
+        ? num_list.reduce((a, c) => a + c)
+        : num_list.reduce((a, c) => a * c);
+}
+```
+
+### 피드백
+
+```js
+function solution(num_list) {
+    return num_list.reduce((a, c) => (num_list.length >= 11 ? a + c : a * c));
+}
+```
+
+* 분기점을 `reduce` 안으로 넣으면 코드가 훨씬 간결해지는데 최대 배열의 길이가 짧아서 분기점을 `reduce` 함수 안으로 넣어도 괜찮을 것 같다.
+
+## 181880 - 1로 만들기
+
+```js
+function solution(num_list) {
+    let count = 0;
+
+    num_list.forEach((n) => {
+        while (n !== 1) {
+            n = n % 2 ? (n - 1) / 2 : n / 2;
+            count += 1;
+        }
+    });
+
+    return count;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(num_list) {
+    return num_list.map((v) => v.toString(2).length - 1).reduce((a, c) => a + c);
+}
+```
+
+* 문제에서 수행한 연산은 수를 2진수로 바꿨을 때 한 자리수를 없애는 것과 같다.
+* 즉, 각 수를 1로 만드는 데 필요한 연산의 횟수는 해당 수를 이진수로 바꿨을 때 이진수의 자리수 - 1이다.
+* `map`을 이용해 배열을 각 수를 1로 만드는 데 필요한 연산 수로 변환한 뒤 이를 `reduce`를 이용해 더하면 모든 수를 1로 만들기 위해 필요한 연산의 수를 구할 수 있다.
+
+## 181881 - 조건에 맞게 수열 변환하기 2
+
+```js
+function solution(arr) {
+    let answer = 0;
+
+    while (arr.length) {
+        arr = arr.filter((n) => (n >= 50) ^ n % 2).map((n) => (n >= 50 ? n / 2 : n * 2 + 1));
+        answer += 1;
+    }
+
+    return answer - 1;
+}
+```
+
+## 181882 - 조건에 맞게 수열 변환하기 1
+
+```js
+function solution(arr) {
+    return arr.map((n) => (n >= 50 && !(n % 2) ? n / 2 : n < 50 && n % 2 ? n * 2 : n));
+}
+```
+
+## 181883 - 수열과 구간 쿼리 1
+
+```js
+function solution(arr, queries) {
+    queries.forEach(([s, e]) => {
+        for (let i = s; i <= e; i += 1) {
+            arr[i] += 1;
+        }
+    });
+
+    return arr;
+}
+```
+
+## 181884 - n보다 커질 때까지 더하기
+
+```js
+function solution(numbers, n) {
+    return numbers.reduce((acc, curr) => (acc <= n ? acc + curr : acc));
+}
+```
+
+* 최대 배열 길이가 길지 않아서 `reduce`를 사용해 끝까지 순회했는데 배열 길이가 길 경우는 `while`문을 사용해서 최댓값을 넘기 전까지만 순회하는 게 나을 것 같다.
+
+## 181885 - 할 일 목록
+
+```js
+function solution(todo_list, finished) {
+    return todo_list.filter((_, i) => !finished[i]);
+}
+```
+
+## 181886 - 5명씩
+
+```js
+function solution(names) {
+    return names.filter((_, i) => !(i % 5));
+}
+```
+
+## 181887 - 홀수 vs 짝수
+
+```js
+function solution(num_list) {
+    const oe = [0, 0];
+    num_list.forEach((n, i) => {
+        oe[i % 2] += n;
+    });
+
+    return Math.max(...oe);
+}
+```
+
+## 181888 - n개 간격의 원소들
+
+```js
+function solution(num_list, n) {
+    return num_list.filter((_, i) => !(i % n));
+}
+```
+
+## 181889 - n 번째 원소까지
+
+```js
+function solution(num_list, n) {
+    return num_list.slice(0, n);
+}
+```
+
+## 181890 - 왼쪽 오른쪽
+
+```js
+function solution(str_list) {
+    const lIdx = str_list.indexOf("l");
+    const rIdx = str_list.indexOf("r");
+
+    if (lIdx === rIdx) return [];
+    if (lIdx < 0) return str_list.slice(rIdx + 1);
+    if (rIdx < 0) return str_list.slice(0, lIdx);
+
+    return lIdx < rIdx ? str_list.slice(0, lIdx) : str_list.slice(rIdx + 1);
+}
+```
+
+### 참고 답안 1
+
+```js
+function solution(str_list) {
+    for (let i = 0; i < str_list.length; i++) {
+        if (str_list[i] === "l") return str_list.slice(0, i);
+        if (str_list[i] === "r") return str_list.slice(i + 1);
+    }
+    return [];
+}
+```
+
+* 괜히 l과 r의 인덱스를 찾아서 경우를 나누는 것보다 정직하게 순회하면서 l과 r을 만나는 경우에 알맞은 답을 반환하고 순회가 끝날 때까지 조건을 만족하지 못하면 `[]`을 반환하는 게 훨씬 깔끔하고 빠르다.
+
+### 참고 답안 2
+
+```js
+function solution(str_list) {
+    const i = str_list.findIndex((str) => /l|r/.test(str));
+
+    if (i === -1) return [];
+    return str_list[i] === "l" ? str_list.slice(0, i) : str_list.slice(i + 1);
+}
+```
+
+* 인덱스를 사용하고 싶으면 정규표현식을 사용하면 간단하다.
+
+## 181891 - 순서 바꾸기
+
+```js
+function solution(num_list, n) {
+    return [...num_list.slice(n), ...num_list.slice(0, n)];
+}
+```
+
+## 181892 - n 번째 원소부터
+
+```js
+function solution(num_list, n) {
+    return num_list.slice(n - 1);
+}
+```
 
 ## 181893 - 배열 조각하기
 
