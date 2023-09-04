@@ -7,6 +7,8 @@
  "url": "/study/cs-basic/tech-interview",
  "updated": "2023-09-01 18:12:42 +0900",
  "children": [
-  "cs-basic/tech-interview/1-html"
+  "cs-basic/tech-interview/1-html",
+  "cs-basic/tech-interview/2-css",
+  "cs-basic/tech-interview/3-javascript"
  ]
 }

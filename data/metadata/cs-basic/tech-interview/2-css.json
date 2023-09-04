@@ -1,10 +1,10 @@
 {
  "type": "wiki",
  "collection": "study",
- "title": "",
- "summary": "",
- "parent": "",
+ "title": "취준생을 위한 CSS 기초지식",
+ "summary": "면접을 위해 작성해보는 CSS 기초지식 질답 모음",
+ "parent": "cs-basic/tech-interview",
  "url": "/study/cs-basic/tech-interview/2-css",
- "updated": "2023-09-01 18:35:21 +0900",
+ "updated": "2023-09-05 00:04:18 +0900",
  "children": []
 }
