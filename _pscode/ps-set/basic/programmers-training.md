@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 기초 트레이닝
 summary : 
 date    : 2023-08-16 22:11:18 +0900
-updated : 2023-09-04 22:56:21 +0900
+updated : 2023-09-06 02:59:29 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -18,6 +18,221 @@ latex   : true
 > 일종의 연습 기록이며 제가 정답을 받은 코드와 참고할만한 다른 코드를 같이 기록합니다. 필요한 경우 코드에 대한 해설을 기록합니다만 코드는 통과했어도 해설은 틀릴 수 있기 때문에 가볍게 참고해주시길 부탁드립니다. 피드백은 편하신 방법으로 자유롭게 주시면 감사하겠습니다.
 >
 > 정렬은 문제번호를 기준으로 되어있으며 문제명으로 검색해서 조회하는 것을 추천드립니다.
+
+## 181860 - 빈 배열에 추가, 삭제하기
+
+```js
+function solution(arr, flag) {
+    return arr.reduce(
+        (a, c, i) => (flag[i] ? a.concat(new Array(c * 2).fill(c)) : a.slice(0, a.length - c)),
+        []
+    );
+}
+```
+
+### 피드백
+
+* `slice`를 사용하면 `a.length - c` 대신에 `-c`만 써도 된다.
+
+## 181861 - 배열의 원소만큼 추가하기
+
+```js
+function solution(arr) {
+    return arr.reduce((a, c) => [...a, ...new Array(c).fill(c)], []);
+}
+```
+
+## 181862 - 세 개의 구분자
+
+```js
+function solution(myStr) {
+    const arr = myStr.split(/a|b|c/g).filter((v) => v);
+    return arr.length ? arr : ["EMPTY"];
+}
+```
+
+### 참고 답안
+
+```js
+function solution(myStr) {
+    return myStr.match(/[^a-c]+/g) || ["EMPTY"];
+}
+```
+
+* `filter` 하지 말고 `match` 함수를 이용하자.
+
+## 181863 - rny_string
+
+```js
+function solution(rny_string) {
+    return rny_string.replaceAll("m", "rn");
+}
+```
+
+## 181864 - 문자열 바꿔서 찾기
+
+```js
+function solution(myString, pat) {
+    return +[...myString]
+        .map((c) => (c === "A" ? "B" : "A"))
+        .join("")
+        .includes(pat);
+}
+```
+
+## 181865 - 간단한 식 계산하기
+
+```js
+const ops = {
+    "+": (a, b) => a + b,
+    "-": (a, b) => a - b,
+    "*": (a, b) => a * b,
+};
+
+function solution(binomial) {
+    const [a, op, b] = binomial.split(" ");
+    return ops[op](+a, +b);
+}
+```
+
+### 참고 답안
+
+```js
+function solution(binomial) {
+    return eval(binomial);
+}
+```
+
+* 가장 간단한 답변은 `eval`을 사용하는 것이지만 보안적으로 위험하기 때문에 쓰지 않는 게 좋다.
+
+## 181866 - 문자열 잘라서 정렬하기
+
+```js
+function solution(myString) {
+    return myString
+        .split("x")
+        .filter((s) => s.length)
+        .sort();
+}
+```
+
+### 참고 답안
+
+```js
+function solution(myString) {
+    return myString.match(/[^x]+/g).sort();
+}
+```
+
+* 정규표현식을 이용해 `x`가 아닌 모든 문자를 배열로 반환받은 뒤 정렬했다.
+* 위의 풀이보다 훨씬 빠르다.
+
+## 181867 - x 사이의 개수
+
+```js
+function solution(myString) {
+    return myString.split("x").map((s) => s.length);
+}
+```
+
+## 181868 - 공백으로 구분하기 2
+
+```js
+function solution(my_string) {
+    return my_string.trim().split(/\s+/);
+}
+```
+
+## 181869 - 공백으로 구분하기 1
+
+```js
+function solution(my_string) {
+    return my_string.split(" ");
+}
+```
+
+## 181870 - ad 제거하기
+
+```js
+function solution(strArr) {
+    return strArr.filter((s) => !s.includes("ad"));
+}
+```
+
+## 181871 - 문자열이 몇 번 등장하는지 세기
+
+```js
+function solution(myString, pat) {
+    const sl = myString.length;
+    const pl = pat.length;
+    let answer = 0;
+
+    for (let i = 0; i < sl - pl + 1; i += 1) {
+        if (myString.substring(i, i + pl) === pat) answer++;
+    }
+
+    return answer;
+}
+```
+
+## 181872 - 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기
+
+```js
+function solution(myString, pat) {
+    return myString.split(pat).slice(0, -1).join(pat) + pat;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(myString, pat) {
+    return myString.substring(0, myString.lastIndexOf(pat)) + pat;
+}
+```
+
+* `pat`이 마지막으로 나타나는 인덱스를 찾아서 그 부분까지의 `substring`을 구한 뒤 `pat`을 추가로 더해 반환한다.
+* `substring` 대신 `slice`를 써도 될 것 같다.
+
+## 181873 - 특정한 문자를 대문자로 바꾸기
+
+```js
+function solution(my_string, alp) {
+    return my_string.replaceAll(alp, alp.toUpperCase());
+}
+```
+
+## 181874 - A 강조하기
+
+```js
+function solution(myString) {
+    return myString.toLowerCase().replaceAll("a", "A");
+}
+```
+
+## 181875 - 배열에서 문자열 대소문자 변환하기
+
+```js
+function solution(strArr) {
+    return strArr.map((s, i) => (i % 2 ? s.toUpperCase() : s.toLowerCase()));
+}
+```
+
+## 181876 - 소문자로 바꾸기
+
+```js
+function solution(myString) {
+    return myString.toLowerCase();
+}
+```
+
+## 181877 - 대문자로 바꾸기
+
+```js
+function solution(myString) {
+    return myString.toUpperCase();
+}
+```
 
 ## 181878 - 원하는 문자열 찾기
 
