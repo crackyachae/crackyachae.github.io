@@ -9,6 +9,8 @@
  "children": [
   "cs-basic/tech-interview/1-html",
   "cs-basic/tech-interview/2-css",
-  "cs-basic/tech-interview/3-javascript"
+  "cs-basic/tech-interview/3-javascript",
+  "cs-basic/tech-interview/4-react",
+  "cs-basic/tech-interview/5-react-library"
  ]
 }
