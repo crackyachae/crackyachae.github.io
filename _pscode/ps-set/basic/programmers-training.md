@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 기초 트레이닝
 summary : 
 date    : 2023-08-16 22:11:18 +0900
-updated : 2023-09-06 02:59:29 +0900
+updated : 2023-09-07 23:41:33 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -18,6 +18,396 @@ latex   : true
 > 일종의 연습 기록이며 제가 정답을 받은 코드와 참고할만한 다른 코드를 같이 기록합니다. 필요한 경우 코드에 대한 해설을 기록합니다만 코드는 통과했어도 해설은 틀릴 수 있기 때문에 가볍게 참고해주시길 부탁드립니다. 피드백은 편하신 방법으로 자유롭게 주시면 감사하겠습니다.
 >
 > 정렬은 문제번호를 기준으로 되어있으며 문제명으로 검색해서 조회하는 것을 추천드립니다.
+
+## 181829 - 이차원 배열 대각선 순회하기
+
+```js
+function solution(board, k) {
+    return board.reduce(
+        (acc, curr, i) => acc + curr.reduce((a, c, j) => (i + j <= k ? a + c : a), 0),
+        0
+    );
+}
+```
+
+## 181830 - 정사각형으로 만들기
+
+```js
+function solution(arr) {
+    const n = Math.max(arr.length, arr[0].length);
+    const answer = Array.from(new Array(n), () => new Array(n).fill(0));
+
+    arr.forEach((row, j) => row.forEach((n, i) => (answer[j][i] = n)));
+
+    return answer;
+}
+```
+
+## 181831 - 특별한 이차원 배열 2
+
+```js
+function solution(arr) {
+    const n = arr.length;
+    for (let i = 0; i < n - 1; i += 1) {
+        for (let j = i; j < n; j += 1) {
+            if (arr[i][j] !== arr[j][i]) return 0;
+        }
+    }
+    return 1;
+}
+```
+
+## 181832 - 정수를 나선형으로 배치하기
+
+```js
+function solution(n) {
+    const answer = Array.from(new Array(n), () => new Array(n).fill(0));
+    const dx = [1, 0, -1, 0];
+    const dy = [0, 1, 0, -1];
+    let k = 0;
+
+    let [x, y] = [0, 0];
+
+    for (let i = 1; i < n * n + 1; i += 1) {
+        answer[y][x] = i;
+        const [nx, ny] = [x + dx[k], y + dy[k]];
+
+        if (nx < 0 || nx >= n || ny < 0 || ny >= n || answer[ny][nx]) {
+            k = (k + 1) % 4;
+        }
+
+        x += dx[k];
+        y += dy[k];
+    }
+
+    return answer;
+}
+```
+
+## 181833 - 특별한 이차원 배열 1
+
+```js
+function solution(n) {
+    return Array.from(new Array(n), (_, i) =>
+        new Array(n).fill(0).map((_, j) => (i === j ? 1 : 0))
+    );
+}
+```
+
+## 181834 - l로 만들기
+
+```js
+function solution(myString) {
+    return myString.replace(/[a-k]/g, "l");
+}
+```
+
+## 181835 - 조건에 맞게 수열 변환하기 3
+
+```js
+function solution(arr, k) {
+    return k % 2 ? arr.map((n) => n * k) : arr.map((n) => n + k);
+}
+```
+
+## 181836 - 그림 확대
+
+```js
+function solution(picture, k) {
+    return picture.reduce(
+        (acc, line) => acc.concat(new Array(k).fill([...line].map((c) => c.repeat(k)).join(""))),
+        []
+    );
+}
+```
+
+## 181837 - 커피 심부름
+
+```js
+function solution(order) {
+    return order.reduce((a, c) => a + (c.includes("latte") ? 5000 : 4500), 0);
+}
+```
+
+## 181838 - 날짜 비교하기
+
+```js
+function solution(date1, date2) {
+    return +(new Date(...date1) < new Date(...date2));
+}
+```
+
+### 피드백
+
+* 굳이 spread 연산자로 전개해주지 않아도 되는 것 같다.
+
+## 181839 - 주사위 게임 1
+
+```js
+function solution(a, b) {
+    const flag = (a % 2) + (b % 2);
+
+    if (flag === 2) {
+        return a ** 2 + b ** 2;
+    }
+    if (flag === 1) {
+        return 2 * (a + b);
+    }
+    return Math.abs(a - b);
+}
+```
+
+## 181840 - 정수 찾기
+
+```js
+function solution(num_list, n) {
+    return +num_list.includes(n);
+}
+```
+
+## 181841 - 꼬리 문자열
+
+```js
+function solution(str_list, ex) {
+    return str_list.filter((s) => !s.includes(ex)).join("");
+}
+```
+
+## 181842 - 부분 문자열
+
+```js
+function solution(str1, str2) {
+    return +str2.includes(str1);
+}
+```
+
+## 181843 - 부분 문자열인지 확인하기
+
+```js
+function solution(my_string, target) {
+    return +my_string.includes(target);
+}
+```
+
+## 181844 - 배열의 원소 삭제하기
+
+```js
+function solution(arr, delete_list) {
+    return arr.filter((n) => !delete_list.includes(n));
+}
+```
+
+## 181845 - 문자열로 변환
+
+```js
+function solution(n) {
+    return n.toString();
+}
+```
+
+## 181846 - 두 수의 합
+
+```js
+function solution(a, b) {
+    return `${BigInt(a) + BigInt(b)}`;
+}
+```
+
+### 아이디어 & 풀이
+
+* 큰 수의 경우 변환시 작은 수들의 값이 사라지므로 `parseInt`나 `Number`가 아니라 `BigInt`로 변환해야 한다.
+
+### 피드백
+
+* 실행시간이 꽤 오래걸린다. 빠르게 해결하려면 두 수를 순회하면서 각 자리수를 더하는 식으로 구현해야 할 것 같다.
+
+## 181847 - 0 떼기
+
+```js
+function solution(n_str) {
+    return n_str.replace(/0*/, "");
+}
+```
+
+### 참고 답안
+
+```js
+function solution(n_str) {
+    return String(Number(n_str));
+}
+```
+
+* 숫자로 변환하면 앞에 존재하는 0이 무의미하므로 모두 제거된다. 이를 다시 문자열로 변환해서 반환한다.
+
+## 181848 - 문자열을 정수로 변환하기
+
+```js
+function solution(n_str) {
+    return Number(n_str);
+}
+```
+
+## 181849 - 문자열 정수의 합
+
+```js
+function solution(num_str) {
+    return [...num_str].map((n) => +n).reduce((a, c) => a + c);
+}
+```
+
+## 181850 - 정수 부분
+
+```js
+function solution(flo) {
+    return Math.trunc(flo);
+}
+```
+
+## 181851 - 전국 대회 선발 고사
+
+```js
+function solution(rank, attendance) {
+    const [a, b, c, ...rest] = rank
+        .map((r, i) => [attendance[i] ? r : 101, i])
+        .sort((a, b) => a[0] - b[0]);
+
+    return 10000 * a[1] + 100 * b[1] + c[1];
+}
+```
+
+## 181852 - 뒤에서 5등 위로
+
+```js
+function solution(num_list) {
+    return num_list.sort((a, b) => a - b).slice(5);
+}
+```
+
+## 181853 - 뒤에서 5등까지
+
+```js
+function solution(num_list) {
+    return num_list.sort((a, b) => a - b).slice(0, 5);
+}
+```
+
+## 181854 - 배열의 길이에 따라 다른 연산하기
+
+```js
+function solution(arr, n) {
+    return arr.length % 2
+        ? arr.map((v, i) => (i % 2 ? v : v + n))
+        : arr.map((v, i) => (i % 2 ? v + n : v));
+}
+```
+
+### 참고 답안
+
+```js
+function solution(arr, n) {
+    return arr.map((v, i) => (arr.length % 2 ^ i % 2 ? v + n : v));
+}
+```
+
+* `arr`의 길이가 짝수일 때는 홀수 인덱스만, 길이가 홀수일 때는 짝수 인덱스만 해당하므로 XOR 연산으로 분기하면 조건 하나만 사용해서 확인할 수 있다.
+* 이 경우 매번 XOR 연산을 수행해야 하므로 시간이 오래걸릴 것 같아 위의 풀이를 사용했는데 확인 결과 큰 차이 없는 것 같다.
+
+## 181855 - 문자열 묶기
+
+```js
+function solution(strArr) {
+    const count = new Array(31).fill(0);
+    let max = 0;
+
+    strArr.forEach((s) => {
+        count[s.length] += 1;
+        max = Math.max(max, count[s.length]);
+    });
+
+    return max;
+}
+```
+
+### 피드백
+
+```js
+function solution(strArr) {
+    const count = new Array(31).fill(0);
+    strArr.forEach((s) => {
+        count[s.length] += 1;
+    });
+
+    return Math.max(...count);
+}
+```
+
+* 매번 `Math.max`로 배교하는 것보다 마지막에 `count`의 max 값을 한 번에 찾는 게 더 빠르다.
+
+## 181856 - 배열 비교하기
+
+```js
+function sum(arr) {
+    return arr.reduce((a, c) => a + c);
+}
+function getFlag(n) {
+    return n ? n / Math.abs(n) : 0;
+}
+
+function solution(arr1, arr2) {
+    return arr1.length === arr2.length ?
+        getFlag(sum(arr1) - sum(arr2)) : getFlag(arr1.length - arr2.length);
+}
+```
+
+## 181857 - 배열의 길이를 2의 거듭제곱으로 만들기
+
+```js
+function solution(arr) {
+    const len = 2 ** Math.ceil(Math.log2(arr.length));
+    return [...arr, ...new Array(len - arr.length).fill(0)];
+}
+```
+
+## 181858 - 무작위로 K개의 수 뽑기
+
+```js
+function solution(arr, k) {
+    const notDup = [...new Set(arr)].slice(0, k);
+    const left = new Array(Math.max(k - notDup.length, 0)).fill(-1);
+
+    return [...notDup, ...left];
+}
+```
+
+### 참고 답안
+
+```js
+function solution(arr, k) {
+    return [...Array.from(new Set(arr)), ...new Array(k).fill(-1)].slice(0, k);
+}
+```
+
+* 일단 배열 길이에 상관없이 중복되지 않는 모든 원소와 `-1`을 `k`개 추가한 다음 마지막에 `k`개로 자르면 연산이 훨씬 간단해진다.
+
+## 181859 - 배열 만들기 6
+
+```js
+function solution(arr) {
+    const stk = [];
+    arr.forEach((n, i) => {
+        if (stk.length && stk[stk.length - 1] === n) {
+            stk.pop();
+        } else {
+            stk.push(n);
+        }
+    });
+    return stk.length ? stk : [-1];
+}
+```
+
+### 피드백
+
+* `stk.length`가 0일 때 `skt[-1]`의 값은 `undefined`로 다음의 조건을 만족시키지 못하기 때문에 처음의 `stk.length`를 확인하는 로직은 굳이 넣을 필요가 없다.
 
 ## 181860 - 빈 배열에 추가, 삭제하기
 
