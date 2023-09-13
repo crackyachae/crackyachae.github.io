@@ -1,0 +1,18 @@
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "JavaScript",
+ "summary": "",
+ "parent": "index-st",
+ "url": "/study/javascript",
+ "updated": "2020-05-08 14:58:59 +0900",
+ "children": [
+  "javascript/links",
+  "javascript/mdn-learn-web-js-1",
+  "javascript/mdn-learn-web-js-2",
+  "javascript/mdn-learn-web-js-3",
+  "javascript/mdn-learn-web-js-4",
+  "javascript/opent-client-web-js",
+  "javascript/opent-web2-js"
+ ]
+}

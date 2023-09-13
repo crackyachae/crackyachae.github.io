@@ -1,0 +1,17 @@
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "CS Basic",
+ "summary": "",
+ "parent": "index-st",
+ "url": "/study/cs-basic",
+ "updated": "2022-08-12 23:00:09 +0900",
+ "children": [
+  "cs-basic/clean-code",
+  "cs-basic/fc-algo",
+  "cs-basic/harvardx-cs50s-intro",
+  "cs-basic/links",
+  "cs-basic/opent-database-database1",
+  "cs-basic/tech-interview"
+ ]
+}
