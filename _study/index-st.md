@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2023-09-01 18:35:04 +0900
+updated : 2023-09-05 18:20:37 +0900
 regenerate: true
 ---
 
@@ -80,11 +80,13 @@ regenerate: true
     * /cs-basic/fc-algo/5-tech-interview/4-language
     * /cs-basic/fc-algo/5-tech-interview/5-hand-coding
 
-* [[/cs-basic/tech-interview]]
-    * [[/cs-basic/tech-interview/1-html]]
-    * [[/cs-basic/tech-interview/2-css]]
-    * [[/cs-basic/tech-interview/3-javascript]]
-    * [[/cs-basic/tech-interview/4-react]]
+### [[/cs-basic/tech-interview]]
+
+* [[/cs-basic/tech-interview/1-html]]
+* [[/cs-basic/tech-interview/2-css]]
+* [[/cs-basic/tech-interview/3-javascript]]
+* [[/cs-basic/tech-interview/4-react]]
+* [[/cs-basic/tech-interview/5-react-library]]
 
 ### [[/cs-basic/opent-database-database1]]
 
