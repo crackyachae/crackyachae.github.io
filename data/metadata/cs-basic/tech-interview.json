@@ -8,13 +8,14 @@
  "updated": "2023-09-01 18:12:42 +0900",
  "children": [
   "cs-basic/tech-interview/1-html",
+  "cs-basic/tech-interview/10-os",
   "cs-basic/tech-interview/2-css",
   "cs-basic/tech-interview/3-javascript",
-  "cs-basic/tech-interview/4-react",
-  "cs-basic/tech-interview/5-react-library",
-  "cs-basic/tech-interview/6-front-basic",
-  "cs-basic/tech-interview/7-algorithm",
-  "cs-basic/tech-interview/8-network",
-  "cs-basic/tech-interview/9-os"
+  "cs-basic/tech-interview/4-typescript",
+  "cs-basic/tech-interview/5-react",
+  "cs-basic/tech-interview/6-react-library",
+  "cs-basic/tech-interview/7-front-basic",
+  "cs-basic/tech-interview/8-algorithm",
+  "cs-basic/tech-interview/9-network"
  ]
 }

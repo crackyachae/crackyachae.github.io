@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "취준생을 위한 React 기초지식",
+ "summary": "면접을 위해 작성해보는 React 기초지식 질답 모음",
+ "parent": "cs-basic/tech-interview",
+ "url": "/study/cs-basic/tech-interview/5-react",
+ "updated": "2023-09-01 18:35:37 +0900",
+ "children": []
+}

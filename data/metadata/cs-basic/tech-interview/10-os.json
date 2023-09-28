@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "collection": "study",
+ "title": "취준생을 위한 운영체제 기초지식",
+ "summary": "면접을 위해 작성해보는 운영체제 기초지식 질답 모음",
+ "parent": "cs-basic/tech-interview",
+ "url": "/study/cs-basic/tech-interview/10-os",
+ "updated": "2023-09-28 11:57:41 +0900",
+ "children": []
+}
