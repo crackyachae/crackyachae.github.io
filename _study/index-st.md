@@ -4,7 +4,7 @@ title   : 공부를 합니다
 toc     : true
 public  : true
 comment : false
-updated : 2023-09-05 18:20:37 +0900
+updated : 2023-09-22 22:45:42 +0900
 regenerate: true
 ---
 
@@ -87,6 +87,10 @@ regenerate: true
 * [[/cs-basic/tech-interview/3-javascript]]
 * [[/cs-basic/tech-interview/4-react]]
 * [[/cs-basic/tech-interview/5-react-library]]
+* [[/cs-basic/tech-interview/6-front-basic]]
+* [[/cs-basic/tech-interview/7-algorithm]]
+* [[/cs-basic/tech-interview/8-network]]
+* [[/cs-basic/tech-interview/9-os]]
 
 ### [[/cs-basic/opent-database-database1]]
 
