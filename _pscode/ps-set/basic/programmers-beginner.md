@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 테스트 입문
 summary : 
 date    : 2023-08-16 22:11:27 +0900
-updated : 2023-09-04 23:45:10 +0900
+updated : 2023-10-09 01:24:50 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -877,5 +877,75 @@ function solution(sides) {
     const [l, a, b] = sides.sort((a, b) => b - a);
 
     return l < a + b ? 1 : 2;
+}
+```
+
+## 120890 - 가까운 수
+
+```js
+function solution(array, n) {
+    const idx = array.sort((a, b) => a - b).findIndex(num => num >= n);
+    
+    if (idx === 0) return array[0];
+    if (idx === -1) return array[array.length - 1];
+    if (array[idx] - n < n - array[idx - 1]) return array[idx];
+    return array[idx - 1];
+}
+```
+
+### 참고 답안
+
+```js
+function solution(array, n) {
+    return array.sort((a, b) => Math.abs(n - a) - Math.abs(n - b) || a - b)[0];
+}
+```
+
+* `n`과의 차이 값을 기준으로 오름차순으로 정렬하도록 `sort`한 뒤 가장 첫 값을 반환한다.
+* `n`과의 차이 값이 같을 경우 더 작은 값을 반환해야 하므로 `Math.abs(n - a) - Math.abs(n - b)`이 0을 반환할 때는 `a - b`값을 사용해 더 작은 값이 앞으로 가도록 해준다.
+
+## 120891 - 369게임
+
+```js
+function solution(order) {
+    return [...`${order}`].filter((n) => +n && !(n % 3)).length;
+}
+```
+
+### 피드백
+
+* 필터 조건을 다음과 같이 작성할 수도 있다. `n => mySet.has(+n)`
+
+### 참고 답안
+
+```js
+// 풀이 1
+function solution(order) {
+    return [...order.toString().matchAll(/[3|6|9]/g)].length;
+}
+
+// 풀이 2
+function solution(order) {
+    return order.toString().split(/[369]/).length - 1;
+}
+```
+
+* 정규 표현식을 사용한 풀이이다.
+* 위의 풀이보다 풀이 시간이 비교적 느린 것 같다.
+
+## 120892 - 암호 해독
+
+```js
+function solution(cipher, code) {
+    return [...cipher].filter((_, i) => !((i + 1) % code)).join("");
+}
+```
+
+## 120893 - 대문자와 소문자
+
+```js
+function solution(my_string) {
+    const lower = my_string.toLowerCase();
+    return [...lower].map((c, i) => (c === my_string[i] ? c.toUpperCase() : c)).join("");
 }
 ```
