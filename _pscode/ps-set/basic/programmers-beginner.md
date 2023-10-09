@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 테스트 입문
 summary : 
 date    : 2023-08-16 22:11:27 +0900
-updated : 2023-10-09 01:24:50 +0900
+updated : 2023-10-10 00:48:57 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -949,3 +949,90 @@ function solution(my_string) {
     return [...lower].map((c, i) => (c === my_string[i] ? c.toUpperCase() : c)).join("");
 }
 ```
+
+## 120894 - 영어가 싫어요
+
+```js
+const strToNum = {
+    zero: 0,
+    one: 1,
+    two: 2,
+    three: 3,
+    four: 4,
+    five: 5,
+    six: 6,
+    seven: 7,
+    eight: 8,
+    nine: 9,
+};
+
+function solution(numbers) {
+    return +numbers.replaceAll(
+        /zero|one|two|three|four|five|six|seven|eight|nine/g,
+        (numstr) => strToNum[numstr]
+    );
+}
+```
+
+### 피드백
+
+* 굳이 `replaceAll`을 쓰지 않고 `replace`를 써도 된다.
+
+### 참고 답안
+
+```js
+function solution(numbers) {
+    return Number(
+        ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"].reduce(
+            (acc, curr, i) => acc.replaceAll(curr, i),
+            numbers
+        )
+    );
+}
+```
+
+* 별도의 매핑 객체를 만들지 않고 배열의 인덱스를 활용한 풀이이다.
+
+## 120895 - 인덱스 바꾸기
+
+```js
+function solution(my_string, num1, num2) {
+    const strArr = [...my_string];
+    [strArr[num1], strArr[num2]] = [strArr[num2], strArr[num1]];
+
+    return strArr.join("");
+}
+```
+
+### 아이디어 & 풀이
+
+* 문자열을 각 문자의 배열로 만든 뒤 구조분해 할당을 이용해 swap해 다시 문자열로 합친다.
+
+## 120896 - 한 번만 등장한 문자
+
+```js
+function solution(s) {
+    return [...s]
+        .sort()
+        .join("")
+        .replaceAll(/(.)\1+/g, "");
+}
+```
+
+* `(.)\1+`는 연속된 동일 문자를 나타내는 정규 표현식이다.
+
+### 참고 답안
+
+```js
+function solution(s) {
+    let res = [];
+    for (let c of s) {
+        if (s.indexOf(c) === s.lastIndexOf(c)) res.push(c);
+    }
+
+    return res.sort().join("");
+}
+```
+
+* 특정 문자가 처음 등장하는 인덱스와 마지막에 등장하는 인덱스가 같으면 해당 문자는 한 개만 있는 것이므로 결과 배열에 넣는다.
+* 결과 배열을 정렬한 뒤 문자열로 묶어 반환한다.
