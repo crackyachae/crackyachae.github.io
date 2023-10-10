@@ -1,7 +1,7 @@
 ---
 layout  : article
 title   : 취준생을 위한 CSS 기초지식 
-summary : 면접을 위해 작성해보는 CSS 기초지식 질답 모음
+summary : 면접을 위해 작성해보는 CSS 기초지식 질문 및 답변 모음
 date    : 2023-09-01 18:35:15 +0900
 updated : 2023-09-05 00:04:18 +0900
 tag     : draft
