@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 테스트 입문
 summary : 
 date    : 2023-08-16 22:11:27 +0900
-updated : 2023-10-10 00:48:57 +0900
+updated : 2023-10-11 00:58:11 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -1036,3 +1036,83 @@ function solution(s) {
 
 * 특정 문자가 처음 등장하는 인덱스와 마지막에 등장하는 인덱스가 같으면 해당 문자는 한 개만 있는 것이므로 결과 배열에 넣는다.
 * 결과 배열을 정렬한 뒤 문자열로 묶어 반환한다.
+
+## 120897 - 약수 구하기
+
+```js
+function solution(n) {
+    const answer = [];
+    const r = n ** 0.5;
+
+    for (let i = 1; i <= r; i += 1) {
+        if (n % i === 0) {
+            answer.push(i);
+            answer.push(n / i);
+        }
+    }
+
+    return [...new Set(answer)].sort((a, b) => a - b);
+}
+```
+
+### 아이디어 & 풀이
+
+* `n`이 제곱수일 경우 같은 수가 중복해서 들어갈 수 있기 때문에 `answer`를 `Set`으로 바꿔 중복을 제거해주어야 한다.
+
+## 120898 - 편지
+
+```js
+function solution(message) {
+    return message.length * 2;
+}
+```
+
+## 120899 - 가장 큰 수 찾기
+
+```js
+function solution(array) {
+    const max = Math.max(...array);
+
+    return [max, array.indexOf(max)];
+}
+```
+
+## 120902 - 문자열 계산하기
+
+```js
+function solution(my_string) {
+    let op = "+";
+    return my_string.split(" ").reduce((acc, curr) => {
+        if (curr === "+" || curr === "-") {
+            op = curr;
+            return acc;
+        } else {
+            return op === "+" ? +acc + +curr : +acc - +curr;
+        }
+    }, 0);
+}
+```
+
+### 참고 답안
+
+```js
+function solution(my_string) {
+    const answer = [];
+
+    let sign = 1;
+    my_string.split(" ").forEach((ch) => {
+        if (ch === "+") {
+            sign = 1;
+        } else if (ch === "-") {
+            sign = -1;
+        } else {
+            stack.push(ch * sign);
+        }
+    });
+
+    return stack.reduce((acc, curr) => acc + curr, 0);
+}
+```
+
+* `eval(my_string)`이 가장 간단한 답변이지만 `eval` 사용은 지양하는 것이 좋다.
+* 각 문자를 순회하면서 부호에 따라 뒤의 수에 1 또는 -1을 곱해주며 숫자로만 배열을 새로 구성한 뒤 전부 더해 결과를 반환한다.
