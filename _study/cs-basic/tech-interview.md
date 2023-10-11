@@ -19,12 +19,11 @@ latex   : false
 
 ### 종합
 
-* [Tech Interview for developer](https://gyoogle.dev/blog/) by Gyuseok Kim
+* [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer) by gyoogle
+    * 웹 페이지: [Tech Interview for developer](https://gyoogle.dev/blog/) by Gyuseok Kim
 * [Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner) by JaeYeopHan
 * [tech-interview](https://github.com/WeareSoft/tech-interview) by WeareSoft
 * [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) by DopplerHQ (영문자료)
-
-### CS 전반
 
 ### 프론트엔드 전반
 
