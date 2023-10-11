@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 테스트 입문
 summary : 
 date    : 2023-08-16 22:11:27 +0900
-updated : 2023-10-11 00:58:11 +0900
+updated : 2023-10-12 01:27:56 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -1116,3 +1116,168 @@ function solution(my_string) {
 
 * `eval(my_string)`이 가장 간단한 답변이지만 `eval` 사용은 지양하는 것이 좋다.
 * 각 문자를 순회하면서 부호에 따라 뒤의 수에 1 또는 -1을 곱해주며 숫자로만 배열을 새로 구성한 뒤 전부 더해 결과를 반환한다.
+
+## 120903 - 배열의 유사도
+
+```js
+function solution(s1, s2) {
+    return s1.filter((e) => s2.includes(e)).length;
+}
+```
+
+## 120904 - 숫자 찾기
+
+```js
+function solution(num, k) {
+    return [...num.toString()].indexOf(k.toString()) + 1 || -1;
+}
+```
+
+## 120905 - n의 배수 고르기
+
+```js
+function solution(n, numlist) {
+    return numlist.filter((num) => !(num % n));
+}
+```
+
+## 120906 - 자릿수 더하기
+
+```js
+function solution(n) {
+    return [...n.toString()].reduce((acc, curr) => acc + Number(curr), 0);
+}
+```
+
+## 120907 - OX퀴즈
+
+```js
+function solution(quiz) {
+    return quiz.map((eqn) => {
+        const [a, op, b, _, res] = eqn.split(" ");
+        const sign = op === "+" ? 1 : -1;
+
+        return Number(a) + sign * b === Number(res) ? "O" : "X";
+    });
+}
+```
+
+## 120908 - 문자열안에 문자열
+
+```js
+function solution(str1, str2) {
+    return str1.includes(str2) ? 1 : 2;
+}
+```
+
+## 120909 - 제곱수 판별하기
+
+```js
+function solution(n) {
+    return Number.isInteger(n ** 0.5) ? 1 : 2;
+}
+```
+
+## 120910 - 세균 증식
+
+```js
+function solution(n, t) {
+    return n * 2 ** t;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(n, t) {
+    return n << t;
+}
+```
+
+* 시프트 연산자를 사용했다.
+* [왼쪽 시프트 (<<)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Left_shift) by MDN
+
+## 120911 - 문자열 정렬하기 (2)
+
+```js
+function solution(my_string) {
+    return [...my_string.toLowerCase()].sort().join("");
+}
+```
+
+## 120912 - 7의 개수
+
+```js
+function solution(array) {
+    return array.map((n) => n.toString().split("7").length - 1).reduce((acc, curr) => acc + curr);
+}
+```
+
+### 피드백
+
+```js
+function solution(array) {
+    return array.join("").split("7").length - 1;
+}
+```
+
+* 총 개수를 세는 것이므로 수를 하나의 문자열로 합친 뒤 `7`로 `split`하는 것이 훨씬 간결하다.
+
+## 120913 - 잘라서 배열로 저장하기
+
+```js
+function solution(my_str, n) {
+    const answer = [];
+    for (let i = 0; i < my_str.length; i += n) {
+        answer.push(my_str.slice(i * n, (i + 1) * n));
+    }
+
+    return answer;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(my_str, n) {
+    return my_str.match(new RegExp(`.{1,${n}}`, "g"));
+}
+```
+
+* 정규 표현식을 이용한 풀이이다.
+
+## 120921 - 문자열 밀기
+
+```js
+function solution(A, B) {
+    const n = A.length;
+    for (const i in B) {
+        if (A.slice(n - i) + A.slice(0, n - i) === B) return Number(i);
+    }
+
+    return -1;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(A, B) {
+    return (B + B).indexOf(A);
+}
+```
+
+* `A`를 밀어서 `B`를 만들 수 있는 경우 `B`를 두 번 더한 문자열 내에 `A`가 포함된다.
+* `B + B` 내에서 `A`가 시작하는 지점이 `B`를 만들기 위해 `A`를 민 횟수와 같고 포함되지 않을 경우 자동으로 `-1`을 출력한다.
+
+## 120922 - 종이 자르기
+
+```js
+function solution(M, N) {
+    return M * N - 1;
+}
+```
+
+### 아이디어 & 풀이
+
+* M x N의 종이를 조각내기 위해 필요한 가위질의 횟수를 그려서 세어보면 `(M - 1) + ((N - 1) * M) = M * N - 1` 임을 알 수 있다.
