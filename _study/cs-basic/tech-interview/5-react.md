@@ -146,7 +146,7 @@ latex   : false
 * 함수형 컴포넌트는 state를 포함하지 않습니다. 어떤 방식으로든 조작되는 state가 없으므로 코드를 더 쉽게 읽고 이해할 수 있습니다.
 * 기존의 클래스형 컴포넌트에서는 호출하는 시점에 따라 업데이트 된 값을 받아올 수 있도록 `this`를 사용합니다. 하지만 `this`는 mutable하며 이는 상황에 따라서는 예상치 못한 결과로 이어질 수 있습니다. 반면 함수형 컴포넌트에서 사용하는 `props`는 인자로 전달되므로 immutable 하고 렌더링 결과를 보장할 수 있습니다.
 * 참고: [Functional vs Class-Components in React](https://djoech.medium.com/functional-vs-class-components-in-react-231e3fbd7108) (David Jöch), [3 advantages of React functional components on an ecommerce site](https://blog.logrocket.com/react-functional-components-3-advantages-and-why-you-should-use-them-a570c83adb5e/) (Sunil Sandhu @LogRocket)
-* 추가 참고: [함수형 컴포넌트와 클래스, 어떤 차이가 존재할까?](https://overreacted.io/ko/how-are-function-components-different-from-classes/) (overreacted), [왜 함수형 컴포넌트(Functional Component)를 사용하는가](https://velog.io/@dianaleee_/왜-함수형-컴포넌트Functional-Component를-사용하는가) (dianaleee_)
+* 추가자료: [함수형 컴포넌트와 클래스, 어떤 차이가 존재할까?](https://overreacted.io/ko/how-are-function-components-different-from-classes/) (overreacted), [왜 함수형 컴포넌트(Functional Component)를 사용하는가](https://velog.io/@dianaleee_/왜-함수형-컴포넌트Functional-Component를-사용하는가) (dianaleee_)
 
 ## React Hooks
 
