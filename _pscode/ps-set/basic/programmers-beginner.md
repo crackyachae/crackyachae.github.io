@@ -3,12 +3,12 @@ layout  : article
 title   : Programmers_코딩 테스트 입문
 summary : 
 date    : 2023-08-16 22:11:27 +0900
-updated : 2023-10-12 01:27:56 +0900
+updated : 2023-10-13 02:09:48 +0900
 tag     : ps-js
 toc     : true
 public  : true
 parent  : [[/ps-set/basic]]
-latex   : false
+latex   : true
 ---
 * TOC
 {:toc}
@@ -20,6 +20,14 @@ latex   : false
 > 정렬은 문제번호를 기준으로 되어있으며 문제명으로 검색해서 조회하는 것을 추천드립니다.
 
 ### 문제 목록
+
+## 120585 - 머쓱이보다 키 큰 사람
+
+```js
+function solution(array, height) {
+    return array.filter((h) => h > height).length;
+}
+```
 
 ## 120802 - 두 수의 합
 
@@ -858,6 +866,75 @@ function solution(strlist) {
 }
 ```
 
+## 120860 - 직사각형 넓이 구하기
+
+```js
+function solution(dots) {
+    const [[x1, y1], [x2, y2], [x3, y3], [x4, y4]] = dots;
+    const xs = [x1, x2, x3, x4].sort((a, b) => a - b);
+    const ys = [y1, y2, y3, y4].sort((a, b) => a - b);
+
+    return (xs.pop() - xs[0]) * (ys.pop() - ys[0]);
+}
+```
+
+### 피드백
+
+* 직접 구조분해를 하는 것보다 `map` 등을 이용해서 `x`배열과 `y`배열을 구성하는 게 더 깔끔할 것 같다.
+* `sort` 하지 않고 `min`과 `max`를 사용해도 된다.
+
+```js
+function solution(dots) {
+    const x = []
+    const y = [];
+
+    for (const pos of dots) {
+        x.push(pos[0]);
+        y.push(pos[1]);
+    }
+
+    return (Math.max(...x) - Math.min(...x)) * (Math.max(...y) - Math.min(...y));
+}
+```
+
+### 120861 - 캐릭터의 좌표
+
+```js
+const keyMap = {
+    up: [0, 1],
+    down: [0, -1],
+    left: [-1, 0],
+    right: [1, 0],
+};
+
+function solution(keyinput, board) {
+    const xEdge = (board[0] - 1) / 2;
+    const yEdge = (board[1] - 1) / 2;
+
+    return keyinput.reduce(
+        (acc, curr) => {
+            const nx = acc[0] + keyMap[curr][0];
+            const ny = acc[1] + keyMap[curr][1];
+
+            return -xEdge <= nx && nx <= xEdge && -yEdge <= ny && ny <= yEdge ? [nx, ny] : acc;
+        },
+        [0, 0]
+    );
+}
+```
+
+## 120862 - 최댓값 만들기 (2)
+
+```js
+function solution(numbers) {
+    numbers.sort((a, b) => a - b);
+    return Math.max(
+        numbers[0] * numbers[1],
+        numbers[numbers.length - 1] * numbers[numbers.length - 2]
+    );
+}
+```
+
 ## 120888 - 중복된 문자 제거
 
 ```js
@@ -1281,3 +1358,38 @@ function solution(M, N) {
 ### 아이디어 & 풀이
 
 * M x N의 종이를 조각내기 위해 필요한 가위질의 횟수를 그려서 세어보면 `(M - 1) + ((N - 1) * M) = M * N - 1` 임을 알 수 있다.
+
+## 120923 - 연속된 수의 합
+
+```js
+function solution(num, total) {
+    return new Array(num).fill(0).map((_, i) => (total - (num * (num - 1)) / 2) / num + i);
+}
+```
+
+### 아이디어 & 풀이
+
+반환하는 배열의 첫 값을 `n`이라고 했을 때 반환되는 배열은 `[n, n + 1, ..., n + num - 1]` 이를 모두 더한 값이 `total`이다. 이를 계산해서 `n`을 구하면 다음과 같다.
+
+$$
+\sum_{k=0}^{num - 1} (n + k) = n(num) + \sum_{k=1}^{num - 1} k = n(num) + {(num - 1)(num - 1 + 1) \over 2} = total\\
+n = {total - num(num - 1)/2 \over num}
+$$
+
+`n + 0`을 초기값으로 1씩 증가하는 배열을 반환하면 되므로 `num`개의 원소를 갖는 배열을 만든 뒤 인덱스를 이용해 `n + i`를 반환하면 된다.
+
+### 피드백
+
+* 초기값 `n`을 다음과 같이 구할 수도 있다: `Math.ceil(total / num - Math.floor(num / 2))`
+
+## 120924 - 다음에 올 숫자
+
+```js
+function solution(common) {
+    if (common[1] - common[0] === common[2] - common[1]) {
+        return common[common.length - 1] + common[1] - common[0];
+    } else {
+        return (common[common.length - 1] * common[1]) / common[0];
+    }
+}
+```
