@@ -3,7 +3,7 @@ layout  : article
 title   : Programmers_코딩 테스트 입문
 summary : 
 date    : 2023-08-16 22:11:27 +0900
-updated : 2023-10-13 02:09:48 +0900
+updated : 2023-10-20 01:12:17 +0900
 tag     : ps-js
 toc     : true
 public  : true
@@ -20,6 +20,14 @@ latex   : true
 > 정렬은 문제번호를 기준으로 되어있으며 문제명으로 검색해서 조회하는 것을 추천드립니다.
 
 ### 문제 목록
+
+## 120583 - 중복된 숫자 개수
+
+```js
+function solution(array, n) {
+    return array.filter((v) => v === n).length;
+}
+```
 
 ## 120585 - 머쓱이보다 키 큰 사람
 
@@ -935,6 +943,397 @@ function solution(numbers) {
 }
 ```
 
+## 120863 - 다항식 더하기
+
+```js
+function solution(polynomial) {
+    const num = [0, 0];
+    polynomial
+        .replace(/(?<!\d)x/g, "1x")
+        .split(" + ")
+        .forEach((term) => {
+            num[term.includes("x") ? 0 : 1] += parseInt(term);
+        });
+
+    return `${num[0] ? `${num[0] === 1 ? "" : num[0]}x` : ""}${num[0] * num[1] ? " + " : ""}${
+        num[1] || ""
+    }`;
+}
+```
+
+### 피드백
+
+* `[x항 계수, 상수항]`의 값을 수식으로 만드는 과정을 더 깔끔하게 정리하고 싶은 데 잘 떠오르지 않는다.
+
+## 120864 - 숨어있는 숫자의 덧셈 (2)
+
+```js
+function solution(my_string) {
+    return my_string.match(/\d+/g)?.reduce((acc, curr) => acc + Number(curr), 0) || 0;
+}
+```
+
+### 피드백
+
+```js
+function solution(my_string) {
+    return my_string.split(/\D+/).reduce((acc, cur) => acc + Number(cur), 0);
+}
+```
+
+* `\d`와 `match`하는 것을 찾는 것 대신 `\D`로 split하면 `undefined`가 반환돼서 발생하는 오류를 방지할 수 있다.
+
+## 120866 - 안전지대
+
+```js
+function solution(board) {
+    const n = board.length;
+    const dx = [-1, 0, 1, -1, 0, 1, -1, 0, 1];
+    const dy = [1, 1, 1, 0, 0, 0, -1, -1, -1];
+    const safe = Array.from(new Array(n), () => new Array(n).fill(0));
+
+    board.forEach((row, y) =>
+        row.forEach((col, x) => {
+            if (col) {
+                for (let i = 0; i < 9; i += 1) {
+                    const nx = x + dx[i];
+                    const ny = y + dy[i];
+                    if (nx < 0 || nx >= n || ny < 0 || ny >= n || safe[ny][nx]) continue;
+                    safe[ny][nx] = 1;
+                }
+            }
+        })
+    );
+
+    return safe.map((row) => row.filter((n) => !n).length).reduce((acc, curr) => acc + curr);
+}
+```
+
+### 아이디어 & 풀이
+
+* `0`으로 채워진 `safe` 배열을 만든 뒤 `board`를 순회하면서 그 값이 1인 지점과 이를 둘러싼 8개의 지점의 `safe` 값을 1로 바꾼다.
+* `safe`의 각 배열에서 1을 필터링 한 뒤 남은 원소의 개수를 구해 각 열의 0의 개수를 구하고 이를 `reduce`를 이용해 더한 뒤 반환한다.
+
+### 참고 답안
+
+```js
+function solution(board) {
+    let around = [
+        [-1, 0],
+        [-1, -1],
+        [-1, 1],
+        [0, -1],
+        [0, 1],
+        [1, 0],
+        [1, -1],
+        [1, 1],
+    ];
+    let safeCount = 0;
+
+    board.forEach((row, y) =>
+        row.forEach((col, x) => {
+            if (col === 1) return;
+            around.some(([oy, ox]) => board[oy + y]?.[ox + x]) ? false : safeCount++;
+        })
+    );
+
+    return safeCount;
+}
+```
+
+* `board`를 순회하면서 각 지점의 주변에 지뢰가 있는지 확인한다.
+* 지뢰가 있는지 확인할 때 배열의 `some` 메소드를 사용해 지뢰가 있는(truthy) 즉시 `true`를 반환해 다음으로 넘어가고 지뢰가 없어 해당 구문이 `false`를 반환할 때만 `safeCount++`가 실행되도록 한다.
+    * 삼항 연산자에서 `?` 다음의 `false`는 실질적으로 아무런 역할도 하지 않는다. `around.some(...) || safeCount++` 등의 방식으로 작성하는 것도 가능하다.
+    * [Array.prototype.some()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/some) by MDN
+
+## 120868 - 삼각형의 완성조건 (2)
+
+```js
+function solution(sides) {
+    return sides[0] + sides[1] - Math.abs(sides[0] - sides[1]) - 1;
+}
+```
+
+### 아이디어 & 풀이
+
+* 다른 한 변의 길이는 두 변의 합보다 작고 두 변의 차보다 커야한다.
+* 추가로 각 변을 길이에 따라 `max`, `min`이라고 할 때 두 변의 차는 `max - min`이므로 결과적으로 `min * 2 - 1`이 된다.
+
+## 120869 - 외계어 사전
+
+```js
+function solution(spell, dic) {
+    return dic.filter(
+        (word) => word.length === spell.length && spell.every((c) => word.includes(c))
+    ).length
+        ? 1
+        : 2;
+}
+```
+
+### 참고 답안
+
+```js
+function solution(spell, dic) {
+    return dic.some((s) => spell.sort().toString() == [...s].sort().toString()) ? 1 : 2;
+}
+```
+
+* `sort`를 사용한 뒤 단어를 직접 비교할 수도 있다.
+
+## 120871 - 저주의 숫자 3
+
+```js
+function solution(n) {
+    return new Array(n * 3)
+        .fill(0)
+        .map((_, i) => i)
+        .filter((n) => n % 3 && !n.toString().includes("3"))[n - 1];
+}
+```
+
+## 120875 - 평행
+
+```js
+const pairs = [
+    [0, 1, 2, 3],
+    [0, 2, 1, 3],
+    [0, 3, 1, 2],
+];
+
+function solution(dots) {
+    for (const pair of pairs) {
+        const [i, j, k, l] = pair;
+        if (
+            (dots[i][0] - dots[j][0]) * (dots[k][1] - dots[l][1]) ===
+            (dots[k][0] - dots[l][0]) * (dots[i][1] - dots[j][1])
+        ) {
+            return 1;
+        }
+    }
+    return 0;
+}
+```
+
+### 피드백
+
+* 기울기를 구하는 함수와 기울기를 비교하는 함수를 따로 작성하면 조금 더 구조적으로 작성할 수도 있을 것 같다.
+
+## 120876 - 겹치는 선분의 길이
+
+```js
+function solution(lines) {
+    let count = 0;
+    const min = Math.min(...lines.map((l) => l[0]));
+    const max = Math.max(...lines.map((l) => l[1]));
+
+    for (let i = min; i < max; i += 1) {
+        lines.filter(([a, b]) => a <= i && i + 1 <= b).length > 1 && count++;
+    }
+
+    return count;
+}
+```
+
+### 아이디어 & 풀이
+
+* 선분이 걸쳐있는 전체 범위 `min` ~ `max`를 구한다.
+* `min`부터 `max`까지 단위 길이가 1인 각 구간에 대해 해당 구간이 주어진 각 선분에 포함되는지 확인해서 포함하는 경우만 필터링 한다. 해당 구간을 포함하는 선분이 두 개 이상이면 선분의 길이 `count`를 1 증가시킨다.
+
+### 참고 답안
+
+```js
+function solution(lines) {
+    const contained = new Array(200).fill(0);
+    lines.forEach(([a, b]) => {
+        for (let i = a; i < b; i += 1) contained[i + 100]++;
+    });
+
+    return contained.reduce((acc, curr) => (curr > 1 ? acc + 1 : acc), 0);
+}
+```
+
+* -100부터 100까지의 각 단위 구간에 걸쳐있는 선분의 개수를 저장하는 `contained` 배열을 만든다.
+* `lines`의 각 구간에 대해 해당 구간에 걸쳐있는 부분의 `contained`값을 1 증가시킨다.
+    * `a`, `b`의 범위가 -100 ~ 100까지 이므로 0점을 100으로 잡는다. 즉 `i`에 대해 `i + 100`의 값을 변경시킨다.
+* `contained`를 모두 변경하면 `contained`중 2이상의 값을 갖는 경우에만 값을 1씩 증가시켜 반환한다.
+
+## 120878 - 유한소수 판별하기
+
+```js
+function getGcd(a, b) {
+    if (b === 0) return a;
+    return getGcd(b, a % b);
+}
+
+function solution(a, b) {
+    const gcd = getGcd(a, b);
+
+    let div = b / gcd;
+    while (div !== 1) {
+        if (!(div % 2)) {
+            div /= 2;
+        } else if (!(div % 5)) {
+            div /= 5;
+        } else {
+            return 2;
+        }
+    }
+    return 1;
+}
+```
+
+### 피드백
+
+* 2와 5로 나누는 과정을 다음과 같이 더 깔끔하게 구현할 수 있다.
+
+    ```js
+    while (b % 2 === 0) b /= 2;
+    while (b % 5 === 0) b /= 5;
+
+    return b === 1 ? 1 : 2;
+    ```
+
+* 새로운 `div`를 정의하지 않고 그냥 `b`자체를 계산해도 된다.
+
+## 120880 - 특이한 정렬
+
+```js
+function solution(numlist, n) {
+    return numlist.sort((a, b) => Math.abs(a - n) - Math.abs(b - n) || b - a);
+}
+```
+
+## 120882 - 등수 매기기
+
+```js
+function solution(score) {
+    const sorted = score.map((s, i) => [s[0] + s[1], i]).sort((a, b) => b[0] - a[0]);
+
+    let rank = 1;
+    let max = sorted[0][0];
+    return sorted
+        .map(([s, o], i) => {
+            if (s < max) {
+                rank = i + 1;
+                max = s;
+            }
+            return [rank, o];
+        })
+        .sort((a, b) => a[1] - b[1])
+        .map((s) => s[0]);
+}
+```
+
+### 피드백
+
+* 기존 `score` 배열의 순서를 유지하려고 불필요한 `sort`를 너무 많이한 것 같다.
+
+### 참고 답안
+
+```js
+function solution(score) {
+    let avg = score.map((v) => (v[0] + v[1]) / 2);
+    let sorted = [...avg].sort((a, b) => b - a);
+    return avg.map((v) => sorted.indexOf(v) + 1);
+}
+```
+
+* 평균 점수를 sort한 `sorted` 배열을 따로 만든 뒤 `indexOf`를 사용해 현재 점수의 `sorted` 내에서의 인덱스를 구하면 된다.
+
+```js
+function solution(score) {
+    return score.map(
+        (el) => score.filter((v) => (v[0] + v[1]) / 2 > (el[0] + el[1]) / 2).length + 1
+    );
+}
+```
+
+* 자신의 순위는 영어, 수학 점수의 합이 나보나 많은 사람의 수 + 1이다.
+* `filter`를 이용해서 현재 순회하는 사람의 평균 점수(`el`)보다 평균 점수(`v`)가 높은 사람만 남긴 뒤 그 배열의 길이 + 1을 반환하도록 `map`한 결과를 반환한다.
+
+## 120883 - 로그인 성공?
+
+```js
+function solution(id_pw, db) {
+    for (const [id, pw] of db) {
+        if (id !== id_pw[0]) continue;
+        if (pw === id_pw[1]) return "login";
+        return "wrong pw";
+    }
+    return "fail";
+}
+```
+
+### 참고 답안
+
+```js
+function solution(id_pw, db) {
+    const [id, pw] = id_pw;
+    const map = new Map(db);
+    return map.has(id) ? (map.get(id) === pw ? "login" : "wrong pw") : "fail";
+}
+```
+
+* `db`를 id(key): pw(value) 꼴의 map으로 만든 뒤 `map` 내에 주어진 `id`가 있는지, 해당 `id`가 있다면 그 `id`에 대한 값과 `pw`가 일치하는지 확인해서 경우에 따라 알맞은 값을 반환한다.
+
+## 120884 - 치킨 쿠폰
+
+```js
+function getCoupon(coupon) {
+    if (coupon < 10) return 0;
+    return Math.trunc(coupon / 10) + getCoupon(Math.trunc(coupon / 10) + (coupon % 10));
+}
+
+function solution(chicken) {
+    return getCoupon(chicken);
+}
+```
+
+### 참고 답안
+
+```js
+function solution(chicken) {
+    return Math.trunc((chicken - 1) / 9);
+}
+```
+
+* 처음 치킨을 10마리 시키면 쿠폰 10개로 서비스 한 마리와 쿠폰 한 개를 얻을 수 있다.
+* 이 이후부터는 현재 소지하고 있는 쿠폰에 치킨 9마리를 추가로 시켜 받은 쿠폰을 합쳐 서비스 한 마리를 시킬 수 있고 이전과 같은 상황을 연쇄적으로 만들 수 있다.
+* 즉 처음 10개를 제외하면 치킨 9마리만 시켜도 서비스 치킨을 받을 수 있으므로 이 연쇄과정 안에서 받을 수 있는 서비스 치킨의 수는 `(chicken - 10) / 9`와 같다. 여기에 처음 10마리를 시켰을 때 받은 서비스 한 마리를 더하면 된다.
+* 결과적으로 내가 받을 수 있는 서비스 치킨의 수는 `(chicken - 10) / 9 + 1`이고 이를 계산해서 정리하면 `(chicken - 1) / 9`와 같다.
+* `Math.trunc`를 이용해서 소숫점 부분은 절삭한다.
+* 풀이 참고: [Challenge#39_2023.07.18: 치킨 쿠폰 🍗 #39](https://github.com/dawn-chung27/programmers_challenge/discussions/39)
+
+## 120885 - 이진수 더하기
+
+```js
+function solution(bin1, bin2) {
+    return (parseInt(bin1, 2) + parseInt(bin2, 2)).toString(2);
+}
+```
+
+## 120886 - A로 B 만들기
+
+```js
+function solution(before, after) {
+    return [...before].sort().join("") === [...after].sort().join("") ? 1 : 0;
+}
+```
+
+## 120887 - k의 개수
+
+```js
+function solution(i, j, k) {
+    return Array(j - i + 1)
+        .fill(0)
+        .map((_, idx) => i + idx)
+        .join("")
+        .split("")
+        .filter((c) => c === k.toString()).length;
+}
+```
+
 ## 120888 - 중복된 문자 제거
 
 ```js
@@ -1391,5 +1790,13 @@ function solution(common) {
     } else {
         return (common[common.length - 1] * common[1]) / common[0];
     }
+}
+```
+
+## 120956 - 옹알이 (1)
+
+```js
+function solution(babbling) {
+    return babbling.map((s) => s.replace(/aya|ye|woo|ma/g, "")).filter((s) => s === "").length;
 }
 ```
