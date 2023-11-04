@@ -1,0 +1,12 @@
+{
+ "type": "wiki",
+ "collection": "pscode",
+ "title": "SQL 문제 모음",
+ "summary": "",
+ "parent": "ps-set",
+ "url": "/pscode/ps-set/sql",
+ "updated": "2023-11-03 23:24:54 +0900",
+ "children": [
+  "ps-set/sql/programmers-sql-kit-1-select"
+ ]
+}
