@@ -9,6 +9,7 @@
  "children": [
   "ps-set/sql/programmers-sql-kit-1-select",
   "ps-set/sql/programmers-sql-kit-2-sum-max-min",
-  "ps-set/sql/programmers-sql-kit-3-group-by"
+  "ps-set/sql/programmers-sql-kit-3-group-by",
+  "ps-set/sql/programmers-sql-kit-4-is-null"
  ]
 }
