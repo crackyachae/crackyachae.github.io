@@ -8,6 +8,7 @@
  "updated": "2023-11-03 23:24:54 +0900",
  "children": [
   "ps-set/sql/programmers-sql-kit-1-select",
-  "ps-set/sql/programmers-sql-kit-2-sum-max-min"
+  "ps-set/sql/programmers-sql-kit-2-sum-max-min",
+  "ps-set/sql/programmers-sql-kit-3-group-by"
  ]
 }
