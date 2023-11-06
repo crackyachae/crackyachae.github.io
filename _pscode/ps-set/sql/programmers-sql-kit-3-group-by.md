@@ -4,7 +4,7 @@ title   : "프로그래머스 SQL 고득점 Kit: GROUP BY"
 summary : 
 date    : 2023-11-04 21:39:42 +0900
 updated : 2023-11-05 17:47:20 +0900
-tag     : 
+tag     : draft
 toc     : true
 public  : true
 parent  : [[/ps-set/sql]]

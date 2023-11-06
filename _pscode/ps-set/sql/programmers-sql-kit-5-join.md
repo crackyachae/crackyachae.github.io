@@ -4,7 +4,7 @@ title   : "프로그래머스 SQL 고득점 Kit: JOIN"
 summary : 
 date    : 2023-11-06 01:51:23 +0900
 updated : 2023-11-06 02:25:29 +0900
-tag     : 
+tag     : draft
 toc     : true
 public  : true
 parent  : [[/ps-set/sql]]
