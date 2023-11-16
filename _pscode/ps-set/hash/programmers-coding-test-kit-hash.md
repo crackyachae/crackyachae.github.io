@@ -23,4 +23,4 @@ latex   : false
 | 프로그래머스 | [[/programmers/programmers-42576]]{42576} | 완주하지 못한 선수 | Level 1 |
 | 프로그래머스 | [[/programmers/programmers-42577]]{42577} | 전화번호 목록 | Level 2 |
 | 프로그래머스 | [[/programmers/programmers-42578]]{42578} | 의상 | Level 2 |
-| 프로그래머스 | [[/programmers/programmers-42748]]{42748} | 베스트앨범 | Level 3 |
+| 프로그래머스 | [[/programmers/programmers-42579]]{42579} | 베스트앨범 | Level 3 |
