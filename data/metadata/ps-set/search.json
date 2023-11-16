@@ -8,6 +8,7 @@
  "updated": "2021-05-18 15:17:09 +0900",
  "children": [
   "ps-set/search/fc-algo-6-search-basic",
-  "ps-set/search/fc-algo-7-search-advanced"
+  "ps-set/search/fc-algo-7-search-advanced",
+  "ps-set/search/programmers-coding-test-kit-exhaustive-search"
  ]
 }

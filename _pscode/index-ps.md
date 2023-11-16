@@ -4,7 +4,7 @@ title   : 코딩 테스트(Problem Solving) 문제 풀이
 toc     : true
 public  : true
 comment : false
-updated : 2023-11-16 00:48:11 +0900
+updated : 2023-11-17 00:41:32 +0900
 regenerate: true
 ---
 
@@ -58,6 +58,7 @@ regenerate: true
 
 * [[/ps-set/search/fc-algo-6-search-basic]]
 * [[/ps-set/search/fc-algo-7-search-advanced]]
+* [[/ps-set/search/programmers-coding-test-kit-exhaustive-search]]
 
 ### [[/ps-set/dp]]
 
