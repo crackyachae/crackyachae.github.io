@@ -12,6 +12,7 @@
   "ps-set/dp",
   "ps-set/graph-search",
   "ps-set/greedy",
+  "ps-set/hash",
   "ps-set/recursive",
   "ps-set/search",
   "ps-set/sort",
