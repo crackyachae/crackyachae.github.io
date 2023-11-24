@@ -68,7 +68,7 @@ latex   : false
 * `GET` 메소드는 멱등성(idempotence)[^idempotence]을 보장하는 반면 `POST` 메소드는 이를 보장하지 않습니다.
     * 이때문에 `GET` 요청의 경우 응답을 캐싱할 수 있으며
     * 뒤로 가기나 새로 고침을 통해 요청이 다시 발생해도 데이터를 재제출하지 않을 수 있습니다.
-* 참고: [HTTP #Request methods](https://en.wikipedia.org/wiki/HTTP#HTTP/1.1_request_messages) (wikipedia), [[HTTP] HTTP Method 정리 / GET vs POST 차이점](Code Playground)
+* 참고: [HTTP #Request methods](https://en.wikipedia.org/wiki/HTTP#HTTP/1.1_request_messages) (wikipedia), [[HTTP] HTTP Method 정리 / GET vs POST 차이점] (Code Playground), [Get과 Post의 차이를 아시나요?](https://velog.io/@songyouhyun/Get과-Post의-차이를-아시나요) (syh.log)
 
 #### HTTP의 `PUT`, `PATCH`를 비교 설명해주세요
 
