@@ -3,7 +3,7 @@ layout  : article
 title   : 취준생을 위한 네트워크 기초지식
 summary : 면접을 위해 작성해보는 네트워크 기초지식 질문 및 답변 모음
 date    : 2023-09-22 22:45:51 +0900
-updated : 2023-11-17 17:19:00 +0900
+updated : 2023-11-24 13:14:30 +0900
 tag     : draft
 toc     : true
 public  : true
@@ -56,7 +56,19 @@ latex   : false
     * 정의할 수 있는 메소드 수는 제한이 없으므로 기존 인프라를 중단하지 않고도 메소드를 추가로 정의할 수 있습니다.
 * 참고: [HTTP #Request methods](https://en.wikipedia.org/wiki/HTTP#HTTP/1.1_request_messages) (wikipedia)
 
-#### HTTP의 `GET`, `POST`를 비교 설명해주세요
+#### ✅ HTTP의 `GET`, `POST`를 비교 설명해주세요
+
+* `GET` 메소드는 특정 리소스의 상태 정보를 요청합니다. 즉, 데이터를 읽거나 검색할 때 사용하는 메소드입니다. `GET` 요청은 오로지 데이터를 읽거나 검색하기만 해야하며 다른 영향을 미치지 않아야 합니다.
+* `POST` 메소드는 특정 리소스가 해당 리소스의 시멘틱에 따라 요청 안에 포함된 정보(representation)를 처리하도록 요청합니다. 주로 리소스를 생성하거나 업데이트 하는 데 사용합니다.
+* `GET` 메소드로 요청시 필요한 정보가 있다면 URL의 끝에 쿼리 스트링(Query String)이라고 하는 파라미터로 포함시켜 전달할 수 있습니다. 파라미터들이 URL의 일부로 전달되기 때문에 `GET` 요청은 다음과 같은 특징을 갖습니다.
+    * 브라우저 히스토리에 남으며 북마크 및 공유가 가능합니다.
+    * 전달할 수 있는 데이터의 형태와 길이가 제한됩니다. 문자로만 전달할 수 있으며 길이 제한은 브라우저와 서버에 따라 다릅니다.
+    * 브라우저 히스토리에 저장될 뿐만 아니라 브라우저에 전달하는 값이 그대로 노출되므로 보안에 취약합니다. 민감한 정보를 전달해서는 안됩니다.
+* `POST` 메소드로 요청시 필요한 정보는 HTTP message body에 포함해 전달되므로 데이터를 비교적 적은 제약으로 보다 안전하게 전달할 수 있습니다.
+* `GET` 메소드는 멱등성(idempotence)[^idempotence]을 보장하는 반면 `POST` 메소드는 이를 보장하지 않습니다.
+    * 이때문에 `GET` 요청의 경우 응답을 캐싱할 수 있으며
+    * 뒤로 가기나 새로 고침을 통해 요청이 다시 발생해도 데이터를 재제출하지 않을 수 있습니다.
+* 참고: [HTTP #Request methods](https://en.wikipedia.org/wiki/HTTP#HTTP/1.1_request_messages) (wikipedia), [[HTTP] HTTP Method 정리 / GET vs POST 차이점](Code Playground)
 
 #### HTTP의 `PUT`, `PATCH`를 비교 설명해주세요
 
@@ -77,3 +89,4 @@ latex   : false
 ## 주석
 
 [^hypermedia]: 하이퍼텍스트가 확장된 개념으로 그래픽, 오디오, 비디오, 일반 텍스트 및 하이퍼링크 등을 포함하는 정보 매체입니다.
+[^idempotence]: 연산을 여러 번 적용하더라도 결과가 달라지지 않는 성질을 말합니다 ([Idempotence](https://en.wikipedia.org/wiki/Idempotence) by wikipedia).
