@@ -88,5 +88,5 @@ latex   : false
 
 ## 주석
 
-[^hypermedia]: 하이퍼텍스트가 확장된 개념으로 그래픽, 오디오, 비디오, 일반 텍스트 및 하이퍼링크 등을 포함하는 정보 매체입니다.
+[^hypermedia]: 하이퍼텍스트가 확장된 개념으로 그래픽, 오디오, 비디오, 일반 텍스트 및 하이퍼링크 등을 포함하는 정보 매체입니다 ([Hypermedia](https://en.wikipedia.org/wiki/Hypermedia) by wikipedia).
 [^idempotence]: 연산을 여러 번 적용하더라도 결과가 달라지지 않는 성질을 말합니다 ([Idempotence](https://en.wikipedia.org/wiki/Idempotence) by wikipedia).
