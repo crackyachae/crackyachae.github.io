@@ -58,7 +58,7 @@ function isPrime(num) {
     return true;
 }
 
-const getPermutations = function (arr, n) {
+function getPermutations (arr, n) {
     const results = [];
     if (n === 1) return arr.map((el) => [el]);
 
