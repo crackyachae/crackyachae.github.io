@@ -4,7 +4,7 @@ title   : 코딩 테스트(Problem Solving) 문제 풀이
 toc     : true
 public  : true
 comment : false
-updated : 2023-11-28 23:50:39 +0900
+updated : 2023-11-29 23:50:05 +0900
 regenerate: true
 ---
 
@@ -346,6 +346,7 @@ regenerate: true
 * [[/programmers/programmers-42839]]
 * [[/programmers/programmers-42840]]
 * [[/programmers/programmers-42842]]
+* [[/programmers/programmers-84512]]
 * [[/programmers/programmers-86491]]
 * [[/programmers/programmers-86971]]
 * [[/programmers/programmers-87946]]
