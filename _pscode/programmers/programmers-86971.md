@@ -63,7 +63,7 @@ function solution(n, wires) {
         visited[v1] = true;
 
         // v2를 제외한 인접한 송전탑을 방문하도록 stack에 push
-        // 인접한 송전탑 역시 visited cㅓ리
+        // 인접한 송전탑 역시 visited 처리
         connect[v1].forEach((v) => {
             if (v !== v2) {
                 visited[v] = true;
