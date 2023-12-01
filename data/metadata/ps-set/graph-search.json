@@ -8,6 +8,7 @@
  "updated": "2021-08-16 14:47:00 +0900",
  "children": [
   "ps-set/graph-search/fc-algo-9-bfs-dfs-basic",
-  "ps-set/graph-search/fc-algo-actual-3-search"
+  "ps-set/graph-search/fc-algo-actual-3-search",
+  "ps-set/search/programmers-coding-test-kit-dfs-bfs"
  ]
 }

@@ -4,7 +4,7 @@ title   : 코딩 테스트(Problem Solving) 문제 풀이
 toc     : true
 public  : true
 comment : false
-updated : 2023-11-29 23:50:05 +0900
+updated : 2023-12-01 14:03:45 +0900
 regenerate: true
 ---
 
@@ -72,6 +72,7 @@ regenerate: true
 
 * 그래프 기본 탐색(BFS, DFS)
     * [[/ps-set/graph-search/fc-algo-9-bfs-dfs-basic]]
+    * [[/ps-set/search/programmers-coding-test-kit-dfs-bfs]]
 * 최단 경로 알고리즘, 최소 신장 트리
     * [[/ps-set/graph-search/fc-algo-10-graph-advanced]]
 * 백 트래킹 (back-tracking)
