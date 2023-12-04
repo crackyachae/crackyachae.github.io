@@ -3,7 +3,7 @@ layout  : article
 title   : 취준생을 위한 네트워크 기초지식
 summary : 면접을 위해 작성해보는 네트워크 기초지식 질문 및 답변 모음
 date    : 2023-09-22 22:45:51 +0900
-updated : 2023-11-24 13:14:30 +0900
+updated : 2023-12-05 00:23:59 +0900
 tag     : draft
 toc     : true
 public  : true
@@ -70,11 +70,36 @@ latex   : false
     * 뒤로 가기나 새로 고침을 통해 요청이 다시 발생해도 데이터를 재제출하지 않을 수 있습니다.
 * 참고: [HTTP #Request methods](https://en.wikipedia.org/wiki/HTTP#HTTP/1.1_request_messages) (wikipedia), [[HTTP] HTTP Method 정리 / GET vs POST 차이점] (Code Playground), [Get과 Post의 차이를 아시나요?](https://velog.io/@songyouhyun/Get과-Post의-차이를-아시나요) (syh.log)
 
-#### HTTP의 `PUT`, `PATCH`를 비교 설명해주세요
+#### ✅ HTTP의 `PUT`, `PATCH`를 비교 설명해주세요
 
-### ⭐ HTTP의 Status Code에 대해 설명해주세요
+* `PUT` 메소드는 특정 리소스가 요청에 포함된 정보에 정의된대로 해당 리소스의 상태를 생성하거나 업데이트하도록 요청합니다.
+    * 클라이언트가 서버상에서 대상의 위치를 지정한다는 점이 `POST`와 다르며,
+    * `PUT`은 멱등성을 보장해 이를 한번 호출하든 여러번 호출하든 같은 결과를 보장하지만, `POST`는 동일한 호출이더라도 여러번 반복해 호출하면 같은 주문을 여러번 하는 것처럼 추가적인 영향이 생길 수 있습니다.
+* `PATCH` 메소드는 특정 리소스가 요청에 포함된 정보에 정의된 부분 업데이트에 따라 해당 리소스의 상태를 수정하도록 요청합니다.파일이나 문서를 전부가 아닌 일부만 전송해 업데이트할 수 있으므로 대역폭을 절약할 수 있습니다.
+* `PUT`은 클라이언트가 제공한 데이터로 리소스를 완전히 교체하는 데 반해, `PATCH`는 클라이언트가 제공한 일부 변경 사항만을 적용하고 나머지는 그대로 유지합니다.
+* 항상 멱등성을 보정하는 `PUT`에 비해 `PATCH`는 멱등성을 보장할 수도 있지만 항상 그러는 것은 아니기 때문에 주의해야 합니다.
+* 참고: [HTTP #HTTP/1.1 request messages](https://en.wikipedia.org/wiki/HTTP#HTTP/1.1_request_messages) (wikipedia), [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT) (mdn web docs), [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH) (mdn web docs), [[ 기술 스터디 ] PUT과 PATCH 차이] (긍정적자기부정.log)
 
-### ⭐ HTTP와 HTTPS의 차이점에 대해 설명해주세요
+### ✅ HTTP의 Status Code에 대해 설명해주세요
+
+* 상태 코드는 서버가 클라이언트의 요청을 이행하려고 시도한 결과를 나타내는 세 자리 정수로 이루어진 코드입니다.
+* 클라이언트는 상태 코드를 우선적으로 고려해 응답을 처리하는 방식을 결정합니다.
+* 모든 HTTP 응답 상태 코드는 5개의 클래스(또는 카테고리)로 구분됩니다. 상태 코드의 첫 번째 숫자는 응답의 클래스를 정의하며, 표준으로는 다음과 같은 다섯 가지 클래스가 정의되어 있습니다
+    * `1xx` (정보): 요청을 받아들였으며 프로세스를 진행 중입니다.
+    * `2xx` (성공): 요청을 성공적으로 받아들여, 이해하고, 수락되었습니다.
+    * `3xx` (리다이렉션): 요청을 완료하기 위해서는 추가적인 조치가 필요합니다.
+    * `4xx` (클라이언트 오류): 요청이 문법적 오류를 포함하고 있거나 요청을 처리할 수 없습니다.
+    * `5xx` (서버 오류): 서버가 겉보기에는 유효한 요청을 처리하는 데 실패했습니다.
+* 남은 두 숫자 역시 각각 다른 응답 상태를 나타내지만 첫 번째 숫자와 다르게 분류 또는 범주화 역할을 하지는 않습니다.
+* 참고: [HTTP #HTTP/1.1 response messages](https://en.wikipedia.org/wiki/HTTP#HTTP/1.1_response_messages) (wikipedia), [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) (wikipedia)
+
+### ✅ HTTPS에 대해 설명해주세요
+
+> 기존 질문은 "HTTP와 HTTPS의 차이점에 대해 설명해주세요" 이지만 HTTPS는 HTTP에서 확장된 개념으로 내용이 추가되는 것에 가깝기 때문에 질문을 변경합니다.
+
+* HTTPS(Hypertext Transfer Protocol Secure)는 HTTP의 확장으로, 컴퓨터 네트워크 간에 통신할 때 보안을 위해 TLS(Transport Layer Security) 혹은 SSL(Secure Sockets Layer) 암호화 프로토콜을 사용해 통신을 암호화 합니다.
+    * HTTP의 경우 일반 텍스트로 정보를 전달합니다.
+* [HTTPS](https://en.wikipedia.org/wiki/HTTPS) (wikipedia)
 
 ### HTTPS의 동작 방식에 대해 설명해주세요
 
