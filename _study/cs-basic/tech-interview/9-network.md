@@ -3,7 +3,7 @@ layout  : article
 title   : 취준생을 위한 네트워크 기초지식
 summary : 면접을 위해 작성해보는 네트워크 기초지식 질문 및 답변 모음
 date    : 2023-09-22 22:45:51 +0900
-updated : 2023-12-05 00:23:59 +0900
+updated : 2023-12-07 18:20:09 +0900
 tag     : draft
 toc     : true
 public  : true
@@ -93,12 +93,11 @@ latex   : false
 * 남은 두 숫자 역시 각각 다른 응답 상태를 나타내지만 첫 번째 숫자와 다르게 분류 또는 범주화 역할을 하지는 않습니다.
 * 참고: [HTTP #HTTP/1.1 response messages](https://en.wikipedia.org/wiki/HTTP#HTTP/1.1_response_messages) (wikipedia), [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) (wikipedia)
 
-### ✅ HTTPS에 대해 설명해주세요
-
-> 기존 질문은 "HTTP와 HTTPS의 차이점에 대해 설명해주세요" 이지만 HTTPS는 HTTP에서 확장된 개념으로 내용이 추가되는 것에 가깝기 때문에 질문을 변경합니다.
+### ✅ HTTP와 HTTPS의 차이점에 대해 설명해주세요
 
 * HTTPS(Hypertext Transfer Protocol Secure)는 HTTP의 확장으로, 컴퓨터 네트워크 간에 통신할 때 보안을 위해 TLS(Transport Layer Security) 혹은 SSL(Secure Sockets Layer) 암호화 프로토콜을 사용해 통신을 암호화 합니다.
-    * HTTP의 경우 일반 텍스트로 정보를 전달합니다.
+* HTTP는 암호화되지 않으므로 공격자가 웹사이트 계정과 민감한 정보에 접근하거나 웹페이지를 수정하여 멀웨어나 광고를 삽입하는 등의 공격에 취약하지만 HTTPS는 이러한 공격을 방지할 수 있도록 설계되었으며, 이러한 공격에 대해 비교적 안전합니다.
+* (참고) HTTPS URL은 `https://`로 시작하고 기본적으로 포트 443을 사용하는 반면, HTTP URL은 `http://`로 시작하고 기본적으로 포트 80을 사용합니다.
 * [HTTPS](https://en.wikipedia.org/wiki/HTTPS) (wikipedia)
 
 ### HTTPS의 동작 방식에 대해 설명해주세요
