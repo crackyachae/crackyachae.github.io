@@ -3,7 +3,7 @@ layout  : article
 title   : 취준생을 위한 네트워크 기초지식
 summary : 면접을 위해 작성해보는 네트워크 기초지식 질문 및 답변 모음
 date    : 2023-09-22 22:45:51 +0900
-updated : 2023-12-07 23:55:27 +0900
+updated : 2023-12-08 00:03:17 +0900
 tag     : draft
 toc     : true
 public  : true
@@ -92,6 +92,42 @@ latex   : false
     * `5xx` (서버 오류): 서버가 겉보기에는 유효한 요청을 처리하는 데 실패했습니다.
 * 남은 두 숫자 역시 각각 다른 응답 상태를 나타내지만 첫 번째 숫자와 다르게 분류 또는 범주화 역할을 하지는 않습니다.
 * 참고: [HTTP #HTTP/1.1 response messages](https://en.wikipedia.org/wiki/HTTP#HTTP/1.1_response_messages) (wikipedia), [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) (wikipedia)
+
+#### 참고
+
+<details>
+<summary>주요 상태 코드</summary>
+
+| 상태코드 | 이름 | 의미 |
+| --- | --- | --- |
+| **2xx** | | |
+| 200 | OK | 요청 성공 - GET |
+| 201 | Create | 생성 성공 - POST |
+| 202 | Accepted | 요청은 접수되었으나 리소스 처리를 못함 |
+| 204 | No Contents | 요청은 성공했으나 내용이 없음 |
+| **3xx** | | |
+| 300 | Multiple Choice | 요청 URI에 여러 리소스가 존재 |
+| 301 | Move Permanently | 요청 URI가 새 위치로 옮겨감 |
+| 304 | Not Modified | 요청 URI의 내용이 변경X |
+| **4xx** | | |
+| 400 | Bad Request | API에서 정의되지 않은 요청 들어옴 |
+| 401 | Unauthorized | 인증 오류 |
+| 403 | Forbidden | 권한 밖의 접근 시도 |
+| 404 | Not Found | 요청 URI에 대한 리소스 존재X |
+| 405 | Method Not Allowed | API에서 정의되지 않은 메소드 호출 |
+| 406 | Not Acceptable | 처리 불가 |
+| 408 | Request Timeout | 요청 대기 시간 초과 |
+| 409 | Conflict | 모순 |
+| 429 | Too Many Request | 요청 횟수 상한 초과 |
+| **5xx** | | |
+| 500 | Internal Server Error | 서버 내부 오류 |
+| 502 | Bad Gateway | 게이트웨이 오류 |
+| 503 | Service Unavailable | 서비스 이용 불가 |
+| 504 | Gateway Timeout | 게이트웨이 시간 초과 |
+
+</details>
+
+> TODO: 위의 출처 보고 설명 상태코드별 추가하기
 
 ### ✅ HTTP와 HTTPS의 차이점에 대해 설명해주세요
 
