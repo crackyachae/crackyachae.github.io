@@ -3,7 +3,7 @@ layout  : article
 title   : 취준생을 위한 네트워크 기초지식
 summary : 면접을 위해 작성해보는 네트워크 기초지식 질문 및 답변 모음
 date    : 2023-09-22 22:45:51 +0900
-updated : 2023-12-08 00:03:17 +0900
+updated : 2023-12-10 23:46:44 +0900
 tag     : draft
 toc     : true
 public  : true
@@ -156,13 +156,52 @@ latex   : false
 
 ## 네트워크 계층 모델
 
-### TCP와 UDP를 비교 설명해주세요
+### ✅ TCP와 UDP를 비교 설명해주세요
 
-### TCP가 신뢰성을 보장하는 방법에 대해 설명해주세요
+* TCP(Transmission Control Protocol)
+    * TCP는 네트워크를 통해 통신하는 과정에서 패킷의 전송을 제어해 신뢰성을 보장합니다. 전달되는 패킷의 오류를 확인하고 패킷을 순서에 맞춰 안정적으로 전달합니다.
+    * 또한 TCP는 연결 지향형 프로토콜로 데이터를 전송하기 전에 클라이언트와 서버 간의 연결을 설정합니다. 그 과정에서 Three-way handshake, 재전송, 오류 감지 등을 통해 안정성을 높일 수 있습니다.
+    * 위의 과정을 통해 데이터를 안전하게 전송할 수 있지만 거쳐야 하는 과정이 많아 속도에 근본적인 한계가 있습니다.
+    * 주로 순서나 데이터 무결성이 중요한 이메일, 원격 제어, 파일 전송 등이 TCP를 기반으로 하고 있습니다.
+* UDP(User Datagram[^datagram] Protocol)
+    * UDP는 최소한의 프로토콜 메커니즘을 갖춘 단순한 비연결 통신 모델로 패킷 간의 순서가 존재하지 않는 독립적인 패킷을 사용합니다. UDP의 헤더는 데이터 무결성을 위한 체크섬과, 데이터의 출발지와 목적지의 포트 번호, 데이터의 길이로만 구성되어 있습니다.
+    * UDP는 통신 채널이나 데이터 경로를 설정하기 위한 사전 통신이나 handshake 과정을 거치지 않아 더 빠른 속도로 데이터를 주고받을 수 있습니다.
+    * 반면에 handshake의 과정이 없으므로 애플리케이션이 기반 네트워크의 불안정성에 노출될 수 있으며, 데이터의 전송, 순서, 중복에 대한 보호가 이뤄지지 않습니다.
+    * 실시간 영상 스트리밍과 같이 고용량 데이터를 다루면서 안정성보다 시간이 우선시 되는 애플리케이션의 경우 UDP를 기반으로 하기도 합니다.
+* 참고: [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) (wikipedia), [User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (wikipedia), [아직도 모호한 TCP / UDP 개념 쉽게 이해하자](https://inpa.tistory.com/entry/NW-🌐-아직도-모호한-TCP-UDP-개념-❓-쉽게-이해하자) (Inpa Dev)
 
-### TCP의 3-Way-Handshake와 4-Way-Handshake에 대해 설명해주세요
+### ✅ TCP가 신뢰성을 보장하는 방법에 대해 설명해주세요
+
+> TCP의 전송제어 기법에 초점을 맞춰 답변을 작성합니다.
+
+* 데이터의 순차적 전송: 모든 데이터 세그먼트에 시퀀스 번호와 확인 응답 번호가 할당되어있어 데이터를 수신하는 호스트가 시퀀스 번호에 따라 세그먼트를 재배열합니다.
+* 손실된 패킷의 재전송: 시퀀스 번호와 확인 응답 번호를 통해 데이터 수신 여부를 확인할 수 있고 확인되지 않은 누적 스트림은 모두 재전송됩니다.
+* 오류없는 데이터 전송: 손상된 패킷은 손실된 것으로 처리되어 재전송되므로 오류없이 데이터를 전송할 수 있습니다.
+* 흐름 제어: 안정적인 전송을 보장하기 위해 발신자가 데이터를 전송하는 속도를 제한합니다. 수신자는 발신자에게 수신할 수 있는 데이터의 양을 지속적으로 알려줍니다. 수신 호스트의 버퍼가 가득 차면 다음 `ACK`가 전송을 중단하고 버퍼의 데이터를 처리할 수 있도록 합니다.
+* 혼잡 제어: (데이터 혼잡으로 인해 발생한 것으로 추정되는) 패킷 손실이 발생하면 데이터 전송 속도를 감소시킵니다.
+* 참고: [Transmission Control Protocol #Data transfer](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Data_transfer) (wikipedia), [아직도 모호한 TCP / UDP 개념 쉽게 이해하자](https://inpa.tistory.com/entry/NW-🌐-아직도-모호한-TCP-UDP-개념-❓-쉽게-이해하자) (Inpa Dev)
+
+### ✅ TCP의 three-way handshake와 four-way handshake에 대해 설명해주세요
+
+* Three-way handshake와 four-way handshake는 클라이언트와 서버가 본격적인 통신을 시작하거나 종료하기 전에 서로 준비가 되어있는지 확인하는 과정입니다. 주고 받는 패킷[^packet] 내부에 들어있는 인증 플래그 값들을 확인하여 클라이언트와 서버가 서로 보낸 패킷을 제대로 받았는지, 그 순서는 올바른지를 검증합니다.
+* Three-way handshake는 통신을 시작할 때 four-way handshake는 통신을 종료할 때 이뤄집니다.
+* Three-way handshake의 구체적인 과정은 다음과 같습니다.
+    1. 클라이언트는 접속을 요청하는 `SYN(a)`[^syn] 패킷을 보냅니다. 클라이언트는 `SYN_SENT` 상태로 변해 응답을 기다립니다.
+    1. `LISTEN` 상태였던 서버는 `SYN(a)` 요청을 받으면, 클라이언트에게 요청을 수락한다는 의미의 `ACK(a+1)`[^ack] 패킷과 클라이언트에 연결을 요청하는 `SYN(b)` 패킷을 보냅니다. 그리고 `SYN_RCVD(SYN_RECEIVED)` 상태로 변해 클라이언트의 `ACK` 패킷을 기다립니다.
+    1. 클라이언트가 다시 서버에 `ACK(b+1)` 패킷을 보내고 `ESTABLISHED` 상태로 바뀌면 데이터 통신이 가능하게 됩니다.
+* Four-way handshake[^four-way-handshake]의 구체적인 과정은 다음과 같습니다.
+    1. 클라이언트가 접속을 끊기 위해 `CLOSE()` 함수를 호출하고 서버로 `FIN` 플래그를 보냅니다. 클라이언트는 `FIN_WAIT1` 상태로 변합니다.
+    1. 서버가 `FIN`을 수신해 클라이언트의 `CLOSE()`를 인지하면 `CLOSE_WAIT` 상태로 바뀐 뒤 `ACK` 플래그를 전송합니다. `ACK`를 받은 클라이언트는 `FIN_WAIT2` 상태로 바뀝니다.
+    1. 서버 역시 `CLOSE()` 함수를 호출하고 `FIN` 플래그를 클라이언트에게 보냅니다. 이때 서버에 클라이언트로 보낼 데이터가 남아있다면 `CLOSE()`를 호출하기 전에 모두 전송합니다.
+    1. 클라이언트가 서버도 연결을 닫았다는 신호를 수신하면 서버에 `ACK` 플래그를 보냅니다. 서버가 `ACK`를 수신하면 서버는 `CLOSED` 상태로 전환됩니다. 클라이언트는 `TIME_WAIT` 상태로 전환되어 잔여 데이터를 기다리다가 `CLOSED` 상태로 전환됩니다. 이상태에서는 로컬 포트를 새로 연결하는 것이 불가능해지므로 `ACK`가 전송중 소실되어도 클라이언트가 마지막 `ACK`를 재전송하는 것이 가능합니다.
+* 참고: [아직도 모호한 TCP / UDP 개념 쉽게 이해하자](https://inpa.tistory.com/entry/NW-🌐-아직도-모호한-TCP-UDP-개념-❓-쉽게-이해하자) (Inpa Dev), [Transmission Control Protocol #Protocol operation](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Protocol_operation) (wikipedia), [Handshake (computing)](https://en.wikipedia.org/wiki/Handshake_(computing)) (wikipedia)
 
 ## 주석
 
 [^hypermedia]: 하이퍼텍스트가 확장된 개념으로 그래픽, 오디오, 비디오, 일반 텍스트 및 하이퍼링크 등을 포함하는 정보 매체입니다 ([Hypermedia](https://en.wikipedia.org/wiki/Hypermedia) by wikipedia).
 [^idempotence]: 연산을 여러 번 적용하더라도 결과가 달라지지 않는 성질을 말합니다 ([Idempotence](https://en.wikipedia.org/wiki/Idempotence) by wikipedia).
+[^datagram]: 패킷 교환 네트워크와 관련된 기본 전송 단위로 패킷 교환 네트워크에서 연결이 필요없는 통신 서비스를 제공합니다. ([Datagram](https://en.wikipedia.org/wiki/Datagram) by wikipedia).
+[^packet]: 패킷 교환 네트워크에서 전달되는 형식화된 데이터 단위로 제어 정보와 페이로드라고 하는 사용자 데이터로 구성됩니다. ([Network packet](https://en.wikipedia.org/wiki/Network_packet) by wikipedia).
+[^syn]: Synchronize sequence numbers. 접속요청을 할 때 가장 먼저 보내는 패킷입니다. 데이터를 네트워크로 전달하기 위해 분할한 조각을 세그먼트라고 하는데 시퀀스 번호(sequence number)는 세그먼트의 순서를 나타내는 번호입니다. `SYN(a)`는 세그먼트의 시퀀스 번호가 임의의 값 `a`임을 의미합니다.
+[^ack]: Acknowledgment number. 상대방으로부터 패킷을 수신했다는 것을 알려주기 위한 패킷입니다. 확인 응답 번호(acknowledgement number)의 값은 ACK가 예상하는 발신자의 시퀀스 번호 바로 다음 값으로, `ACK`는 자신의 이전 바이트의 수신 여부를 확인해 전달합니다. 예를 들어 `SYN(a)`의 수신 여부는 `ACK(a+1)`로 확인합니다.
+[^four-way-handshake]: Four-way handshake에서는 서버와 클라이언트가 각각 독립적으로 연결을 종료합니다. 클라이언트와 서버 각각이 연결을 종료하기 위해 두 단계에 걸쳐 패킷을 주고 받아야 하므로 총 네 단계에 걸쳐 연결을 종료하게 됩니다.
