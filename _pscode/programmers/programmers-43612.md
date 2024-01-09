@@ -44,13 +44,13 @@ latex   : false
 ```js
 function solution(n, computers) {
     function dfs(begin) {
-        const queue = [begin];
+        const stack = [begin];
 
-        while (queue.length) {
-            const i = queue.pop();
+        while (stack.length) {
+            const i = stack.pop();
             computers[i].forEach((connected, j) => {
                 if (connected & (i !== j)) {
-                    queue.push(j);
+                    stack.push(j);
                 }
                 computers[i][j] = 0;
                 computers[j][i] = 0;
@@ -81,8 +81,8 @@ function solution(n, computers) {
 
 네트워크를 `computers`에서 없애기 위해서 DFS를 이용한다.
 
-* `queue`의 가장 마지막 컴퓨터(`i`)에 대해서 해당 컴퓨터와 각 컴퓨터의 연결 여부(`computers[i]`)를 순회하면서
-* 순회한 컴퓨터 `j`가 `i`와 연결되어있고, 연결된 컴퓨터가 자신이 아닐 경우에만 다음으로 연결된 컴퓨터를 찾기 위해 `queue`에 `j`를 추가한다.
+* `stack`의 가장 마지막 컴퓨터(`i`)에 대해서 해당 컴퓨터와 각 컴퓨터의 연결 여부(`computers[i]`)를 순회하면서
+* 순회한 컴퓨터 `j`가 `i`와 연결되어있고, 연결된 컴퓨터가 자신이 아닐 경우에만 다음으로 연결된 컴퓨터를 찾기 위해 `stack`에 `j`를 추가한다.
 * 이후 불필요한 탐색을 막기 위해 `computers[i][j]`와 `computers[j][i]`의 값을 모두 0으로 변경해 두 컴퓨터 사이의 연결을 끊는다.
 
 ### 피드백
