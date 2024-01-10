@@ -101,7 +101,7 @@ function solution(begin, target, words) {
 BFS는 `queue`를 이용해 구현한다.
 
 * `queue`의 원소는 다음 단어의 인덱스 값과 현재 `count` 값의 배열 `[i, count]`로 구성한다.
-* `queue`에서 꺼낸 현재 단어가 `target`과 같은 뒤 확인한 뒤
+* `queue`에서 꺼낸 현재 단어가 `target`과 같은지 확인한 뒤
     * 같으면 바로 `count`를 반환하고
     * 같지 않으면 다음 연결된 단어를 순회하며 해당 단어의 인덱스 값과 현재 `count`에서 1 증가시킨 값을 `queue`에 집어넣는다.
 * 이미 확인한 단어를 재확인하는 일을 막기 위해 `used` 배열을 생성해 사용 여부를 표기한다.
