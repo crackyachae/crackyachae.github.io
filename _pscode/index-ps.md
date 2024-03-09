@@ -4,7 +4,7 @@ title   : 코딩 테스트(Problem Solving) 문제 풀이
 toc     : true
 public  : true
 comment : false
-updated : 2024-03-09 17:35:06 +0900
+updated : 2024-03-09 18:32:36 +0900
 regenerate: true
 ---
 
@@ -333,6 +333,8 @@ regenerate: true
 
 * [[/programmers/programmers-1844]]
 * [[/programmers/programmers-1845]]
+* [[/programmers/programmers-12906]]
+* [[/programmers/programmers-12909]]
 * [[/programmers/programmers-12939]]
 * [[/programmers/programmers-12941]]
 * [[/programmers/programmers-12977]]
@@ -342,6 +344,7 @@ regenerate: true
 * [[/programmers/programmers-42579]]
 * [[/programmers/programmers-42583]]
 * [[/programmers/programmers-42584]]
+* [[/programmers/programmers-42586]]
 * [[/programmers/programmers-42587]]
 * [[/programmers/programmers-42746]]
 * [[/programmers/programmers-42747]]
