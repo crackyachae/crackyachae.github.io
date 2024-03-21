@@ -4,7 +4,7 @@ title   : 코딩 테스트(Problem Solving) 문제 풀이
 toc     : true
 public  : true
 comment : false
-updated : 2024-03-09 18:32:36 +0900
+updated : 2024-03-21 17:19:17 +0900
 regenerate: true
 ---
 
@@ -40,6 +40,7 @@ regenerate: true
 * [[/ps-set/data-structure/ryute-2-heap]]
 * [[/ps-set/data-structure/fc-algo-2-data-structure]]
 * [[/ps-set/data-structure/programmers-coding-test-kit-stack-queue]]
+* [[/ps-set/data-structure/programmers-coding-test-kit-heap]]
 
 ### [[/ps-set/sort]]
 
