@@ -20,5 +20,5 @@ latex   : false
 | 사이트       | 문제                                      | 문제 제목        | 난이도   |
 | ------------ | ----------------------------------------- | ---------------- | -------- |
 | 프로그래머스 | [[/programmers/programmers-42626]]{42626} | 더 맵게 | Level 2 |
-| 프로그래머스 | [[/programmers/programmers-]]{} | 디스크 컨트롤러 | Level 3 |
-| 프로그래머스 | [[/programmers/programmers-]]{} | 이중우선순위큐 | Level 3 |
+| 프로그래머스 | [[/programmers/programmers-42627]]{42627} | 디스크 컨트롤러 | Level 3 |
+| 프로그래머스 | [[/programmers/programmers-42628]]{42628} | 이중우선순위큐 | Level 3 |
