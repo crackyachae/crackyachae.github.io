@@ -3,7 +3,7 @@ layout  : article
 title   : JavaScript 링크
 summary : JavaScript 관련 링크 모음
 date    : 2022-08-21 23:14:10 +0900
-updated : 2022-08-21 23:30:59 +0900
+updated : 2024-04-02 16:36:53 +0900
 tag     : links
 toc     : true
 public  : true
@@ -44,13 +44,16 @@ latex   : false
 ### 그 외
 
 * [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us) by velopert [Kor]
+* [모든 자바스크립트 개발자가 알아야 하는 33가지 개념](https://github.com/yjs03057/33-js-concepts?tab=readme-ov-file) by yjs03057 [Kor]
+    * 원본: [33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts?tab=readme-ov-file) by leonardomso
+    * 저장소의 글은 한글로 번역된 버전이지만 링크된 글은 모두 영어로 작성되어있다.
 
 ### 개인 블로그
 
 * [Poiemaweb JavaScript: 기본 개념과 동작 원리 이해의 중요성](https://poiemaweb.com/coding) [Kor]
     * 첫 글의 링크이다 왼쪽 상단의 헴버거 메뉴를 눌러 목록을 조회하거나 오른쪽 상단의 화실표를 눌러 전후 문서로 이동할 수 있다.
 
-### 글 (주제별)
+## 주제별 글
 
 ### 학습법
 
