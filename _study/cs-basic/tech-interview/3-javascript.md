@@ -60,7 +60,7 @@ latex   : false
 * `bind`는 함수를 바로 호출하지 않고 새로운 객체를 바인딩한 함수를 생성해 반환하기만 합니다. 인자를 받는 방식은 `call`과 유사합니다. 첫 인자를 `this`에 바인딩한 뒤 이어지는 인자는 함수의 인수로 제공됩니다.
     * 바인딩한 함수는 원본 함수 객체를 감싸는 함수로 바인딩한 함수를 호출하면 일반적으로 래핑된 함수가 호출됩니다.
     * 한 번 `bind`를 사용해 특정 객체를 바인딩하면 이후에 바뀌지 않습니다.
-* 참고: [Function.prototype.call()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/call) (MDN), [Function.prototype.apply()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) (MDN), [Function.prototype.bind()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) (MDN),
+* 참고: [Function.prototype.call()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/call) (MDN), [Function.prototype.apply()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) (MDN), [Function.prototype.bind()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) (MDN), [[JS] 📚 Call & Bind & Apply 함수 정리](https://inpa.tistory.com/entry/JS-📚-Call-Bind-Apply) (Inpa Dev)
 
 ### ✅ 생성자 함수(constructor function)에 대해 설명해주세요
 
