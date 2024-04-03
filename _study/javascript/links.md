@@ -41,7 +41,7 @@ latex   : false
 * [JavaScript — Dynamic client-side scripting](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
     * 번역: [JavaScript - 동적인 클라이언트 사이드 스크립트 언어](https://developer.mozilla.org/ko/docs/Learn/JavaScript)
 
-### 그 외
+### 개인 저장소 및 문서
 
 * [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us) by velopert [Kor]
 * [모든 자바스크립트 개발자가 알아야 하는 33가지 개념](https://github.com/yjs03057/33-js-concepts?tab=readme-ov-file) by yjs03057 [Kor]
@@ -53,7 +53,9 @@ latex   : false
 * [Poiemaweb JavaScript: 기본 개념과 동작 원리 이해의 중요성](https://poiemaweb.com/coding) [Kor]
     * 첫 글의 링크이다 왼쪽 상단의 헴버거 메뉴를 눌러 목록을 조회하거나 오른쪽 상단의 화실표를 눌러 전후 문서로 이동할 수 있다.
 
-## 주제별 글
+## 주제별 글: 코어 자바스크립트
+
+## 주제별 글: 기타
 
 ### 학습법
 
