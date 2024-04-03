@@ -55,6 +55,10 @@ latex   : false
 
 ## 주제별 글: 코어 자바스크립트
 
+### 객체
+
+* [[JavaScript] this 개념 정리 및 연습 문제](https://www.timegambit.com/blog/js/this) by TIME GAMBIT
+
 ## 주제별 글: 기타
 
 ### 학습법
