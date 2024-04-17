@@ -50,7 +50,7 @@ latex   : false
     * `new` 키워드를 통해 생성자 함수를 호출할 때, 생성자 함수 내부의 `this`는 새로 생성되는 객체를 가리킵니다.
     * 위의 규칙 중 다수가 적용되면 더 우선순위가 높은 규칙을 적용해 `this`값을 설정합니다. 나중에 작성된 항목일수록 우선순위가 높습니다.
 * 화살표 함수의 경우 위의 규칙과는 별개로 정의 시점에 상위 스코프의 `this`를 가리키는 정적인 방식으로 `this`가 결정됩니다.
-* 참고: [this](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this) (MDN), [[JavaScript] this 개념 정리 및 연습 문제](https://www.timegambit.com/blog/js/this) (TIME GAMBIT)
+* 참고: [this](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this) (mdn web docs), [[JavaScript] this 개념 정리 및 연습 문제](https://www.timegambit.com/blog/js/this) (TIME GAMBIT)
 
 #### ✅ call, apply, bind에 대해 설명해주세요
 
@@ -60,7 +60,7 @@ latex   : false
 * `bind`는 함수를 바로 호출하지 않고 새로운 객체를 바인딩한 함수를 생성해 반환하기만 합니다. 인자를 받는 방식은 `call`과 유사합니다. 첫 인자를 `this`에 바인딩한 뒤 이어지는 인자는 함수의 인수로 제공됩니다.
     * 바인딩한 함수는 원본 함수 객체를 감싸는 함수로 바인딩한 함수를 호출하면 일반적으로 래핑된 함수가 호출됩니다.
     * 한 번 `bind`를 사용해 특정 객체를 바인딩하면 이후에 바뀌지 않습니다.
-* 참고: [Function.prototype.call()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/call) (MDN), [Function.prototype.apply()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) (MDN), [Function.prototype.bind()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) (MDN), [[JS] 📚 Call & Bind & Apply 함수 정리](https://inpa.tistory.com/entry/JS-📚-Call-Bind-Apply) (Inpa Dev)
+* 참고: [Function.prototype.call()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/call) (mdn web docs), [Function.prototype.apply()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) (mdn web docs), [Function.prototype.bind()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) (mdn web docs), [[JS] 📚 Call & Bind & Apply 함수 정리](https://inpa.tistory.com/entry/JS-📚-Call-Bind-Apply) (Inpa Dev)
 
 ### ✅ 생성자 함수(constructor function)에 대해 설명해주세요
 
